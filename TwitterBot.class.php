@@ -16,7 +16,7 @@ require_once dirname(__FILE__).'/vendor/twitter.php';
  */
 class TwitterBot
 {
-  const VERSION = '0.8';
+  const VERSION = '1.0.0';
   
   protected 
     $client = null,
