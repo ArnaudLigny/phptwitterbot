@@ -224,7 +224,7 @@ class TwitterBotsFarm
     {
       $this->cronLogsFile = sys_get_temp_dir().'.phptwitterbot.cronlogs.log';
       
-      if (!touch($this->cronLogsFile))
+      if (!@touch($this->cronLogsFile))
       {
         throw new RuntimeException(sprintf('cronLogs file "%s" cannot be created', $this->cronLogsFile));
       }
