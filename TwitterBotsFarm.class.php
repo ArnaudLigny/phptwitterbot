@@ -33,6 +33,9 @@ class TwitterBotsFarm
 {
   const MIN_PERIODICITY = 60;
   
+  public static
+    $botClass = 'TwitterBot';
+  
   protected 
     $config       = array(),
     $debug        = false,
@@ -56,14 +59,14 @@ class TwitterBotsFarm
     
     if (!file_exists($configFile) || !is_file($configFile))
     {
-      throw new InvalidArgumentException(sprintf('File "%s" does not exist', $configFile));
+      throw new InvalidArgumentException(sprintf('Farm configuration file "%s" does not exist', $configFile));
     }
     
     $config = sfYaml::load($configFile);
 
     if (!is_array($config) || !array_key_exists('bots', $config) || !is_array($config['bots']))
     {
-      exit('No valid bots configr found, please check the documentation.');
+      throw new InvalidArgumentException('No valid bots configuration found, please check the documentation.');
     }
     
     $this->config = $config;
@@ -249,7 +252,16 @@ class TwitterBotsFarm
    */
   protected function runBot($name, $config)
   {
-    $bot = new TwitterBot($name, $this->getBotConfigValue($name, 'password'), $this->getBotConfigValue($name, 'debug'));
+    if (!class_exists(self::$botClass, true))
+    {
+      throw new RuntimeException(sprintf('Bot class "%s" cannot be loaded', self::$botClass));
+    }
+    else if (!in_array('TwitterBot', class_parents(self::$botClass)))
+    {
+      throw new RuntimeException(sprintf('Custom bot class "%s" must extends the TwitterBot one', self::$botClass));
+    }
+    
+    $bot = new self::$botClass($name, $this->getBotConfigValue($name, 'password'), $this->getBotConfigValue($name, 'debug'));
     
     if (!isset($config['operations']) || !is_array($config['operations']))
     {

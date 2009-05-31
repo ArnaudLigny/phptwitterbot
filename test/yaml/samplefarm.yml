@@ -1,0 +1,15 @@
+global:
+  debug: false
+bots:
+  myfirstbot:
+    operations:
+      test1:
+        arguments:
+          foo: bar
+        periodicity: 900
+  mysecondbot:
+    operations:
+      test2:
+        arguments:
+          foo: bar
+        periodicity: 300
