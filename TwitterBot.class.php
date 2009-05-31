@@ -10,27 +10,35 @@ require_once dirname(__FILE__).'/vendor/twitter.php';
  *
  * This class requires the PHP Twitter library: http://classes.verkoyen.eu/twitter/
  *
+ * TODO:
+ *
+ *  - handle a CURL powered HTTP client if available
+ *
  * @author	Nicolas Perriault <nperriault at gmail dot com>
- * @version	1.0.0
+ * @version	2.0.0
  * @license	MIT License
  */
 class TwitterBot
 {
-  const VERSION = '1.0.0';
+  const 
+    VERSION = '2.0.0';
   
   protected 
-    $client = null,
-    $debug  = false,
-    $follow = false,
-    $terms  = null;
+    $client   = null,
+    $debug    = false,
+    $username = null;
+  
+  static protected
+    $searchUrl = 'http://search.twitter.com/search.atom';
   
   /**
    * Instanciates a new Bot
    *
    * @param  string  $username  Twitter username
    * @param  string  $password  Twitter password
+   * @param  Boolean $debug     Debugging mode enabled?
    *
-   * @throws RuntimeException if there's environment configuration problems
+   * @throws RuntimeException if there are environment configuration problems
    */
   public function __construct($username, $password, $debug = false)
   {
@@ -43,43 +51,181 @@ class TwitterBot
     
     $this->debug(sprintf('Creating "%s" bot', $username));
     $this->client = new Twitter($username, $password);
+    $this->username = $username;
   }
   
+  /**
+   * Static method to use fluid interface. Example:
+   *
+   *    $bot = TwitterBot::create('mylogin', 'mypassword')->followFollowers();
+   *
+   * @param  string  $username  Twitter username
+   * @param  string  $password  Twitter password
+   * @param  Boolean $debug     Debugging mode enabled?
+   *
+   * @throws RuntimeException if there's environment configuration problems
+   */
+  static public function create($username, $password, $debug = false)
+  {
+    return new self($username, $password, $debug);
+  }
+  
+  /**
+   * Iterates over followers and follow them if needed
+   *
+   * @return int  The number of new followers added
+   *
+   * @throws RuntimeException if any error occurs
+   */
+  public function followFollowers()
+  {
+    $this->debug('Checking for followers');
+    
+    $followers = 0;
+    
+    foreach ($this->client->getFollowers() as $follower)
+    {
+      if ($this->client->existsFriendship($this->getUsername(), $follower['screen_name']))
+      {
+        continue;
+      }
+
+      try
+      {
+        $this->client->createFriendship($follower['screen_name'], true);
+        $this->debug('Following new follower: '.$follower['screen_name']);
+        $followers++;
+      }
+      catch (Exception $e)
+      {
+        $this->debug(sprintf('Skipping following "%s": %s', $follower['screen_name'], $e->getMessage()));
+      }
+    }
+    
+    $this->debug(sprintf('%d followers added', $followers));
+    
+    return $followers;
+  }
+
+  /**
+   * Watch for direct messages and process them using a user defined PHP callable. Example:
+   *
+   *    function uppercase_me($message) {
+   *      return strtoupper($message['text']);
+   *    }
+   *    TwitterBot::create('user', 'pass')->processDirectMessages('uppercase_me');
+   *
+   * @param  string|array  $callable        A PHP callable which will process the DM and generate a reply
+   * @param  Boolean       $replyPrivately  Reply to DM sender privately, or publish it publicly?
+   * @param  Boolean       $stopOnError     Stop on error during processing?
+   *
+   * @return int Number of processed DM
+   *
+   * @throws InvalidArgumentException if the provided callable is invalid
+   * @throws RuntimeException         if a problem has been encountered at runtime
+   */
+  public function processDirectMessages($callable, $replyPrivately = false, $stopOnError = false)
+  {
+    if (!is_callable($callable))
+    {
+      throw new InvalidArgumentException('Invalid PHP callable');
+    }
+    
+    $messages = $this->client->getDirectMessages();
+    
+    if (0 === $nbMessages = count($messages))
+    {
+      $this->debug('No DM waiting for beeing processed');
+      
+      return 0;
+    } 
+    else if (20 == $nbMessages)
+    {
+      // There's maybe more than 20 pages of DMs
+      // TODO: recursive array_merge with next page DMs
+    }
+    
+    foreach ($messages as $message)
+    {
+      $this->debug(sprintf('Processing DM from "%s": "%s"', $message['sender']['screen_name'], $message['text']));
+    
+      try
+      {
+        $reply = @call_user_func($callable, $message);
+        
+        $this->debug(sprintf('Generated message: "%s"', $reply));
+        
+        if (is_null($reply) || !is_string($reply) || 0 === mb_strlen($reply))
+        {
+          // empty reply returned, skipping
+          continue;
+        }
+        
+        if ($replyPrivately)
+        {
+          $this->client->sendDirectMessage($message['sender']['screen_name'], $reply);
+        }
+        else
+        {
+          $this->client->updateStatus($this->truncateText($reply));
+        }
+
+        $this->client->deleteDirectMessage($message['id']);
+      }
+      catch (Exception $e)
+      {
+        $this->debug($message = sprintf('{%s} thrown: "%s"', get_class($e), $e->getMessage()));
+        
+        if ($stopOnError)
+        {
+          throw new RuntimeException('Processing stopped: '.$message);
+        }
+      }
+    }
+  }
+
   /**
    * Bot will search for twits containing given terms in the public timeline, and retweet 
    * them using a given template.
    *
+   * Options are:
+   *  - 'source':   The source to search matching tweets in. Possible values are:
+   *    * 'public':   Search into the public timeline (default)
+   *    * 'friends':  Search into the user friends timeline
+   *  - 'template': The template to use to format bot's twits, sprintf standard
+   *  - 'follow':   Shall the bot follow the twit original author?
+   *
    * @param  string   $terms    The search terms to filter the timeline with
-   * @param  string   $template The template to use to format bot's twits, sprintf standard
-   * @param  Boolean  $follow   Shall the bot follow the twit original author?
+   * @param  array    $options  An array of options (see available values above)
    *
    * @throws RuntimeException if any error occurs
    */
-  public function searchAndRetweet($terms, $template = 'RT @%s: %s', $follow = false)
+  public function searchAndRetweet($terms, array $options = array())
   {
-    if (!is_string($terms) or !mb_strlen($terms))
+    $options = array_merge(array('template' => 'RT @%s: %s', 'follow' => false, 'source' => 'public'), $options);
+    
+    if (!is_string($terms) or !mb_strlen($terms) || mb_strlen($terms) > 140)
     {
-      throw new RuntimeException('Search terms must be a string'); 
+      throw new RuntimeException(sprintf('Search terms must be a 140 chars max string (you provided "%s")', var_export($terms, true))); 
     }
     
-    $message = $author = null;
+    $message = null;
 
-    foreach ($this->searchFor($terms) as $entry)
+    foreach ($this->searchFor($terms, $options['source']) as $entry)
     {
-      $author = $this->extractAuthorName($entry->author->name);
-      
-      if (strtolower($this->client->getUsername()) != strtolower($author))
+      if (strtolower($this->getUsername()) != strtolower($entry->author))
       {
-        $message = trim(sprintf($template, $author, (string) $entry->title));
-        $this->debug('Matching message found: '.$message);
+        $message = trim(sprintf($options['template'], $entry->author, $entry->title));
+        
+        $this->debug(sprintf('Matching message found: "%s"', $message));
         
         break;
       }
     }
     
-    if (!$message || !$author)
+    if (!$message)
     {
-      throw new RuntimeException('No valid message found matching search terms, or invalid/empty author name');
+      throw new RuntimeException('No valid message found matching search terms');
     }
     
     $this->debug('Sending message to twitter');
@@ -90,20 +236,20 @@ class TwitterBot
     }
     catch (Exception $e) 
     {
-      throw new RuntimeException('Communication with the twitter API failed: '.$e->getMessage());
+      throw new RuntimeException(sprintf('Communication with the twitter API failed: "%s"', $e->getMessage()));
     }
     
-    if ($follow && !$this->client->existsFriendship($this->client->getUsername(), $author))
+    if ($options['follow'] && !$this->client->existsFriendship($this->getUsername(), $entry->author))
     {
-      $this->debug('Following '.$author);
+      $this->debug(sprintf('Following user "%s"', $entry->author));
       
       try
       {
-        $this->client->createFriendship($author, true);
+        $this->client->createFriendship($entry->author, true);
       }
       catch (Exception $e) 
       {
-        $this->debug(sprintf('Cannot follow "%s" because: %s', $author, $e->getMessage()));
+        $this->debug(sprintf('Cannot follow user "%s" because: "%s"', $entry->author, $e->getMessage()));
       }
     }
     
@@ -111,69 +257,93 @@ class TwitterBot
   }
   
   /**
-   * Iterates over followers and follow them if needed
+   * Retrieves TwitterClient instance
    *
-   * @throws RuntimeException if any error occurs
+   * @return TwitterClient
    */
-  public function followFollowers()
+  public function getClient()
   {
-    $this->debug('Checking for followers');
-    
-    foreach ($this->client->getFollowers() as $follower)
-    {
-      if ($this->client->existsFriendship($this->client->getUsername(), $follower['screen_name']))
-      {
-        continue;
-      }
-
-      try
-      {
-        $this->client->createFriendship($follower['screen_name'], true);
-        $this->debug('Following new follower: '.$follower['screen_name']);
-      }
-      catch (Exception $e)
-      {
-        $this->debug(sprintf('Skipping following "%s": %s', $follower['screen_name'], $e->getMessage()));
-      }
-    }
-    
-    $this->debug('Done.');
+    return $this->client;
   }
-
+  
   /**
-   * Extract the author name from a xml string
-   *
-   * @param  SimpleXMLElement|string $authorName  The author name
+   * Returns bot username
    *
    * @return string
    */
-  protected function extractAuthorName($authorName)
+  public function getUsername()
   {
-    return mb_substr((string) $authorName, 0, mb_strpos((string) $authorName, ' ('));
+    return $this->username;
   }
   
   /**
    * Search twitter for given terms and returns results as XML nodes collection
    *
-   * @param  string  $terms  Search terms
+   * @param  string  $terms   Search terms
+   * @param  string  $source  The source to search in ('public', or 'friends')
    *
    * @return array
    *
    * @throws RuntimeException if no entry is found
    */
-  protected function searchFor($terms)
+  public function searchFor($terms, $source = 'public')
   {
-    if (!$xml = @simplexml_load_file('http://search.twitter.com/search.atom?q='.urlencode($terms)))
-    {
-      throw new RuntimeException('Unable to load or parse search results feed');
-    }
+    $entries = array();
     
-    if (!count($entries = $xml->entry))
+    switch (strtolower(trim($source)))
     {
-      throw new RuntimeException('No entry found');
+      case 'public':
+        $url = $this->getSearchUrl($terms);
+      
+        $this->debug(sprintf('Searching for terms "%s" using url "%s"', $terms, $url));
+        
+        if (!$xml = @simplexml_load_file($url))
+        {
+          throw new RuntimeException(sprintf('Unable to load or parse search results feed from url "%s"', $url));
+        }
+    
+        if (!$count = count($xmlEntries = $xml->entry))
+        {
+          throw new RuntimeException(sprintf('No entry found matching the provided terms, "%s"', $terms));
+        }
+    
+        $this->debug(sprintf('Search for "%s" returned %d results', $terms, $count));
+      
+        foreach ($xmlEntries as $xmlEntry)
+        {
+          $entries[] = Tweet::createfromXML($xmlEntry);
+        }
+        break;
+      
+      case 'friends':   
+        // Search into the user followers timeline
+        foreach ($this->client->getFriendsTimeline(null, null, 200) as $entry)
+        {
+          if (preg_match(sprintf('/%s/i', $terms), $entry['text']))
+          {
+            $entries[] = Tweet::createfromArray($entry);
+          }
+        }
+        break;
+      
+      default:
+        throw new InvalidArgumentException(sprintf('Unknown tweets source "%s"', $source));
+        break;
     }
     
     return $entries;
+  }
+  
+  /**
+   * Generates the search url for given terms
+   *
+   * @param  string  $terms
+   *
+   * @return string
+   */
+  protected function getSearchUrl($terms)
+  {
+    return sprintf('%s?q=%s', self::$searchUrl, urlencode($terms));
   }
   
   /**
@@ -188,7 +358,7 @@ class TwitterBot
       return;
     }
     
-    printf("$message\n");
+    printf('%s%s', $message, PHP_EOL);
   }
   
   /**
@@ -208,5 +378,76 @@ class TwitterBot
     }
     
     return mb_substr($text, 0, $nChars - mb_strlen($suffix)) . $suffix;
+  }
+}
+
+/**
+ * This class represents a Tweet
+ *
+ */
+class Tweet
+{
+  public 
+    $author,
+    $title,
+    $date;
+  
+  /**
+   * COnstructor
+   *
+   * @param  mixed  $title
+   * @param  mixed  $author
+   * @param  mixed  $date
+   *
+   * @return Tweet
+   */
+  public function __construct($title, $author, $date)
+  {
+    $this->author = (string) $author;
+    $this->title = (string) $title;
+    $this->date = (string) $date;
+  }
+
+  /**
+   * Creates a Tweet from an array
+   *
+   * @param  array $entry  An array
+   *
+   * @return Tweet
+   */
+  public static function createFromArray(array $entry)
+  {
+    return new self($entry['text'], $entry['user']['screen_name'], $entry['created_at']);
+  }
+  
+  /**
+   * Creates a Tweet from an XML element 
+   *
+   * @param  SimpleXMLElement $entry  An XML element
+   *
+   * @return Tweet
+   */
+  public static function createFromXML(SimpleXMLElement $entry)
+  {
+    return new self($entry->title, self::extractAuthorName($entry->author->name), $entry->published);
+  }
+  
+  /**
+   * Extract the author name from a xml string
+   *
+   * @param  SimpleXMLElement|string $authorName  The author name
+   *
+   * @return string
+   *
+   * @throws InvalidArgumentException if author name cannot be retrieved
+   */
+  static protected function extractAuthorName($authorName)
+  {
+    if (0 === mb_strlen($name = mb_substr((string) $authorName, 0, mb_strpos((string) $authorName, ' ('))))
+    {
+      throw new InvalidArgumentException(sprintf('Unable to retrieve author name from value "%s"', var_export($authorName, true)));
+    }
+    
+    return $name;
   }
 }

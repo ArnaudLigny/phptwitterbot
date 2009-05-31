@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:google="http://base.google.com/ns/1.0" xml:lang="en-US" xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/" xmlns="http://www.w3.org/2005/Atom" xmlns:twitter="http://api.twitter.com/">
+  <id>tag:search.twitter.com,2005:search/foo</id>
+  <link type="text/html" rel="alternate" href="http://search.twitter.com/search?q=foo"/>
+  <link type="application/atom+xml" rel="self" href="http://search.twitter.com/search.atom?q=foo"/>
+  <title>foo - Twitter Search</title>
+  <link type="application/opensearchdescription+xml" rel="search" href="http://search.twitter.com/opensearch.xml"/>
+  <link type="application/atom+xml" rel="refresh" href="http://search.twitter.com/search.atom?q=foo&amp;since_id=1970636519"/>
+  <twitter:warning>since_id removed for pagination.</twitter:warning>
+  <updated>2009-05-30T11:39:23Z</updated>
+  <openSearch:itemsPerPage>15</openSearch:itemsPerPage>
+  <link type="application/atom+xml" rel="next" href="http://search.twitter.com/search.atom?max_id=1970636519&amp;page=2&amp;q=foo"/>
+  <entry>
+    <id>tag:search.twitter.com,2005:1970636519</id>
+    <published>2009-05-30T11:39:23Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/EmmaApplebaum/statuses/1970636519"/>
+    <title>Listening to Jean Carne and Foo Fighters. I'm so weird lol. Whos coming to picnic with us in Hyde Park?</title>
+    <content type="html">Listening to Jean Carne and &lt;b&gt;Foo&lt;/b&gt; Fighters. I'm so weird lol. Whos coming to picnic with us in Hyde Park?</content>
+    <updated>2009-05-30T11:39:23Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/202097441/SL372986_2_normal.JPG"/>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <twitter:lang>en</twitter:lang>
+    <author>
+      <name>EmmaApplebaum (Emma Platt)</name>
+      <uri>http://twitter.com/EmmaApplebaum</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1970625033</id>
+    <published>2009-05-30T11:36:38Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/dgexp/statuses/1970625033"/>
+    <title>Played 'My Hero' by Foo Fighters (code: 10054)</title>
+    <content type="html">Played 'My Hero' by &lt;b&gt;Foo&lt;/b&gt; Fighters (code: 10054)</content>
+    <updated>2009-05-30T11:36:38Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/88796148/Photo_18_normal.jpg"/>
+    <twitter:source>&lt;a href="http://search.cpan.org/dist/Net-Twitter/"&gt;Perl Net::Twitter&lt;/a&gt;</twitter:source>
+    <twitter:lang>en</twitter:lang>
+    <author>
+      <name>dgexp (Darrell Golliher)</name>
+      <uri>http://twitter.com/dgexp</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1970620077</id>
+    <published>2009-05-30T11:35:30Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/frickangel/statuses/1970620077"/>
+    <title>Apparently Googling the words 'Puchong Yong Tau Foo' gives me exactly what I need. Go Google!</title>
+    <content type="html">Apparently Googling the words 'Puchong Yong Tau &lt;b&gt;Foo&lt;/b&gt;' gives me exactly what I need. Go Google!</content>
+    <updated>2009-05-30T11:35:30Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/60156259/11028259_pentapus_normal.jpg"/>
+    <twitter:source>&lt;a href="http://twitterfox.net/"&gt;TwitterFox&lt;/a&gt;</twitter:source>
+    <twitter:lang>en</twitter:lang>
+    <author>
+      <name>frickangel (Jo)</name>
+      <uri>http://twitter.com/frickangel</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1970608641</id>
+    <published>2009-05-30T11:32:50Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/rahhrach/statuses/1970608641"/>
+    <title>My Dad is listening to Foo Fighters SO loud.</title>
+    <content type="html">My Dad is listening to &lt;b&gt;Foo&lt;/b&gt; Fighters SO loud.</content>
+    <updated>2009-05-30T11:32:50Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/228063768/sup_normal.jpg"/>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <twitter:lang>en</twitter:lang>
+    <author>
+      <name>rahhrach (Rachel Butler)</name>
+      <uri>http://twitter.com/rahhrach</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1970556558</id>
+    <published>2009-05-30T11:20:26Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/fm1021milwaukee/statuses/1970556558"/>
+    <title>Foo Fighters - Learn To Fly - 06:19 AM visit www.RadioTAGr.com/WLUM to TAG this song</title>
+    <content type="html">&lt;b&gt;Foo&lt;/b&gt; Fighters - Learn To Fly - 06:19 AM visit &lt;a href="http://www.RadioTAGr.com/WLUM"&gt;www.RadioTAGr.com/WLUM&lt;/a&gt; to TAG this song</content>
+    <updated>2009-05-30T11:20:26Z</updated>
+    <link type="image/png" rel="image" href="http://static.twitter.com/images/default_profile_normal.png"/>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <twitter:lang>en</twitter:lang>
+    <author>
+      <name>fm1021milwaukee (fm1021milwaukee)</name>
+      <uri>http://twitter.com/fm1021milwaukee</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1970542669</id>
+    <published>2009-05-30T11:17:02Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/bbance/statuses/1970542669"/>
+    <title>omg. I love the cinch. it's 4am and I'm passing out to "to wong foo" GNITE.</title>
+    <content type="html">omg. I love the cinch. it's 4am and I'm passing out to &amp;quot;to wong &lt;b&gt;foo&lt;/b&gt;&amp;quot; GNITE.</content>
+    <updated>2009-05-30T11:17:02Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/72754721/MEBlackoutBeer_normal.jpg"/>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <twitter:lang>en</twitter:lang>
+    <author>
+      <name>bbance (Bryan Bance)</name>
+      <uri>http://twitter.com/bbance</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1970536963</id>
+    <published>2009-05-30T11:15:41Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/nmeradiolive/statuses/1970536963"/>
+    <title>NME Radio is now playing Walking After You by Foo Fighters</title>
+    <content type="html">NME Radio is now playing Walking After You by &lt;b&gt;Foo&lt;/b&gt; Fighters</content>
+    <updated>2009-05-30T11:15:41Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/55203709/nmeradio_normal.jpg"/>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <twitter:lang>en</twitter:lang>
+    <author>
+      <name>nmeradiolive (nmeradiolive)</name>
+      <uri>http://twitter.com/nmeradiolive</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1970536846</id>
+    <published>2009-05-30T11:15:39Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/933FM/statuses/1970536846"/>
+    <title>Foo Fighters - My Hero - 07:15 AM visit www.RadioTAGr.com/WMMR to TAG this song</title>
+    <content type="html">&lt;b&gt;Foo&lt;/b&gt; Fighters - My Hero - 07:15 AM visit &lt;a href="http://www.RadioTAGr.com/WMMR"&gt;www.RadioTAGr.com/WMMR&lt;/a&gt; to TAG this song</content>
+    <updated>2009-05-30T11:15:39Z</updated>
+    <link type="image/png" rel="image" href="http://static.twitter.com/images/default_profile_normal.png"/>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <twitter:lang>en</twitter:lang>
+    <author>
+      <name>933FM (933FM)</name>
+      <uri>http://twitter.com/933FM</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1970532558</id>
+    <published>2009-05-30T11:14:42Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/shybutflyy/statuses/1970532558"/>
+    <title>@MASH4real im tlking bout the show foo smh</title>
+    <content type="html">&lt;a href="http://twitter.com/MASH4real"&gt;@MASH4real&lt;/a&gt; im tlking bout the show &lt;b&gt;foo&lt;/b&gt; smh</content>
+    <updated>2009-05-30T11:14:42Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/222148794/8_normal.jpg"/>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <twitter:lang>en</twitter:lang>
+    <author>
+      <name>shybutflyy (shy but flyy)</name>
+      <uri>http://twitter.com/shybutflyy</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1970502893</id>
+    <published>2009-05-30T11:07:36Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/891thewood/statuses/1970502893"/>
+    <title>Foo Fighters - Long Road To Ruin - 06:07 AM visit www.RadioTAGr.com/KCLC to TAG this song</title>
+    <content type="html">&lt;b&gt;Foo&lt;/b&gt; Fighters - Long Road To Ruin - 06:07 AM visit &lt;a href="http://www.RadioTAGr.com/KCLC"&gt;www.RadioTAGr.com/KCLC&lt;/a&gt; to TAG this song</content>
+    <updated>2009-05-30T11:07:36Z</updated>
+    <link type="image/png" rel="image" href="http://static.twitter.com/images/default_profile_normal.png"/>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <twitter:lang>en</twitter:lang>
+    <author>
+      <name>891thewood (891thewood)</name>
+      <uri>http://twitter.com/891thewood</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1970484020</id>
+    <published>2009-05-30T11:03:06Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/WFNX/statuses/1970484020"/>
+    <title>Foo Fighters - Darling Nikki http://yes.com/i9572745</title>
+    <content type="html">&lt;b&gt;Foo&lt;/b&gt; Fighters - Darling Nikki &lt;a href="http://yes.com/i9572745"&gt;http://yes.com/i9572745&lt;/a&gt;</content>
+    <updated>2009-05-30T11:03:06Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/70195968/wfnx_normal.jpg"/>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <twitter:lang>nl</twitter:lang>
+    <author>
+      <name>WFNX (WFNX)</name>
+      <uri>http://twitter.com/WFNX</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1970477509</id>
+    <published>2009-05-30T11:01:34Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/weqx/statuses/1970477509"/>
+    <title>Now Playing: Foo Fighters - What If I Do? -- LISTEN NOW: www.bit.ly/KBje -- mp3: http://yes.com/i10611795</title>
+    <content type="html">Now Playing: &lt;b&gt;Foo&lt;/b&gt; Fighters - What If I Do? -- LISTEN NOW: &lt;a href="http://www.bit.ly/KBje"&gt;www.bit.ly/KBje&lt;/a&gt; -- mp3: &lt;a href="http://yes.com/i10611795"&gt;http://yes.com/i10611795&lt;/a&gt;</content>
+    <updated>2009-05-30T11:01:34Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/121601940/EQX_EURO_WEB_normal.gif"/>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <twitter:lang>en</twitter:lang>
+    <author>
+      <name>weqx (102.7 WEQX)</name>
+      <uri>http://twitter.com/weqx</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1970459649</id>
+    <published>2009-05-30T10:57:22Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/yoonkit/statuses/1970459649"/>
+    <title>#geekcamp: @angch creates a temp database. Server complains "Database 'foo' already created" - 'foobar' on the retry</title>
+    <content type="html">&lt;a href="http://search.twitter.com/search?q=%23geekcamp"&gt;#geekcamp&lt;/a&gt;: &lt;a href="http://twitter.com/angch"&gt;@angch&lt;/a&gt; creates a temp database. Server complains &amp;quot;Database '&lt;b&gt;foo&lt;/b&gt;' already created&amp;quot; - 'foobar' on the retry</content>
+    <updated>2009-05-30T10:57:22Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/54843286/yky1-sq_normal.jpg"/>
+    <twitter:source>&lt;a href="http://orangatame.com/products/twitterberry/"&gt;TwitterBerry&lt;/a&gt;</twitter:source>
+    <twitter:lang>en</twitter:lang>
+    <author>
+      <name>yoonkit (yoonkit)</name>
+      <uri>http://twitter.com/yoonkit</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1970421084</id>
+    <published>2009-05-30T10:48:07Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/1073therock/statuses/1970421084"/>
+    <title>Foo Fighters - Everlong - 03:47 AM visit www.RadioTAGr.com/KURQ to TAG this song</title>
+    <content type="html">&lt;b&gt;Foo&lt;/b&gt; Fighters - Everlong - 03:47 AM visit &lt;a href="http://www.RadioTAGr.com/KURQ"&gt;www.RadioTAGr.com/KURQ&lt;/a&gt; to TAG this song</content>
+    <updated>2009-05-30T10:48:07Z</updated>
+    <link type="image/png" rel="image" href="http://static.twitter.com/images/default_profile_normal.png"/>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <twitter:lang>en</twitter:lang>
+    <author>
+      <name>1073therock (1073therock)</name>
+      <uri>http://twitter.com/1073therock</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1970377924</id>
+    <published>2009-05-30T10:37:20Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/WLUP_TJ/statuses/1970377924"/>
+    <title>MONKEY WRENCH - FOO FIGHTERS : Now Playing on The #Loop (#WLUP) - Listen online: http://wlup.com</title>
+    <content type="html">MONKEY WRENCH - &lt;b&gt;FOO&lt;/b&gt; FIGHTERS : Now Playing on The &lt;a href="http://search.twitter.com/search?q=%23Loop"&gt;#Loop&lt;/a&gt; (&lt;a href="http://search.twitter.com/search?q=%23WLUP"&gt;#WLUP&lt;/a&gt;) - Listen online: &lt;a href="http://wlup.com"&gt;http://wlup.com&lt;/a&gt;</content>
+    <updated>2009-05-30T10:37:20Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/212624501/WLUP-TJockey-Logo_normal.jpg"/>
+    <twitter:source>&lt;a href="http://www.tjockey.com/"&gt;TJockey&lt;/a&gt;</twitter:source>
+    <twitter:lang>en</twitter:lang>
+    <author>
+      <name>WLUP_TJ (WLUP - TJockey)</name>
+      <uri>http://twitter.com/WLUP_TJ</uri>
+    </author>
+  </entry>
+
+</feed>
