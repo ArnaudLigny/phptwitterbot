@@ -1,0 +1,11 @@
+v2.0.0alpha - 05/31/2009
+
+ * Added Tweet class to represent a tweet
+ * Added TwitterBotsFarm class to handle multiple bots configurations, in a fancy YAML file
+ * Added periodicity check for execution
+ * Added a way to process direct messages
+ * Added checks when following followers
+
+v1.0.0 - 04/22/2009
+
+ * Created initial version

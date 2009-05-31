@@ -1,5 +1,6 @@
 <?php
 require_once dirname(__FILE__).'/vendor/twitter.php';
+require_once dirname(__FILE__).'/Tweet.class.php';
 
 /**
  * Simple Twitter Bot class. API documentation should be self-explanatory.
@@ -10,9 +11,6 @@ require_once dirname(__FILE__).'/vendor/twitter.php';
  *
  * This class requires the PHP Twitter library: http://classes.verkoyen.eu/twitter/
  *
- * TODO:
- *
- *  - handle a CURL powered HTTP client if available
  *
  * @author	Nicolas Perriault <nperriault at gmail dot com>
  * @version	2.0.0
@@ -21,12 +19,14 @@ require_once dirname(__FILE__).'/vendor/twitter.php';
 class TwitterBot
 {
   const 
-    VERSION = '2.0.0';
+    VERSION       = '2.0.0',
+    MAX_FOLLOWING = 2000;
   
   protected 
-    $client   = null,
-    $debug    = false,
-    $username = null;
+    $accountInfos = null,
+    $client       = null,
+    $debug        = false,
+    $username     = null;
   
   static protected
     $searchUrl = 'http://search.twitter.com/search.atom';
@@ -67,7 +67,22 @@ class TwitterBot
    */
   static public function create($username, $password, $debug = false)
   {
-    return new self($username, $password, $debug);
+    return new TwitterBot($username, $password, $debug);
+  }
+  
+  /**
+   * Outputs a message, if $debug property is set to true
+   * 
+   * @param  string  $message
+   */
+  public function debug($message)
+  {
+    if (!$this->debug)
+    {
+      return;
+    }
+    
+    printf('[bot]  %s%s', $message, PHP_EOL);
   }
   
   /**
@@ -76,15 +91,25 @@ class TwitterBot
    * @return int  The number of new followers added
    *
    * @throws RuntimeException if any error occurs
+   * @throws InvalidArgumentException if internal configuration problem occurs
    */
   public function followFollowers()
   {
     $this->debug('Checking for followers');
     
-    $followers = 0;
+    $nbFollowers = 0;
+    
+    $limit = self::MAX_FOLLOWING;
     
     foreach ($this->client->getFollowers() as $follower)
     {
+      if ($this->getBotAccountInfo('friends_count') >= $limit - $nbFollowers)
+      {
+        $this->debug('Max followers number reached, skipped mass following process');
+      
+        return 0;
+      }
+      
       if ($this->client->existsFriendship($this->getUsername(), $follower['screen_name']))
       {
         continue;
@@ -93,18 +118,64 @@ class TwitterBot
       try
       {
         $this->client->createFriendship($follower['screen_name'], true);
-        $this->debug('Following new follower: '.$follower['screen_name']);
-        $followers++;
+        
+        $this->debug(sprintf('Following new follower: "%s"', $follower['screen_name']));
+        
+        $nbFollowers++;
       }
       catch (Exception $e)
       {
-        $this->debug(sprintf('Skipping following "%s": %s', $follower['screen_name'], $e->getMessage()));
+        $this->debug(sprintf('Skipping following "%s": "%s"', $follower['screen_name'], $e->getMessage()));
       }
     }
     
-    $this->debug(sprintf('%d followers added', $followers));
+    $this->debug(sprintf('%s follower%s added', 0 === $nbFollowers ? 'No' : (string) $nbFollowers, $nbFollowers > 1 ? 's' : ''));
     
-    return $followers;
+    return $nbFollowers;
+  }
+  
+  /**
+   * Retrieves bot account informations
+   *
+   * @param  string  $name   Property name to retrieve
+   *
+   * @return mixed
+   *
+   * @throws InvalidArgumentException if property doesn't exist
+   */
+  public function getBotAccountInfo($name)
+  {
+    if (is_null($this->accountInfos))
+    {
+      $this->accountInfos = $this->client->getFriend($this->getUsername());
+    }
+    
+    if (!array_key_exists($name, $this->accountInfos))
+    {
+      throw new InvalidArgumentException(sprintf('Account property "%s" does not exist', $name));
+    }
+    
+    return $this->accountInfos[$name];
+  }
+  
+  /**
+   * Retrieves TwitterClient instance
+   *
+   * @return TwitterClient
+   */
+  public function getClient()
+  {
+    return $this->client;
+  }
+  
+  /**
+   * Returns bot username
+   *
+   * @return string
+   */
+  public function getUsername()
+  {
+    return $this->username;
   }
 
   /**
@@ -139,9 +210,9 @@ class TwitterBot
       
       return 0;
     } 
-    else if (20 == $nbMessages)
+    else if (20 === $nbMessages)
     {
-      // There's maybe more than 20 pages of DMs
+      // There may be more than 20 pages of DMs
       // TODO: recursive array_merge with next page DMs
     }
     
@@ -257,26 +328,6 @@ class TwitterBot
   }
   
   /**
-   * Retrieves TwitterClient instance
-   *
-   * @return TwitterClient
-   */
-  public function getClient()
-  {
-    return $this->client;
-  }
-  
-  /**
-   * Returns bot username
-   *
-   * @return string
-   */
-  public function getUsername()
-  {
-    return $this->username;
-  }
-  
-  /**
    * Search twitter for given terms and returns results as XML nodes collection
    *
    * @param  string  $terms   Search terms
@@ -347,21 +398,6 @@ class TwitterBot
   }
   
   /**
-   * Outputs a message, if $debug property is set to true
-   * 
-   * @param  string  $message
-   */
-  protected function debug($message)
-  {
-    if (!$this->debug)
-    {
-      return;
-    }
-    
-    printf('%s%s', $message, PHP_EOL);
-  }
-  
-  /**
    * Truncates given text to a given number of chars
    *
    * @param  string  $text    Input text
@@ -378,76 +414,5 @@ class TwitterBot
     }
     
     return mb_substr($text, 0, $nChars - mb_strlen($suffix)) . $suffix;
-  }
-}
-
-/**
- * This class represents a Tweet
- *
- */
-class Tweet
-{
-  public 
-    $author,
-    $title,
-    $date;
-  
-  /**
-   * COnstructor
-   *
-   * @param  mixed  $title
-   * @param  mixed  $author
-   * @param  mixed  $date
-   *
-   * @return Tweet
-   */
-  public function __construct($title, $author, $date)
-  {
-    $this->author = (string) $author;
-    $this->title = (string) $title;
-    $this->date = (string) $date;
-  }
-
-  /**
-   * Creates a Tweet from an array
-   *
-   * @param  array $entry  An array
-   *
-   * @return Tweet
-   */
-  public static function createFromArray(array $entry)
-  {
-    return new self($entry['text'], $entry['user']['screen_name'], $entry['created_at']);
-  }
-  
-  /**
-   * Creates a Tweet from an XML element 
-   *
-   * @param  SimpleXMLElement $entry  An XML element
-   *
-   * @return Tweet
-   */
-  public static function createFromXML(SimpleXMLElement $entry)
-  {
-    return new self($entry->title, self::extractAuthorName($entry->author->name), $entry->published);
-  }
-  
-  /**
-   * Extract the author name from a xml string
-   *
-   * @param  SimpleXMLElement|string $authorName  The author name
-   *
-   * @return string
-   *
-   * @throws InvalidArgumentException if author name cannot be retrieved
-   */
-  static protected function extractAuthorName($authorName)
-  {
-    if (0 === mb_strlen($name = mb_substr((string) $authorName, 0, mb_strpos((string) $authorName, ' ('))))
-    {
-      throw new InvalidArgumentException(sprintf('Unable to retrieve author name from value "%s"', var_export($authorName, true)));
-    }
-    
-    return $name;
   }
 }
