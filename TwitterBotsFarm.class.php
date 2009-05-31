@@ -222,7 +222,7 @@ class TwitterBotsFarm
     
     if (is_null($this->cronLogsFile))
     {
-      $this->cronLogsFile = sys_get_temp_dir().'.phptwitterbot.cronlogs.log';
+      $this->cronLogsFile = realpath(sys_get_temp_dir().DIRECTORY_SEPARATOR.'.phptwitterbot.cronlogs.log');
       
       if (!@touch($this->cronLogsFile))
       {
@@ -256,7 +256,7 @@ class TwitterBotsFarm
     {
       throw new RuntimeException(sprintf('Bot class "%s" cannot be loaded', self::$botClass));
     }
-    else if (!in_array('TwitterBot', class_parents(self::$botClass)))
+    else if ('TwitterBot' != self::$botClass && !in_array('TwitterBot', class_parents(self::$botClass)))
     {
       throw new RuntimeException(sprintf('Custom bot class "%s" must extends the TwitterBot one', self::$botClass));
     }
