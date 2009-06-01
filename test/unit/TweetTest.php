@@ -1,5 +1,5 @@
 <?php
-require_once dirname(__FILE__).'/../../vendor/lime/lib/lime.php';
+require_once dirname(__FILE__).'/../../vendor/lime/lime.php';
 require_once dirname(__FILE__).'/../../TwitterBot.class.php';
 
 $t = new lime_test(8, new lime_output_color());
