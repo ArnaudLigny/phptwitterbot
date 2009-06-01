@@ -55,7 +55,7 @@ class TwitterBotsFarm
   {
     $this->debug = $debug;
     
-    $this->debug(sprintf('Created farm from config file "%s"', $configFile));
+    $this->debug(sprintf('Creating farm from config file "%s"', $configFile));
     
     if (!file_exists($configFile) || !is_file($configFile))
     {
@@ -224,12 +224,14 @@ class TwitterBotsFarm
     {
       $this->cronLogsFile = realpath(sys_get_temp_dir().DIRECTORY_SEPARATOR.'.phptwitterbot.cronlogs.log');
       
-      if (!@touch($this->cronLogsFile))
-      {
-        throw new RuntimeException(sprintf('cronLogs file "%s" cannot be created', $this->cronLogsFile));
-      }
-      
       $this->debug(sprintf('Default cronLogs file set to "%s"', $this->cronLogsFile));
+    }
+    
+    if (!file_exists($this->cronLogsFile) && !@touch($this->cronLogsFile))
+    {
+      $this->debug(sprintf('Unable to create file "%s"', $this->cronLogsFile));
+      
+      throw new RuntimeException(sprintf('cronLogs file "%s" cannot be created', $this->cronLogsFile));
     }
     
     if (!is_writable($this->cronLogsFile))
@@ -270,7 +272,7 @@ class TwitterBotsFarm
     
     foreach ($config['operations'] as $method => $methodConfig)
     {
-      if (!$this->getBotConfigValue($name, 'allow_magic_method', false) && !method_exists($bot, $method))
+      if ($this->getGlobalConfigValue('stoponfail', true) && !$this->getBotConfigValue($name, 'allow_magic_method', false) && !method_exists($bot, $method))
       {
         throw new RuntimeException(sprintf('No "%s" method exists for bot "%s"', $method, $name));
       }
@@ -301,7 +303,7 @@ class TwitterBotsFarm
       {
         if ($this->getGlobalConfigValue('stoponfail', true))
         {
-          exit(sprintf('Bot "%s" stopped with an error: "%s"', $name, $e->getMessage()));
+          throw new RuntimeException(sprintf('Bot "%s" stopped with an error: "%s"', $name, $e->getMessage()));
         }
       }
       

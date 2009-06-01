@@ -3,13 +3,13 @@ global:
 bots:
   myfirstbot:
     operations:
-      test1:
+      testA:
         arguments:
           foo: bar
         periodicity: 900
   mysecondbot:
     operations:
-      test2:
+      testB:
         arguments:
           foo: bar
         periodicity: 300
