@@ -50,6 +50,7 @@ class TwitterBot
     }
     
     $this->debug(sprintf('Creating "%s" bot', $username));
+    
     $this->client = new Twitter($username, $password);
     $this->username = $username;
   }

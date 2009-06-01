@@ -2,7 +2,7 @@
 require_once dirname(__FILE__).'/../../vendor/lime/lime.php';
 require_once dirname(__FILE__).'/../../TwitterBotsFarm.class.php';
 
-$t = new lime_test(7, new lime_output_color());
+$t = new lime_test(10, new lime_output_color());
 
 class TwitterBotsFarmMock extends TwitterBotsFarm
 {
@@ -15,6 +15,14 @@ class TwitterBotsFarmMock extends TwitterBotsFarm
   public function getCronLogsFile()
   {
     return $this->cronLogsFile;
+  }
+  public function getBotConfigValueTest($botName, $configName, $default = null)
+  {
+    return parent::getBotConfigValue($botName, $configName, $default);
+  }
+  public function getGlobalConfigValueTest($configName, $default = null)
+  {
+    return parent::getGlobalConfigValue($configName, $default);
   }
   public function isBotOperationExpiredTest($botName, $methodName, $periodicity)
   {
@@ -53,6 +61,7 @@ class myTwitterBot extends TwitterBot
   }
 }
 
+// Use test bot class
 TwitterBotsFarm::$botClass = 'myTwitterBot';
 
 $t->diag('Testing farm instanciation and configuration');
@@ -60,6 +69,12 @@ $farm = new TwitterBotsFarmMock(dirname(__FILE__).'/yaml/sample_farm.yml');
 $t->isa_ok($farm, 'TwitterBotsFarmMock', 'create() ok');
 $t->isa_ok($farm->getConfig(), 'array', 'getConfig() ok');
 $t->ok(array_key_exists('bots', $farm->getConfig()), 'getConfig() ok');
+
+$t->diag('Testing configuration values retrieval');
+$farm = new TwitterBotsFarmMock(dirname(__FILE__).'/yaml/sample_farm.yml');
+$t->is($farm->getGlobalConfigValueTest('password', 'fail'), 'foo', 'getGlobalConfigValue() retrieves expected global configured value');
+$t->is($farm->getBotConfigValueTest('myfirstbot', 'password', 'fail'), 'bar', 'getBotConfigValue() retrieves expected configured value');
+$t->is($farm->getBotConfigValueTest('mysecondbot', 'password', 'fail'), 'foo', 'getBotConfigValue() retrieves global configured value when not declared for a bot');
 
 $t->diag('Testing bots throwing exceptions');
 $farm = new TwitterBotsFarmMock(dirname(__FILE__).'/yaml/sample_farm_with_error.yml');

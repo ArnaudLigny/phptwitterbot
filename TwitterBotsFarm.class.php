@@ -285,7 +285,7 @@ class TwitterBotsFarm
         continue;
       }
       
-      $this->debug(sprintf('Operation "%s" from bot "%s" is not expired, processing...', $method, $name));
+      $this->debug(sprintf('Operation "%s" from bot "%s" is expired, processing...', $method, $name));
       
       // Bot execution
       try

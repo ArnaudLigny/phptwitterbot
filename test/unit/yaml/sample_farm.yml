@@ -1,7 +1,9 @@
 global:
-  debug: false
+  debug:      false
+  password:   foo
 bots:
   myfirstbot:
+    password: bar
     operations:
       testA:
         arguments:
