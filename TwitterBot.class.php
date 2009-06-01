@@ -1,5 +1,5 @@
 <?php
-require_once dirname(__FILE__).'/vendor/twitter.php';
+require_once dirname(__FILE__).'/vendor/PHPTwitter/twitter.php';
 require_once dirname(__FILE__).'/Tweet.class.php';
 
 /**
