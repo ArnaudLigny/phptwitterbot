@@ -1,4 +1,10 @@
-v2.0.0alpha - 05/31/2009
+v2.0.0alpha2 - 06/05/2009
+
+ * Replaced Twitter class by TwitterApiClient, able to use Identi.ca twitter-compliant API
+ * Added TwitterBot::processBotTimeline() method
+ * More tests added
+
+v2.0.0alpha1 - 05/31/2009
 
  * Added Tweet class to represent a tweet
  * Added TwitterBotsFarm class to handle multiple bots configurations, in a fancy YAML file

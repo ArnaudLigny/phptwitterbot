@@ -6,7 +6,6 @@
  * This class can only be instanciated using two static methods, createFromArray() and createFromXML().
  *
  * @author	 Nicolas Perriault <nperriault at gmail dot com>
- * @version	 2.0.0
  * @license	 MIT License
  */
 class Tweet
@@ -38,10 +37,36 @@ class Tweet
    * @param  array $entry  An array
    *
    * @return Tweet
+   *
+   * @throws InvalidArgumentException if an invalid entry is provided
    */
   public static function createFromArray(array $entry)
   {
+    if (!isset($entry['text']) or !isset($entry['user']) or !isset($entry['created_at']))
+    {
+      throw new InvalidArgumentException(sprintf('Invalid tweet array: "%s"', var_export($entry, true))); 
+    }
+    
     return new self($entry['text'], $entry['user']['screen_name'], $entry['created_at']);
+  }
+  
+  /**
+   * Creates a Tweet from a RSS feed entry
+   *
+   * @param  SimpleXMLElement $entry  An XML element
+   *
+   * @return Tweet
+   *
+   * @throws InvalidArgumentException if an invalid entry is provided
+   */
+  public static function createFromRssEntry(SimpleXMLElement $entry)
+  {
+    if (!property_exists($entry, 'title') or !property_exists($entry, 'author') or !property_exists($entry, 'published'))
+    {
+      throw new InvalidArgumentException(sprintf('Invalid tweet RSS entry source: "%s"', var_export($entry, true))); 
+    }
+    
+    return new self($entry->title, self::extractAuthorName($entry->author->name), $entry->published);
   }
   
   /**
@@ -50,10 +75,17 @@ class Tweet
    * @param  SimpleXMLElement $entry  An XML element
    *
    * @return Tweet
+   *
+   * @throws InvalidArgumentException if an invalid entry is provided
    */
   public static function createFromXML(SimpleXMLElement $entry)
   {
-    return new self($entry->title, self::extractAuthorName($entry->author->name), $entry->published);
+    if (!property_exists($entry, 'text') or !property_exists($entry, 'user') or !property_exists($entry, 'created_at'))
+    {
+      throw new InvalidArgumentException(sprintf('Invalid tweet XML source: "%s"', var_export($entry, true))); 
+    }
+
+    return new self($entry->text, $entry->user->screen_name, $entry->created_at);
   }
   
   /**

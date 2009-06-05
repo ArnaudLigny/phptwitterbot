@@ -1,5 +1,5 @@
 <?php
-require_once dirname(__FILE__).'/vendor/yaml/sfYaml.php';
+require_once dirname(__FILE__).'/../vendor/yaml/sfYaml.php';
 require_once dirname(__FILE__).'/TwitterBot.class.php';
 
 /**
@@ -26,7 +26,6 @@ require_once dirname(__FILE__).'/TwitterBot.class.php';
  *          periodicity:  3600
  *
  * @author	Nicolas Perriault <nperriault at gmail dot com>
- * @version	2.0.0
  * @license	MIT License
  */
 class TwitterBotsFarm
@@ -47,16 +46,11 @@ class TwitterBotsFarm
    *
    * @param  string  $configFile    Absolute path to the yaml configuration file
    * @param  string  $cronLogsFile  Absolute path to the cronLogs file (optional)
-   * @param  Boolean $debug         Enables debug mode
    *
    * @throws InvalidArgumentException if path to file doesn't exist or is invalid
    */
-  public function __construct($configFile, $cronLogsFile = null, $debug = false)
+  public function __construct($configFile, $cronLogsFile = null)
   {
-    $this->debug = $debug;
-    
-    $this->debug(sprintf('Creating farm from config file "%s"', $configFile));
-    
     if (!file_exists($configFile) || !is_file($configFile))
     {
       throw new InvalidArgumentException(sprintf('Farm configuration file "%s" does not exist', $configFile));
@@ -70,6 +64,10 @@ class TwitterBotsFarm
     }
     
     $this->config = $config;
+    
+    $this->debug = $this->getGlobalConfigValue('debug', $this->debug);
+    
+    $this->debug(sprintf('Creating farm from config file "%s"', $configFile));
     
     if (!is_null($cronLogsFile))
     {
@@ -252,7 +250,7 @@ class TwitterBotsFarm
    *
    * @throws RuntimeException if something goes wrong during the process
    */
-  protected function runBot($name, $config)
+  public function runBot($name, $config)
   {
     if (!class_exists(self::$botClass, true))
     {

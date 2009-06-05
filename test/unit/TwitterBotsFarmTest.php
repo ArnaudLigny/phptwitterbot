@@ -1,8 +1,8 @@
 <?php
 require_once dirname(__FILE__).'/../../vendor/lime/lime.php';
-require_once dirname(__FILE__).'/../../TwitterBotsFarm.class.php';
+require_once dirname(__FILE__).'/../../lib/TwitterBotsFarm.class.php';
 
-$t = new lime_test(10, new lime_output_color());
+$t = new lime_test(12, new lime_output_color());
 
 class TwitterBotsFarmMock extends TwitterBotsFarm
 {
@@ -12,13 +12,17 @@ class TwitterBotsFarmMock extends TwitterBotsFarm
     
     parent::__construct($configFile, realpath(sys_get_temp_dir().DIRECTORY_SEPARATOR.'.cronlogs.test.log'), false);
   }
+  public function getBotConfigValueTest($botName, $configName, $default = null)
+  {
+    return parent::getBotConfigValue($botName, $configName, $default);
+  }
   public function getCronLogsFile()
   {
     return $this->cronLogsFile;
   }
-  public function getBotConfigValueTest($botName, $configName, $default = null)
+  public function getDebug()
   {
-    return parent::getBotConfigValue($botName, $configName, $default);
+    return $this->debug;
   }
   public function getGlobalConfigValueTest($configName, $default = null)
   {
@@ -75,6 +79,12 @@ $farm = new TwitterBotsFarmMock(dirname(__FILE__).'/yaml/sample_farm.yml');
 $t->is($farm->getGlobalConfigValueTest('password', 'fail'), 'foo', 'getGlobalConfigValue() retrieves expected global configured value');
 $t->is($farm->getBotConfigValueTest('myfirstbot', 'password', 'fail'), 'bar', 'getBotConfigValue() retrieves expected configured value');
 $t->is($farm->getBotConfigValueTest('mysecondbot', 'password', 'fail'), 'foo', 'getBotConfigValue() retrieves global configured value when not declared for a bot');
+
+$t->diag('Testing debug mode activation');
+$farm = new TwitterBotsFarmMock(dirname(__FILE__).'/yaml/debug_on.yml');
+$t->is($farm->getDebug(), true, 'getConfig() debugging can be activated via configuration file');
+$farm = new TwitterBotsFarmMock(dirname(__FILE__).'/yaml/debug_off.yml');
+$t->is($farm->getDebug(), false, 'getConfig() debugging can be disabled via configuration file');
 
 $t->diag('Testing bots throwing exceptions');
 $farm = new TwitterBotsFarmMock(dirname(__FILE__).'/yaml/sample_farm_with_error.yml');

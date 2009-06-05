@@ -1,6 +1,6 @@
 <?php
 require_once dirname(__FILE__).'/../../vendor/lime/lime.php';
-require_once dirname(__FILE__).'/../../TwitterBot.class.php';
+require_once dirname(__FILE__).'/../../lib/TwitterBot.class.php';
 
 $t = new lime_test(7, new lime_output_color());
 
@@ -18,7 +18,7 @@ class TwitterBotMock extends TwitterBot
 
 $t->isa_ok(TwitterBotMock::create('test', 'pass'), 'TwitterBot', 'create() ok');
 $t->is(TwitterBotMock::create('test', 'pass')->getUsername(), 'test', 'getUsername() ok');
-$t->isa_ok(TwitterBotMock::create('test', 'pass')->getClient(), 'Twitter', 'getClient() ok');
+$t->isa_ok(TwitterBotMock::create('test', 'pass')->getClient(), 'TwitterApiClient', 'getClient() ok');
 
 $bot = new TwitterBotMock('test', 'pass');
 $fooSearch = $bot->searchFor('foo');

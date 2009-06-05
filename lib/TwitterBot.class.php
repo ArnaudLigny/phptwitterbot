@@ -1,5 +1,5 @@
 <?php
-require_once dirname(__FILE__).'/vendor/PHPTwitter/twitter.php';
+require_once dirname(__FILE__).'/TwitterApiClient.class.php';
 require_once dirname(__FILE__).'/Tweet.class.php';
 
 /**
@@ -13,23 +13,19 @@ require_once dirname(__FILE__).'/Tweet.class.php';
  *
  *
  * @author	Nicolas Perriault <nperriault at gmail dot com>
- * @version	2.0.0
  * @license	MIT License
  */
 class TwitterBot
 {
-  const 
-    VERSION       = '2.0.0',
-    MAX_FOLLOWING = 2000;
+  const MAX_FOLLOWING = 2000;
   
   protected 
     $accountInfos = null,
     $client       = null,
-    $debug        = false,
-    $username     = null;
+    $debug        = false;
   
   static protected
-    $searchUrl = 'http://search.twitter.com/search.atom';
+    $searchUrl    = 'http://search.twitter.com/search.atom';
   
   /**
    * Instanciates a new Bot
@@ -51,8 +47,7 @@ class TwitterBot
     
     $this->debug(sprintf('Creating "%s" bot', $username));
     
-    $this->client = new Twitter($username, $password);
-    $this->username = $username;
+    $this->client = new TwitterApiClient($username, $password);
   }
   
   /**
@@ -176,7 +171,81 @@ class TwitterBot
    */
   public function getUsername()
   {
-    return $this->username;
+    return $this->client->getUsername();
+  }
+  
+  /**
+   * Processes each message of the bot public timeline.
+   *
+   * Example:
+   *
+   *    function uppercase_me(Tweet $tweet)
+   *    {
+   *       echo strtoupper($tweet->title).PHP_EOL;
+   *    }
+   *    TwitterBot::create('user', 'pass')->processBotTimeline('uppercase_me');
+   *
+   * @param  string|array  $callback  A PHP callable
+   *
+   * @throws InvalidArgumentException  if provided callback is invalid
+   * @throws RuntimeException          if the callback throwed an Exception
+   */
+  public function processBotTimeline($callback, $options = array())
+  {
+    $this->debug('Start processing bot timeline...');
+    
+    if (!is_callable($callback))
+    {
+      throw new InvalidArgumentException(sprintf("Invalid callback: %s", var_export($callback, true)));
+    }
+    
+    $options = array_merge(array('max' => 20, 'source' => 'public'), $options);
+    
+    switch (strtolower(trim($options['source'])))
+    {
+      case 'public':
+        $statuses = $this->client->getUserTimeline(null, null, null, (int) $options['max']);
+        break;
+
+      case 'friends':
+        $statuses = $this->client->getFriendsTimeline(null, null, null, (int) $options['max']);
+        break;
+
+      default:
+        throw new InvalidArgumentException(sprintf('Unsupported source "%s"', $options['source']));
+        break;
+    }
+    
+    foreach ($statuses as $tweet)
+    {
+      try
+      {
+        $this->debug(sprintf('Retrieved %s bot status: "%s"', $options['source'], $tweet->title));
+        
+        call_user_func($callback, $tweet);
+        
+        $this->debug('Tweet processed ok.');
+      }
+      catch (TwitterBotSkipException $e)
+      {
+        $this->debug('Bot processing skipped programmatically.');
+        
+        continue;
+      }
+      catch (TwitterBotStopException $e)
+      {
+        $this->debug('Bot processing interrupted programmatically.');
+        
+        break;
+      }
+      catch (Exception $e)
+      {
+        throw new RuntimeException(sprintf('Callback "%s" throwed a "%s": "%s"', 
+                                           var_export($callback, true), 
+                                           get_class($e), 
+                                           $e->getMessage()));
+      }
+    }
   }
 
   /**
@@ -244,6 +313,18 @@ class TwitterBot
 
         $this->client->deleteDirectMessage($message['id']);
       }
+      catch (TwitterBotSkipException $e)
+      {
+        $this->debug('Bot processing skipped programmatically.');
+        
+        continue;
+      }
+      catch (TwitterBotStopException $e)
+      {
+        $this->debug('Bot processing interrupted programmatically.');
+        
+        break;
+      }
       catch (Exception $e)
       {
         $this->debug($message = sprintf('{%s} thrown: "%s"', get_class($e), $e->getMessage()));
@@ -255,7 +336,7 @@ class TwitterBot
       }
     }
   }
-
+  
   /**
    * Bot will search for twits containing given terms in the public timeline, and retweet 
    * them using a given template.
@@ -363,7 +444,7 @@ class TwitterBot
       
         foreach ($xmlEntries as $xmlEntry)
         {
-          $entries[] = Tweet::createfromXML($xmlEntry);
+          $entries[] = Tweet::createfromRssEntry($xmlEntry);
         }
         break;
       
@@ -373,7 +454,7 @@ class TwitterBot
         {
           if (preg_match(sprintf('/%s/i', $terms), $entry['text']))
           {
-            $entries[] = Tweet::createfromArray($entry);
+            $entries[] = Tweet::createfromRssEntry($entry);
           }
         }
         break;
@@ -416,4 +497,20 @@ class TwitterBot
     
     return mb_substr($text, 0, $nChars - mb_strlen($suffix)) . $suffix;
   }
+}
+
+/**
+ * Bot stop exception
+ *
+ */
+class TwitterBotStopException extends Exception
+{
+}
+
+/**
+ * Bot skip exception
+ *
+ */
+class TwitterBotSkipException extends Exception
+{
 }
