@@ -1,6 +1,117 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <statuses type="array">
 <status>
+  <created_at>Sat Jun 06 09:01:28 +0000 2009</created_at>
+  <id>2052787901</id>
+  <text>@n1k0 Les gens ne supportent pas les bonnes intentions parce qu'ils se sentent coupables de ne rien faire de leur côté. #home, c'est bien.</text>
+  <source>web</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id>2052518161</in_reply_to_status_id>
+  <in_reply_to_user_id>6619162</in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name>n1k0</in_reply_to_screen_name>
+  <user>
+    <id>15428188</id>
+    <name>Mitternacht</name>
+    <screen_name>Mitternacht</screen_name>
+    <location>Paris</location>
+    <description>Type, design and music lover in constant exploration.</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/61311170/gravatar_normal.png</profile_image_url>
+    <url>http://inspireme.lasoeurkaramazov.net/</url>
+    <protected>false</protected>
+    <followers_count>230</followers_count>
+    <profile_background_color>fff</profile_background_color>
+    <profile_text_color>624528</profile_text_color>
+    <profile_link_color>94A834</profile_link_color>
+    <profile_sidebar_fill_color>fff</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>fff</profile_sidebar_border_color>
+    <friends_count>98</friends_count>
+    <created_at>Mon Jul 14 15:57:29 +0000 2008</created_at>
+    <favourites_count>3</favourites_count>
+    <utc_offset>3600</utc_offset>
+    <time_zone>Paris</time_zone>
+    <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/6631521/inspireme.jpg</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>1026</statuses_count>
+    <notifications/>
+    <following/>
+  </user>
+</status>
+<status>
+  <created_at>Sat Jun 06 08:16:23 +0000 2009</created_at>
+  <id>2052592831</id>
+  <text>@n1k0 if you're really into biking, u need to get to this: http://www.horizonsunlimited.com/meetings/UK2009.php bring ur FZR, see u there :)</text>
+  <source>&lt;a href="http://loungeapp.com"&gt;Lounge&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id/>
+  <in_reply_to_user_id>6619162</in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name>n1k0</in_reply_to_screen_name>
+  <user>
+    <id>9400622</id>
+    <name>Lee Bolding</name>
+    <screen_name>leesbian</screen_name>
+    <location>London, UK</location>
+    <description>I do all my own stunts.</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/117417794/Lee-Snetterton-0016-800h_normal.jpg</profile_image_url>
+    <url>http://www.leesbian.net</url>
+    <protected>false</protected>
+    <followers_count>80</followers_count>
+    <profile_background_color>515481</profile_background_color>
+    <profile_text_color>333333</profile_text_color>
+    <profile_link_color>525582</profile_link_color>
+    <profile_sidebar_fill_color>9799cc</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>FFFFFF</profile_sidebar_border_color>
+    <friends_count>65</friends_count>
+    <created_at>Fri Oct 12 10:32:00 +0000 2007</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>0</utc_offset>
+    <time_zone>London</time_zone>
+    <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/5692027/banner.jpg</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>773</statuses_count>
+    <notifications/>
+    <following/>
+  </user>
+</status>
+<status>
+  <created_at>Fri Jun 05 17:06:03 +0000 2009</created_at>
+  <id>2045004892</id>
+  <text>@n1k0 interesting. how?</text>
+  <source>web</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id>2042012876</in_reply_to_status_id>
+  <in_reply_to_user_id>6619162</in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name>n1k0</in_reply_to_screen_name>
+  <user>
+    <id>16604450</id>
+    <name>Moushumi Kabir</name>
+    <screen_name>mkabir</screen_name>
+    <location>Atlanta, GA</location>
+    <description>Founder of Simply Web, advocate of tech + science + innovation, Entrepreneur, investor, blogger</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/72688576/mk__normal.jpg</profile_image_url>
+    <url>http://www.simply-web.com</url>
+    <protected>false</protected>
+    <followers_count>199</followers_count>
+    <profile_background_color>1A1B1F</profile_background_color>
+    <profile_text_color>666666</profile_text_color>
+    <profile_link_color>2FC2EF</profile_link_color>
+    <profile_sidebar_fill_color>252429</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>181A1E</profile_sidebar_border_color>
+    <friends_count>144</friends_count>
+    <created_at>Sun Oct 05 18:56:56 +0000 2008</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>-18000</utc_offset>
+    <time_zone>Eastern Time (US &amp; Canada)</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme9/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>1283</statuses_count>
+    <notifications>false</notifications>
+    <following>0</following>
+  </user>
+</status>
+<status>
   <created_at>Fri Jun 05 16:18:57 +0000 2009</created_at>
   <id>2044408728</id>
   <text>@n1k0 Oups i forgot this tweets - Identi.ca support in nambu is featured but broken in last beta version of nambu</text>
@@ -130,7 +241,7 @@
     <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/248487874/073-001_bigger_normal.gif</profile_image_url>
     <url>http://www.ubuntu.com</url>
     <protected>false</protected>
-    <followers_count>3</followers_count>
+    <followers_count>7</followers_count>
     <profile_background_color>FFFFFF</profile_background_color>
     <profile_text_color>FF7510</profile_text_color>
     <profile_link_color>D10022</profile_link_color>
@@ -143,7 +254,7 @@
     <time_zone>Amsterdam</time_zone>
     <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/16474757/1jhsdaflkh98fdioudfg9087fui.png</profile_background_image_url>
     <profile_background_tile>false</profile_background_tile>
-    <statuses_count>30</statuses_count>
+    <statuses_count>55</statuses_count>
     <notifications>false</notifications>
     <following>false</following>
   </user>
@@ -315,7 +426,7 @@
     <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/52990597/avatar_normal.jpg</profile_image_url>
     <url>http://blog.creaone.fr</url>
     <protected>false</protected>
-    <followers_count>56</followers_count>
+    <followers_count>55</followers_count>
     <profile_background_color>352726</profile_background_color>
     <profile_text_color>3E4415</profile_text_color>
     <profile_link_color>000000</profile_link_color>
@@ -328,9 +439,9 @@
     <time_zone>Greenland</time_zone>
     <profile_background_image_url>http://static.twitter.com/images/themes/theme5/bg.gif</profile_background_image_url>
     <profile_background_tile>false</profile_background_tile>
-    <statuses_count>168</statuses_count>
-    <notifications/>
-    <following/>
+    <statuses_count>170</statuses_count>
+    <notifications>false</notifications>
+    <following>0</following>
   </user>
 </status>
 <status>
@@ -367,7 +478,7 @@
     <profile_background_tile>false</profile_background_tile>
     <statuses_count>418</statuses_count>
     <notifications>false</notifications>
-    <following>0</following>
+    <following>false</following>
   </user>
 </status>
 <status>
@@ -513,7 +624,7 @@
     <time_zone>Paris</time_zone>
     <profile_background_image_url>http://static.twitter.com/images/themes/theme9/bg.gif</profile_background_image_url>
     <profile_background_tile>false</profile_background_tile>
-    <statuses_count>71</statuses_count>
+    <statuses_count>73</statuses_count>
     <notifications>false</notifications>
     <following>0</following>
   </user>
@@ -537,7 +648,7 @@
     <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/52990597/avatar_normal.jpg</profile_image_url>
     <url>http://blog.creaone.fr</url>
     <protected>false</protected>
-    <followers_count>54</followers_count>
+    <followers_count>55</followers_count>
     <profile_background_color>352726</profile_background_color>
     <profile_text_color>3E4415</profile_text_color>
     <profile_link_color>000000</profile_link_color>
@@ -550,9 +661,9 @@
     <time_zone>Greenland</time_zone>
     <profile_background_image_url>http://static.twitter.com/images/themes/theme5/bg.gif</profile_background_image_url>
     <profile_background_tile>false</profile_background_tile>
-    <statuses_count>167</statuses_count>
+    <statuses_count>170</statuses_count>
     <notifications>false</notifications>
-    <following>false</following>
+    <following>0</following>
   </user>
 </status>
 <status>
@@ -624,118 +735,7 @@
     <time_zone>Paris</time_zone>
     <profile_background_image_url>http://static.twitter.com/images/themes/theme3/bg.gif</profile_background_image_url>
     <profile_background_tile>false</profile_background_tile>
-    <statuses_count>75</statuses_count>
-    <notifications>false</notifications>
-    <following>false</following>
-  </user>
-</status>
-<status>
-  <created_at>Fri Jun 05 07:57:56 +0000 2009</created_at>
-  <id>2040558429</id>
-  <text>♺ @n1k0: Poursuivie pour avoir écrit "hou la menteuse" sur dailymotion au sujet de nadine morano http://tinyurl.com/qktay6</text>
-  <source>&lt;a href="https://launchpad.net/gwibber/"&gt;Gwibber&lt;/a&gt;</source>
-  <truncated>false</truncated>
-  <in_reply_to_status_id>2040404242</in_reply_to_status_id>
-  <in_reply_to_user_id>6619162</in_reply_to_user_id>
-  <favorited>false</favorited>
-  <in_reply_to_screen_name>n1k0</in_reply_to_screen_name>
-  <user>
-    <id>38620136</id>
-    <name>Renaud LITTOLFF</name>
-    <screen_name>marmotz</screen_name>
-    <location>Marseille, France</location>
-    <description/>
-    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/202957235/Ge7GJSRmuN8zAF4j1DW4O4OT3WzfvCkRSg5I4j0EpFnxEM8rITvo_y-c017BhsXE_normal.jpeg</profile_image_url>
-    <url>http://totalement.geek.oupas.fr</url>
-    <protected>false</protected>
-    <followers_count>10</followers_count>
-    <profile_background_color>9ae4e8</profile_background_color>
-    <profile_text_color>000000</profile_text_color>
-    <profile_link_color>0000ff</profile_link_color>
-    <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
-    <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
-    <friends_count>21</friends_count>
-    <created_at>Fri May 08 06:23:49 +0000 2009</created_at>
-    <favourites_count>0</favourites_count>
-    <utc_offset>3600</utc_offset>
-    <time_zone>Paris</time_zone>
-    <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
-    <profile_background_tile>false</profile_background_tile>
-    <statuses_count>46</statuses_count>
-    <notifications/>
-    <following/>
-  </user>
-</status>
-<status>
-  <created_at>Fri Jun 05 07:45:07 +0000 2009</created_at>
-  <id>2040490357</id>
-  <text>@n1k0 : attention les tweets peuvent peut etre servir de preuve...</text>
-  <source>&lt;a href="http://adium.im"&gt;Adium&lt;/a&gt;</source>
-  <truncated>false</truncated>
-  <in_reply_to_status_id/>
-  <in_reply_to_user_id>6619162</in_reply_to_user_id>
-  <favorited>false</favorited>
-  <in_reply_to_screen_name>n1k0</in_reply_to_screen_name>
-  <user>
-    <id>19525344</id>
-    <name>Thomas R.</name>
-    <screen_name>th0masr</screen_name>
-    <location>Paris</location>
-    <description/>
-    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/73545298/me_normal.jpg</profile_image_url>
-    <url/>
-    <protected>false</protected>
-    <followers_count>44</followers_count>
-    <profile_background_color>EBEBEB</profile_background_color>
-    <profile_text_color>333333</profile_text_color>
-    <profile_link_color>990000</profile_link_color>
-    <profile_sidebar_fill_color>F3F3F3</profile_sidebar_fill_color>
-    <profile_sidebar_border_color>DFDFDF</profile_sidebar_border_color>
-    <friends_count>25</friends_count>
-    <created_at>Mon Jan 26 08:51:49 +0000 2009</created_at>
-    <favourites_count>1</favourites_count>
-    <utc_offset>3600</utc_offset>
-    <time_zone>Paris</time_zone>
-    <profile_background_image_url>http://static.twitter.com/images/themes/theme7/bg.gif</profile_background_image_url>
-    <profile_background_tile>false</profile_background_tile>
-    <statuses_count>168</statuses_count>
-    <notifications>false</notifications>
-    <following>false</following>
-  </user>
-</status>
-<status>
-  <created_at>Fri Jun 05 07:34:31 +0000 2009</created_at>
-  <id>2040432367</id>
-  <text>RT @n1k0:  Poursuivie pour avoir écrit "hou menteuse" sur dailymotion au sujet de nadine morano http://tinyurl.com/qktay6. Et ça continue !</text>
-  <source>&lt;a href="http://identi.ca/"&gt;Identica&lt;/a&gt;</source>
-  <truncated>false</truncated>
-  <in_reply_to_status_id/>
-  <in_reply_to_user_id/>
-  <favorited>false</favorited>
-  <in_reply_to_screen_name/>
-  <user>
-    <id>14437786</id>
-    <name>martinsam</name>
-    <screen_name>martinsam</screen_name>
-    <location/>
-    <description/>
-    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/52990597/avatar_normal.jpg</profile_image_url>
-    <url>http://blog.creaone.fr</url>
-    <protected>false</protected>
-    <followers_count>53</followers_count>
-    <profile_background_color>352726</profile_background_color>
-    <profile_text_color>3E4415</profile_text_color>
-    <profile_link_color>000000</profile_link_color>
-    <profile_sidebar_fill_color>fe681b</profile_sidebar_fill_color>
-    <profile_sidebar_border_color>829D5E</profile_sidebar_border_color>
-    <friends_count>56</friends_count>
-    <created_at>Fri Apr 18 21:41:28 +0000 2008</created_at>
-    <favourites_count>2</favourites_count>
-    <utc_offset>-10800</utc_offset>
-    <time_zone>Greenland</time_zone>
-    <profile_background_image_url>http://static.twitter.com/images/themes/theme5/bg.gif</profile_background_image_url>
-    <profile_background_tile>false</profile_background_tile>
-    <statuses_count>164</statuses_count>
+    <statuses_count>77</statuses_count>
     <notifications>false</notifications>
     <following>0</following>
   </user>

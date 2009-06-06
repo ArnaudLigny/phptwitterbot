@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<user>
+  <id>6896142</id>
+  <name>Antoine Cailliau</name>
+  <screen_name>ancailliau</screen_name>
+  <location>Louvain-la-Neuve</location>
+  <description>I'm student in computer science and freelance as HTML/CSS developer and UX Designer. I wrote two books, one about Dotclear, one about CSS.</description>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/75824883/avatar_normal.png</profile_image_url>
+  <url>http://www.ac-graphic.net/</url>
+  <protected>false</protected>
+  <followers_count>91</followers_count>
+  <profile_background_color>9AE4E8</profile_background_color>
+  <profile_text_color>333333</profile_text_color>
+  <profile_link_color>0084B4</profile_link_color>
+  <profile_sidebar_fill_color>DDFFCC</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>BDDCAD</profile_sidebar_border_color>
+  <friends_count>71</friends_count>
+  <created_at>Mon Jun 18 17:30:39 +0000 2007</created_at>
+  <favourites_count>0</favourites_count>
+  <utc_offset>3600</utc_offset>
+  <time_zone>Brussels</time_zone>
+  <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>695</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Fri Jun 05 08:27:43 +0000 2009</created_at>
+    <id>2040714274</id>
+    <text>Damn, two books, one topic. One consider light is a continuum and the other a quantum... Two differents derivations to understand and map...</text>
+    <source>web</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id/>
+    <in_reply_to_user_id/>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name/>
+  </status>
+</user>

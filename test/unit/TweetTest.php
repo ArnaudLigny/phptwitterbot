@@ -2,28 +2,10 @@
 require_once dirname(__FILE__).'/../../vendor/lime/lime.php';
 require_once dirname(__FILE__).'/../../lib/TwitterBot.class.php';
 
-$t = new lime_test(15, new lime_output_color());
+$t = new lime_test(12, new lime_output_color());
 
 // Sample data
-$arrayTweet = array('text' => 'foo', 'user' => array('screen_name' => 'bar'), 'created_at' => 'today');
-$xmlTweet = simplexml_load_file(dirname(__FILE__).'/xml/status.xml');
-$rssEntryTweet = simplexml_load_file(dirname(__FILE__).'/xml/tweet_rss_entry.xml');
-
-// createFromArray()
-$t->diag('createFromArray()');
-try
-{
-  $tweet = Tweet::createFromArray($arrayTweet);
-  $t->pass('createFromArray() creates a Tweet instance from an array without throwing an exception');
-}
-catch (Exception $e)
-{
-  $t->fail('createFromArray() creates a Tweet instance from an array without throwing an exception');  
-}
-$t->isa_ok($tweet, 'Tweet', 'createFromArray() creates a Tweet instance');
-$t->is($tweet->title, 'foo', 'createFromArray() populates title correctly');
-$t->is($tweet->author, 'bar', 'createFromArray() populates author name correctly');
-$t->is($tweet->date, 'today', 'createFromArray() populates date correctly');
+$xmlTweet = DOMDocument::load(dirname(__FILE__).'/xml/server/statuses/show/2043091669.xml');
 
 // createFromXml()
 $t->diag('createFromXML()');
@@ -37,22 +19,13 @@ catch (Exception $e)
   $t->fail('createFromXml() creates a Tweet instance from an XML element without throwing an exception');
 }
 $t->isa_ok($tweet, 'Tweet', 'createFromXML() creates a Tweet instance');
-$t->is($tweet->title, "@fvsch source ? j'essaye de me convaincre que c'est impossible qu'une société en arrive là", 'createFromXML() populates title correctly');
-$t->is($tweet->author, 'n1k0', 'createFromXML() populates author name correctly');
-$t->is($tweet->date, 'today', 'createFromXML() populates date correctly');
-
-// createFromRssEntry()
-$t->diag('createFromRssEntry()');
-try
-{
-  $tweet = Tweet::createFromRssEntry($rssEntryTweet);
-  $t->pass('createFromRssEntry() creates a Tweet instance from an RSS entry without throwing an exception');
-}
-catch (Exception $e)
-{
-  $t->fail('createFromRssEntry() creates a Tweet instance from an RSS entry without throwing an exception');
-}
-$t->isa_ok($tweet, 'Tweet', 'createFromXML() creates a Tweet instance');
-$t->is($tweet->title, 'foo', 'createFromXML() populates title correctly');
-$t->is($tweet->author, 'bar', 'createFromXML() populates author name correctly');
-$t->is($tweet->date, 'today', 'createFromXML() populates date correctly');
+$t->is($tweet->created_at, 'Fri Jun 05 14:21:23 +0000 2009', 'createFromXML() can retrieve created_at property');
+$t->is($tweet->id, 2043091669, 'createFromXML() can retrieve id property');
+$t->is($tweet->text, 'foo', 'createFromXML() can retrieve text property');
+$t->is($tweet->source, '<a href="http://www.nambu.com">Nambu</a>', 'createFromXML() can retrieve source property');
+$t->is($tweet->truncated, false, 'createFromXML() can retrieve truncated property');
+$t->is($tweet->in_reply_to_status_id, 2043033723, 'createFromXML() can retrieve in_reply_to_status_id property');
+$t->is($tweet->in_reply_to_user_id, 14587759, 'createFromXML() can retrieve in_reply_to_user_id property');
+$t->is($tweet->favorited, false, 'createFromXML() can retrieve favorited property');
+$t->is($tweet->in_reply_to_screen_name, 'fvsch', 'createFromXML() can retrieve in_reply_to_screen_name property');
+$t->isa_ok($tweet->user, 'TwitterUser', 'createFromXML() imports TwitterUser');

@@ -1,0 +1,3672 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users type="array">
+<user>
+  <id>6896142</id>
+  <name>Antoine Cailliau</name>
+  <screen_name>ancailliau</screen_name>
+  <location>Louvain-la-Neuve</location>
+  <description>I'm student in computer science and freelance as HTML/CSS developer and UX Designer. I wrote two books, one about Dotclear, one about CSS.</description>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/75824883/avatar_normal.png</profile_image_url>
+  <url>http://www.ac-graphic.net/</url>
+  <protected>false</protected>
+  <followers_count>91</followers_count>
+  <profile_background_color>9AE4E8</profile_background_color>
+  <profile_text_color>333333</profile_text_color>
+  <profile_link_color>0084B4</profile_link_color>
+  <profile_sidebar_fill_color>DDFFCC</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>BDDCAD</profile_sidebar_border_color>
+  <friends_count>71</friends_count>
+  <created_at>Mon Jun 18 17:30:39 +0000 2007</created_at>
+  <favourites_count>0</favourites_count>
+  <utc_offset>3600</utc_offset>
+  <time_zone>Brussels</time_zone>
+  <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>695</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Fri Jun 05 08:27:43 +0000 2009</created_at>
+    <id>2040714274</id>
+    <text>Damn, two books, one topic. One consider light is a continuum and the other a quantum... Two differents derivations to understand and map...</text>
+    <source>web</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id/>
+    <in_reply_to_user_id/>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name/>
+  </status>
+</user>
+<user>
+  <id>7713272</id>
+  <name>Padawan</name>
+  <screen_name>pdwn</screen_name>
+  <location>Nouméa</location>
+  <description>Web n+1 since 1993</description>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/25587132/249974380_d73f11c8e6_normal.png</profile_image_url>
+  <url>http://padawan.info/</url>
+  <protected>false</protected>
+  <followers_count>284</followers_count>
+  <profile_background_color>9ae4e8</profile_background_color>
+  <profile_text_color>000000</profile_text_color>
+  <profile_link_color>0000ff</profile_link_color>
+  <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+  <friends_count>43</friends_count>
+  <created_at>Wed Jul 25 14:46:02 +0000 2007</created_at>
+  <favourites_count>2</favourites_count>
+  <utc_offset>39600</utc_offset>
+  <time_zone>New Caledonia</time_zone>
+  <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>229</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Sat Jun 06 06:40:59 +0000 2009</created_at>
+    <id>2052107111</id>
+    <text>@byrnereese if I were to embed ads for a PHP blogging software, it would be Dotclear, certainly not Wordpress! ;-)</text>
+    <source>web</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id>2039481689</in_reply_to_status_id>
+    <in_reply_to_user_id>2739351</in_reply_to_user_id>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name>byrnereese</in_reply_to_screen_name>
+  </status>
+</user>
+<user>
+  <id>23046771</id>
+  <name>Sensio Labs</name>
+  <screen_name>sensiolabs</screen_name>
+  <location/>
+  <description/>
+  <profile_image_url>http://static.twitter.com/images/default_profile_normal.png</profile_image_url>
+  <url/>
+  <protected>false</protected>
+  <followers_count>18</followers_count>
+  <profile_background_color>9ae4e8</profile_background_color>
+  <profile_text_color>000000</profile_text_color>
+  <profile_link_color>0000ff</profile_link_color>
+  <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+  <friends_count>0</friends_count>
+  <created_at>Fri Mar 06 09:08:13 +0000 2009</created_at>
+  <favourites_count>0</favourites_count>
+  <utc_offset/>
+  <time_zone/>
+  <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>8</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Wed May 27 17:33:40 +0000 2009</created_at>
+    <id>1937899213</id>
+    <text>Symfony Live, plus que quelques places disponibles !: A deux semaines de la conférence française Symfony Live, n.. http://tinyurl.com/quhj8w</text>
+    <source>&lt;a href="http://twitterfeed.com"&gt;twitterfeed&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id/>
+    <in_reply_to_user_id/>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name/>
+  </status>
+</user>
+<user>
+  <id>43314937</id>
+  <name>juvabien</name>
+  <screen_name>juvabien</screen_name>
+  <location/>
+  <description/>
+  <profile_image_url>http://static.twitter.com/images/default_profile_normal.png</profile_image_url>
+  <url/>
+  <protected>false</protected>
+  <followers_count>4</followers_count>
+  <profile_background_color>9ae4e8</profile_background_color>
+  <profile_text_color>000000</profile_text_color>
+  <profile_link_color>0000ff</profile_link_color>
+  <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+  <friends_count>5</friends_count>
+  <created_at>Fri May 29 11:41:23 +0000 2009</created_at>
+  <favourites_count>0</favourites_count>
+  <utc_offset>3600</utc_offset>
+  <time_zone>Paris</time_zone>
+  <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>0</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+</user>
+<user>
+  <id>17794582</id>
+  <name>gruu</name>
+  <screen_name>gruu</screen_name>
+  <location/>
+  <description/>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/66035706/n1252725414_106392_3956_normal.jpg</profile_image_url>
+  <url>http://www.grusworld.net</url>
+  <protected>false</protected>
+  <followers_count>15</followers_count>
+  <profile_background_color>9ae4e8</profile_background_color>
+  <profile_text_color>000000</profile_text_color>
+  <profile_link_color>0000ff</profile_link_color>
+  <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+  <friends_count>5</friends_count>
+  <created_at>Tue Dec 02 00:45:14 +0000 2008</created_at>
+  <favourites_count>0</favourites_count>
+  <utc_offset/>
+  <time_zone/>
+  <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>124</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Fri Jun 05 12:17:51 +0000 2009</created_at>
+    <id>2041991612</id>
+    <text>http://bit.ly/Ysmpo
+ wow</text>
+    <source>&lt;a href="http://www.netvibes.com/subscribe.php?module=Twitter"&gt;Netvibes&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id/>
+    <in_reply_to_user_id/>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name/>
+  </status>
+</user>
+<user>
+  <id>29202326</id>
+  <name>Bastien</name>
+  <screen_name>toyboy365</screen_name>
+  <location>Lyon</location>
+  <description/>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/124345872/n868830351_6953_normal.jpg</profile_image_url>
+  <url>http://www.culture-generale.fr</url>
+  <protected>true</protected>
+  <followers_count>24</followers_count>
+  <profile_background_color>9ae4e8</profile_background_color>
+  <profile_text_color>000000</profile_text_color>
+  <profile_link_color>0000ff</profile_link_color>
+  <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+  <friends_count>46</friends_count>
+  <created_at>Mon Apr 06 13:45:55 +0000 2009</created_at>
+  <favourites_count>0</favourites_count>
+  <utc_offset>-10800</utc_offset>
+  <time_zone>Greenland</time_zone>
+  <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>136</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Fri Jun 05 14:46:01 +0000 2009</created_at>
+    <id>2043355568</id>
+    <text>ferais bien un poker ce week end !!</text>
+    <source>&lt;a href="http://twitterfox.net/"&gt;TwitterFox&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id/>
+    <in_reply_to_user_id/>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name/>
+  </status>
+</user>
+<user>
+  <id>15658436</id>
+  <name>jeansboub</name>
+  <screen_name>jeansboub</screen_name>
+  <location/>
+  <description/>
+  <profile_image_url>http://static.twitter.com/images/default_profile_normal.png</profile_image_url>
+  <url/>
+  <protected>false</protected>
+  <followers_count>22</followers_count>
+  <profile_background_color>9ae4e8</profile_background_color>
+  <profile_text_color>000000</profile_text_color>
+  <profile_link_color>0000ff</profile_link_color>
+  <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+  <friends_count>11</friends_count>
+  <created_at>Wed Jul 30 09:56:16 +0000 2008</created_at>
+  <favourites_count>0</favourites_count>
+  <utc_offset>-10800</utc_offset>
+  <time_zone>Greenland</time_zone>
+  <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>18</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Thu May 07 19:53:29 +0000 2009</created_at>
+    <id>1730348857</id>
+    <text>non ça va c'est reporté à lundi matin :-D</text>
+    <source>&lt;a href="http://twitterfox.net/"&gt;TwitterFox&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id/>
+    <in_reply_to_user_id/>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name/>
+  </status>
+</user>
+<user>
+  <id>14784120</id>
+  <name>bricef</name>
+  <screen_name>bricef</screen_name>
+  <location>Villeurbanne</location>
+  <description/>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/54213425/211808540547b024783bc3c_normal.png</profile_image_url>
+  <url/>
+  <protected>true</protected>
+  <followers_count>58</followers_count>
+  <profile_background_color>93d1F6</profile_background_color>
+  <profile_text_color>634047</profile_text_color>
+  <profile_link_color>088253</profile_link_color>
+  <profile_sidebar_fill_color>E3E2DE</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>D3D2CF</profile_sidebar_border_color>
+  <friends_count>75</friends_count>
+  <created_at>Thu May 15 09:42:51 +0000 2008</created_at>
+  <favourites_count>3</favourites_count>
+  <utc_offset>3600</utc_offset>
+  <time_zone>Paris</time_zone>
+  <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/4072275/twitter_fond.jpg</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>890</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Fri Jun 05 18:43:26 +0000 2009</created_at>
+    <id>2046122126</id>
+    <text>Désolé @Vincent_Peillon mais vous n'aurez finalement pas ma voix.</text>
+    <source>web</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id/>
+    <in_reply_to_user_id/>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name/>
+  </status>
+</user>
+<user>
+  <id>41638601</id>
+  <name>segle</name>
+  <screen_name>segle</screen_name>
+  <location>Lyon</location>
+  <description>Geek, Photographer, roller, pytho, php, W3C, chaussette !</description>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/224441971/3469684970_f72d668fc7_normal.jpg</profile_image_url>
+  <url>http://blog.segle.org/</url>
+  <protected>true</protected>
+  <followers_count>31</followers_count>
+  <profile_background_color>8B542B</profile_background_color>
+  <profile_text_color>333333</profile_text_color>
+  <profile_link_color>9D582E</profile_link_color>
+  <profile_sidebar_fill_color>EADEAA</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>D9B17E</profile_sidebar_border_color>
+  <friends_count>44</friends_count>
+  <created_at>Thu May 21 18:00:15 +0000 2009</created_at>
+  <favourites_count>1</favourites_count>
+  <utc_offset>3600</utc_offset>
+  <time_zone>Paris</time_zone>
+  <profile_background_image_url>http://static.twitter.com/images/themes/theme8/bg.gif</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>160</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Fri Jun 05 15:55:16 +0000 2009</created_at>
+    <id>2044135204</id>
+    <text>La météo annonce un WE gris sur Lyon. Pour les photos ça va être naze. Grrrrr.</text>
+    <source>web</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id/>
+    <in_reply_to_user_id/>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name/>
+  </status>
+</user>
+<user>
+  <id>19485520</id>
+  <name>XavSD</name>
+  <screen_name>XavSD</screen_name>
+  <location>Paris</location>
+  <description/>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/120306775/profil_xsd_blue_normal.jpg</profile_image_url>
+  <url/>
+  <protected>true</protected>
+  <followers_count>21</followers_count>
+  <profile_background_color>352726</profile_background_color>
+  <profile_text_color>3E4415</profile_text_color>
+  <profile_link_color>D02B55</profile_link_color>
+  <profile_sidebar_fill_color>99CC33</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>829D5E</profile_sidebar_border_color>
+  <friends_count>50</friends_count>
+  <created_at>Sun Jan 25 11:44:01 +0000 2009</created_at>
+  <favourites_count>2</favourites_count>
+  <utc_offset>3600</utc_offset>
+  <time_zone>Paris</time_zone>
+  <profile_background_image_url>http://static.twitter.com/images/themes/theme5/bg.gif</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>208</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Sat Jun 06 06:52:32 +0000 2009</created_at>
+    <id>2052170269</id>
+    <text>@gaston  : tiens, tu as pris quelle formule pour le Vélib' ? 1an à 29€ ? ou la formule occasionnelle ?</text>
+    <source>&lt;a href="http://www.tweetdeck.com/"&gt;TweetDeck&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id/>
+    <in_reply_to_user_id>6010822</in_reply_to_user_id>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name>gaston</in_reply_to_screen_name>
+  </status>
+</user>
+<user>
+  <id>16274919</id>
+  <name>Leon van der Ree</name>
+  <screen_name>lvanderree</screen_name>
+  <location>Zwijndrecht, the Netherlands</location>
+  <description>Symfony and Ext JS</description>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/59971301/leon_normal.jpg</profile_image_url>
+  <url/>
+  <protected>false</protected>
+  <followers_count>11</followers_count>
+  <profile_background_color>709397</profile_background_color>
+  <profile_text_color>333333</profile_text_color>
+  <profile_link_color>FF3300</profile_link_color>
+  <profile_sidebar_fill_color>A0C5C7</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>86A4A6</profile_sidebar_border_color>
+  <friends_count>8</friends_count>
+  <created_at>Sat Sep 13 19:11:15 +0000 2008</created_at>
+  <favourites_count>0</favourites_count>
+  <utc_offset>3600</utc_offset>
+  <time_zone>Amsterdam</time_zone>
+  <profile_background_image_url>http://static.twitter.com/images/themes/theme6/bg.gif</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>8</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Mon Jun 01 17:22:32 +0000 2009</created_at>
+    <id>1993437131</id>
+    <text>Starting to prepare Symfony Camp 2009</text>
+    <source>web</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id/>
+    <in_reply_to_user_id/>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name/>
+  </status>
+</user>
+<user>
+  <id>14485018</id>
+  <name>Elisa MK aka. feedly</name>
+  <screen_name>feedly</screen_name>
+  <location>San Francisco, CA</location>
+  <description>Helping build a feedly community on twitter</description>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/141078960/Picture_44_normal.png</profile_image_url>
+  <url>http://www.feedly.com</url>
+  <protected>false</protected>
+  <followers_count>2428</followers_count>
+  <profile_background_color>FFFFFF</profile_background_color>
+  <profile_text_color>404040</profile_text_color>
+  <profile_link_color>0A65BB</profile_link_color>
+  <profile_sidebar_fill_color>E1EBFF</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>E2E7EE</profile_sidebar_border_color>
+  <friends_count>1273</friends_count>
+  <created_at>Wed Apr 23 04:00:25 +0000 2008</created_at>
+  <favourites_count>628</favourites_count>
+  <utc_offset>-28800</utc_offset>
+  <time_zone>Pacific Time (US &amp; Canada)</time_zone>
+  <profile_background_image_url>http://static.twitter.com/images/themes/theme2/bg.gif</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>1551</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Sat Jun 06 08:53:30 +0000 2009</created_at>
+    <id>2052753390</id>
+    <text>RT @davidwUK: WWDC 2009: Rumor Round-Up Ahead of the Big Show http://bit.ly/fAn3y Good read. Tablet would be nice.</text>
+    <source>web</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id/>
+    <in_reply_to_user_id/>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name/>
+  </status>
+</user>
+<user>
+  <id>15471144</id>
+  <name>chtipepere</name>
+  <screen_name>chtipepere</screen_name>
+  <location>Paris</location>
+  <description/>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/56812487/Photo_5_normal.jpg</profile_image_url>
+  <url>http://www.magasins-paris.com/</url>
+  <protected>false</protected>
+  <followers_count>12</followers_count>
+  <profile_background_color>9ae4e8</profile_background_color>
+  <profile_text_color>000000</profile_text_color>
+  <profile_link_color>0000ff</profile_link_color>
+  <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+  <friends_count>11</friends_count>
+  <created_at>Thu Jul 17 17:58:09 +0000 2008</created_at>
+  <favourites_count>0</favourites_count>
+  <utc_offset>3600</utc_offset>
+  <time_zone>Paris</time_zone>
+  <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>21</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Fri May 29 19:26:31 +0000 2009</created_at>
+    <id>1963252665</id>
+    <text>Hey #exsonvaldes COUCOU  (exsonvaldes live &amp;gt; http://ustre.am/3cco)</text>
+    <source>web</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id/>
+    <in_reply_to_user_id/>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name/>
+  </status>
+</user>
+<user>
+  <id>40427670</id>
+  <name>Vincent Agnano</name>
+  <screen_name>vinyll</screen_name>
+  <location/>
+  <description/>
+  <profile_image_url>http://static.twitter.com/images/default_profile_normal.png</profile_image_url>
+  <url>http://www.particul.es</url>
+  <protected>false</protected>
+  <followers_count>3</followers_count>
+  <profile_background_color>9ae4e8</profile_background_color>
+  <profile_text_color>000000</profile_text_color>
+  <profile_link_color>0000ff</profile_link_color>
+  <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+  <friends_count>4</friends_count>
+  <created_at>Sat May 16 07:23:23 +0000 2009</created_at>
+  <favourites_count>0</favourites_count>
+  <utc_offset>3600</utc_offset>
+  <time_zone>Paris</time_zone>
+  <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>3</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Wed May 27 18:21:39 +0000 2009</created_at>
+    <id>1938371915</id>
+    <text>Reading about 25 excellent JS tips at http://bit.ly/118PQb</text>
+    <source>web</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id/>
+    <in_reply_to_user_id/>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name/>
+  </status>
+</user>
+<user>
+  <id>40481443</id>
+  <name>Olivier LOYNET</name>
+  <screen_name>oloynet</screen_name>
+  <location/>
+  <description/>
+  <profile_image_url>http://static.twitter.com/images/default_profile_normal.png</profile_image_url>
+  <url/>
+  <protected>false</protected>
+  <followers_count>2</followers_count>
+  <profile_background_color>9ae4e8</profile_background_color>
+  <profile_text_color>000000</profile_text_color>
+  <profile_link_color>0000ff</profile_link_color>
+  <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+  <friends_count>1</friends_count>
+  <created_at>Sat May 16 15:24:32 +0000 2009</created_at>
+  <favourites_count>0</favourites_count>
+  <utc_offset/>
+  <time_zone/>
+  <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>0</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+</user>
+<user>
+  <id>14999880</id>
+  <name>FailBlog</name>
+  <screen_name>FailBlog</screen_name>
+  <location>Seattle, WA</location>
+  <description/>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/55020762/Picture_1_normal.png</profile_image_url>
+  <url>http://www.failblog.org</url>
+  <protected>false</protected>
+  <followers_count>10375</followers_count>
+  <profile_background_color>000000</profile_background_color>
+  <profile_text_color>000000</profile_text_color>
+  <profile_link_color>0000ff</profile_link_color>
+  <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+  <friends_count>743</friends_count>
+  <created_at>Wed Jun 04 01:26:55 +0000 2008</created_at>
+  <favourites_count>2</favourites_count>
+  <utc_offset>-28800</utc_offset>
+  <time_zone>Pacific Time (US &amp; Canada)</time_zone>
+  <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/3411555/failtwitter.jpg</profile_background_image_url>
+  <profile_background_tile>true</profile_background_tile>
+  <statuses_count>1384</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Fri Jun 05 18:16:13 +0000 2009</created_at>
+    <id>2045811049</id>
+    <text>#FAIL Fire Alarm Fail: fail owned pwned pictures - fire alarm fail, fire alarm, broken, shout, fire, out of.. http://bit.ly/fCwRi</text>
+    <source>&lt;a href="http://twitterfeed.com"&gt;twitterfeed&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id/>
+    <in_reply_to_user_id/>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name/>
+  </status>
+</user>
+<user>
+  <id>21387446</id>
+  <name>pointbar</name>
+  <screen_name>pointbar</screen_name>
+  <location>Montpellier</location>
+  <description/>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/80589248/Gravatar1_normal.jpg</profile_image_url>
+  <url>http://insei.org</url>
+  <protected>false</protected>
+  <followers_count>5</followers_count>
+  <profile_background_color>ffffff</profile_background_color>
+  <profile_text_color>8bbefe</profile_text_color>
+  <profile_link_color>e2bbbb</profile_link_color>
+  <profile_sidebar_fill_color>ffffff</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>ffffff</profile_sidebar_border_color>
+  <friends_count>12</friends_count>
+  <created_at>Fri Feb 20 10:18:46 +0000 2009</created_at>
+  <favourites_count>0</favourites_count>
+  <utc_offset>3600</utc_offset>
+  <time_zone>Paris</time_zone>
+  <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/13020544/contact_pigeon.jpg</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>2</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Mon May 18 14:21:29 +0000 2009</created_at>
+    <id>1836093794</id>
+    <text>Currently Browsing: http://is.gd/B0s4</text>
+    <source>&lt;a href="http://www.chrisfinke.com/addons/twitterbar/"&gt;TwitterBar&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id/>
+    <in_reply_to_user_id/>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name/>
+  </status>
+</user>
+<user>
+  <id>26712216</id>
+  <name>Goulwen Reboux</name>
+  <screen_name>nautilebleu</screen_name>
+  <location>Lisieux, France</location>
+  <description>webdeveloper that loves read and draw comics</description>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/117246944/PICT0081_normal.JPG</profile_image_url>
+  <url>http://nautilebleu.tumblr.com</url>
+  <protected>false</protected>
+  <followers_count>19</followers_count>
+  <profile_background_color>214c6e</profile_background_color>
+  <profile_text_color>333333</profile_text_color>
+  <profile_link_color>0084B4</profile_link_color>
+  <profile_sidebar_fill_color>DDFFCC</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>BDDCAD</profile_sidebar_border_color>
+  <friends_count>38</friends_count>
+  <created_at>Thu Mar 26 08:35:49 +0000 2009</created_at>
+  <favourites_count>0</favourites_count>
+  <utc_offset>3600</utc_offset>
+  <time_zone>Paris</time_zone>
+  <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>89</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Sat Jun 06 05:40:08 +0000 2009</created_at>
+    <id>2051730511</id>
+    <text>RT @davidbgk:Encore une fois impressionné par la qualité des articles sur InternetActu http://bgk.me/cerveau-vert #home2009</text>
+    <source>&lt;a href="http://www.nambu.com"&gt;Nambu&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id/>
+    <in_reply_to_user_id/>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name/>
+  </status>
+</user>
+<user>
+  <id>15345061</id>
+  <name>Dennis Benkert</name>
+  <screen_name>denderello</screen_name>
+  <location>Cologne, Germany</location>
+  <description>symfony evangelist and web interested developer</description>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/115070307/dennis_w_cam_normal.jpg</profile_image_url>
+  <url/>
+  <protected>false</protected>
+  <followers_count>151</followers_count>
+  <profile_background_color>1A1B1F</profile_background_color>
+  <profile_text_color>666666</profile_text_color>
+  <profile_link_color>2FC2EF</profile_link_color>
+  <profile_sidebar_fill_color>252429</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>181A1E</profile_sidebar_border_color>
+  <friends_count>206</friends_count>
+  <created_at>Mon Jul 07 18:51:01 +0000 2008</created_at>
+  <favourites_count>1</favourites_count>
+  <utc_offset>3600</utc_offset>
+  <time_zone>Berlin</time_zone>
+  <profile_background_image_url>http://static.twitter.com/images/themes/theme9/bg.gif</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>1227</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Sat Jun 06 10:19:30 +0000 2009</created_at>
+    <id>2053113064</id>
+    <text>In der Session "ecommerce im Wandel" #bcc03</text>
+    <source>&lt;a href="http://twitterrific.com"&gt;Twitterrific&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id/>
+    <in_reply_to_user_id/>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name/>
+  </status>
+</user>
+<user>
+  <id>14587759</id>
+  <name>Florent V.</name>
+  <screen_name>fvsch</screen_name>
+  <location>Lyon, France</location>
+  <description>Web professional</description>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/53497070/portrait-parisweb_normal.jpg</profile_image_url>
+  <url>http://fvsch.com</url>
+  <protected>false</protected>
+  <followers_count>160</followers_count>
+  <profile_background_color>d2eee8</profile_background_color>
+  <profile_text_color>333333</profile_text_color>
+  <profile_link_color>1d7c4c</profile_link_color>
+  <profile_sidebar_fill_color>f4efcd</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>d1d1d1</profile_sidebar_border_color>
+  <friends_count>76</friends_count>
+  <created_at>Tue Apr 29 17:34:06 +0000 2008</created_at>
+  <favourites_count>6</favourites_count>
+  <utc_offset>3600</utc_offset>
+  <time_zone>Paris</time_zone>
+  <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>726</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Fri Jun 05 21:11:20 +0000 2009</created_at>
+    <id>2047793045</id>
+    <text>@Thanh Ce que j’ai vu de la deuxième mi-temps était sympa. Ribery comme un dingue + petit coup de fouet des Turcs sur la fin + déluge.</text>
+    <source>web</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id>2047262698</in_reply_to_status_id>
+    <in_reply_to_user_id>4609851</in_reply_to_user_id>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name>Thanh</in_reply_to_screen_name>
+  </status>
+</user>
+<user>
+  <id>16504336</id>
+  <name>doctrineorm</name>
+  <screen_name>doctrineorm</screen_name>
+  <location>Earth</location>
+  <description>Doctrine is a Object Relational Mapper for PHP5</description>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/60983926/icon_normal.png</profile_image_url>
+  <url>http://www.doctrine-project.org</url>
+  <protected>false</protected>
+  <followers_count>74</followers_count>
+  <profile_background_color>1A1B1F</profile_background_color>
+  <profile_text_color>666666</profile_text_color>
+  <profile_link_color>2FC2EF</profile_link_color>
+  <profile_sidebar_fill_color>252429</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>181A1E</profile_sidebar_border_color>
+  <friends_count>0</friends_count>
+  <created_at>Sun Sep 28 23:29:56 +0000 2008</created_at>
+  <favourites_count>0</favourites_count>
+  <utc_offset>-21600</utc_offset>
+  <time_zone>Central Time (US &amp; Canada)</time_zone>
+  <profile_background_image_url>http://static.twitter.com/images/themes/theme9/bg.gif</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>29</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Fri Jun 05 02:27:10 +0000 2009</created_at>
+    <id>2037967535</id>
+    <text>[Doctrine Blog] Doctrine Statistics: On October 18th of 2007 I implemented Google Analytics which.. http://tinyurl.com/qxzqgm</text>
+    <source>&lt;a href="http://twitterfeed.com"&gt;twitterfeed&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id/>
+    <in_reply_to_user_id/>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name/>
+  </status>
+</user>
+<user>
+  <id>13810452</id>
+  <name>Gautier Poupeau</name>
+  <screen_name>lespetitescases</screen_name>
+  <location>Paris, France</location>
+  <description>Data architect, consultant, semWeb enthusiast</description>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/50493632/n588218853_2752_normal.jpg</profile_image_url>
+  <url>http://www.lespetitescases.net</url>
+  <protected>false</protected>
+  <followers_count>175</followers_count>
+  <profile_background_color>C6E2EE</profile_background_color>
+  <profile_text_color>663B12</profile_text_color>
+  <profile_link_color>1F98C7</profile_link_color>
+  <profile_sidebar_fill_color>DAECF4</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>C6E2EE</profile_sidebar_border_color>
+  <friends_count>63</friends_count>
+  <created_at>Fri Feb 22 08:08:58 +0000 2008</created_at>
+  <favourites_count>2</favourites_count>
+  <utc_offset>3600</utc_offset>
+  <time_zone>Paris</time_zone>
+  <profile_background_image_url>http://static.twitter.com/images/themes/theme2/bg.gif</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>427</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Wed May 27 14:13:50 +0000 2009</created_at>
+    <id>1935976866</id>
+    <text>Initiative de la BnF à suivre, les voix ensevelies, http://blog.bnf.fr/voix/</text>
+    <source>&lt;a href="http://smob.sioc-project.org"&gt;SMOB&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id/>
+    <in_reply_to_user_id/>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name/>
+  </status>
+</user>
+<user>
+  <id>31813650</id>
+  <name>Twitmark.me</name>
+  <screen_name>twitmarkme</screen_name>
+  <location>Everywhere</location>
+  <description>Social bookmarking 140 characters at a time</description>
+  <profile_image_url>http://static.twitter.com/images/default_profile_normal.png</profile_image_url>
+  <url>http://twitmark.me</url>
+  <protected>false</protected>
+  <followers_count>20</followers_count>
+  <profile_background_color>2E1806</profile_background_color>
+  <profile_text_color>333333</profile_text_color>
+  <profile_link_color>0084B4</profile_link_color>
+  <profile_sidebar_fill_color>ADDCE9</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>ADDCE9</profile_sidebar_border_color>
+  <friends_count>20</friends_count>
+  <created_at>Thu Apr 16 14:06:17 +0000 2009</created_at>
+  <favourites_count>0</favourites_count>
+  <utc_offset>-10800</utc_offset>
+  <time_zone>Greenland</time_zone>
+  <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>34</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Mon May 25 18:55:51 +0000 2009</created_at>
+    <id>1915104471</id>
+    <text>@banux added some stats on daily URL bookmarking check http://twitmark.me/bookmark/3401</text>
+    <source>&lt;a href="http://desktop.seesmic.com/"&gt;Seesmic Desktop&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id/>
+    <in_reply_to_user_id>14550658</in_reply_to_user_id>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name>banux</in_reply_to_screen_name>
+  </status>
+</user>
+<user>
+  <id>38838845</id>
+  <name>Eric Senechal</name>
+  <screen_name>Eric_Sen</screen_name>
+  <location>Bordeaux</location>
+  <description/>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/204271618/Eric_normal.jpg</profile_image_url>
+  <url/>
+  <protected>false</protected>
+  <followers_count>26</followers_count>
+  <profile_background_color>352726</profile_background_color>
+  <profile_text_color>3E4415</profile_text_color>
+  <profile_link_color>D02B55</profile_link_color>
+  <profile_sidebar_fill_color>99CC33</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>829D5E</profile_sidebar_border_color>
+  <friends_count>29</friends_count>
+  <created_at>Sat May 09 11:35:02 +0000 2009</created_at>
+  <favourites_count>0</favourites_count>
+  <utc_offset>3600</utc_offset>
+  <time_zone>Paris</time_zone>
+  <profile_background_image_url>http://static.twitter.com/images/themes/theme5/bg.gif</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>23</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Fri Jun 05 16:24:12 +0000 2009</created_at>
+    <id>2044468552</id>
+    <text>BRA : cocktail en vue...</text>
+    <source>&lt;a href="http://twitterrific.com"&gt;Twitterrific&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id/>
+    <in_reply_to_user_id/>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name/>
+  </status>
+</user>
+<user>
+  <id>38620136</id>
+  <name>Renaud LITTOLFF</name>
+  <screen_name>marmotz</screen_name>
+  <location>Marseille, France</location>
+  <description/>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/202957235/Ge7GJSRmuN8zAF4j1DW4O4OT3WzfvCkRSg5I4j0EpFnxEM8rITvo_y-c017BhsXE_normal.jpeg</profile_image_url>
+  <url>http://totalement.geek.oupas.fr</url>
+  <protected>false</protected>
+  <followers_count>11</followers_count>
+  <profile_background_color>9ae4e8</profile_background_color>
+  <profile_text_color>000000</profile_text_color>
+  <profile_link_color>0000ff</profile_link_color>
+  <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+  <friends_count>20</friends_count>
+  <created_at>Fri May 08 06:23:49 +0000 2009</created_at>
+  <favourites_count>0</favourites_count>
+  <utc_offset>3600</utc_offset>
+  <time_zone>Paris</time_zone>
+  <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>47</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Fri Jun 05 13:01:26 +0000 2009</created_at>
+    <id>2042327034</id>
+    <text>Leçon numéro 1 du chef sans âme: comment licencier 2500 personnes en 10 minutes ? http://tinyurl.com/q9ye28</text>
+    <source>&lt;a href="https://launchpad.net/gwibber/"&gt;Gwibber&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id/>
+    <in_reply_to_user_id/>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name/>
+  </status>
+</user>
+<user>
+  <id>15772318</id>
+  <name>The Nambu Network</name>
+  <screen_name>nambucom</screen_name>
+  <location>United States</location>
+  <description>All things Nambu, with announcements, thoughts and stuff social messaging.</description>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/62146348/nambu-twt_normal.png</profile_image_url>
+  <url>http://nambu.com/</url>
+  <protected>false</protected>
+  <followers_count>17014</followers_count>
+  <profile_background_color>000</profile_background_color>
+  <profile_text_color>333333</profile_text_color>
+  <profile_link_color>1D7D9F</profile_link_color>
+  <profile_sidebar_fill_color>eaeaea</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>cccccc</profile_sidebar_border_color>
+  <friends_count>4</friends_count>
+  <created_at>Fri Aug 08 01:12:30 +0000 2008</created_at>
+  <favourites_count>1</favourites_count>
+  <utc_offset>-28800</utc_offset>
+  <time_zone>Pacific Time (US &amp; Canada)</time_zone>
+  <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/3202754/n-twtbg.jpg</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>368</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Fri Jun 05 23:48:56 +0000 2009</created_at>
+    <id>2049400827</id>
+    <text>@MikeHill Yeah, we will see what we can do there. :)</text>
+    <source>&lt;a href="http://www.nambu.com"&gt;Nambu&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id>2049352505</in_reply_to_status_id>
+    <in_reply_to_user_id>14952156</in_reply_to_user_id>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name>MikeHill</in_reply_to_screen_name>
+  </status>
+</user>
+<user>
+  <id>19732972</id>
+  <name>Jean-Marc Fontaine</name>
+  <screen_name>jmfontaine</screen_name>
+  <location>Lille, France</location>
+  <description/>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/200299173/jmf_normal.jpg</profile_image_url>
+  <url/>
+  <protected>false</protected>
+  <followers_count>18</followers_count>
+  <profile_background_color>9ae4e8</profile_background_color>
+  <profile_text_color>000000</profile_text_color>
+  <profile_link_color>0000ff</profile_link_color>
+  <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+  <friends_count>37</friends_count>
+  <created_at>Thu Jan 29 20:43:34 +0000 2009</created_at>
+  <favourites_count>2</favourites_count>
+  <utc_offset>3600</utc_offset>
+  <time_zone>Paris</time_zone>
+  <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>52</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Fri Jun 05 16:25:27 +0000 2009</created_at>
+    <id>2044482507</id>
+    <text>est en route pour Lille</text>
+    <source>&lt;a href="http://www.hellotxt.com/"&gt;HelloTxt&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id/>
+    <in_reply_to_user_id/>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name/>
+  </status>
+</user>
+<user>
+  <id>11917382</id>
+  <name>loneseb</name>
+  <screen_name>loneseb</screen_name>
+  <location>Paris</location>
+  <description/>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/190960236/seb_normal.jpg</profile_image_url>
+  <url>http://www.ziofix.fr/</url>
+  <protected>false</protected>
+  <followers_count>19</followers_count>
+  <profile_background_color>EBEBEB</profile_background_color>
+  <profile_text_color>333333</profile_text_color>
+  <profile_link_color>990000</profile_link_color>
+  <profile_sidebar_fill_color>F3F3F3</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>DFDFDF</profile_sidebar_border_color>
+  <friends_count>33</friends_count>
+  <created_at>Sun Jan 06 21:05:41 +0000 2008</created_at>
+  <favourites_count>0</favourites_count>
+  <utc_offset>3600</utc_offset>
+  <time_zone>Paris</time_zone>
+  <profile_background_image_url>http://static.twitter.com/images/themes/theme7/bg.gif</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>120</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Thu Jun 04 22:57:58 +0000 2009</created_at>
+    <id>2035715590</id>
+    <text>@gustubru c'est fait ;-)</text>
+    <source>&lt;a href="http://twitterfox.net/"&gt;TwitterFox&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id/>
+    <in_reply_to_user_id>12722972</in_reply_to_user_id>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name>gustubru</in_reply_to_screen_name>
+  </status>
+</user>
+<user>
+  <id>6647172</id>
+  <name>Christian Fauré</name>
+  <screen_name>ChristianFaure</screen_name>
+  <location>Paris</location>
+  <description>Between IT &amp; Philosophy</description>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/92290784/cfaure_normal.jpg</profile_image_url>
+  <url>http://www.christian-faure.net</url>
+  <protected>false</protected>
+  <followers_count>444</followers_count>
+  <profile_background_color>0099B9</profile_background_color>
+  <profile_text_color>3C3940</profile_text_color>
+  <profile_link_color>0099B9</profile_link_color>
+  <profile_sidebar_fill_color>95E8EC</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>5ED4DC</profile_sidebar_border_color>
+  <friends_count>99</friends_count>
+  <created_at>Thu Jun 07 18:37:36 +0000 2007</created_at>
+  <favourites_count>9</favourites_count>
+  <utc_offset>3600</utc_offset>
+  <time_zone>Paris</time_zone>
+  <profile_background_image_url>http://static.twitter.com/images/themes/theme4/bg.gif</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>2129</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Fri Jun 05 21:38:30 +0000 2009</created_at>
+    <id>2048086105</id>
+    <text>Mon sentiment après la vision de HOME http://bit.ly/ttUGn</text>
+    <source>&lt;a href="http://www.tweetdeck.com/"&gt;TweetDeck&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id/>
+    <in_reply_to_user_id/>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name/>
+  </status>
+</user>
+<user>
+  <id>7011892</id>
+  <name>Jeremy</name>
+  <screen_name>jerem</screen_name>
+  <location>Paris</location>
+  <description>Programmer passionate about technologies.</description>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/107214350/avatar2_normal.jpg</profile_image_url>
+  <url>http://jeremyselier.com</url>
+  <protected>false</protected>
+  <followers_count>222</followers_count>
+  <profile_background_color>0a293e</profile_background_color>
+  <profile_text_color>333333</profile_text_color>
+  <profile_link_color>084359</profile_link_color>
+  <profile_sidebar_fill_color>eaf2fa</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>d1d5d6</profile_sidebar_border_color>
+  <friends_count>180</friends_count>
+  <created_at>Fri Jun 22 11:40:43 +0000 2007</created_at>
+  <favourites_count>120</favourites_count>
+  <utc_offset>3600</utc_offset>
+  <time_zone>Paris</time_zone>
+  <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>1119</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Sat Jun 06 00:14:06 +0000 2009</created_at>
+    <id>2049639867</id>
+    <text>http://cli.gs/7vMPbP 10 things you (probably) didn't know about App Engine. Thanks to @nicksdjohnson for the great tips! (via @appengine)</text>
+    <source>&lt;a href="http://twidroid.com"&gt;twidroid&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id/>
+    <in_reply_to_user_id/>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name/>
+  </status>
+</user>
+<user>
+  <id>17135314</id>
+  <name>nicolas_blin</name>
+  <screen_name>nicolas_blin</screen_name>
+  <location/>
+  <description/>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/190050608/photo_normal.jpg</profile_image_url>
+  <url/>
+  <protected>false</protected>
+  <followers_count>7</followers_count>
+  <profile_background_color>9ae4e8</profile_background_color>
+  <profile_text_color>000000</profile_text_color>
+  <profile_link_color>0000ff</profile_link_color>
+  <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+  <friends_count>11</friends_count>
+  <created_at>Mon Nov 03 17:51:28 +0000 2008</created_at>
+  <favourites_count>0</favourites_count>
+  <utc_offset/>
+  <time_zone/>
+  <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>10</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Fri May 22 19:18:13 +0000 2009</created_at>
+    <id>1885752075</id>
+    <text>had gone jogging in the forest, in Mayenne (West of France). What a beautifull land is this land.</text>
+    <source>web</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id/>
+    <in_reply_to_user_id/>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name/>
+  </status>
+</user>
+<user>
+  <id>11571012</id>
+  <name>cedric naux</name>
+  <screen_name>cnaux</screen_name>
+  <location>Paris, Île-de-France</location>
+  <description>Développement numérique de Bayard Jeunesse. Nouveau média, Technologie, Marketing, Nouveaux usages...</description>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/59411630/avatarcedric_normal.JPG</profile_image_url>
+  <url/>
+  <protected>false</protected>
+  <followers_count>84</followers_count>
+  <profile_background_color>9ae4e8</profile_background_color>
+  <profile_text_color>000000</profile_text_color>
+  <profile_link_color>0000ff</profile_link_color>
+  <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+  <friends_count>76</friends_count>
+  <created_at>Thu Dec 27 16:40:31 +0000 2007</created_at>
+  <favourites_count>0</favourites_count>
+  <utc_offset>3600</utc_offset>
+  <time_zone>Paris</time_zone>
+  <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>524</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Wed Jun 03 22:25:02 +0000 2009</created_at>
+    <id>2022079780</id>
+    <text>"life" , what else ?</text>
+    <source>&lt;a href="http://www.atebits.com/"&gt;Tweetie&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id/>
+    <in_reply_to_user_id/>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name/>
+  </status>
+</user>
+<user>
+  <id>4467461</id>
+  <name>Julien Tartaglia</name>
+  <screen_name>julientartaglia</screen_name>
+  <location>Paris, France</location>
+  <description>Pas assez curieux, pas assez passionné, je sais on fait ce qu'on peut, mais y a la manière</description>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/57457661/68392_normal.jpg</profile_image_url>
+  <url>http://faux-rebonds.net</url>
+  <protected>true</protected>
+  <followers_count>353</followers_count>
+  <profile_background_color>9ae4e8</profile_background_color>
+  <profile_text_color>FF8A00</profile_text_color>
+  <profile_link_color>137F00</profile_link_color>
+  <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+  <friends_count>254</friends_count>
+  <created_at>Fri Apr 13 07:28:26 +0000 2007</created_at>
+  <favourites_count>13</favourites_count>
+  <utc_offset>3600</utc_offset>
+  <time_zone>Paris</time_zone>
+  <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/739632/DTGclean.jpg</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>2589</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Tue May 19 15:58:20 +0000 2009</created_at>
+    <id>1848491917</id>
+    <text>[autopromo] LeWebPédagogique édite ses blogueurs ! http://lewebpedagogique.com/boutique/</text>
+    <source>web</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id/>
+    <in_reply_to_user_id/>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name/>
+  </status>
+</user>
+<user>
+  <id>14192532</id>
+  <name>Damien Alexandre</name>
+  <screen_name>damienalexandre</screen_name>
+  <location>Paris</location>
+  <description>Allias super gique</description>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/51961441/supergeek_normal.png</profile_image_url>
+  <url>http://damienalexandre.fr/</url>
+  <protected>false</protected>
+  <followers_count>131</followers_count>
+  <profile_background_color>FFFFFF</profile_background_color>
+  <profile_text_color>000000</profile_text_color>
+  <profile_link_color>555555</profile_link_color>
+  <profile_sidebar_fill_color>FFFFFF</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>FF9600</profile_sidebar_border_color>
+  <friends_count>92</friends_count>
+  <created_at>Fri Mar 21 17:35:56 +0000 2008</created_at>
+  <favourites_count>3</favourites_count>
+  <utc_offset>3600</utc_offset>
+  <time_zone>Paris</time_zone>
+  <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/2354834/Sans-titre-1.png</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>789</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Wed Jun 03 12:37:48 +0000 2009</created_at>
+    <id>2015839243</id>
+    <text>RT @cleverage: Référencement 2.0 pour les utilisateurs Google ? Aperçu de quelques fonctionnalités offertes :  http://tr.im/nhdk</text>
+    <source>&lt;a href="http://twitterfox.net/"&gt;TwitterFox&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id/>
+    <in_reply_to_user_id/>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name/>
+  </status>
+</user>
+<user>
+  <id>27018261</id>
+  <name>Olivier M</name>
+  <screen_name>plouga</screen_name>
+  <location>Paris, France</location>
+  <description>Eleveur de menhirs</description>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/118565666/me-couly_normal.png</profile_image_url>
+  <url>http://neokraft.net/</url>
+  <protected>false</protected>
+  <followers_count>36</followers_count>
+  <profile_background_color>EBEBEB</profile_background_color>
+  <profile_text_color>333333</profile_text_color>
+  <profile_link_color>990000</profile_link_color>
+  <profile_sidebar_fill_color>F3F3F3</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>DFDFDF</profile_sidebar_border_color>
+  <friends_count>21</friends_count>
+  <created_at>Fri Mar 27 14:49:15 +0000 2009</created_at>
+  <favourites_count>0</favourites_count>
+  <utc_offset>3600</utc_offset>
+  <time_zone>Paris</time_zone>
+  <profile_background_image_url>http://static.twitter.com/images/themes/theme7/bg.gif</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>45</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Sat Jun 06 09:34:20 +0000 2009</created_at>
+    <id>2052925685</id>
+    <text>http://tr.im/nCze C'est bien pour se concentrer</text>
+    <source>&lt;a href="http://www.nambu.com"&gt;Nambu&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id/>
+    <in_reply_to_user_id/>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name/>
+  </status>
+</user>
+<user>
+  <id>34212871</id>
+  <name>Marie ALHOMME</name>
+  <screen_name>PouipouiDesign</screen_name>
+  <location>Avignon, France</location>
+  <description>Freelance Webdesigner and Front-End Dev, work at home, love my job, to read-sleep-eat, and my dog and cat</description>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/188658700/mariealhomme_normal.jpg</profile_image_url>
+  <url>http://www.pouipouidesign.net/accueil</url>
+  <protected>false</protected>
+  <followers_count>124</followers_count>
+  <profile_background_color>e8e8e8</profile_background_color>
+  <profile_text_color>333333</profile_text_color>
+  <profile_link_color>669900</profile_link_color>
+  <profile_sidebar_fill_color>dcdddb</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>dcdddb</profile_sidebar_border_color>
+  <friends_count>131</friends_count>
+  <created_at>Wed Apr 22 07:12:27 +0000 2009</created_at>
+  <favourites_count>8</favourites_count>
+  <utc_offset>3600</utc_offset>
+  <time_zone>Paris</time_zone>
+  <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/10884235/bg-twitter.png</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>321</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Sat Jun 06 09:10:31 +0000 2009</created_at>
+    <id>2052826891</id>
+    <text>Bon anniversaire @noecendrier !! Que tous tes voeux se réalisent !! Bises</text>
+    <source>&lt;a href="http://twitterrific.com"&gt;Twitterrific&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id/>
+    <in_reply_to_user_id/>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name/>
+  </status>
+</user>
+<user>
+  <id>26485738</id>
+  <name>noel guilbert</name>
+  <screen_name>noelguilbert</screen_name>
+  <location>France, epone</location>
+  <description/>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/131590617/noel_normal.jpg</profile_image_url>
+  <url>http://www.noelguilbert.com</url>
+  <protected>false</protected>
+  <followers_count>17</followers_count>
+  <profile_background_color>9ae4e8</profile_background_color>
+  <profile_text_color>000000</profile_text_color>
+  <profile_link_color>0000ff</profile_link_color>
+  <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+  <friends_count>24</friends_count>
+  <created_at>Wed Mar 25 12:31:18 +0000 2009</created_at>
+  <favourites_count>0</favourites_count>
+  <utc_offset>3600</utc_offset>
+  <time_zone>Paris</time_zone>
+  <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>13</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Fri May 22 09:09:35 +0000 2009</created_at>
+    <id>1880693758</id>
+    <text>@reiver if you want to store before-unix date, you can use bu_date or bu_timestamp</text>
+    <source>web</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id>1863875285</in_reply_to_status_id>
+    <in_reply_to_user_id>14156466</in_reply_to_user_id>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name>reiver</in_reply_to_screen_name>
+  </status>
+</user>
+<user>
+  <id>8903942</id>
+  <name>Loris</name>
+  <screen_name>loris</screen_name>
+  <location>iPhone: 48.871774,2.377246</location>
+  <description>Engineer at Qobuz.com - Hipster from Paris</description>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/137223164/_MG_3845_normal.jpg</profile_image_url>
+  <url>http://start.io/loris</url>
+  <protected>false</protected>
+  <followers_count>186</followers_count>
+  <profile_background_color>C3C3BB</profile_background_color>
+  <profile_text_color>000000</profile_text_color>
+  <profile_link_color>85857E</profile_link_color>
+  <profile_sidebar_fill_color>FFFFFF</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>85857E</profile_sidebar_border_color>
+  <friends_count>174</friends_count>
+  <created_at>Sat Sep 15 21:56:52 +0000 2007</created_at>
+  <favourites_count>6</favourites_count>
+  <utc_offset>3600</utc_offset>
+  <time_zone>Paris</time_zone>
+  <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/2257032/Injected_Min.jpg</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>406</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Fri Jun 05 08:00:44 +0000 2009</created_at>
+    <id>2040574192</id>
+    <text>Home d'Arthus-Bertrand sur Youtube France: http://bit.ly/Q6Qnv</text>
+    <source>&lt;a href="http://www.atebits.com/"&gt;Tweetie&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id/>
+    <in_reply_to_user_id/>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name/>
+  </status>
+</user>
+<user>
+  <id>19510878</id>
+  <name>Coffee Pint</name>
+  <screen_name>CoffeePint</screen_name>
+  <location>4!</location>
+  <description>Twisted</description>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/73187073/img_2734scaled_normal.jpg</profile_image_url>
+  <url>http://blog.virgule.info</url>
+  <protected>false</protected>
+  <followers_count>108</followers_count>
+  <profile_background_color>b3b3b3</profile_background_color>
+  <profile_text_color>666666</profile_text_color>
+  <profile_link_color>90bb8b</profile_link_color>
+  <profile_sidebar_fill_color>343434</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>181A1E</profile_sidebar_border_color>
+  <friends_count>77</friends_count>
+  <created_at>Sun Jan 25 23:33:30 +0000 2009</created_at>
+  <favourites_count>2</favourites_count>
+  <utc_offset>3600</utc_offset>
+  <time_zone>Paris</time_zone>
+  <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/4069855/coffeemug2.png</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>100</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Fri Jun 05 15:37:14 +0000 2009</created_at>
+    <id>2043928741</id>
+    <text>Comment s'amuser avec les élections? En faisant des origamis tout mignons... ( http://tinyurl.com/nab5gr ) ^^</text>
+    <source>web</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id/>
+    <in_reply_to_user_id/>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name/>
+  </status>
+</user>
+<user>
+  <id>13208432</id>
+  <name>PierreJoye</name>
+  <screen_name>PierreJoye</screen_name>
+  <location>Germany</location>
+  <description/>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/62449273/pierre_joye_normal.jpg</profile_image_url>
+  <url>http://blog.thepimp.net</url>
+  <protected>false</protected>
+  <followers_count>142</followers_count>
+  <profile_background_color>9ae4e8</profile_background_color>
+  <profile_text_color>000000</profile_text_color>
+  <profile_link_color>0000ff</profile_link_color>
+  <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+  <friends_count>144</friends_count>
+  <created_at>Thu Feb 07 15:50:33 +0000 2008</created_at>
+  <favourites_count>7</favourites_count>
+  <utc_offset>3600</utc_offset>
+  <time_zone>Berlin</time_zone>
+  <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>1102</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Fri Jun 05 22:34:13 +0000 2009</created_at>
+    <id>2048664097</id>
+    <text>gettinng late, should have been: Yes, we Ca(e)n :)</text>
+    <source>&lt;a href="http://www.digsby.com/"&gt;digsby&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id/>
+    <in_reply_to_user_id/>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name/>
+  </status>
+</user>
+<user>
+  <id>30289672</id>
+  <name>Pierre Cahard</name>
+  <screen_name>pcahard</screen_name>
+  <location/>
+  <description/>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/194187337/pierre_arts_normal.jpg</profile_image_url>
+  <url/>
+  <protected>false</protected>
+  <followers_count>13</followers_count>
+  <profile_background_color>9ae4e8</profile_background_color>
+  <profile_text_color>000000</profile_text_color>
+  <profile_link_color>0000ff</profile_link_color>
+  <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+  <friends_count>17</friends_count>
+  <created_at>Fri Apr 10 19:19:55 +0000 2009</created_at>
+  <favourites_count>0</favourites_count>
+  <utc_offset/>
+  <time_zone/>
+  <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>6</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Sun May 17 10:26:27 +0000 2009</created_at>
+    <id>1824900081</id>
+    <text>http://www.ustream.tv/recorded/1514287</text>
+    <source>web</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id/>
+    <in_reply_to_user_id/>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name/>
+  </status>
+</user>
+<user>
+  <id>14633074</id>
+  <name>Phototrend.fr</name>
+  <screen_name>phototrend</screen_name>
+  <location>France</location>
+  <description>Le blog qui suit la photo de près </description>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/53678703/00255_lens_cleaning_normal.jpg</profile_image_url>
+  <url>http://phototrend.fr</url>
+  <protected>false</protected>
+  <followers_count>408</followers_count>
+  <profile_background_color>000000</profile_background_color>
+  <profile_text_color>634047</profile_text_color>
+  <profile_link_color>088253</profile_link_color>
+  <profile_sidebar_fill_color>E3E2DE</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>D3D2CF</profile_sidebar_border_color>
+  <friends_count>376</friends_count>
+  <created_at>Sat May 03 00:37:22 +0000 2008</created_at>
+  <favourites_count>0</favourites_count>
+  <utc_offset>3600</utc_offset>
+  <time_zone>Paris</time_zone>
+  <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/9839051/bg2.jpg</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>357</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Fri Jun 05 15:49:59 +0000 2009</created_at>
+    <id>2044074842</id>
+    <text>@SalvatoreL Bienvenu dans la famille des reflex</text>
+    <source>&lt;a href="http://desktop.seesmic.com/"&gt;Seesmic Desktop&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id/>
+    <in_reply_to_user_id>30180301</in_reply_to_user_id>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name>SalvatoreL</in_reply_to_screen_name>
+  </status>
+</user>
+<user>
+  <id>15428188</id>
+  <name>Mitternacht</name>
+  <screen_name>Mitternacht</screen_name>
+  <location>Paris</location>
+  <description>Type, design and music lover in constant exploration.</description>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/61311170/gravatar_normal.png</profile_image_url>
+  <url>http://inspireme.lasoeurkaramazov.net/</url>
+  <protected>false</protected>
+  <followers_count>230</followers_count>
+  <profile_background_color>fff</profile_background_color>
+  <profile_text_color>624528</profile_text_color>
+  <profile_link_color>94A834</profile_link_color>
+  <profile_sidebar_fill_color>fff</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>fff</profile_sidebar_border_color>
+  <friends_count>98</friends_count>
+  <created_at>Mon Jul 14 15:57:29 +0000 2008</created_at>
+  <favourites_count>3</favourites_count>
+  <utc_offset>3600</utc_offset>
+  <time_zone>Paris</time_zone>
+  <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/6631521/inspireme.jpg</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>1027</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Sat Jun 06 10:21:44 +0000 2009</created_at>
+    <id>2053122781</id>
+    <text>@n1k0 tout à fait d'accord avec toi. Le conformisme de l'anti-conformisme, c'est lourd.</text>
+    <source>web</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id>2053037039</in_reply_to_status_id>
+    <in_reply_to_user_id>6619162</in_reply_to_user_id>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name>n1k0</in_reply_to_screen_name>
+  </status>
+</user>
+<user>
+  <id>14235326</id>
+  <name>bagou</name>
+  <screen_name>bagou</screen_name>
+  <location/>
+  <description/>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/52140674/avatar.php_normal.jpeg</profile_image_url>
+  <url/>
+  <protected>false</protected>
+  <followers_count>14</followers_count>
+  <profile_background_color>8B542B</profile_background_color>
+  <profile_text_color>931010</profile_text_color>
+  <profile_link_color>9D582E</profile_link_color>
+  <profile_sidebar_fill_color>EADEAA</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>D9B17E</profile_sidebar_border_color>
+  <friends_count>20</friends_count>
+  <created_at>Thu Mar 27 14:01:13 +0000 2008</created_at>
+  <favourites_count>3</favourites_count>
+  <utc_offset>3600</utc_offset>
+  <time_zone>Paris</time_zone>
+  <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>20</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Fri Mar 20 08:42:40 +0000 2009</created_at>
+    <id>1359320405</id>
+    <text>@tmarly 0 clop depuis ce matin!!!</text>
+    <source>&lt;a href="http://twitterfox.net/"&gt;TwitterFox&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id/>
+    <in_reply_to_user_id>14265287</in_reply_to_user_id>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name>tmarly</in_reply_to_screen_name>
+  </status>
+</user>
+<user>
+  <id>28322862</id>
+  <name>Hugo Hamon</name>
+  <screen_name>hhamon</screen_name>
+  <location>Paris</location>
+  <description>Creator of Apprendre-PHP.com - Symfony Webdevelopper @ Sensio</description>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/119823099/Paris_Octobre_2008_normal.jpg</profile_image_url>
+  <url>http://www.apprendre-php.com</url>
+  <protected>false</protected>
+  <followers_count>38</followers_count>
+  <profile_background_color>1A1B1F</profile_background_color>
+  <profile_text_color>666666</profile_text_color>
+  <profile_link_color>2FC2EF</profile_link_color>
+  <profile_sidebar_fill_color>252429</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>181A1E</profile_sidebar_border_color>
+  <friends_count>34</friends_count>
+  <created_at>Thu Apr 02 11:51:55 +0000 2009</created_at>
+  <favourites_count>0</favourites_count>
+  <utc_offset>3600</utc_offset>
+  <time_zone>Paris</time_zone>
+  <profile_background_image_url>http://static.twitter.com/images/themes/theme9/bg.gif</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>178</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Fri Jun 05 20:41:46 +0000 2009</created_at>
+    <id>2047467560</id>
+    <text>@palleas avec un S à fille ^^</text>
+    <source>&lt;a href="http://funkatron.com/spaz"&gt;Spaz&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id/>
+    <in_reply_to_user_id>15033684</in_reply_to_user_id>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name>Palleas</in_reply_to_screen_name>
+  </status>
+</user>
+<user>
+  <id>29482763</id>
+  <name>Toniob</name>
+  <screen_name>Toniob_</screen_name>
+  <location>France</location>
+  <description>Informaticien, mais je me soigne</description>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/127130968/toniob_150x150_normal.png</profile_image_url>
+  <url>http://toniob.net/</url>
+  <protected>false</protected>
+  <followers_count>6</followers_count>
+  <profile_background_color>9ae4e8</profile_background_color>
+  <profile_text_color>000000</profile_text_color>
+  <profile_link_color>0000ff</profile_link_color>
+  <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+  <friends_count>22</friends_count>
+  <created_at>Tue Apr 07 16:29:53 +0000 2009</created_at>
+  <favourites_count>0</favourites_count>
+  <utc_offset>3600</utc_offset>
+  <time_zone>Paris</time_zone>
+  <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>49</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Thu Jun 04 09:49:33 +0000 2009</created_at>
+    <id>2027759989</id>
+    <text>RT @winael: #hadopi : Piratage d'œuvres photographique. La fnac viole le droit d'auteur http://tinyurl.com/qn8xb8</text>
+    <source>&lt;a href="https://launchpad.net/gwibber/"&gt;Gwibber&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id/>
+    <in_reply_to_user_id/>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name/>
+  </status>
+</user>
+<user>
+  <id>20970455</id>
+  <name>Nicolas Dubois</name>
+  <screen_name>duboisnicolas</screen_name>
+  <location>Montauban, France</location>
+  <description>Web developer</description>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/181423133/Photo_nico_normal.jpg</profile_image_url>
+  <url>http://duboisnicolas.free.fr</url>
+  <protected>false</protected>
+  <followers_count>20</followers_count>
+  <profile_background_color>EDECE9</profile_background_color>
+  <profile_text_color>634047</profile_text_color>
+  <profile_link_color>088253</profile_link_color>
+  <profile_sidebar_fill_color>E3E2DE</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>D3D2CF</profile_sidebar_border_color>
+  <friends_count>18</friends_count>
+  <created_at>Mon Feb 16 08:21:32 +0000 2009</created_at>
+  <favourites_count>1</favourites_count>
+  <utc_offset>3600</utc_offset>
+  <time_zone>Paris</time_zone>
+  <profile_background_image_url>http://static.twitter.com/images/themes/theme3/bg.gif</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>77</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Fri Jun 05 22:51:22 +0000 2009</created_at>
+    <id>2048836502</id>
+    <text>@jwage Ever been to Paris?</text>
+    <source>&lt;a href="http://www.tweetdeck.com/"&gt;TweetDeck&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id>2048739343</in_reply_to_status_id>
+    <in_reply_to_user_id>8150902</in_reply_to_user_id>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name>jwage</in_reply_to_screen_name>
+  </status>
+</user>
+<user>
+  <id>28996779</id>
+  <name>Bertrand Zuchuat</name>
+  <screen_name>bertrandzuchuat</screen_name>
+  <location/>
+  <description/>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/188194613/moi_normal.jpg</profile_image_url>
+  <url/>
+  <protected>false</protected>
+  <followers_count>15</followers_count>
+  <profile_background_color>C6E2EE</profile_background_color>
+  <profile_text_color>663B12</profile_text_color>
+  <profile_link_color>1F98C7</profile_link_color>
+  <profile_sidebar_fill_color>DAECF4</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>C6E2EE</profile_sidebar_border_color>
+  <friends_count>15</friends_count>
+  <created_at>Sun Apr 05 14:41:24 +0000 2009</created_at>
+  <favourites_count>1</favourites_count>
+  <utc_offset>3600</utc_offset>
+  <time_zone>Bern</time_zone>
+  <profile_background_image_url>http://static.twitter.com/images/themes/theme2/bg.gif</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>31</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Wed Jun 03 15:06:58 +0000 2009</created_at>
+    <id>2017265792</id>
+    <text>@n1k0: Et avec l'application native non plus ?</text>
+    <source>&lt;a href="http://gettwidget.com/"&gt;Twidget&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id/>
+    <in_reply_to_user_id>6619162</in_reply_to_user_id>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name>n1k0</in_reply_to_screen_name>
+  </status>
+</user>
+<user>
+  <id>27630619</id>
+  <name>Julien Moreau</name>
+  <screen_name>PixEye</screen_name>
+  <location>Place du Marché Notre Dame</location>
+  <description>French web developper using Linux and PHP; husband (wife from Madagascar), dad and sometimes: bass player.</description>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/118888226/SG102681-crop400_normal.jpg</profile_image_url>
+  <url>http://pixeye.net/</url>
+  <protected>false</protected>
+  <followers_count>10</followers_count>
+  <profile_background_color>352726</profile_background_color>
+  <profile_text_color>3E4415</profile_text_color>
+  <profile_link_color>D02B55</profile_link_color>
+  <profile_sidebar_fill_color>c1ec69</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>829D5E</profile_sidebar_border_color>
+  <friends_count>15</friends_count>
+  <created_at>Mon Mar 30 12:55:39 +0000 2009</created_at>
+  <favourites_count>12</favourites_count>
+  <utc_offset>3600</utc_offset>
+  <time_zone>Paris</time_zone>
+  <profile_background_image_url>http://static.twitter.com/images/themes/theme5/bg.gif</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>82</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Fri Jun 05 22:04:39 +0000 2009</created_at>
+    <id>2048361545</id>
+    <text>Testing the new big wifi network by Free... and it works! :] - http://bkite.com/08cXz</text>
+    <source>&lt;a href="http://brightkite.com/"&gt;Brightkite&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id/>
+    <in_reply_to_user_id/>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name/>
+  </status>
+</user>
+<user>
+  <id>23341062</id>
+  <name>Daniel Cohn-Bendit</name>
+  <screen_name>danycohnbendit</screen_name>
+  <location/>
+  <description>Tête de liste Europe Écologie en Île-de-France</description>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/90507583/dcb_normal.jpg</profile_image_url>
+  <url>http://www.europeecologie.fr/</url>
+  <protected>false</protected>
+  <followers_count>850</followers_count>
+  <profile_background_color>9ae4e8</profile_background_color>
+  <profile_text_color>000000</profile_text_color>
+  <profile_link_color>0000ff</profile_link_color>
+  <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+  <friends_count>93</friends_count>
+  <created_at>Sun Mar 08 19:05:59 +0000 2009</created_at>
+  <favourites_count>0</favourites_count>
+  <utc_offset>3600</utc_offset>
+  <time_zone>Paris</time_zone>
+  <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>24</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Wed Jun 03 10:59:18 +0000 2009</created_at>
+    <id>2015195257</id>
+    <text>Tous au Zénith mercredi 3 juin à 19h ! Grand meeting-concert avec les têtes de liste d'Europe écologie et le groupe TRYO. Venez nombreux !</text>
+    <source>web</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id/>
+    <in_reply_to_user_id/>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name/>
+  </status>
+</user>
+<user>
+  <id>26233577</id>
+  <name>James</name>
+  <screen_name>acidjames</screen_name>
+  <location/>
+  <description/>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/108504936/DSC00293_normal.JPG</profile_image_url>
+  <url>http://ps3camp.info</url>
+  <protected>false</protected>
+  <followers_count>4</followers_count>
+  <profile_background_color>0099B9</profile_background_color>
+  <profile_text_color>3C3940</profile_text_color>
+  <profile_link_color>0099B9</profile_link_color>
+  <profile_sidebar_fill_color>95E8EC</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>5ED4DC</profile_sidebar_border_color>
+  <friends_count>8</friends_count>
+  <created_at>Tue Mar 24 13:14:38 +0000 2009</created_at>
+  <favourites_count>0</favourites_count>
+  <utc_offset>3600</utc_offset>
+  <time_zone>Paris</time_zone>
+  <profile_background_image_url>http://static.twitter.com/images/themes/theme4/bg.gif</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>3</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Wed Mar 25 18:58:22 +0000 2009</created_at>
+    <id>1389659669</id>
+    <text>@johncmayer you want to bake the internet cafe ? http://tinyurl.com/dgbxgu</text>
+    <source>web</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id/>
+    <in_reply_to_user_id>19757371</in_reply_to_user_id>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name>johncmayer</in_reply_to_screen_name>
+  </status>
+</user>
+<user>
+  <id>23943857</id>
+  <name>Romain Dorgueil</name>
+  <screen_name>hartym</screen_name>
+  <location>Paris</location>
+  <description>Symfony developper, musician.</description>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/105909003/piticarre_normal.jpg</profile_image_url>
+  <url>http://dakrazy.net/</url>
+  <protected>false</protected>
+  <followers_count>39</followers_count>
+  <profile_background_color>1A1B1F</profile_background_color>
+  <profile_text_color>666666</profile_text_color>
+  <profile_link_color>2FC2EF</profile_link_color>
+  <profile_sidebar_fill_color>252429</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>181A1E</profile_sidebar_border_color>
+  <friends_count>35</friends_count>
+  <created_at>Thu Mar 12 13:12:36 +0000 2009</created_at>
+  <favourites_count>0</favourites_count>
+  <utc_offset>3600</utc_offset>
+  <time_zone>Paris</time_zone>
+  <profile_background_image_url>http://static.twitter.com/images/themes/theme9/bg.gif</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>73</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Fri Jun 05 20:13:05 +0000 2009</created_at>
+    <id>2047146045</id>
+    <text>@xavierlacot mais non tu te trompe. En fait ils ont tous des petites bites, alors ils compensent en ouvrant leurs grandes gueules.</text>
+    <source>&lt;a href="http://twitterfox.net/"&gt;TwitterFox&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id/>
+    <in_reply_to_user_id>16815643</in_reply_to_user_id>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name>xavierlacot</in_reply_to_screen_name>
+  </status>
+</user>
+<user>
+  <id>16604450</id>
+  <name>Moushumi Kabir</name>
+  <screen_name>mkabir</screen_name>
+  <location>Atlanta, GA</location>
+  <description>Founder of Simply Web, advocate of tech + science + innovation, Entrepreneur, investor, blogger</description>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/72688576/mk__normal.jpg</profile_image_url>
+  <url>http://www.simply-web.com</url>
+  <protected>false</protected>
+  <followers_count>198</followers_count>
+  <profile_background_color>1A1B1F</profile_background_color>
+  <profile_text_color>666666</profile_text_color>
+  <profile_link_color>2FC2EF</profile_link_color>
+  <profile_sidebar_fill_color>252429</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>181A1E</profile_sidebar_border_color>
+  <friends_count>143</friends_count>
+  <created_at>Sun Oct 05 18:56:56 +0000 2008</created_at>
+  <favourites_count>0</favourites_count>
+  <utc_offset>-18000</utc_offset>
+  <time_zone>Eastern Time (US &amp; Canada)</time_zone>
+  <profile_background_image_url>http://static.twitter.com/images/themes/theme9/bg.gif</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>1291</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Sat Jun 06 02:21:59 +0000 2009</created_at>
+    <id>2050828696</id>
+    <text>Really liking Pre, easier to carry than iPhone, snug.</text>
+    <source>&lt;a href="http://pivotallabs.com/landing/tweed"&gt;Tweed&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id/>
+    <in_reply_to_user_id/>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name/>
+  </status>
+</user>
+<user>
+  <id>23021484</id>
+  <name>Pep</name>
+  <screen_name>elpep</screen_name>
+  <location>Trouland</location>
+  <description>Duplodocus</description>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/88932918/callmepep_normal.jpg</profile_image_url>
+  <url>http://callmepep.org/</url>
+  <protected>true</protected>
+  <followers_count>62</followers_count>
+  <profile_background_color>1A1B1F</profile_background_color>
+  <profile_text_color>666666</profile_text_color>
+  <profile_link_color>2FC2EF</profile_link_color>
+  <profile_sidebar_fill_color>252429</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>181A1E</profile_sidebar_border_color>
+  <friends_count>98</friends_count>
+  <created_at>Fri Mar 06 03:08:52 +0000 2009</created_at>
+  <favourites_count>5</favourites_count>
+  <utc_offset>3600</utc_offset>
+  <time_zone>Paris</time_zone>
+  <profile_background_image_url>http://static.twitter.com/images/themes/theme9/bg.gif</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>387</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Fri Jun 05 17:29:27 +0000 2009</created_at>
+    <id>2045274776</id>
+    <text>@samantdi Peut-être bien un résidu d'une sombre séance de spiritisme avec Lalanne ? :-)</text>
+    <source>&lt;a href="http://twitterfox.net/"&gt;TwitterFox&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id/>
+    <in_reply_to_user_id>15199247</in_reply_to_user_id>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name>samantdi</in_reply_to_screen_name>
+  </status>
+</user>
+<user>
+  <id>5785262</id>
+  <name>kemar</name>
+  <screen_name>_kemar</screen_name>
+  <location>Paris</location>
+  <description/>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/26741232/marc_normal.jpg</profile_image_url>
+  <url>http://marcarea.com/</url>
+  <protected>false</protected>
+  <followers_count>48</followers_count>
+  <profile_background_color>1A1B1F</profile_background_color>
+  <profile_text_color>666666</profile_text_color>
+  <profile_link_color>2FC2EF</profile_link_color>
+  <profile_sidebar_fill_color>252429</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>181A1E</profile_sidebar_border_color>
+  <friends_count>40</friends_count>
+  <created_at>Sat May 05 08:49:00 +0000 2007</created_at>
+  <favourites_count>5</favourites_count>
+  <utc_offset>3600</utc_offset>
+  <time_zone>Paris</time_zone>
+  <profile_background_image_url>http://static.twitter.com/images/themes/theme9/bg.gif</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>355</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Fri Jun 05 21:44:33 +0000 2009</created_at>
+    <id>2048151193</id>
+    <text>yeah vive la bière et la bouratitude</text>
+    <source>&lt;a href="http://twitterfon.net/"&gt;TwitterFon&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id/>
+    <in_reply_to_user_id/>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name/>
+  </status>
+</user>
+<user>
+  <id>1021731</id>
+  <name>HenryMichel</name>
+  <screen_name>HenryMichel</screen_name>
+  <location>Cannes, France</location>
+  <description>Chief Marketing Officer, Blogger (http://www.henrymichel.com) and Writer.</description>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/85357123/IMG_0489_normal.JPG</profile_image_url>
+  <url>http://www.henrymichel.com</url>
+  <protected>false</protected>
+  <followers_count>1896</followers_count>
+  <profile_background_color>9CE6E1</profile_background_color>
+  <profile_text_color>000000</profile_text_color>
+  <profile_link_color>0000ff</profile_link_color>
+  <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+  <friends_count>2078</friends_count>
+  <created_at>Mon Mar 12 16:08:09 +0000 2007</created_at>
+  <favourites_count>10</favourites_count>
+  <utc_offset>3600</utc_offset>
+  <time_zone>Paris</time_zone>
+  <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/738692/DSC07747.jpg</profile_background_image_url>
+  <profile_background_tile>true</profile_background_tile>
+  <statuses_count>4643</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Sat Jun 06 08:40:36 +0000 2009</created_at>
+    <id>2052698492</id>
+    <text>@Defaite home c pas nul, c juste chiant comme une frange.</text>
+    <source>&lt;a href="http://www.atebits.com/"&gt;Tweetie&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id>2052676328</in_reply_to_status_id>
+    <in_reply_to_user_id>9452552</in_reply_to_user_id>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name>Defaite</in_reply_to_screen_name>
+  </status>
+</user>
+<user>
+  <id>22080489</id>
+  <name>Jean-René Craypion</name>
+  <screen_name>JeanReneCraypio</screen_name>
+  <location>Doubs</location>
+  <description>Consultant Web 2.0 pour la société Praxis DaD (développement action dans le doubs)</description>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/116714461/cray_normal.jpg</profile_image_url>
+  <url/>
+  <protected>false</protected>
+  <followers_count>278</followers_count>
+  <profile_background_color>9AE4E8</profile_background_color>
+  <profile_text_color>333333</profile_text_color>
+  <profile_link_color>0084B4</profile_link_color>
+  <profile_sidebar_fill_color>DDFFCC</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>BDDCAD</profile_sidebar_border_color>
+  <friends_count>213</friends_count>
+  <created_at>Thu Feb 26 23:43:09 +0000 2009</created_at>
+  <favourites_count>0</favourites_count>
+  <utc_offset/>
+  <time_zone/>
+  <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/6708292/trainingroom.jpg</profile_background_image_url>
+  <profile_background_tile>true</profile_background_tile>
+  <statuses_count>94</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Wed Jun 03 22:05:03 +0000 2009</created_at>
+    <id>2021867493</id>
+    <text>New blog post: La Chronique Web 2.0 de Jean-René Craypion (ep 8) http://bit.ly/vTqCr</text>
+    <source>web</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id/>
+    <in_reply_to_user_id/>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name/>
+  </status>
+</user>
+<user>
+  <id>20536157</id>
+  <name>A Googler</name>
+  <screen_name>google</screen_name>
+  <location>Mountain View, CA</location>
+  <description>News and updates from Google</description>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/77186109/favicon_normal.png</profile_image_url>
+  <url>http://www.google.com/intl/en/about.html</url>
+  <protected>false</protected>
+  <followers_count>777331</followers_count>
+  <profile_background_color>ffffff</profile_background_color>
+  <profile_text_color>000000</profile_text_color>
+  <profile_link_color>0000cc</profile_link_color>
+  <profile_sidebar_fill_color>ebeff9</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>bbccff</profile_sidebar_border_color>
+  <friends_count>145</friends_count>
+  <created_at>Tue Feb 10 19:14:39 +0000 2009</created_at>
+  <favourites_count>33</favourites_count>
+  <utc_offset>-28800</utc_offset>
+  <time_zone>Pacific Time (US &amp; Canada)</time_zone>
+  <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/6219441/bg-google-white-75.gif</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>394</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Sat Jun 06 05:28:05 +0000 2009</created_at>
+    <id>2051641303</id>
+    <text>Our deep condolences: R.I.P. Rajeev Motwani (via @om) http://bit.ly/2DTDv</text>
+    <source>&lt;a href="http://bit.ly"&gt;bit.ly&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id/>
+    <in_reply_to_user_id/>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name/>
+  </status>
+</user>
+<user>
+  <id>15187757</id>
+  <name>jeromerenard</name>
+  <screen_name>jeromerenard</screen_name>
+  <location/>
+  <description/>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/55721304/Photo_3_normal.jpg</profile_image_url>
+  <url/>
+  <protected>true</protected>
+  <followers_count>18</followers_count>
+  <profile_background_color>9ae4e8</profile_background_color>
+  <profile_text_color>000000</profile_text_color>
+  <profile_link_color>0000ff</profile_link_color>
+  <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+  <friends_count>16</friends_count>
+  <created_at>Sat Jun 21 05:43:48 +0000 2008</created_at>
+  <favourites_count>0</favourites_count>
+  <utc_offset>-10800</utc_offset>
+  <time_zone>Greenland</time_zone>
+  <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>291</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Sat Jun 06 06:53:11 +0000 2009</created_at>
+    <id>2052173759</id>
+    <text>nice project bashsimplecurses : http://code.google.com/p/bashsimplecurses/ #bash #shell</text>
+    <source>&lt;a href="http://twitterrific.com"&gt;Twitterrific&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id/>
+    <in_reply_to_user_id/>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name/>
+  </status>
+</user>
+<user>
+  <id>21197719</id>
+  <name>Conférence sfParis09</name>
+  <screen_name>sflive09fr</screen_name>
+  <location>Paris, France</location>
+  <description>La première conférence francophone sur symfony, et en français</description>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/79668620/twitter-logo_normal.png</profile_image_url>
+  <url>http://www.symfony-live.com/</url>
+  <protected>false</protected>
+  <followers_count>146</followers_count>
+  <profile_background_color>E8D8B7</profile_background_color>
+  <profile_text_color>b89393</profile_text_color>
+  <profile_link_color>68B737</profile_link_color>
+  <profile_sidebar_fill_color>3D1B2D</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>3D1B2D</profile_sidebar_border_color>
+  <friends_count>0</friends_count>
+  <created_at>Wed Feb 18 14:01:16 +0000 2009</created_at>
+  <favourites_count>0</favourites_count>
+  <utc_offset>3600</utc_offset>
+  <time_zone>Paris</time_zone>
+  <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/4577891/twitter-background.png</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>33</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Fri Jun 05 14:39:46 +0000 2009</created_at>
+    <id>2043287340</id>
+    <text>Plus de places pour #sflive09fr ! 180 personnes se sont inscrites pour venir assister à la conférence. Merci à tous et à jeudi prochain.</text>
+    <source>&lt;a href="http://www.twhirl.org/"&gt;twhirl&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id/>
+    <in_reply_to_user_id/>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name/>
+  </status>
+</user>
+<user>
+  <id>9400622</id>
+  <name>Lee Bolding</name>
+  <screen_name>leesbian</screen_name>
+  <location>London, UK</location>
+  <description>I do all my own stunts.</description>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/117417794/Lee-Snetterton-0016-800h_normal.jpg</profile_image_url>
+  <url>http://www.leesbian.net</url>
+  <protected>false</protected>
+  <followers_count>80</followers_count>
+  <profile_background_color>515481</profile_background_color>
+  <profile_text_color>333333</profile_text_color>
+  <profile_link_color>525582</profile_link_color>
+  <profile_sidebar_fill_color>9799cc</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>FFFFFF</profile_sidebar_border_color>
+  <friends_count>65</friends_count>
+  <created_at>Fri Oct 12 10:32:00 +0000 2007</created_at>
+  <favourites_count>0</favourites_count>
+  <utc_offset>0</utc_offset>
+  <time_zone>London</time_zone>
+  <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/5692027/banner.jpg</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>773</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Sat Jun 06 08:16:23 +0000 2009</created_at>
+    <id>2052592831</id>
+    <text>@n1k0 if you're really into biking, u need to get to this: http://www.horizonsunlimited.com/meetings/UK2009.php bring ur FZR, see u there :)</text>
+    <source>&lt;a href="http://loungeapp.com"&gt;Lounge&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id/>
+    <in_reply_to_user_id>6619162</in_reply_to_user_id>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name>n1k0</in_reply_to_screen_name>
+  </status>
+</user>
+<user>
+  <id>15049787</id>
+  <name>alex76</name>
+  <screen_name>alex76</screen_name>
+  <location>Nice</location>
+  <description/>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/57776619/avatar_normal.jpg</profile_image_url>
+  <url/>
+  <protected>false</protected>
+  <followers_count>8</followers_count>
+  <profile_background_color>FFFFFF</profile_background_color>
+  <profile_text_color>FD0AD8</profile_text_color>
+  <profile_link_color>579AE4</profile_link_color>
+  <profile_sidebar_fill_color>B8E8EB</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>A2FF9E</profile_sidebar_border_color>
+  <friends_count>7</friends_count>
+  <created_at>Sun Jun 08 20:22:48 +0000 2008</created_at>
+  <favourites_count>0</favourites_count>
+  <utc_offset>-10800</utc_offset>
+  <time_zone>Greenland</time_zone>
+  <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/2684378/Sans_titre-1.jpg</profile_background_image_url>
+  <profile_background_tile>true</profile_background_tile>
+  <statuses_count>88</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Tue Apr 21 14:04:18 +0000 2009</created_at>
+    <id>1575083569</id>
+    <text>Déploiement surdimensionné de CRS aujourd'hui à Nice, on se demande pas pourquoi... http://tinyurl.com/ddef8u</text>
+    <source>web</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id/>
+    <in_reply_to_user_id/>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name/>
+  </status>
+</user>
+<user>
+  <id>11054452</id>
+  <name>Zuneo</name>
+  <screen_name>Zuneo</screen_name>
+  <location/>
+  <description/>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/76949953/Z_normal.png</profile_image_url>
+  <url>http://zuneo.fr</url>
+  <protected>false</protected>
+  <followers_count>190</followers_count>
+  <profile_background_color>ffffff</profile_background_color>
+  <profile_text_color>000000</profile_text_color>
+  <profile_link_color>0200c7</profile_link_color>
+  <profile_sidebar_fill_color>ffffff</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>90abc6</profile_sidebar_border_color>
+  <friends_count>72</friends_count>
+  <created_at>Tue Dec 11 16:39:34 +0000 2007</created_at>
+  <favourites_count>2</favourites_count>
+  <utc_offset>3600</utc_offset>
+  <time_zone>Paris</time_zone>
+  <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/9814599/top-fade.png</profile_background_image_url>
+  <profile_background_tile>true</profile_background_tile>
+  <statuses_count>455</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+</user>
+<user>
+  <id>80243</id>
+  <name>Jihaisse</name>
+  <screen_name>jihaisse</screen_name>
+  <location>Chambéry, France</location>
+  <description/>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/52425258/moi_normal.jpg</profile_image_url>
+  <url/>
+  <protected>false</protected>
+  <followers_count>218</followers_count>
+  <profile_background_color>1A1B1F</profile_background_color>
+  <profile_text_color>666666</profile_text_color>
+  <profile_link_color>2FC2EF</profile_link_color>
+  <profile_sidebar_fill_color>252429</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>181A1E</profile_sidebar_border_color>
+  <friends_count>82</friends_count>
+  <created_at>Tue Dec 19 16:28:11 +0000 2006</created_at>
+  <favourites_count>1</favourites_count>
+  <utc_offset>3600</utc_offset>
+  <time_zone>Paris</time_zone>
+  <profile_background_image_url>http://static.twitter.com/images/themes/theme9/bg.gif</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>2752</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Wed Jun 03 19:06:50 +0000 2009</created_at>
+    <id>2019835617</id>
+    <text>osef : Comment supprimer les fichiers temporaires de Mac OS X http://tinyurl.com/q23tlr</text>
+    <source>&lt;a href="http://twitterfeed.com"&gt;twitterfeed&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id/>
+    <in_reply_to_user_id/>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name/>
+  </status>
+</user>
+<user>
+  <id>17367791</id>
+  <name>Benoit Milgram</name>
+  <screen_name>djgaston</screen_name>
+  <location>iPhone: 48.891140,2.202891</location>
+  <description>Flash/Flex dev, bootleg dj music producer, happy father and like to do friday humour everyday</description>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/130385634/djgaston_l_normal.jpg</profile_image_url>
+  <url>http://djgaston.net</url>
+  <protected>false</protected>
+  <followers_count>169</followers_count>
+  <profile_background_color>9ae4e8</profile_background_color>
+  <profile_text_color>000000</profile_text_color>
+  <profile_link_color>0000ff</profile_link_color>
+  <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+  <friends_count>252</friends_count>
+  <created_at>Thu Nov 13 16:17:01 +0000 2008</created_at>
+  <favourites_count>22</favourites_count>
+  <utc_offset>3600</utc_offset>
+  <time_zone>Paris</time_zone>
+  <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>559</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Fri Jun 05 22:17:12 +0000 2009</created_at>
+    <id>2048491991</id>
+    <text>#followfriday @team9 @wrldfms @RebornIdentity @Peter_Bull @partyben @clebmurderparty For those about mashup they salut you...</text>
+    <source>&lt;a href="http://www.tweetdeck.com/"&gt;TweetDeck&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id/>
+    <in_reply_to_user_id/>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name/>
+  </status>
+</user>
+<user>
+  <id>14769560</id>
+  <name>thaissounette</name>
+  <screen_name>thaissounette</screen_name>
+  <location/>
+  <description/>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/68920213/1_normal.jpg</profile_image_url>
+  <url/>
+  <protected>false</protected>
+  <followers_count>15</followers_count>
+  <profile_background_color>709397</profile_background_color>
+  <profile_text_color>333333</profile_text_color>
+  <profile_link_color>FF3300</profile_link_color>
+  <profile_sidebar_fill_color>A0C5C7</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>86A4A6</profile_sidebar_border_color>
+  <friends_count>23</friends_count>
+  <created_at>Wed May 14 05:21:21 +0000 2008</created_at>
+  <favourites_count>0</favourites_count>
+  <utc_offset>3600</utc_offset>
+  <time_zone>Paris</time_zone>
+  <profile_background_image_url>http://static.twitter.com/images/themes/theme6/bg.gif</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>17</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Thu Mar 26 09:50:42 +0000 2009</created_at>
+    <id>1393494347</id>
+    <text>@n1k0 dis-donc, t'iras pas loin avec 1 euro… ;) 
+J'aurais volontiers enchéri mais me manque encore le boitier… :'(</text>
+    <source>web</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id>1393481865</in_reply_to_status_id>
+    <in_reply_to_user_id>6619162</in_reply_to_user_id>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name>n1k0</in_reply_to_screen_name>
+  </status>
+</user>
+<user>
+  <id>18353969</id>
+  <name>Nicolas Nutten</name>
+  <screen_name>kehel</screen_name>
+  <location>Montpellier</location>
+  <description/>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/68470167/kehel_normal.jpg</profile_image_url>
+  <url>http://nicoblog.net</url>
+  <protected>false</protected>
+  <followers_count>10</followers_count>
+  <profile_background_color>1A1B1F</profile_background_color>
+  <profile_text_color>666666</profile_text_color>
+  <profile_link_color>2FC2EF</profile_link_color>
+  <profile_sidebar_fill_color>252429</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>181A1E</profile_sidebar_border_color>
+  <friends_count>6</friends_count>
+  <created_at>Wed Dec 24 08:17:52 +0000 2008</created_at>
+  <favourites_count>0</favourites_count>
+  <utc_offset>0</utc_offset>
+  <time_zone>London</time_zone>
+  <profile_background_image_url>http://static.twitter.com/images/themes/theme9/bg.gif</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>36</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Thu May 28 15:31:36 +0000 2009</created_at>
+    <id>1948294070</id>
+    <text>@gglaspi I'm waiting too ;)</text>
+    <source>web</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id>1401237315</in_reply_to_status_id>
+    <in_reply_to_user_id>9030102</in_reply_to_user_id>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name>gglaspi</in_reply_to_screen_name>
+  </status>
+</user>
+<user>
+  <id>19120341</id>
+  <name>Denis Costello</name>
+  <screen_name>rarecare</screen_name>
+  <location>Paris</location>
+  <description>Rare Disease Online Advocate and a fan of PHP framework Symfony</description>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/74120919/0929a67_normal.jpg</profile_image_url>
+  <url>http://www.eurordis.org</url>
+  <protected>false</protected>
+  <followers_count>23</followers_count>
+  <profile_background_color>642D8B</profile_background_color>
+  <profile_text_color>3D1957</profile_text_color>
+  <profile_link_color>FF0000</profile_link_color>
+  <profile_sidebar_fill_color>7AC3EE</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>65B0DA</profile_sidebar_border_color>
+  <friends_count>45</friends_count>
+  <created_at>Sat Jan 17 19:18:59 +0000 2009</created_at>
+  <favourites_count>4</favourites_count>
+  <utc_offset>3600</utc_offset>
+  <time_zone>Paris</time_zone>
+  <profile_background_image_url>http://static.twitter.com/images/themes/theme10/bg.gif</profile_background_image_url>
+  <profile_background_tile>true</profile_background_tile>
+  <statuses_count>21</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Thu May 07 22:20:15 +0000 2009</created_at>
+    <id>1731620447</id>
+    <text>1st tweet in a while - At European Rare Disease Organisation Annual Memebership meeting in Athens</text>
+    <source>web</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id/>
+    <in_reply_to_user_id/>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name/>
+  </status>
+</user>
+<user>
+  <id>19492774</id>
+  <name>h6e</name>
+  <screen_name>h6e</screen_name>
+  <location>Paris, France</location>
+  <description>open source web applications &amp; platforms</description>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/73088398/h6e2_normal.png</profile_image_url>
+  <url>http://h6e.net/</url>
+  <protected>false</protected>
+  <followers_count>54</followers_count>
+  <profile_background_color>ffffff</profile_background_color>
+  <profile_text_color>4E5368</profile_text_color>
+  <profile_link_color>4E5368</profile_link_color>
+  <profile_sidebar_fill_color>FFFFFF</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>CCCCCC</profile_sidebar_border_color>
+  <friends_count>83</friends_count>
+  <created_at>Sun Jan 25 16:04:38 +0000 2009</created_at>
+  <favourites_count>0</favourites_count>
+  <utc_offset>3600</utc_offset>
+  <time_zone>Paris</time_zone>
+  <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>32</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Wed May 27 16:26:01 +0000 2009</created_at>
+    <id>1937238699</id>
+    <text>some screenshots of La Distribution Application Manager http://h6e.net/ladistribution</text>
+    <source>&lt;a href="http://www.netvibes.com/subscribe.php?module=Twitter"&gt;Netvibes&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id/>
+    <in_reply_to_user_id/>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name/>
+  </status>
+</user>
+<user>
+  <id>19525344</id>
+  <name>Thomas R.</name>
+  <screen_name>th0masr</screen_name>
+  <location>Paris</location>
+  <description/>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/73545298/me_normal.jpg</profile_image_url>
+  <url/>
+  <protected>false</protected>
+  <followers_count>45</followers_count>
+  <profile_background_color>EBEBEB</profile_background_color>
+  <profile_text_color>333333</profile_text_color>
+  <profile_link_color>990000</profile_link_color>
+  <profile_sidebar_fill_color>F3F3F3</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>DFDFDF</profile_sidebar_border_color>
+  <friends_count>25</friends_count>
+  <created_at>Mon Jan 26 08:51:49 +0000 2009</created_at>
+  <favourites_count>1</favourites_count>
+  <utc_offset>3600</utc_offset>
+  <time_zone>Paris</time_zone>
+  <profile_background_image_url>http://static.twitter.com/images/themes/theme7/bg.gif</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>168</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Fri Jun 05 07:45:07 +0000 2009</created_at>
+    <id>2040490357</id>
+    <text>@n1k0 : attention les tweets peuvent peut etre servir de preuve...</text>
+    <source>&lt;a href="http://adium.im"&gt;Adium&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id/>
+    <in_reply_to_user_id>6619162</in_reply_to_user_id>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name>n1k0</in_reply_to_screen_name>
+  </status>
+</user>
+<user>
+  <id>8352052</id>
+  <name>Lucas Janin</name>
+  <screen_name>lucas3d</screen_name>
+  <location>iPhone: 36.123413,-121.638161</location>
+  <description>Infographiste 3d spécialisé dans les effets spéciaux, je travaille depuis un an à Dreamworks Animation en Californie.</description>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/47222942/profil_080_normal.jpg</profile_image_url>
+  <url>http://www.lucas3d.com</url>
+  <protected>false</protected>
+  <followers_count>83</followers_count>
+  <profile_background_color>9ae4e8</profile_background_color>
+  <profile_text_color>000000</profile_text_color>
+  <profile_link_color>0000ff</profile_link_color>
+  <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+  <friends_count>59</friends_count>
+  <created_at>Wed Aug 22 08:03:32 +0000 2007</created_at>
+  <favourites_count>3</favourites_count>
+  <utc_offset>-28800</utc_offset>
+  <time_zone>Pacific Time (US &amp; Canada)</time_zone>
+  <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>219</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Wed Jun 03 07:45:24 +0000 2009</created_at>
+    <id>2014197298</id>
+    <text>Pure happiness / Simplement heureuse http://bit.ly/rrOI3  #flickr #photo #portrait</text>
+    <source>&lt;a href="http://www.atebits.com/"&gt;Tweetie&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id/>
+    <in_reply_to_user_id/>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name/>
+  </status>
+</user>
+<user>
+  <id>13434222</id>
+  <name>Alexis Metaireau</name>
+  <screen_name>ametaireau</screen_name>
+  <location>Toulouse, France</location>
+  <description>web developer and student</description>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/62300879/Photos-0076_normal.jpg</profile_image_url>
+  <url>http://notmyidea.org</url>
+  <protected>false</protected>
+  <followers_count>83</followers_count>
+  <profile_background_color>352726</profile_background_color>
+  <profile_text_color>3E4415</profile_text_color>
+  <profile_link_color>D02B55</profile_link_color>
+  <profile_sidebar_fill_color>99CC33</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>829D5E</profile_sidebar_border_color>
+  <friends_count>20</friends_count>
+  <created_at>Wed Feb 13 15:25:04 +0000 2008</created_at>
+  <favourites_count>0</favourites_count>
+  <utc_offset>3600</utc_offset>
+  <time_zone>Paris</time_zone>
+  <profile_background_image_url>http://static.twitter.com/images/themes/theme5/bg.gif</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>750</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Sun May 31 00:25:56 +0000 2009</created_at>
+    <id>1976478367</id>
+    <text>viens de se rendre compte qu'il avait loupé #pyconfr.</text>
+    <source>web</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id/>
+    <in_reply_to_user_id/>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name/>
+  </status>
+</user>
+<user>
+  <id>14478695</id>
+  <name>Wakoopa</name>
+  <screen_name>wakoopa</screen_name>
+  <location>Amsterdam, The Netherlands</location>
+  <description>We know software. What do you use?</description>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/53180578/logo_circles_transparant_normal.png</profile_image_url>
+  <url>http://wakoopa.com</url>
+  <protected>false</protected>
+  <followers_count>696</followers_count>
+  <profile_background_color>9ae4e8</profile_background_color>
+  <profile_text_color>000000</profile_text_color>
+  <profile_link_color>0000ff</profile_link_color>
+  <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+  <friends_count>6</friends_count>
+  <created_at>Tue Apr 22 18:59:37 +0000 2008</created_at>
+  <favourites_count>1</favourites_count>
+  <utc_offset>3600</utc_offset>
+  <time_zone>Amsterdam</time_zone>
+  <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>84</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Thu May 28 08:36:39 +0000 2009</created_at>
+    <id>1945316168</id>
+    <text>We're currently looking for a web development intern. More info here: http://bit.ly/12v9pm @ us and apply!</text>
+    <source>&lt;a href="http://www.atebits.com/"&gt;Tweetie&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id/>
+    <in_reply_to_user_id/>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name/>
+  </status>
+</user>
+<user>
+  <id>15875029</id>
+  <name>tschellenbach</name>
+  <screen_name>tschellenbach</screen_name>
+  <location>Amsterdam, Keizersgracht</location>
+  <description>Software Engineer and Entrepreneur at YouTellMe BV</description>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/70994043/DSCF0280_normal.JPG</profile_image_url>
+  <url>http://www.mellowmorning.com</url>
+  <protected>false</protected>
+  <followers_count>31</followers_count>
+  <profile_background_color>352726</profile_background_color>
+  <profile_text_color>3E4415</profile_text_color>
+  <profile_link_color>D02B55</profile_link_color>
+  <profile_sidebar_fill_color>99CC33</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>829D5E</profile_sidebar_border_color>
+  <friends_count>42</friends_count>
+  <created_at>Sat Aug 16 17:48:34 +0000 2008</created_at>
+  <favourites_count>0</favourites_count>
+  <utc_offset>3600</utc_offset>
+  <time_zone>Amsterdam</time_zone>
+  <profile_background_image_url>http://static.twitter.com/images/themes/theme5/bg.gif</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>116</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Fri Jun 05 14:52:47 +0000 2009</created_at>
+    <id>2043428954</id>
+    <text>Yeay :) nieuwe sales medewerker!</text>
+    <source>&lt;a href="http://www.twhirl.org/"&gt;twhirl&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id/>
+    <in_reply_to_user_id/>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name/>
+  </status>
+</user>
+<user>
+  <id>18935593</id>
+  <name>franckpaul</name>
+  <screen_name>franckpaul</screen_name>
+  <location>Paris, Île-de-France</location>
+  <description/>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/182928640/twitter_normal.png</profile_image_url>
+  <url>http://open-time.net/</url>
+  <protected>false</protected>
+  <followers_count>138</followers_count>
+  <profile_background_color>333333</profile_background_color>
+  <profile_text_color>333333</profile_text_color>
+  <profile_link_color>ff871f</profile_link_color>
+  <profile_sidebar_fill_color>ffffff</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>6eff24</profile_sidebar_border_color>
+  <friends_count>169</friends_count>
+  <created_at>Tue Jan 13 11:32:39 +0000 2009</created_at>
+  <favourites_count>0</favourites_count>
+  <utc_offset>3600</utc_offset>
+  <time_zone>Paris</time_zone>
+  <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/3887265/fond.png</profile_background_image_url>
+  <profile_background_tile>true</profile_background_tile>
+  <statuses_count>944</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Sat Jun 06 09:13:15 +0000 2009</created_at>
+    <id>2052838349</id>
+    <text>@gilda_f on peut dire ça oui ;-) ceci dit elle me donne matière, petit à petit à un billet rigolo !</text>
+    <source>&lt;a href="http://www.nambu.com"&gt;Nambu&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id>2052656870</in_reply_to_status_id>
+    <in_reply_to_user_id>15872615</in_reply_to_user_id>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name>gilda_f</in_reply_to_screen_name>
+  </status>
+</user>
+<user>
+  <id>12658032</id>
+  <name>Clément Delmas</name>
+  <screen_name>clementdelmas</screen_name>
+  <location>Paris, France</location>
+  <description/>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/55035337/Photo_twitter_2_normal.jpg</profile_image_url>
+  <url>http://www.clementdelmas.fr/</url>
+  <protected>false</protected>
+  <followers_count>297</followers_count>
+  <profile_background_color>9AE4E8</profile_background_color>
+  <profile_text_color>333333</profile_text_color>
+  <profile_link_color>0084B4</profile_link_color>
+  <profile_sidebar_fill_color>DDFFCC</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>BDDCAD</profile_sidebar_border_color>
+  <friends_count>152</friends_count>
+  <created_at>Thu Jan 24 21:26:34 +0000 2008</created_at>
+  <favourites_count>37</favourites_count>
+  <utc_offset>-36000</utc_offset>
+  <time_zone>Hawaii</time_zone>
+  <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>3575</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Fri Jun 05 14:46:33 +0000 2009</created_at>
+    <id>2043361494</id>
+    <text>@Oxonium pcq je viens de voir le nouveau classement :) Avant, on avait quand même du contenu en tête, maintenant, y'en a presque plus...</text>
+    <source>&lt;a href="http://www.32hours.com/betwitteredinfo/"&gt;BeTwittered&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id>2043350812</in_reply_to_status_id>
+    <in_reply_to_user_id>6798942</in_reply_to_user_id>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name>Oxonium</in_reply_to_screen_name>
+  </status>
+</user>
+<user>
+  <id>18847100</id>
+  <name>Javier Eguiluz</name>
+  <screen_name>javiereguiluz</screen_name>
+  <location/>
+  <description/>
+  <profile_image_url>http://static.twitter.com/images/default_profile_normal.png</profile_image_url>
+  <url/>
+  <protected>false</protected>
+  <followers_count>32</followers_count>
+  <profile_background_color>9ae4e8</profile_background_color>
+  <profile_text_color>000000</profile_text_color>
+  <profile_link_color>0000ff</profile_link_color>
+  <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+  <friends_count>15</friends_count>
+  <created_at>Sat Jan 10 21:27:40 +0000 2009</created_at>
+  <favourites_count>0</favourites_count>
+  <utc_offset>3600</utc_offset>
+  <time_zone>Madrid</time_zone>
+  <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>8</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Fri May 15 06:59:15 +0000 2009</created_at>
+    <id>1803818414</id>
+    <text>Support symfony at the SourceForge Community Awards http://bit.ly/JdP2l (en)  http://bit.ly/R6KtV (es)</text>
+    <source>web</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id/>
+    <in_reply_to_user_id/>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name/>
+  </status>
+</user>
+<user>
+  <id>8168372</id>
+  <name>Nicolas Le Gall</name>
+  <screen_name>neovov</screen_name>
+  <location>Quimper - Montreuil</location>
+  <description/>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/51452568/profil-2_normal.jpg</profile_image_url>
+  <url>http://blog.neovov.com</url>
+  <protected>false</protected>
+  <followers_count>247</followers_count>
+  <profile_background_color>ffffff</profile_background_color>
+  <profile_text_color>000000</profile_text_color>
+  <profile_link_color>BF1C21</profile_link_color>
+  <profile_sidebar_fill_color>E8E8E8</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>161616</profile_sidebar_border_color>
+  <friends_count>157</friends_count>
+  <created_at>Mon Aug 13 21:02:36 +0000 2007</created_at>
+  <favourites_count>5</favourites_count>
+  <utc_offset>3600</utc_offset>
+  <time_zone>Paris</time_zone>
+  <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/3517562/twitter.png</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>3452</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Fri Jun 05 19:55:54 +0000 2009</created_at>
+    <id>2046949970</id>
+    <text>J'approuve ce message RT @nitot: Watching the HOME movie. Beautiful pictures, great commentary. Must see!</text>
+    <source>&lt;a href="http://twitter.com/twinkleking"&gt;Twinkle&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id/>
+    <in_reply_to_user_id/>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name/>
+  </status>
+</user>
+<user>
+  <id>15070270</id>
+  <name>marc_hugon</name>
+  <screen_name>marc_hugon</screen_name>
+  <location/>
+  <description/>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/115965667/bonhomme_paille_normal.jpg</profile_image_url>
+  <url/>
+  <protected>false</protected>
+  <followers_count>15</followers_count>
+  <profile_background_color>9ae4e8</profile_background_color>
+  <profile_text_color>000000</profile_text_color>
+  <profile_link_color>0000ff</profile_link_color>
+  <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+  <friends_count>7</friends_count>
+  <created_at>Tue Jun 10 05:56:09 +0000 2008</created_at>
+  <favourites_count>0</favourites_count>
+  <utc_offset>-10800</utc_offset>
+  <time_zone>Greenland</time_zone>
+  <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>35</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Tue Jun 02 07:25:52 +0000 2009</created_at>
+    <id>2001296739</id>
+    <text>Who needs a coffee in poissy? Me actually... And it's not even good... At least, it's shiny... How boring is this tweet? I'd say 8/10</text>
+    <source>web</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id/>
+    <in_reply_to_user_id/>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name/>
+  </status>
+</user>
+<user>
+  <id>11758022</id>
+  <name>Denis H</name>
+  <screen_name>neewok</screen_name>
+  <location>Paris</location>
+  <description/>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/70405273/moi_normal.jpg</profile_image_url>
+  <url/>
+  <protected>false</protected>
+  <followers_count>40</followers_count>
+  <profile_background_color>1b1c1d</profile_background_color>
+  <profile_text_color>949494</profile_text_color>
+  <profile_link_color>a8c1cd</profile_link_color>
+  <profile_sidebar_fill_color>2d3334</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>757575</profile_sidebar_border_color>
+  <friends_count>92</friends_count>
+  <created_at>Wed Jan 02 15:26:39 +0000 2008</created_at>
+  <favourites_count>3</favourites_count>
+  <utc_offset>3600</utc_offset>
+  <time_zone>Paris</time_zone>
+  <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>53</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Thu Jun 04 00:36:29 +0000 2009</created_at>
+    <id>2023407689</id>
+    <text>Entre Pologne et Argentine : de Schulz à Cortazar et de Gombrowicz à Borges</text>
+    <source>&lt;a href="http://identi.ca/"&gt;Identica&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id/>
+    <in_reply_to_user_id/>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name/>
+  </status>
+</user>
+<user>
+  <id>18850082</id>
+  <name>Grégoire Hubert</name>
+  <screen_name>chanmix51</screen_name>
+  <location>nantes</location>
+  <description/>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/70561542/30_le_faouet_2__normal.jpg</profile_image_url>
+  <url>http://geekblog.over-blog.com</url>
+  <protected>false</protected>
+  <followers_count>10</followers_count>
+  <profile_background_color>9ae4e8</profile_background_color>
+  <profile_text_color>000000</profile_text_color>
+  <profile_link_color>0000ff</profile_link_color>
+  <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+  <friends_count>11</friends_count>
+  <created_at>Sat Jan 10 23:14:29 +0000 2009</created_at>
+  <favourites_count>0</favourites_count>
+  <utc_offset>3600</utc_offset>
+  <time_zone>Paris</time_zone>
+  <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>6</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Wed Jun 03 22:17:40 +0000 2009</created_at>
+    <id>2022003160</id>
+    <text>you like javascript ? http://www.webjax.eu/</text>
+    <source>web</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id/>
+    <in_reply_to_user_id/>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name/>
+  </status>
+</user>
+<user>
+  <id>18851079</id>
+  <name>Sylvain Deloux</name>
+  <screen_name>SylvainDeloux</screen_name>
+  <location/>
+  <description/>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/134434852/cravatte_normal.JPG</profile_image_url>
+  <url>http://www.eax.fr</url>
+  <protected>false</protected>
+  <followers_count>26</followers_count>
+  <profile_background_color>1A1B1F</profile_background_color>
+  <profile_text_color>666666</profile_text_color>
+  <profile_link_color>2FC2EF</profile_link_color>
+  <profile_sidebar_fill_color>252429</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>181A1E</profile_sidebar_border_color>
+  <friends_count>40</friends_count>
+  <created_at>Sat Jan 10 23:53:22 +0000 2009</created_at>
+  <favourites_count>1</favourites_count>
+  <utc_offset>3600</utc_offset>
+  <time_zone>Paris</time_zone>
+  <profile_background_image_url>http://static.twitter.com/images/themes/theme9/bg.gif</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>226</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Fri Jun 05 13:16:12 +0000 2009</created_at>
+    <id>2042454681</id>
+    <text>playing with custom sorted rows in symfony 1.0 admin generator</text>
+    <source>&lt;a href="http://twitterfox.net/"&gt;TwitterFox&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id/>
+    <in_reply_to_user_id/>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name/>
+  </status>
+</user>
+<user>
+  <id>18814705</id>
+  <name>Nicolas Steinmetz</name>
+  <screen_name>nsteinmetz</screen_name>
+  <location>France</location>
+  <description>Si vous saviez...</description>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/70406307/nicolas_80x80_normal.png</profile_image_url>
+  <url>http://nicolas.steinmetz.fr/</url>
+  <protected>false</protected>
+  <followers_count>64</followers_count>
+  <profile_background_color>EBEBEB</profile_background_color>
+  <profile_text_color>333333</profile_text_color>
+  <profile_link_color>990000</profile_link_color>
+  <profile_sidebar_fill_color>F3F3F3</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>DFDFDF</profile_sidebar_border_color>
+  <friends_count>19</friends_count>
+  <created_at>Fri Jan 09 20:45:55 +0000 2009</created_at>
+  <favourites_count>0</favourites_count>
+  <utc_offset>3600</utc_offset>
+  <time_zone>Paris</time_zone>
+  <profile_background_image_url>http://static.twitter.com/images/themes/theme7/bg.gif</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>579</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Fri Jun 05 20:35:31 +0000 2009</created_at>
+    <id>2047397665</id>
+    <text>#linutop started and works well with a fresh usb key with linutopOS 2.4. Need now to find a real use for the linutop :-)</text>
+    <source>&lt;a href="http://funkatron.com/spaz"&gt;Spaz&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id/>
+    <in_reply_to_user_id/>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name/>
+  </status>
+</user>
+<user>
+  <id>15072316</id>
+  <name>Fabien Potencier</name>
+  <screen_name>fabpot</screen_name>
+  <location>Paris, France</location>
+  <description>CEO at Sensio (http://www.sensiolabs.com/), and lead developer of the symfony framework (http://www.symfony-project.org/)</description>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/79268178/photo_twitter_normal.jpg</profile_image_url>
+  <url>http://fabien.potencier.org</url>
+  <protected>false</protected>
+  <followers_count>632</followers_count>
+  <profile_background_color>352726</profile_background_color>
+  <profile_text_color>3E4415</profile_text_color>
+  <profile_link_color>D02B55</profile_link_color>
+  <profile_sidebar_fill_color>99CC33</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>829D5E</profile_sidebar_border_color>
+  <friends_count>11</friends_count>
+  <created_at>Tue Jun 10 12:02:49 +0000 2008</created_at>
+  <favourites_count>3</favourites_count>
+  <utc_offset>3600</utc_offset>
+  <time_zone>Paris</time_zone>
+  <profile_background_image_url>http://static.twitter.com/images/themes/theme5/bg.gif</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>215</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Fri Jun 05 09:50:06 +0000 2009</created_at>
+    <id>2041136087</id>
+    <text>great todo list to check when starting a new symfony project, or at least just before deployment  http://symfony-check.org (via @ericroge)</text>
+    <source>&lt;a href="http://www.twhirl.org/"&gt;twhirl&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id/>
+    <in_reply_to_user_id/>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name/>
+  </status>
+</user>
+<user>
+  <id>11017752</id>
+  <name>Raphaël Goetter</name>
+  <screen_name>goetter</screen_name>
+  <location>Strasbourg, France</location>
+  <description>Marié deux enfants...</description>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/69334267/20080615-RG__0882_normal.jpg</profile_image_url>
+  <url>http://www.goetter.fr</url>
+  <protected>false</protected>
+  <followers_count>251</followers_count>
+  <profile_background_color>266478</profile_background_color>
+  <profile_text_color>000000</profile_text_color>
+  <profile_link_color>0000ff</profile_link_color>
+  <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+  <friends_count>104</friends_count>
+  <created_at>Mon Dec 10 13:26:05 +0000 2007</created_at>
+  <favourites_count>0</favourites_count>
+  <utc_offset>3600</utc_offset>
+  <time_zone>Paris</time_zone>
+  <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>777</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Fri Jun 05 13:34:15 +0000 2009</created_at>
+    <id>2042621375</id>
+    <text>@nicodiz : bah ouais, je suis plutôt d'accord sur le principe en fait</text>
+    <source>&lt;a href="http://twitterfox.net/"&gt;TwitterFox&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id>2042532756</in_reply_to_status_id>
+    <in_reply_to_user_id>14239715</in_reply_to_user_id>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name>nicodiz</in_reply_to_screen_name>
+  </status>
+</user>
+<user>
+  <id>8781082</id>
+  <name>AdrienLeygues</name>
+  <screen_name>Voulf</screen_name>
+  <location>Paris</location>
+  <description/>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/54126426/adrien_legues_avatar_normal.png</profile_image_url>
+  <url>http://adriens.leygues.free.fr</url>
+  <protected>false</protected>
+  <followers_count>97</followers_count>
+  <profile_background_color>9ae4e8</profile_background_color>
+  <profile_text_color>000000</profile_text_color>
+  <profile_link_color>0000ff</profile_link_color>
+  <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+  <friends_count>65</friends_count>
+  <created_at>Mon Sep 10 08:01:07 +0000 2007</created_at>
+  <favourites_count>1</favourites_count>
+  <utc_offset>3600</utc_offset>
+  <time_zone>Paris</time_zone>
+  <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>1132</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Thu Jun 04 17:12:46 +0000 2009</created_at>
+    <id>2031714284</id>
+    <text>Drink Day @ Digitas, No Charette !</text>
+    <source>&lt;a href="http://www.tweetdeck.com/"&gt;TweetDeck&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id/>
+    <in_reply_to_user_id/>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name/>
+  </status>
+</user>
+<user>
+  <id>16533939</id>
+  <name>Monique Brunel</name>
+  <screen_name>webatou</screen_name>
+  <location>Mons (Belgique)</location>
+  <description>En campagne pour des sites Web de qualité, conformes et accessibles</description>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/61025014/monique-gravatar-48_normal.jpg</profile_image_url>
+  <url>http://blog.webatou.info/</url>
+  <protected>false</protected>
+  <followers_count>446</followers_count>
+  <profile_background_color>A6A7C6</profile_background_color>
+  <profile_text_color>4B4C83</profile_text_color>
+  <profile_link_color>990000</profile_link_color>
+  <profile_sidebar_fill_color>E0DFEF</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>4B4C83</profile_sidebar_border_color>
+  <friends_count>305</friends_count>
+  <created_at>Tue Sep 30 20:19:04 +0000 2008</created_at>
+  <favourites_count>42</favourites_count>
+  <utc_offset>3600</utc_offset>
+  <time_zone>Brussels</time_zone>
+  <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/3629101/fond-ciel-800.png</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>1219</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Sat Jun 06 10:13:53 +0000 2009</created_at>
+    <id>2053089937</id>
+    <text>il est vrai que les updates manquent un peu de réinvention... RT: @Mateusz: Unfollow @dreynders</text>
+    <source>&lt;a href="http://twitterfox.net/"&gt;TwitterFox&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id/>
+    <in_reply_to_user_id/>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name/>
+  </status>
+</user>
+<user>
+  <id>6255412</id>
+  <name>Nicolas Silberman</name>
+  <screen_name>nsilberman</screen_name>
+  <location/>
+  <description>Head of technical web team @ 20minutes.fr</description>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/74098999/Image_3_normal.png</profile_image_url>
+  <url>http://blog.strategeek.fr</url>
+  <protected>true</protected>
+  <followers_count>174</followers_count>
+  <profile_background_color>000000</profile_background_color>
+  <profile_text_color>333333</profile_text_color>
+  <profile_link_color>0084B4</profile_link_color>
+  <profile_sidebar_fill_color>e8dcc0</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>d3d7d1</profile_sidebar_border_color>
+  <friends_count>128</friends_count>
+  <created_at>Wed May 23 08:24:22 +0000 2007</created_at>
+  <favourites_count>0</favourites_count>
+  <utc_offset>3600</utc_offset>
+  <time_zone>Paris</time_zone>
+  <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/6155717/FotoFlexer_Photo.png</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>737</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Fri Jun 05 19:56:58 +0000 2009</created_at>
+    <id>2046962068</id>
+    <text>RT @HadopInsiders: #Numerama Hadopi : le Conseil constitutionnel devrait censurer le texte: Le Conseil constit... http://tinyurl.com/pgz7l5</text>
+    <source>&lt;a href="http://twitterfon.net/"&gt;TwitterFon&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id/>
+    <in_reply_to_user_id/>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name/>
+  </status>
+</user>
+<user>
+  <id>17833693</id>
+  <name>pborreli</name>
+  <screen_name>pborreli</screen_name>
+  <location/>
+  <description/>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/69678706/HzCZasg2LaS3mLJt87A9F-I5zsBLBmCN2DPSTGDQKFpTmjOVXImAdsvsBS6OE38m_normal.jpeg</profile_image_url>
+  <url>http://borreli.com/</url>
+  <protected>false</protected>
+  <followers_count>24</followers_count>
+  <profile_background_color>8B542B</profile_background_color>
+  <profile_text_color>333333</profile_text_color>
+  <profile_link_color>9D582E</profile_link_color>
+  <profile_sidebar_fill_color>EADEAA</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>D9B17E</profile_sidebar_border_color>
+  <friends_count>23</friends_count>
+  <created_at>Wed Dec 03 10:25:25 +0000 2008</created_at>
+  <favourites_count>0</favourites_count>
+  <utc_offset>0</utc_offset>
+  <time_zone>Casablanca</time_zone>
+  <profile_background_image_url>http://static.twitter.com/images/themes/theme8/bg.gif</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>30</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Thu Jun 04 19:11:16 +0000 2009</created_at>
+    <id>2033078878</id>
+    <text>RT @skoop is looking for a new job. anyone looking for a php5 dev, consultant, trainer with an eye for best practices and community?</text>
+    <source>&lt;a href="http://www.tweetdeck.com/"&gt;TweetDeck&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id/>
+    <in_reply_to_user_id/>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name/>
+  </status>
+</user>
+<user>
+  <id>18551865</id>
+  <name>Nimwendil</name>
+  <screen_name>Nimwendil</screen_name>
+  <location>Paris, France</location>
+  <description>Developper on big graph systems, GIS and web. I like to think I can also be someone else than a geek : a drawing/music/redhead/ivy/walking/life-loving guy :)</description>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/69446061/5f3a9a67f00b27b5bbdfa2c4103c44c0_normal.jpeg</profile_image_url>
+  <url>http://www.nimwendil.net</url>
+  <protected>false</protected>
+  <followers_count>37</followers_count>
+  <profile_background_color>EDECE9</profile_background_color>
+  <profile_text_color>634047</profile_text_color>
+  <profile_link_color>088253</profile_link_color>
+  <profile_sidebar_fill_color>E3E2DE</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>D3D2CF</profile_sidebar_border_color>
+  <friends_count>36</friends_count>
+  <created_at>Fri Jan 02 13:30:07 +0000 2009</created_at>
+  <favourites_count>0</favourites_count>
+  <utc_offset>3600</utc_offset>
+  <time_zone>Paris</time_zone>
+  <profile_background_image_url>http://static.twitter.com/images/themes/theme3/bg.gif</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>358</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Fri Jun 05 16:23:30 +0000 2009</created_at>
+    <id>2044460806</id>
+    <text>@CoffeePint ouais, ça déchire !! Très très bon les associations animaux / partis ^^ ! 2 mains c'est pas assez pour applaudir !</text>
+    <source>&lt;a href="https://launchpad.net/gwibber/"&gt;Gwibber&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id>2043928741</in_reply_to_status_id>
+    <in_reply_to_user_id>19510878</in_reply_to_user_id>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name>CoffeePint</in_reply_to_screen_name>
+  </status>
+</user>
+<user>
+  <id>14124044</id>
+  <name>sadai</name>
+  <screen_name>sadai</screen_name>
+  <location>Paris/NYC/Casablanca</location>
+  <description>Internet Marketing and PHP5/Symfony Consultant</description>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/51685660/___me_normal.jpg</profile_image_url>
+  <url>http://www.sadai.net</url>
+  <protected>false</protected>
+  <followers_count>143</followers_count>
+  <profile_background_color>9ae4e8</profile_background_color>
+  <profile_text_color>000000</profile_text_color>
+  <profile_link_color>0000ff</profile_link_color>
+  <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+  <friends_count>172</friends_count>
+  <created_at>Tue Mar 11 14:52:13 +0000 2008</created_at>
+  <favourites_count>0</favourites_count>
+  <utc_offset>0</utc_offset>
+  <time_zone>Casablanca</time_zone>
+  <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>46</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Tue Jun 02 16:11:12 +0000 2009</created_at>
+    <id>2005085152</id>
+    <text>just back from NYC, and really sad for Air France jet crash victims...</text>
+    <source>web</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id/>
+    <in_reply_to_user_id/>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name/>
+  </status>
+</user>
+<user>
+  <id>16815643</id>
+  <name>Xavier Lacot</name>
+  <screen_name>xavierlacot</screen_name>
+  <location>Paris, France</location>
+  <description>French guy with a bunch of good ideas</description>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/103529159/one-night-on-the-earth_normal.jpg</profile_image_url>
+  <url>http://lacot.org/</url>
+  <protected>false</protected>
+  <followers_count>98</followers_count>
+  <profile_background_color>709397</profile_background_color>
+  <profile_text_color>333333</profile_text_color>
+  <profile_link_color>FF3300</profile_link_color>
+  <profile_sidebar_fill_color>A0C5C7</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>86A4A6</profile_sidebar_border_color>
+  <friends_count>71</friends_count>
+  <created_at>Thu Oct 16 22:43:16 +0000 2008</created_at>
+  <favourites_count>7</favourites_count>
+  <utc_offset>3600</utc_offset>
+  <time_zone>Paris</time_zone>
+  <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/6183398/one-night-on-the-earth.jpg</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>177</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Fri Jun 05 20:09:46 +0000 2009</created_at>
+    <id>2047108379</id>
+    <text>les hommes politiques sont tous des petites putes. Y en aura bien un pour me faire un procès pour avoir écrit ça ? http://xav.cc/nadine</text>
+    <source>&lt;a href="http://twitterfox.net/"&gt;TwitterFox&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id/>
+    <in_reply_to_user_id/>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name/>
+  </status>
+</user>
+<user>
+  <id>14284120</id>
+  <name>will killian</name>
+  <screen_name>forkmantis</screen_name>
+  <location>Tyler, Texas</location>
+  <description>Linux loving, Symfony developing, poker playing, beer brewing, rc plane/heli flying geek, father and Christian. Married to @tsuasai, father of @tinymargaret </description>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/112044798/25942981_normal.png</profile_image_url>
+  <url>http://friendfeed.com/forkmantis</url>
+  <protected>false</protected>
+  <followers_count>281</followers_count>
+  <profile_background_color>000000</profile_background_color>
+  <profile_text_color>000000</profile_text_color>
+  <profile_link_color>2E4630</profile_link_color>
+  <profile_sidebar_fill_color>C1DAFF</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>18af26</profile_sidebar_border_color>
+  <friends_count>259</friends_count>
+  <created_at>Wed Apr 02 15:45:45 +0000 2008</created_at>
+  <favourites_count>28</favourites_count>
+  <utc_offset>-21600</utc_offset>
+  <time_zone>Central Time (US &amp; Canada)</time_zone>
+  <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/2597475/mantis_twitter_real.jpg</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>1575</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Sat Jun 06 02:17:38 +0000 2009</created_at>
+    <id>2050788541</id>
+    <text>@JustPlaneChris Good luck w/ that, Chris.  I'll be curious to hear how it goes.</text>
+    <source>web</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id>2050581046</in_reply_to_status_id>
+    <in_reply_to_user_id>11059732</in_reply_to_user_id>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name>JustPlaneChris</in_reply_to_screen_name>
+  </status>
+</user>
+<user>
+  <id>14166244</id>
+  <name>Franck Hanot</name>
+  <screen_name>FranckHanot</screen_name>
+  <location>Theys (France)</location>
+  <description/>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/51841158/logo-right_normal.jpg</profile_image_url>
+  <url>http://www.cccreation.net/</url>
+  <protected>false</protected>
+  <followers_count>88</followers_count>
+  <profile_background_color>303030</profile_background_color>
+  <profile_text_color>333333</profile_text_color>
+  <profile_link_color>579654</profile_link_color>
+  <profile_sidebar_fill_color>DDDDDD</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>BBBBBB</profile_sidebar_border_color>
+  <friends_count>68</friends_count>
+  <created_at>Mon Mar 17 21:59:49 +0000 2008</created_at>
+  <favourites_count>0</favourites_count>
+  <utc_offset>3600</utc_offset>
+  <time_zone>Paris</time_zone>
+  <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/4170100/2003-08_Oeil_01_petit3.jpg</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>1007</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Wed Jun 03 21:23:26 +0000 2009</created_at>
+    <id>2021411185</id>
+    <text>Du stop motion, en 1976 http://bit.ly/PW1Bi</text>
+    <source>&lt;a href="http://twitterfox.net/"&gt;TwitterFox&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id/>
+    <in_reply_to_user_id/>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name/>
+  </status>
+</user>
+<user>
+  <id>14431523</id>
+  <name>SarahHaïm-Lubczanski</name>
+  <screen_name>mereteresa</screen_name>
+  <location>Paris, France</location>
+  <description>Interested in PHP, Ajax and opensource. Loves pixels. Modo@PHPFrance.com, AFUP secretary and GTDerin</description>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/52962489/mere-teresa_smt_batignolles5_thumb_normal.jpg</profile_image_url>
+  <url>http://sarahhaim.wordpress.com</url>
+  <protected>true</protected>
+  <followers_count>105</followers_count>
+  <profile_background_color>DFEFFA</profile_background_color>
+  <profile_text_color>240049</profile_text_color>
+  <profile_link_color>DA1A1A</profile_link_color>
+  <profile_sidebar_fill_color>C9CDDF</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>3A355F</profile_sidebar_border_color>
+  <friends_count>189</friends_count>
+  <created_at>Fri Apr 18 09:49:08 +0000 2008</created_at>
+  <favourites_count>100</favourites_count>
+  <utc_offset>3600</utc_offset>
+  <time_zone>Paris</time_zone>
+  <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/2426685/croix_motif.jpg</profile_background_image_url>
+  <profile_background_tile>true</profile_background_tile>
+  <statuses_count>950</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Wed Jun 03 15:54:16 +0000 2009</created_at>
+    <id>2017757433</id>
+    <text>RT @babozor @thinkgeek: For our foreign friends who can't get free shipping: Get $10 off &amp;gt; $40 order with checkout code INTL10 @grincheux</text>
+    <source>&lt;a href="http://www.nambu.com"&gt;Nambu&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id/>
+    <in_reply_to_user_id/>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name/>
+  </status>
+</user>
+<user>
+  <id>12680672</id>
+  <name>ubermuda</name>
+  <screen_name>ubermuda</screen_name>
+  <location>Paris</location>
+  <description>I love bermudas</description>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/82441271/n745113582_6145_normal.jpg</profile_image_url>
+  <url>http://mirmodynamics.com/</url>
+  <protected>false</protected>
+  <followers_count>76</followers_count>
+  <profile_background_color>1A1B1F</profile_background_color>
+  <profile_text_color>666666</profile_text_color>
+  <profile_link_color>2FC2EF</profile_link_color>
+  <profile_sidebar_fill_color>252429</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>181A1E</profile_sidebar_border_color>
+  <friends_count>48</friends_count>
+  <created_at>Fri Jan 25 12:55:24 +0000 2008</created_at>
+  <favourites_count>0</favourites_count>
+  <utc_offset>3600</utc_offset>
+  <time_zone>Paris</time_zone>
+  <profile_background_image_url>http://static.twitter.com/images/themes/theme9/bg.gif</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>261</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Fri Jun 05 19:43:10 +0000 2009</created_at>
+    <id>2046806128</id>
+    <text>le palais de tokyo ça déboîte</text>
+    <source>&lt;a href="http://twitterfon.net/"&gt;TwitterFon&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id/>
+    <in_reply_to_user_id/>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name/>
+  </status>
+</user>
+<user>
+  <id>12574212</id>
+  <name>Christophe Maximin</name>
+  <screen_name>christophe971</screen_name>
+  <location>London</location>
+  <description>web entrepreneur, blogger, ruby on rails developer and french londoner</description>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/52812854/myface_normal.jpg</profile_image_url>
+  <url>http://christophemaximin.com</url>
+  <protected>false</protected>
+  <followers_count>216</followers_count>
+  <profile_background_color>FFFFFF</profile_background_color>
+  <profile_text_color>000000</profile_text_color>
+  <profile_link_color>0000ff</profile_link_color>
+  <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+  <friends_count>73</friends_count>
+  <created_at>Wed Jan 23 01:28:25 +0000 2008</created_at>
+  <favourites_count>6</favourites_count>
+  <utc_offset>0</utc_offset>
+  <time_zone>London</time_zone>
+  <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/2046462/header-full-bg.jpg</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>731</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Sat Jun 06 04:25:20 +0000 2009</created_at>
+    <id>2051268763</id>
+    <text>After watching MSNBC regularly for about 2 years, I keep wondering ... Why is Mika Brzezinski on Television? (except "her father")</text>
+    <source>&lt;a href="http://desktop.seesmic.com/"&gt;Seesmic Desktop&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id/>
+    <in_reply_to_user_id/>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name/>
+  </status>
+</user>
+<user>
+  <id>17987735</id>
+  <name>Vincent Demeester</name>
+  <screen_name>letshaveadream</screen_name>
+  <location>Paris,France</location>
+  <description>Just a tactful geek, open-source evangelist (and king of mac user too)</description>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/200044139/q660621471_615_normal.jpg</profile_image_url>
+  <url>http://vincent.demeester.fr</url>
+  <protected>false</protected>
+  <followers_count>33</followers_count>
+  <profile_background_color>352726</profile_background_color>
+  <profile_text_color>3E4415</profile_text_color>
+  <profile_link_color>D02B55</profile_link_color>
+  <profile_sidebar_fill_color>99CC33</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>829D5E</profile_sidebar_border_color>
+  <friends_count>59</friends_count>
+  <created_at>Tue Dec 09 08:48:12 +0000 2008</created_at>
+  <favourites_count>1</favourites_count>
+  <utc_offset>3600</utc_offset>
+  <time_zone>Paris</time_zone>
+  <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/13037669/1249.png</profile_background_image_url>
+  <profile_background_tile>true</profile_background_tile>
+  <statuses_count>145</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Wed Jun 03 18:30:59 +0000 2009</created_at>
+    <id>2019434294</id>
+    <text>@n1k0 You didn't need the silverlight plugin, did you ?</text>
+    <source>web</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id>2017048055</in_reply_to_status_id>
+    <in_reply_to_user_id>6619162</in_reply_to_user_id>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name>n1k0</in_reply_to_screen_name>
+  </status>
+</user>
+<user>
+  <id>14510767</id>
+  <name>brankgnol</name>
+  <screen_name>brankgnol</screen_name>
+  <location/>
+  <description/>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/66321335/3bbd1150d0cd4692eba4fdd1237822e2_normal.jpeg</profile_image_url>
+  <url>http://tonio.biz</url>
+  <protected>false</protected>
+  <followers_count>7</followers_count>
+  <profile_background_color>352726</profile_background_color>
+  <profile_text_color>3E4415</profile_text_color>
+  <profile_link_color>D02B55</profile_link_color>
+  <profile_sidebar_fill_color>99CC33</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>829D5E</profile_sidebar_border_color>
+  <friends_count>26</friends_count>
+  <created_at>Thu Apr 24 12:27:23 +0000 2008</created_at>
+  <favourites_count>0</favourites_count>
+  <utc_offset>-10800</utc_offset>
+  <time_zone>Greenland</time_zone>
+  <profile_background_image_url>http://static.twitter.com/images/themes/theme5/bg.gif</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>40</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Fri Jun 05 08:37:43 +0000 2009</created_at>
+    <id>2040766073</id>
+    <text>a donné sa première formation ...</text>
+    <source>&lt;a href="http://www.netvibes.com/subscribe.php?module=Twitter"&gt;Netvibes&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id/>
+    <in_reply_to_user_id/>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name/>
+  </status>
+</user>
+<user>
+  <id>17349856</id>
+  <name>Sinmaniphel</name>
+  <screen_name>Sinmaniphel</screen_name>
+  <location>Paris, Ile-de-France, France</location>
+  <description/>
+  <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/125238240/200x200_Aggelos_normal.jpg</profile_image_url>
+  <url/>
+  <protected>false</protected>
+  <followers_count>43</followers_count>
+  <profile_background_color>1A1B1F</profile_background_color>
+  <profile_text_color>666666</profile_text_color>
+  <profile_link_color>2FC2EF</profile_link_color>
+  <profile_sidebar_fill_color>252429</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>181A1E</profile_sidebar_border_color>
+  <friends_count>31</friends_count>
+  <created_at>Wed Nov 12 21:54:36 +0000 2008</created_at>
+  <favourites_count>2</favourites_count>
+  <utc_offset/>
+  <time_zone/>
+  <profile_background_image_url>http://static.twitter.com/images/themes/theme9/bg.gif</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>503</statuses_count>
+  <notifications>false</notifications>
+  <following>0</following>
+  <status>
+    <created_at>Fri Jun 05 14:23:18 +0000 2009</created_at>
+    <id>2043111742</id>
+    <text>@jeromerenard le drame étant qu'on oublie qu'elle l'a été, notre boisson nationale :) Mais je ne peux qu'abonder :) #absinthe</text>
+    <source>&lt;a href="http://www.netvibes.com/subscribe.php?module=Twitter"&gt;Netvibes&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id>2043071990</in_reply_to_status_id>
+    <in_reply_to_user_id>15187757</in_reply_to_user_id>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name>jeromerenard</in_reply_to_screen_name>
+  </status>
+</user>
+</users>

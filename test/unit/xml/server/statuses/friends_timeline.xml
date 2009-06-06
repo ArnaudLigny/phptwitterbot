@@ -1,0 +1,743 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<statuses type="array">
+<status>
+  <created_at>Sat Jun 06 09:34:20 +0000 2009</created_at>
+  <id>2052925685</id>
+  <text>http://tr.im/nCze C'est bien pour se concentrer</text>
+  <source>&lt;a href="http://www.nambu.com"&gt;Nambu&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id/>
+  <in_reply_to_user_id/>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name/>
+  <user>
+    <id>27018261</id>
+    <name>Olivier M</name>
+    <screen_name>plouga</screen_name>
+    <location>Paris, France</location>
+    <description>Eleveur de menhirs</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/118565666/me-couly_normal.png</profile_image_url>
+    <url>http://neokraft.net/</url>
+    <protected>false</protected>
+    <followers_count>36</followers_count>
+    <profile_background_color>EBEBEB</profile_background_color>
+    <profile_text_color>333333</profile_text_color>
+    <profile_link_color>990000</profile_link_color>
+    <profile_sidebar_fill_color>F3F3F3</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>DFDFDF</profile_sidebar_border_color>
+    <friends_count>21</friends_count>
+    <created_at>Fri Mar 27 14:49:15 +0000 2009</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>3600</utc_offset>
+    <time_zone>Paris</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme7/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>45</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </user>
+</status>
+<status>
+  <created_at>Sat Jun 06 09:10:31 +0000 2009</created_at>
+  <id>2052826891</id>
+  <text>Bon anniversaire @noecendrier !! Que tous tes voeux se réalisent !! Bises</text>
+  <source>&lt;a href="http://twitterrific.com"&gt;Twitterrific&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id/>
+  <in_reply_to_user_id/>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name/>
+  <user>
+    <id>34212871</id>
+    <name>Marie ALHOMME</name>
+    <screen_name>PouipouiDesign</screen_name>
+    <location>Avignon, France</location>
+    <description>Freelance Webdesigner and Front-End Dev, work at home, love my job, to read-sleep-eat, and my dog and cat</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/188658700/mariealhomme_normal.jpg</profile_image_url>
+    <url>http://www.pouipouidesign.net/accueil</url>
+    <protected>false</protected>
+    <followers_count>124</followers_count>
+    <profile_background_color>e8e8e8</profile_background_color>
+    <profile_text_color>333333</profile_text_color>
+    <profile_link_color>669900</profile_link_color>
+    <profile_sidebar_fill_color>dcdddb</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>dcdddb</profile_sidebar_border_color>
+    <friends_count>131</friends_count>
+    <created_at>Wed Apr 22 07:12:27 +0000 2009</created_at>
+    <favourites_count>8</favourites_count>
+    <utc_offset>3600</utc_offset>
+    <time_zone>Paris</time_zone>
+    <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/10884235/bg-twitter.png</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>321</statuses_count>
+    <notifications/>
+    <following/>
+  </user>
+</status>
+<status>
+  <created_at>Sat Jun 06 09:02:29 +0000 2009</created_at>
+  <id>2052792456</id>
+  <text>Pour vous, soup.io se rapproche plus de Posterous ou Friendfeed ?</text>
+  <source>&lt;a href="http://www.netvibes.com/subscribe.php?module=Twitter"&gt;Netvibes&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id/>
+  <in_reply_to_user_id/>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name/>
+  <user>
+    <id>6467822</id>
+    <name>Oncle Tom</name>
+    <screen_name>oncletom</screen_name>
+    <location>Bordeaux, France</location>
+    <description>Web consultant wide opened to standards</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/68655021/avatar-oncletom-400x400_normal.jpg</profile_image_url>
+    <url>http://case.oncle-tom.net</url>
+    <protected>false</protected>
+    <followers_count>355</followers_count>
+    <profile_background_color>472f0e</profile_background_color>
+    <profile_text_color>382306</profile_text_color>
+    <profile_link_color>928975</profile_link_color>
+    <profile_sidebar_fill_color>eae7d2</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>332005</profile_sidebar_border_color>
+    <friends_count>118</friends_count>
+    <created_at>Thu May 31 10:25:32 +0000 2007</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>3600</utc_offset>
+    <time_zone>Paris</time_zone>
+    <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/5830208/twitter-bg.png</profile_background_image_url>
+    <profile_background_tile>true</profile_background_tile>
+    <statuses_count>2570</statuses_count>
+    <notifications>false</notifications>
+    <following>0</following>
+  </user>
+</status>
+<status>
+  <created_at>Sat Jun 06 09:01:28 +0000 2009</created_at>
+  <id>2052787901</id>
+  <text>@n1k0 Les gens ne supportent pas les bonnes intentions parce qu'ils se sentent coupables de ne rien faire de leur côté. #home, c'est bien.</text>
+  <source>web</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id>2052518161</in_reply_to_status_id>
+  <in_reply_to_user_id>6619162</in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name>n1k0</in_reply_to_screen_name>
+  <user>
+    <id>15428188</id>
+    <name>Mitternacht</name>
+    <screen_name>Mitternacht</screen_name>
+    <location>Paris</location>
+    <description>Type, design and music lover in constant exploration.</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/61311170/gravatar_normal.png</profile_image_url>
+    <url>http://inspireme.lasoeurkaramazov.net/</url>
+    <protected>false</protected>
+    <followers_count>230</followers_count>
+    <profile_background_color>fff</profile_background_color>
+    <profile_text_color>624528</profile_text_color>
+    <profile_link_color>94A834</profile_link_color>
+    <profile_sidebar_fill_color>fff</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>fff</profile_sidebar_border_color>
+    <friends_count>98</friends_count>
+    <created_at>Mon Jul 14 15:57:29 +0000 2008</created_at>
+    <favourites_count>3</favourites_count>
+    <utc_offset>3600</utc_offset>
+    <time_zone>Paris</time_zone>
+    <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/6631521/inspireme.jpg</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>1026</statuses_count>
+    <notifications/>
+    <following/>
+  </user>
+</status>
+<status>
+  <created_at>Sat Jun 06 08:53:30 +0000 2009</created_at>
+  <id>2052753390</id>
+  <text>RT @davidwUK: WWDC 2009: Rumor Round-Up Ahead of the Big Show http://bit.ly/fAn3y Good read. Tablet would be nice.</text>
+  <source>web</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id/>
+  <in_reply_to_user_id/>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name/>
+  <user>
+    <id>14485018</id>
+    <name>Elisa MK aka. feedly</name>
+    <screen_name>feedly</screen_name>
+    <location>San Francisco, CA</location>
+    <description>Helping build a feedly community on twitter</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/141078960/Picture_44_normal.png</profile_image_url>
+    <url>http://www.feedly.com</url>
+    <protected>false</protected>
+    <followers_count>2428</followers_count>
+    <profile_background_color>FFFFFF</profile_background_color>
+    <profile_text_color>404040</profile_text_color>
+    <profile_link_color>0A65BB</profile_link_color>
+    <profile_sidebar_fill_color>E1EBFF</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>E2E7EE</profile_sidebar_border_color>
+    <friends_count>1273</friends_count>
+    <created_at>Wed Apr 23 04:00:25 +0000 2008</created_at>
+    <favourites_count>628</favourites_count>
+    <utc_offset>-28800</utc_offset>
+    <time_zone>Pacific Time (US &amp; Canada)</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme2/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>1551</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </user>
+</status>
+<status>
+  <created_at>Sat Jun 06 08:51:26 +0000 2009</created_at>
+  <id>2052744733</id>
+  <text>RT @akyrho: @fdevillamil maybe you'll find something interresting right here : http://bit.ly/wGtxG just what I was looking for thank you</text>
+  <source>&lt;a href="http://desktop.seesmic.com/"&gt;Seesmic Desktop&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id/>
+  <in_reply_to_user_id/>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name/>
+  <user>
+    <id>6637282</id>
+    <name>Frédéric de Villamil</name>
+    <screen_name>fdevillamil</screen_name>
+    <location>Paris, France</location>
+    <description>Web usability specialist / founder of Twitmark.me, social bookmarking 140 characters at a time</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/179360630/fred-20090424-002_normal.jpg</profile_image_url>
+    <url>http://t37.net</url>
+    <protected>false</protected>
+    <followers_count>577</followers_count>
+    <profile_background_color>FFFFFF</profile_background_color>
+    <profile_text_color>000000</profile_text_color>
+    <profile_link_color>2971A7</profile_link_color>
+    <profile_sidebar_fill_color>ffffff</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>FFFFFF</profile_sidebar_border_color>
+    <friends_count>140</friends_count>
+    <created_at>Thu Jun 07 10:34:28 +0000 2007</created_at>
+    <favourites_count>7</favourites_count>
+    <utc_offset>3600</utc_offset>
+    <time_zone>Paris</time_zone>
+    <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/2708305/twitter-template.png</profile_background_image_url>
+    <profile_background_tile>true</profile_background_tile>
+    <statuses_count>8155</statuses_count>
+    <notifications/>
+    <following/>
+  </user>
+</status>
+<status>
+  <created_at>Sat Jun 06 08:40:01 +0000 2009</created_at>
+  <id>2052695666</id>
+  <text>RT @simplyann: Loving the new @feedly look. Nice work! [thanks!]</text>
+  <source>web</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id/>
+  <in_reply_to_user_id/>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name/>
+  <user>
+    <id>14485018</id>
+    <name>Elisa MK aka. feedly</name>
+    <screen_name>feedly</screen_name>
+    <location>San Francisco, CA</location>
+    <description>Helping build a feedly community on twitter</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/141078960/Picture_44_normal.png</profile_image_url>
+    <url>http://www.feedly.com</url>
+    <protected>false</protected>
+    <followers_count>2427</followers_count>
+    <profile_background_color>FFFFFF</profile_background_color>
+    <profile_text_color>404040</profile_text_color>
+    <profile_link_color>0A65BB</profile_link_color>
+    <profile_sidebar_fill_color>E1EBFF</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>E2E7EE</profile_sidebar_border_color>
+    <friends_count>1272</friends_count>
+    <created_at>Wed Apr 23 04:00:25 +0000 2008</created_at>
+    <favourites_count>628</favourites_count>
+    <utc_offset>-28800</utc_offset>
+    <time_zone>Pacific Time (US &amp; Canada)</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme2/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>1550</statuses_count>
+    <notifications/>
+    <following/>
+  </user>
+</status>
+<status>
+  <created_at>Sat Jun 06 08:35:14 +0000 2009</created_at>
+  <id>2052674827</id>
+  <text>I'm looking for a site / tool that would give me the complementary color of 2 colors</text>
+  <source>&lt;a href="http://desktop.seesmic.com/"&gt;Seesmic Desktop&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id/>
+  <in_reply_to_user_id/>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name/>
+  <user>
+    <id>6637282</id>
+    <name>Frédéric de Villamil</name>
+    <screen_name>fdevillamil</screen_name>
+    <location>Paris, France</location>
+    <description>Web usability specialist / founder of Twitmark.me, social bookmarking 140 characters at a time</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/179360630/fred-20090424-002_normal.jpg</profile_image_url>
+    <url>http://t37.net</url>
+    <protected>false</protected>
+    <followers_count>577</followers_count>
+    <profile_background_color>FFFFFF</profile_background_color>
+    <profile_text_color>000000</profile_text_color>
+    <profile_link_color>2971A7</profile_link_color>
+    <profile_sidebar_fill_color>ffffff</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>FFFFFF</profile_sidebar_border_color>
+    <friends_count>140</friends_count>
+    <created_at>Thu Jun 07 10:34:28 +0000 2007</created_at>
+    <favourites_count>7</favourites_count>
+    <utc_offset>3600</utc_offset>
+    <time_zone>Paris</time_zone>
+    <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/2708305/twitter-template.png</profile_background_image_url>
+    <profile_background_tile>true</profile_background_tile>
+    <statuses_count>8154</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </user>
+</status>
+<status>
+  <created_at>Sat Jun 06 08:34:22 +0000 2009</created_at>
+  <id>2052671105</id>
+  <text>Why TF am I listening to tunes from the most hatred period of my life?</text>
+  <source>&lt;a href="http://desktop.seesmic.com/"&gt;Seesmic Desktop&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id/>
+  <in_reply_to_user_id/>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name/>
+  <user>
+    <id>6637282</id>
+    <name>Frédéric de Villamil</name>
+    <screen_name>fdevillamil</screen_name>
+    <location>Paris, France</location>
+    <description>Web usability specialist / founder of Twitmark.me, social bookmarking 140 characters at a time</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/179360630/fred-20090424-002_normal.jpg</profile_image_url>
+    <url>http://t37.net</url>
+    <protected>false</protected>
+    <followers_count>577</followers_count>
+    <profile_background_color>FFFFFF</profile_background_color>
+    <profile_text_color>000000</profile_text_color>
+    <profile_link_color>2971A7</profile_link_color>
+    <profile_sidebar_fill_color>ffffff</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>FFFFFF</profile_sidebar_border_color>
+    <friends_count>140</friends_count>
+    <created_at>Thu Jun 07 10:34:28 +0000 2007</created_at>
+    <favourites_count>7</favourites_count>
+    <utc_offset>3600</utc_offset>
+    <time_zone>Paris</time_zone>
+    <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/2708305/twitter-template.png</profile_background_image_url>
+    <profile_background_tile>true</profile_background_tile>
+    <statuses_count>8153</statuses_count>
+    <notifications/>
+    <following/>
+  </user>
+</status>
+<status>
+  <created_at>Sat Jun 06 08:16:23 +0000 2009</created_at>
+  <id>2052592831</id>
+  <text>@n1k0 if you're really into biking, u need to get to this: http://www.horizonsunlimited.com/meetings/UK2009.php bring ur FZR, see u there :)</text>
+  <source>&lt;a href="http://loungeapp.com"&gt;Lounge&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id/>
+  <in_reply_to_user_id>6619162</in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name>n1k0</in_reply_to_screen_name>
+  <user>
+    <id>9400622</id>
+    <name>Lee Bolding</name>
+    <screen_name>leesbian</screen_name>
+    <location>London, UK</location>
+    <description>I do all my own stunts.</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/117417794/Lee-Snetterton-0016-800h_normal.jpg</profile_image_url>
+    <url>http://www.leesbian.net</url>
+    <protected>false</protected>
+    <followers_count>80</followers_count>
+    <profile_background_color>515481</profile_background_color>
+    <profile_text_color>333333</profile_text_color>
+    <profile_link_color>525582</profile_link_color>
+    <profile_sidebar_fill_color>9799cc</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>FFFFFF</profile_sidebar_border_color>
+    <friends_count>65</friends_count>
+    <created_at>Fri Oct 12 10:32:00 +0000 2007</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>0</utc_offset>
+    <time_zone>London</time_zone>
+    <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/5692027/banner.jpg</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>773</statuses_count>
+    <notifications/>
+    <following/>
+  </user>
+</status>
+<status>
+  <created_at>Sat Jun 06 08:13:51 +0000 2009</created_at>
+  <id>2052581360</id>
+  <text>OpenSource Bridge http://opensourcebridge.org would be cool - but it means missing out on the fun at Horizons http://tinyurl.com/pvcey9</text>
+  <source>&lt;a href="http://loungeapp.com"&gt;Lounge&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id/>
+  <in_reply_to_user_id/>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name/>
+  <user>
+    <id>9400622</id>
+    <name>Lee Bolding</name>
+    <screen_name>leesbian</screen_name>
+    <location>London, UK</location>
+    <description>I do all my own stunts.</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/117417794/Lee-Snetterton-0016-800h_normal.jpg</profile_image_url>
+    <url>http://www.leesbian.net</url>
+    <protected>false</protected>
+    <followers_count>79</followers_count>
+    <profile_background_color>515481</profile_background_color>
+    <profile_text_color>333333</profile_text_color>
+    <profile_link_color>525582</profile_link_color>
+    <profile_sidebar_fill_color>9799cc</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>FFFFFF</profile_sidebar_border_color>
+    <friends_count>65</friends_count>
+    <created_at>Fri Oct 12 10:32:00 +0000 2007</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>0</utc_offset>
+    <time_zone>London</time_zone>
+    <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/5692027/banner.jpg</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>772</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </user>
+</status>
+<status>
+  <created_at>Sat Jun 06 08:00:29 +0000 2009</created_at>
+  <id>2052518161</id>
+  <text>don't understand all this #home bashing</text>
+  <source>&lt;a href="http://www.nambu.com"&gt;Nambu&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id/>
+  <in_reply_to_user_id/>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name/>
+  <user>
+    <id>6619162</id>
+    <name>Nicolas Perriault</name>
+    <screen_name>n1k0</screen_name>
+    <location>Arcueil, France</location>
+    <description>They didn't know that it was impossible, thus they did it. -- Mark Twain</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/94266171/Photo_9_sepia_normal.jpg</profile_image_url>
+    <url>http://prendreuncafe.com</url>
+    <protected>false</protected>
+    <followers_count>392</followers_count>
+    <profile_background_color>1A1B1F</profile_background_color>
+    <profile_text_color>666666</profile_text_color>
+    <profile_link_color>2FC2EF</profile_link_color>
+    <profile_sidebar_fill_color>252429</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>181A1E</profile_sidebar_border_color>
+    <friends_count>164</friends_count>
+    <created_at>Wed Jun 06 13:58:15 +0000 2007</created_at>
+    <favourites_count>36</favourites_count>
+    <utc_offset>3600</utc_offset>
+    <time_zone>Paris</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme9/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>3730</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </user>
+</status>
+<status>
+  <created_at>Sat Jun 06 07:43:15 +0000 2009</created_at>
+  <id>2052435346</id>
+  <text>#Home = diffusé gratuitement = rentable = réalisé par un mec qui critiquait ce modèle pendant #hadopi : Luc Besson. On est vraiment bon</text>
+  <source>&lt;a href="http://www.netvibes.com/subscribe.php?module=Twitter"&gt;Netvibes&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id/>
+  <in_reply_to_user_id/>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name/>
+  <user>
+    <id>6467822</id>
+    <name>Oncle Tom</name>
+    <screen_name>oncletom</screen_name>
+    <location>Bordeaux, France</location>
+    <description>Web consultant wide opened to standards</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/68655021/avatar-oncletom-400x400_normal.jpg</profile_image_url>
+    <url>http://case.oncle-tom.net</url>
+    <protected>false</protected>
+    <followers_count>355</followers_count>
+    <profile_background_color>472f0e</profile_background_color>
+    <profile_text_color>382306</profile_text_color>
+    <profile_link_color>928975</profile_link_color>
+    <profile_sidebar_fill_color>eae7d2</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>332005</profile_sidebar_border_color>
+    <friends_count>118</friends_count>
+    <created_at>Thu May 31 10:25:32 +0000 2007</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>3600</utc_offset>
+    <time_zone>Paris</time_zone>
+    <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/5830208/twitter-bg.png</profile_background_image_url>
+    <profile_background_tile>true</profile_background_tile>
+    <statuses_count>2568</statuses_count>
+    <notifications/>
+    <following/>
+  </user>
+</status>
+<status>
+  <created_at>Sat Jun 06 07:21:39 +0000 2009</created_at>
+  <id>2052327351</id>
+  <text>Suddenly I'm at Loaded all over again. Good times :D</text>
+  <source>&lt;a href="http://www.atebits.com/"&gt;Tweetie&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id/>
+  <in_reply_to_user_id/>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name/>
+  <user>
+    <id>9400622</id>
+    <name>Lee Bolding</name>
+    <screen_name>leesbian</screen_name>
+    <location>London, UK</location>
+    <description>I do all my own stunts.</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/117417794/Lee-Snetterton-0016-800h_normal.jpg</profile_image_url>
+    <url>http://www.leesbian.net</url>
+    <protected>false</protected>
+    <followers_count>79</followers_count>
+    <profile_background_color>515481</profile_background_color>
+    <profile_text_color>333333</profile_text_color>
+    <profile_link_color>525582</profile_link_color>
+    <profile_sidebar_fill_color>9799cc</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>FFFFFF</profile_sidebar_border_color>
+    <friends_count>65</friends_count>
+    <created_at>Fri Oct 12 10:32:00 +0000 2007</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>0</utc_offset>
+    <time_zone>London</time_zone>
+    <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/5692027/banner.jpg</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>771</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </user>
+</status>
+<status>
+  <created_at>Sat Jun 06 07:10:02 +0000 2009</created_at>
+  <id>2052266657</id>
+  <text>RT @fabpot great todo list to check when starting a new symfony project, or at least just before deployment http://symfony-check.org</text>
+  <source>&lt;a href="http://www.atebits.com/"&gt;Tweetie&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id/>
+  <in_reply_to_user_id/>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name/>
+  <user>
+    <id>6619162</id>
+    <name>Nicolas Perriault</name>
+    <screen_name>n1k0</screen_name>
+    <location>Arcueil, France</location>
+    <description>They didn't know that it was impossible, thus they did it. -- Mark Twain</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/94266171/Photo_9_sepia_normal.jpg</profile_image_url>
+    <url>http://prendreuncafe.com</url>
+    <protected>false</protected>
+    <followers_count>392</followers_count>
+    <profile_background_color>1A1B1F</profile_background_color>
+    <profile_text_color>666666</profile_text_color>
+    <profile_link_color>2FC2EF</profile_link_color>
+    <profile_sidebar_fill_color>252429</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>181A1E</profile_sidebar_border_color>
+    <friends_count>164</friends_count>
+    <created_at>Wed Jun 06 13:58:15 +0000 2007</created_at>
+    <favourites_count>35</favourites_count>
+    <utc_offset>3600</utc_offset>
+    <time_zone>Paris</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme9/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>3729</statuses_count>
+    <notifications/>
+    <following/>
+  </user>
+</status>
+<status>
+  <created_at>Sat Jun 06 06:53:11 +0000 2009</created_at>
+  <id>2052173759</id>
+  <text>nice project bashsimplecurses : http://code.google.com/p/bashsimplecurses/ #bash #shell</text>
+  <source>&lt;a href="http://twitterrific.com"&gt;Twitterrific&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id/>
+  <in_reply_to_user_id/>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name/>
+  <user>
+    <id>15187757</id>
+    <name>jeromerenard</name>
+    <screen_name>jeromerenard</screen_name>
+    <location/>
+    <description/>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/55721304/Photo_3_normal.jpg</profile_image_url>
+    <url/>
+    <protected>true</protected>
+    <followers_count>18</followers_count>
+    <profile_background_color>9ae4e8</profile_background_color>
+    <profile_text_color>000000</profile_text_color>
+    <profile_link_color>0000ff</profile_link_color>
+    <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+    <friends_count>16</friends_count>
+    <created_at>Sat Jun 21 05:43:48 +0000 2008</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>-10800</utc_offset>
+    <time_zone>Greenland</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>291</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </user>
+</status>
+<status>
+  <created_at>Sat Jun 06 06:29:34 +0000 2009</created_at>
+  <id>2052042109</id>
+  <text>Wow, I'm on @diigo homepage in the active users block. Saturday morning glory ;)</text>
+  <source>&lt;a href="http://desktop.seesmic.com/"&gt;Seesmic Desktop&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id/>
+  <in_reply_to_user_id/>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name/>
+  <user>
+    <id>6637282</id>
+    <name>Frédéric de Villamil</name>
+    <screen_name>fdevillamil</screen_name>
+    <location>Paris, France</location>
+    <description>Web usability specialist / founder of Twitmark.me, social bookmarking 140 characters at a time</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/179360630/fred-20090424-002_normal.jpg</profile_image_url>
+    <url>http://t37.net</url>
+    <protected>false</protected>
+    <followers_count>576</followers_count>
+    <profile_background_color>FFFFFF</profile_background_color>
+    <profile_text_color>000000</profile_text_color>
+    <profile_link_color>2971A7</profile_link_color>
+    <profile_sidebar_fill_color>ffffff</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>FFFFFF</profile_sidebar_border_color>
+    <friends_count>140</friends_count>
+    <created_at>Thu Jun 07 10:34:28 +0000 2007</created_at>
+    <favourites_count>7</favourites_count>
+    <utc_offset>3600</utc_offset>
+    <time_zone>Paris</time_zone>
+    <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/2708305/twitter-template.png</profile_background_image_url>
+    <profile_background_tile>true</profile_background_tile>
+    <statuses_count>8152</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </user>
+</status>
+<status>
+  <created_at>Sat Jun 06 06:28:58 +0000 2009</created_at>
+  <id>2052038769</id>
+  <text>I said "maybe, you're gonna be the one that saves me".</text>
+  <source>&lt;a href="http://desktop.seesmic.com/"&gt;Seesmic Desktop&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id/>
+  <in_reply_to_user_id/>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name/>
+  <user>
+    <id>6637282</id>
+    <name>Frédéric de Villamil</name>
+    <screen_name>fdevillamil</screen_name>
+    <location>Paris, France</location>
+    <description>Web usability specialist / founder of Twitmark.me, social bookmarking 140 characters at a time</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/179360630/fred-20090424-002_normal.jpg</profile_image_url>
+    <url>http://t37.net</url>
+    <protected>false</protected>
+    <followers_count>576</followers_count>
+    <profile_background_color>FFFFFF</profile_background_color>
+    <profile_text_color>000000</profile_text_color>
+    <profile_link_color>2971A7</profile_link_color>
+    <profile_sidebar_fill_color>ffffff</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>FFFFFF</profile_sidebar_border_color>
+    <friends_count>140</friends_count>
+    <created_at>Thu Jun 07 10:34:28 +0000 2007</created_at>
+    <favourites_count>7</favourites_count>
+    <utc_offset>3600</utc_offset>
+    <time_zone>Paris</time_zone>
+    <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/2708305/twitter-template.png</profile_background_image_url>
+    <profile_background_tile>true</profile_background_tile>
+    <statuses_count>8151</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </user>
+</status>
+<status>
+  <created_at>Sat Jun 06 06:26:58 +0000 2009</created_at>
+  <id>2052027328</id>
+  <text>Goodbye elevator that makes me feel like I'm beaming up to the USS Enterprise.  http://twitpic.com/6q8tu</text>
+  <source>&lt;a href="http://www.atebits.com/"&gt;Tweetie&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id/>
+  <in_reply_to_user_id/>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name/>
+  <user>
+    <id>16007475</id>
+    <name>Kris Wallsmith</name>
+    <screen_name>kriswallsmith</screen_name>
+    <location>Portland, OR USA</location>
+    <description>symfony community/release manager, freelance web dev, dad</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/205082260/DSC_7664_normal.jpg</profile_image_url>
+    <url>http://kriswallsmith.net</url>
+    <protected>false</protected>
+    <followers_count>303</followers_count>
+    <profile_background_color>C6E2EE</profile_background_color>
+    <profile_text_color>663B12</profile_text_color>
+    <profile_link_color>1F98C7</profile_link_color>
+    <profile_sidebar_fill_color>DAECF4</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>C6E2EE</profile_sidebar_border_color>
+    <friends_count>277</friends_count>
+    <created_at>Wed Aug 27 03:48:15 +0000 2008</created_at>
+    <favourites_count>4</favourites_count>
+    <utc_offset>-28800</utc_offset>
+    <time_zone>Pacific Time (US &amp; Canada)</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme2/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>902</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </user>
+</status>
+<status>
+  <created_at>Sat Jun 06 06:03:04 +0000 2009</created_at>
+  <id>2051882739</id>
+  <text>tiens deux anniversaires le même jour, @noecendrier et @michelv, y'en a d'autres ?</text>
+  <source>&lt;a href="http://www.nambu.com"&gt;Nambu&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id/>
+  <in_reply_to_user_id/>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name/>
+  <user>
+    <id>18935593</id>
+    <name>franckpaul</name>
+    <screen_name>franckpaul</screen_name>
+    <location>Paris, Île-de-France</location>
+    <description/>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/153271733/twitter_normal.jpg</profile_image_url>
+    <url>http://open-time.net/</url>
+    <protected>false</protected>
+    <followers_count>138</followers_count>
+    <profile_background_color>333333</profile_background_color>
+    <profile_text_color>333333</profile_text_color>
+    <profile_link_color>ff871f</profile_link_color>
+    <profile_sidebar_fill_color>ffffff</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>6eff24</profile_sidebar_border_color>
+    <friends_count>169</friends_count>
+    <created_at>Tue Jan 13 11:32:39 +0000 2009</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>3600</utc_offset>
+    <time_zone>Paris</time_zone>
+    <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/3887265/fond.png</profile_background_image_url>
+    <profile_background_tile>true</profile_background_tile>
+    <statuses_count>942</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </user>
+</status>
+</statuses>

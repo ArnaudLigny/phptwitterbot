@@ -47,7 +47,9 @@ class TwitterBot
     
     $this->debug(sprintf('Creating "%s" bot', $username));
     
-    $this->client = new TwitterApiClient($username, $password);
+    $this->client = new TwitterApiClient();
+    $this->client->setUsername($username);
+    $this->client->setPassword($password);
   }
   
   /**

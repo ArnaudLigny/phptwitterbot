@@ -1,0 +1,743 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<statuses type="array">
+<status>
+  <created_at>Sat Jun 06 09:37:39 +0000 2009</created_at>
+  <id>2052939169</id>
+  <text>@KathrynMarks Thanks for having me, girl time is nice time...</text>
+  <source>&lt;a href="http://www.tweetdeck.com/"&gt;TweetDeck&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id>2052752378</in_reply_to_status_id>
+  <in_reply_to_user_id>30169141</in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name>KathrynMarks</in_reply_to_screen_name>
+  <user>
+    <id>30626335</id>
+    <name>Sue FitzGerald</name>
+    <screen_name>Susy67</screen_name>
+    <location>South Australia</location>
+    <description>SAH Mum to four boys. Dabler in many things crafty.</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/134513498/Me-for-no-frills-photo_normal.jpg</profile_image_url>
+    <url>http://susysspace.blogspot.com/</url>
+    <protected>false</protected>
+    <followers_count>22</followers_count>
+    <profile_background_color>352726</profile_background_color>
+    <profile_text_color>3E4415</profile_text_color>
+    <profile_link_color>D02B55</profile_link_color>
+    <profile_sidebar_fill_color>99CC33</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>829D5E</profile_sidebar_border_color>
+    <friends_count>25</friends_count>
+    <created_at>Sun Apr 12 09:02:07 +0000 2009</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>34200</utc_offset>
+    <time_zone>Adelaide</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme5/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>292</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </user>
+</status>
+<status>
+  <created_at>Sat Jun 06 09:37:39 +0000 2009</created_at>
+  <id>2052939168</id>
+  <text>I'm sitting on my favourite chair in the rainy Germany :(</text>
+  <source>web</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id/>
+  <in_reply_to_user_id/>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name/>
+  <user>
+    <id>45100276</id>
+    <name>Liza Améliorer</name>
+    <screen_name>Wasserpulle</screen_name>
+    <location/>
+    <description/>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/251935465/ICH_normal.jpg</profile_image_url>
+    <url/>
+    <protected>false</protected>
+    <followers_count>3</followers_count>
+    <profile_background_color>EDECE9</profile_background_color>
+    <profile_text_color>634047</profile_text_color>
+    <profile_link_color>088253</profile_link_color>
+    <profile_sidebar_fill_color>E3E2DE</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>D3D2CF</profile_sidebar_border_color>
+    <friends_count>20</friends_count>
+    <created_at>Sat Jun 06 09:27:15 +0000 2009</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>3600</utc_offset>
+    <time_zone>Berlin</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme3/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>1</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </user>
+</status>
+<status>
+  <created_at>Sat Jun 06 09:37:39 +0000 2009</created_at>
+  <id>2052939167</id>
+  <text>@JoeeCons played it boneeeee.</text>
+  <source>web</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id>2052484629</in_reply_to_status_id>
+  <in_reply_to_user_id>28726443</in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name>JoeeCons</in_reply_to_screen_name>
+  <user>
+    <id>19564406</id>
+    <name>Val C</name>
+    <screen_name>junkie_val</screen_name>
+    <location>Toronto</location>
+    <description/>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/73726926/20061020-larry_david2_normal.jpg</profile_image_url>
+    <url>http://www.thejunkies.ca</url>
+    <protected>false</protected>
+    <followers_count>107</followers_count>
+    <profile_background_color>1A1B1F</profile_background_color>
+    <profile_text_color>666666</profile_text_color>
+    <profile_link_color>2FC2EF</profile_link_color>
+    <profile_sidebar_fill_color>252429</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>181A1E</profile_sidebar_border_color>
+    <friends_count>105</friends_count>
+    <created_at>Mon Jan 26 23:00:43 +0000 2009</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>-21600</utc_offset>
+    <time_zone>Central Time (US &amp; Canada)</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme9/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>194</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </user>
+</status>
+<status>
+  <created_at>Sat Jun 06 09:37:39 +0000 2009</created_at>
+  <id>2052939165</id>
+  <text>ALERTE - AF 447: 24 messages d'anomalies transmis par l'Airbus: PARIS - L'Airbus A330 d'Air France, qui s'est ab.. http://tinyurl.com/qy9qbj</text>
+  <source>&lt;a href="http://twitterfeed.com"&gt;twitterfeed&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id/>
+  <in_reply_to_user_id/>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name/>
+  <user>
+    <id>26995562</id>
+    <name>Romandie</name>
+    <screen_name>RomandieNews</screen_name>
+    <location>Suisse romande / Romandie</location>
+    <description>Romandie.com a pour vocation de délivrer de l’information brute en temps réel, ceci avec une longueur d’avance par rapport aux autres medias.</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/114817743/r_romandie_normal.jpg</profile_image_url>
+    <url>http://www.romandie.com</url>
+    <protected>false</protected>
+    <followers_count>89</followers_count>
+    <profile_background_color>EDEEEF</profile_background_color>
+    <profile_text_color>545454</profile_text_color>
+    <profile_link_color>CC0000</profile_link_color>
+    <profile_sidebar_fill_color>EDEEEF</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>B6BCC0</profile_sidebar_border_color>
+    <friends_count>9</friends_count>
+    <created_at>Fri Mar 27 12:43:07 +0000 2009</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>3600</utc_offset>
+    <time_zone>Paris</time_zone>
+    <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/7916247/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>4411</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </user>
+</status>
+<status>
+  <created_at>Sat Jun 06 09:37:39 +0000 2009</created_at>
+  <id>2052939163</id>
+  <text>@pgpy おかえりなさいー！＾＾</text>
+  <source>web</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id>2052921225</in_reply_to_status_id>
+  <in_reply_to_user_id>14374752</in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name>pgpy</in_reply_to_screen_name>
+  <user>
+    <id>36306456</id>
+    <name>のこ</name>
+    <screen_name>noko0</screen_name>
+    <location/>
+    <description>なんぞこれ</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/249429194/icon05_normal.jpg</profile_image_url>
+    <url/>
+    <protected>false</protected>
+    <followers_count>45</followers_count>
+    <profile_background_color>115b88</profile_background_color>
+    <profile_text_color>333333</profile_text_color>
+    <profile_link_color>0084B4</profile_link_color>
+    <profile_sidebar_fill_color>DDFFCC</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>BDDCAD</profile_sidebar_border_color>
+    <friends_count>30</friends_count>
+    <created_at>Wed Apr 29 06:44:57 +0000 2009</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>32400</utc_offset>
+    <time_zone>Tokyo</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>750</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </user>
+</status>
+<status>
+  <created_at>Sat Jun 06 09:37:39 +0000 2009</created_at>
+  <id>2052939162</id>
+  <text>just watched the 1976 version of "The Omen", not realising the significance of the date June 6....spooky</text>
+  <source>web</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id/>
+  <in_reply_to_user_id/>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name/>
+  <user>
+    <id>18210258</id>
+    <name>Rodney Farrant</name>
+    <screen_name>zillanz</screen_name>
+    <location>Wellington</location>
+    <description>these are tweets. now that's handee</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/208264032/zill_normal.jpg</profile_image_url>
+    <url/>
+    <protected>false</protected>
+    <followers_count>153</followers_count>
+    <profile_background_color>352726</profile_background_color>
+    <profile_text_color>3E4415</profile_text_color>
+    <profile_link_color>D02B55</profile_link_color>
+    <profile_sidebar_fill_color>99CC33</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>829D5E</profile_sidebar_border_color>
+    <friends_count>246</friends_count>
+    <created_at>Thu Dec 18 06:08:32 +0000 2008</created_at>
+    <favourites_count>151</favourites_count>
+    <utc_offset>43200</utc_offset>
+    <time_zone>Auckland</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme5/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>572</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </user>
+</status>
+<status>
+  <created_at>Sat Jun 06 09:37:39 +0000 2009</created_at>
+  <id>2052939161</id>
+  <text>Just joined, don't know how this works!</text>
+  <source>web</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id/>
+  <in_reply_to_user_id/>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name/>
+  <user>
+    <id>45101097</id>
+    <name>Bernie Morris</name>
+    <screen_name>Bernie2706</screen_name>
+    <location/>
+    <description/>
+    <profile_image_url>http://static.twitter.com/images/default_profile_normal.png</profile_image_url>
+    <url/>
+    <protected>false</protected>
+    <followers_count>0</followers_count>
+    <profile_background_color>9ae4e8</profile_background_color>
+    <profile_text_color>000000</profile_text_color>
+    <profile_link_color>0000ff</profile_link_color>
+    <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+    <friends_count>0</friends_count>
+    <created_at>Sat Jun 06 09:35:57 +0000 2009</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset/>
+    <time_zone/>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>1</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </user>
+</status>
+<status>
+  <created_at>Sat Jun 06 09:37:39 +0000 2009</created_at>
+  <id>2052939160</id>
+  <text>why yes, my name IS Sarah Conner!  #robotpickuplines</text>
+  <source>web</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id/>
+  <in_reply_to_user_id/>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name/>
+  <user>
+    <id>18932387</id>
+    <name>Johnny Diggz</name>
+    <screen_name>JohnnyDiggz</screen_name>
+    <location>Orlando, FL</location>
+    <description>Entertainer @ Howl at the Moon, Filmmaker, Technologist, Friend</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/71421545/johnnydiggz_normal.jpg</profile_image_url>
+    <url>http://www.diggz.org</url>
+    <protected>false</protected>
+    <followers_count>55</followers_count>
+    <profile_background_color>1A1B1F</profile_background_color>
+    <profile_text_color>666666</profile_text_color>
+    <profile_link_color>2FC2EF</profile_link_color>
+    <profile_sidebar_fill_color>252429</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>181A1E</profile_sidebar_border_color>
+    <friends_count>65</friends_count>
+    <created_at>Tue Jan 13 07:43:27 +0000 2009</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>-18000</utc_offset>
+    <time_zone>Eastern Time (US &amp; Canada)</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme9/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>323</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </user>
+</status>
+<status>
+  <created_at>Sat Jun 06 09:37:39 +0000 2009</created_at>
+  <id>2052939159</id>
+  <text>@Br1e I think im somewhere at the end of that list - unless you have VERY late meetings!! ;-)</text>
+  <source>web</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id>2052848462</in_reply_to_status_id>
+  <in_reply_to_user_id>29295336</in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name>Br1e</in_reply_to_screen_name>
+  <user>
+    <id>23378592</id>
+    <name>Incisive</name>
+    <screen_name>Incisive1</screen_name>
+    <location>West London</location>
+    <description>West London Rapper / MyIsh© Artist / Bloody good music maker (Self-acclaimed...for now!)</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/90684810/cisive2_normal.JPG</profile_image_url>
+    <url>http://www.incisive1.blogspot.com</url>
+    <protected>false</protected>
+    <followers_count>66</followers_count>
+    <profile_background_color>9ae4e8</profile_background_color>
+    <profile_text_color>000000</profile_text_color>
+    <profile_link_color>0000ff</profile_link_color>
+    <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+    <friends_count>109</friends_count>
+    <created_at>Mon Mar 09 00:43:12 +0000 2009</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>0</utc_offset>
+    <time_zone>London</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>298</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </user>
+</status>
+<status>
+  <created_at>Sat Jun 06 09:37:39 +0000 2009</created_at>
+  <id>2052939157</id>
+  <text>@09Mimi 11 pix aww ur a mad woman....aww ull never guess what....IVE NO MONEY!....no joke.....i have 45p in the bank??? wtf??? xxx</text>
+  <source>web</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id>2049375513</in_reply_to_status_id>
+  <in_reply_to_user_id>20189802</in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name>09Mimi</in_reply_to_screen_name>
+  <user>
+    <id>20182312</id>
+    <name>Rachelle O'Connor</name>
+    <screen_name>88Rachelle</screen_name>
+    <location>Donemana</location>
+    <description/>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/83619895/n539889415_2172677_659_normal.jpg</profile_image_url>
+    <url/>
+    <protected>false</protected>
+    <followers_count>40</followers_count>
+    <profile_background_color>642D8B</profile_background_color>
+    <profile_text_color>3D1957</profile_text_color>
+    <profile_link_color>FF0000</profile_link_color>
+    <profile_sidebar_fill_color>7AC3EE</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>65B0DA</profile_sidebar_border_color>
+    <friends_count>83</friends_count>
+    <created_at>Thu Feb 05 20:14:12 +0000 2009</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset/>
+    <time_zone/>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme10/bg.gif</profile_background_image_url>
+    <profile_background_tile>true</profile_background_tile>
+    <statuses_count>174</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </user>
+</status>
+<status>
+  <created_at>Sat Jun 06 09:37:38 +0000 2009</created_at>
+  <id>2052939155</id>
+  <text>Jessica Biel Shows Jimmy Fallon Her Exercise Routine: Jessica Biel shows Jimmy Fallon some highlights of her exe.. http://tinyurl.com/oos844</text>
+  <source>&lt;a href="http://twitterfeed.com"&gt;twitterfeed&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id/>
+  <in_reply_to_user_id/>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name/>
+  <user>
+    <id>34888230</id>
+    <name>eShopping Talk</name>
+    <screen_name>eshoppingtalk</screen_name>
+    <location>Hawaii</location>
+    <description>Online shopping is a new trend</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/180690451/images_normal.jpg</profile_image_url>
+    <url>http://www.eshoppingtalk.com</url>
+    <protected>false</protected>
+    <followers_count>144</followers_count>
+    <profile_background_color>9ae4e8</profile_background_color>
+    <profile_text_color>000000</profile_text_color>
+    <profile_link_color>0000ff</profile_link_color>
+    <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+    <friends_count>93</friends_count>
+    <created_at>Fri Apr 24 09:31:35 +0000 2009</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>-36000</utc_offset>
+    <time_zone>Hawaii</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>791</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </user>
+</status>
+<status>
+  <created_at>Sat Jun 06 09:37:38 +0000 2009</created_at>
+  <id>2052939154</id>
+  <text>@KankzXD lol ok.. i'll try... but i'll probably get bored after like 10 and bugger off lol</text>
+  <source>web</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id>2052935316</in_reply_to_status_id>
+  <in_reply_to_user_id>25245509</in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name>KankzXD</in_reply_to_screen_name>
+  <user>
+    <id>25964604</id>
+    <name>Owen Whittaker</name>
+    <screen_name>OweeW</screen_name>
+    <location/>
+    <description>=D</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/241364856/Twit_3_normal.jpg</profile_image_url>
+    <url/>
+    <protected>false</protected>
+    <followers_count>70</followers_count>
+    <profile_background_color>9AE4E8</profile_background_color>
+    <profile_text_color>333333</profile_text_color>
+    <profile_link_color>0084B4</profile_link_color>
+    <profile_sidebar_fill_color>DDFFCC</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>BDDCAD</profile_sidebar_border_color>
+    <friends_count>56</friends_count>
+    <created_at>Mon Mar 23 06:25:25 +0000 2009</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>36000</utc_offset>
+    <time_zone>Sydney</time_zone>
+    <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/12390478/Arctic_Monkeys__3.jpg</profile_background_image_url>
+    <profile_background_tile>true</profile_background_tile>
+    <statuses_count>1487</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </user>
+</status>
+<status>
+  <created_at>Sat Jun 06 09:37:38 +0000 2009</created_at>
+  <id>2052939153</id>
+  <text>Picking up a rental, driving to Ohio</text>
+  <source>&lt;a href="http://orangatame.com/products/twitterberry/"&gt;TwitterBerry&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id/>
+  <in_reply_to_user_id/>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name/>
+  <user>
+    <id>15614159</id>
+    <name>Joshua Culling</name>
+    <screen_name>joshuaculling</screen_name>
+    <location>Washington, DC</location>
+    <description>State Govt Affairs Manager, National Taxpayers Union. Ohio University alum.</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/65991160/Culling_Josh_normal.JPG</profile_image_url>
+    <url/>
+    <protected>false</protected>
+    <followers_count>815</followers_count>
+    <profile_background_color>9ae4e8</profile_background_color>
+    <profile_text_color>000000</profile_text_color>
+    <profile_link_color>0000ff</profile_link_color>
+    <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+    <friends_count>577</friends_count>
+    <created_at>Sat Jul 26 20:45:46 +0000 2008</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>-18000</utc_offset>
+    <time_zone>Eastern Time (US &amp; Canada)</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>2677</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </user>
+</status>
+<status>
+  <created_at>Sat Jun 06 09:37:38 +0000 2009</created_at>
+  <id>2052939151</id>
+  <text>hadi</text>
+  <source>web</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id/>
+  <in_reply_to_user_id/>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name/>
+  <user>
+    <id>37251132</id>
+    <name>furkan özdemir</name>
+    <screen_name>mrfurkan</screen_name>
+    <location/>
+    <description/>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/227305699/l_normal.jpg</profile_image_url>
+    <url/>
+    <protected>false</protected>
+    <followers_count>4</followers_count>
+    <profile_background_color>9AE4E8</profile_background_color>
+    <profile_text_color>333333</profile_text_color>
+    <profile_link_color>0084B4</profile_link_color>
+    <profile_sidebar_fill_color>DDFFCC</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>BDDCAD</profile_sidebar_border_color>
+    <friends_count>30</friends_count>
+    <created_at>Sat May 02 18:22:16 +0000 2009</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset/>
+    <time_zone/>
+    <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/14452047/08042006_028_.jpg</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>30</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </user>
+</status>
+<status>
+  <created_at>Sat Jun 06 09:37:38 +0000 2009</created_at>
+  <id>2052939149</id>
+  <text>@eviegarland Ahh, cool. Both reasons are pretty much awesome. :D</text>
+  <source>web</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id/>
+  <in_reply_to_user_id>28461195</in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name>eviegarland</in_reply_to_screen_name>
+  <user>
+    <id>20752285</id>
+    <name>Sebastian Maconi</name>
+    <screen_name>suburbanrhythm</screen_name>
+    <location>Tempe, AZ</location>
+    <description>I'm student at ASU. Also, I am awesome.</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/87344874/trexlj_normal.jpg</profile_image_url>
+    <url>http://smaconi.blogspot.com/</url>
+    <protected>false</protected>
+    <followers_count>38</followers_count>
+    <profile_background_color>709397</profile_background_color>
+    <profile_text_color>333333</profile_text_color>
+    <profile_link_color>FF3300</profile_link_color>
+    <profile_sidebar_fill_color>A0C5C7</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>86A4A6</profile_sidebar_border_color>
+    <friends_count>49</friends_count>
+    <created_at>Fri Feb 13 06:32:11 +0000 2009</created_at>
+    <favourites_count>2</favourites_count>
+    <utc_offset>-28800</utc_offset>
+    <time_zone>Pacific Time (US &amp; Canada)</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme6/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>345</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </user>
+</status>
+<status>
+  <created_at>Sat Jun 06 09:37:38 +0000 2009</created_at>
+  <id>2052939148</id>
+  <text>@Honnevon Ojee, waarom zie je er tegenop dan?</text>
+  <source>web</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id>2052935358</in_reply_to_status_id>
+  <in_reply_to_user_id>35526498</in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name>Honnevon</in_reply_to_screen_name>
+  <user>
+    <id>13935052</id>
+    <name>Esther D</name>
+    <screen_name>Webbeltje</screen_name>
+    <location>Drenthe</location>
+    <description>MoedervanMerlijn (5)/columnist/correspondent/journalist/tekstschrijver</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/248633366/SL371061_normal.JPG</profile_image_url>
+    <url>http://www.webbles.eu</url>
+    <protected>false</protected>
+    <followers_count>204</followers_count>
+    <profile_background_color>FF6699</profile_background_color>
+    <profile_text_color>362720</profile_text_color>
+    <profile_link_color>B40B43</profile_link_color>
+    <profile_sidebar_fill_color>E5507E</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>CC3366</profile_sidebar_border_color>
+    <friends_count>225</friends_count>
+    <created_at>Mon Feb 25 10:19:48 +0000 2008</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>3600</utc_offset>
+    <time_zone>Amsterdam</time_zone>
+    <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/9231847/DSC_0616.JPG</profile_background_image_url>
+    <profile_background_tile>true</profile_background_tile>
+    <statuses_count>1995</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </user>
+</status>
+<status>
+  <created_at>Sat Jun 06 09:37:38 +0000 2009</created_at>
+  <id>2052939147</id>
+  <text>2000 + Tv Channels For Free On Your Pc + Free Lifetime Updates . Now.. Tv On Pc Software Is New And Updated  With Superb Free Bonus Item ...</text>
+  <source>web</source>
+  <truncated>true</truncated>
+  <in_reply_to_status_id/>
+  <in_reply_to_user_id/>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name/>
+  <user>
+    <id>41952591</id>
+    <name>Web Reflector</name>
+    <screen_name>webreflector</screen_name>
+    <location/>
+    <description/>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/226533247/couyon1_normal.gif</profile_image_url>
+    <url/>
+    <protected>false</protected>
+    <followers_count>764</followers_count>
+    <profile_background_color>4edde4</profile_background_color>
+    <profile_text_color>b30f0f</profile_text_color>
+    <profile_link_color>2f4750</profile_link_color>
+    <profile_sidebar_fill_color>44ea2e</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>67d62e</profile_sidebar_border_color>
+    <friends_count>2</friends_count>
+    <created_at>Sat May 23 02:08:38 +0000 2009</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset/>
+    <time_zone/>
+    <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/14249830/untitled.bmp</profile_background_image_url>
+    <profile_background_tile>true</profile_background_tile>
+    <statuses_count>3174</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </user>
+</status>
+<status>
+  <created_at>Sat Jun 06 09:37:38 +0000 2009</created_at>
+  <id>2052939146</id>
+  <text>@Boogaloo1 i fink thats south of brum bay it lol !!!  are there beaches there!</text>
+  <source>web</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id>2052926868</in_reply_to_status_id>
+  <in_reply_to_user_id>20041513</in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name>Boogaloo1</in_reply_to_screen_name>
+  <user>
+    <id>20811190</id>
+    <name>Dave Baker</name>
+    <screen_name>The_Grim_Weeder</screen_name>
+    <location>UK  West Mids</location>
+    <description>Mad Geologist, Stourbridge In BLoom Volunteer, Yogi &amp; Meditator, Reader of Indian Classical Mythology, Also Barking MAD Fruitcake!  Woof Woof !!</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/137345089/me2_normal.jpg</profile_image_url>
+    <url>http://www.myspace.com/stourbridge_in_bloom</url>
+    <protected>false</protected>
+    <followers_count>1606</followers_count>
+    <profile_background_color>642D8B</profile_background_color>
+    <profile_text_color>3d14f0</profile_text_color>
+    <profile_link_color>FF0000</profile_link_color>
+    <profile_sidebar_fill_color>e8ef2a</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>3a25ef</profile_sidebar_border_color>
+    <friends_count>1627</friends_count>
+    <created_at>Fri Feb 13 21:59:37 +0000 2009</created_at>
+    <favourites_count>21</favourites_count>
+    <utc_offset>0</utc_offset>
+    <time_zone>London</time_zone>
+    <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/14987706/collage.jpg</profile_background_image_url>
+    <profile_background_tile>true</profile_background_tile>
+    <statuses_count>5089</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </user>
+</status>
+<status>
+  <created_at>Sat Jun 06 09:37:38 +0000 2009</created_at>
+  <id>2052939145</id>
+  <text>Desinstalei Stepmania também...*vazio*</text>
+  <source>web</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id/>
+  <in_reply_to_user_id/>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name/>
+  <user>
+    <id>44549300</id>
+    <name>Roberto Yukio</name>
+    <screen_name>klarthh</screen_name>
+    <location>under your feet</location>
+    <description>Nasci me fodi e resolvi fazer um twitter.</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/249231862/cuuP5180002_normal.JPG</profile_image_url>
+    <url/>
+    <protected>false</protected>
+    <followers_count>4</followers_count>
+    <profile_background_color>000000</profile_background_color>
+    <profile_text_color>CCCCFF</profile_text_color>
+    <profile_link_color>FF3399</profile_link_color>
+    <profile_sidebar_fill_color>000000</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>86A4A6</profile_sidebar_border_color>
+    <friends_count>5</friends_count>
+    <created_at>Thu Jun 04 04:54:44 +0000 2009</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>-10800</utc_offset>
+    <time_zone>Brasilia</time_zone>
+    <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/16574018/Untitled-1.png</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>8</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </user>
+</status>
+<status>
+  <created_at>Sat Jun 06 09:37:38 +0000 2009</created_at>
+  <id>2052939143</id>
+  <text>@Itsjoeduh &amp;lt;3</text>
+  <source>web</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id>2052842884</in_reply_to_status_id>
+  <in_reply_to_user_id>20578817</in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name>Itsjoeduh</in_reply_to_screen_name>
+  <user>
+    <id>24469577</id>
+    <name>Nick Fennsiv</name>
+    <screen_name>ohfennsiv</screen_name>
+    <location/>
+    <description/>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/96467362/25heo01_normal.jpg</profile_image_url>
+    <url/>
+    <protected>false</protected>
+    <followers_count>40</followers_count>
+    <profile_background_color>9AE4E8</profile_background_color>
+    <profile_text_color>333333</profile_text_color>
+    <profile_link_color>0084B4</profile_link_color>
+    <profile_sidebar_fill_color>DDFFCC</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>BDDCAD</profile_sidebar_border_color>
+    <friends_count>43</friends_count>
+    <created_at>Sun Mar 15 02:03:00 +0000 2009</created_at>
+    <favourites_count>2</favourites_count>
+    <utc_offset/>
+    <time_zone/>
+    <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/5725867/Nickthepizzakiller.jpg</profile_background_image_url>
+    <profile_background_tile>true</profile_background_tile>
+    <statuses_count>187</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </user>
+</status>
+</statuses>

@@ -1,6 +1,11 @@
 <?php
+require_once dirname(__FILE__).'/TwitterApiServer.class.php';
 require_once dirname(__FILE__).'/Tweet.class.php';
 require_once dirname(__FILE__).'/TweetCollection.class.php';
+require_once dirname(__FILE__).'/TwitterDirectMessage.class.php';
+require_once dirname(__FILE__).'/TwitterDirectMessageCollection.class.php';
+require_once dirname(__FILE__).'/TwitterUser.class.php';
+require_once dirname(__FILE__).'/TwitterUserCollection.class.php';
 
 /**
  * Twitter api client
@@ -14,102 +19,47 @@ require_once dirname(__FILE__).'/TweetCollection.class.php';
 class TwitterApiClient
 {
   protected 
-    $apiBaseUrl = 'http://twitter.com',
-    $debug      = false,
-    $httpPort   = 80,
-    $password   = null,
-    $timeOut    = 20,
-    $userAgent  = 'PHPTwitterBot (http://code.google.com/p/phptwitterbot/)',
-    $username   = null;
+    $debug     = false,
+    $server    = null,
+    $userAgent = 'PHPTwitterBot (http://code.google.com/p/phptwitterbot/)';
 
   /**
    * Default constructor
    *
-   * @param  string   $username
-   * @param  string   $password
-   * @param  Boolean  $debug
+   * @param  TwitterApiServer\null  $server
+   * @param  Boolean                $debug
    */
-  public function __construct($username = null, $password = null, $debug = false)
+  public function __construct(TwitterApiServer $server = null, $debug = false)
   {
+    if (is_null($server))
+    {
+      // Default server configuration
+      $server = new TwitterApiServer('http://twitter.com', array(
+        'userAgent' => $this->getUserAgent(),
+        'httpPort'  => 80,
+        'timeOut'   => 30,
+      ));
+    }
+    
     $this->debug = $debug;
-    
-    if (!is_null($username))
-    {
-      $this->setUsername($username);
-    }
-    
-    if (!is_null($password))
-    {
-      $this->setPassword($password);
-    }
+    $this->server = $server;
   }
 
   /**
    * Make the call
    *
    * @param  string $url
-   * @param  array  $aParameters
+   * @param  array  $parameters
    * @param  bool   $authenticate
    * @param  bool   $usePost
    *
    * @return Tweet|TweetsCollection
+   *
+   * @throws TwitterApiServerException  if the request fails for any reason
    */
-  protected function doCall($url, $aParameters = array(), $authenticate = false, $usePost = true)
-  {    
-    $url = sprintf('%s/%s.xml', $this->getApiBaseUrl(), $url);
-
-    if ($authenticate && (!$this->getUsername() || !$this->getPassword()))
-    {
-      throw new TwitterApiClientException('No username or password was set.');
-    }
-
-    $queryString = utf8_encode(http_build_query($aParameters));
-
-    $options[CURLOPT_URL] = $url . (!$usePost ? '?'.$queryString : '');
-    $options[CURLOPT_PORT] = $this->getHttpPort();
-    $options[CURLOPT_USERAGENT] = $this->getUserAgent();
-    $options[CURLOPT_FOLLOWLOCATION] = true;
-    $options[CURLOPT_RETURNTRANSFER] = true;
-    $options[CURLOPT_TIMEOUT] = $this->getTimeOut();
-
-    if ($authenticate)
-    {
-      $options[CURLOPT_HTTPAUTH] = CURLAUTH_BASIC;
-      $options[CURLOPT_USERPWD] = sprintf('%s:%s', $this->getUsername(), $this->getPassword());
-    }
-
-    if (!empty($aParameters) && $usePost)
-    {
-      $options[CURLOPT_POST] = true;
-      $options[CURLOPT_POSTFIELDS] = $queryString;
-
-      // Probaly Twitter's webserver doesn't support the Expect: 100-continue header. So we reset it.
-      $options[CURLOPT_HTTPHEADER] = array('Expect:');
-    }
-
-    $curl = curl_init();
-
-    curl_setopt_array($curl, $options);
-
-    $response = curl_exec($curl);
-    $headers = curl_getinfo($curl);
-
-    $errorNumber = curl_errno($curl);
-    $errorMessage = curl_error($curl);
-
-    curl_close($curl);
-    
-    if (!in_array($headers['http_code'], array(0, 200)))
-    {
-      throw new TwitterApiClientException(null, (int) $headers['http_code']);
-    }
-    
-    if ($errorNumber != '')
-    {
-      throw new TwitterApiClientException($errorMessage, $errorNumber);
-    }
-    
-    return $response;
+  protected function doCall($url, $parameters = array(), $authenticate = false, $usePost = true)
+  {
+    return $this->convertResponse($this->server->request(sprintf('%s.xml', $url), $parameters, $usePost ? 'POST' : 'GET'));
   }
   
   /**
@@ -117,128 +67,27 @@ class TwitterApiClient
    *
    * @param  string  $response  HTTP response string
    *
-   * @return Tweet|TweetsCollection
+   * @return TwitterEntity
+   *
+   * @throws RuntimeException if unable to parse the XML response
+   * @throws RuntimeException if XML response contains an error description node
    */
-  protected function convertAsTweets($response)
+  protected function convertResponse($response)
   {
-    $xml = @simplexml_load_string($response);
+    if (!$xml = @simplexml_load_string($response))
+    {
+      throw new RuntimeException(sprintf('Unable to parse XML response received'));
+    }
     
     if (!$xml || isset($xml->error))
     {
-      throw new TwitterApiClientException((string) $xml->error);
+      throw new RuntimeException((string) $xml->error);
     }
+
+    $dom = new DOMDocument();
+    $dom->loadXML($xml->asXML());
     
-    if ('array' === (string) $xml->attributes()->type)
-    {
-      return TweetCollection::createFromXml($xml);
-    }
-    else
-    {
-      return Tweet::createFromXml($xml);
-    }
-  }
-  
-  /**
-   * Converts a piece of XML into a message-array
-   *
-   * @param  SimpleXMLElement $xml
-   *
-   * @return array
-   */
-  protected function messageXMLToArray($xml)
-  {
-    // validate xml
-    if (!isset($xml->id, $xml->text, $xml->created_at, $xml->sender, $xml->recipient))
-    {
-      throw new TwitterApiClientException('Invalid xml for message.');
-    }
-
-    // convert into array
-    $aMessage['id'] = (string) $xml->id;
-    $aMessage['created_at'] = (int) strtotime($xml->created_at);
-    $aMessage['text'] = (string) utf8_decode($xml->text);
-    $aMessage['sender'] = $this->userXMLToArray($xml->sender);
-    $aMessage['recipient'] = $this->userXMLToArray($xml->recipient);
-
-    // return
-    return $aMessage;
-  }
-
-  /**
-   * Converts a piece of XML into a status-array
-   *
-   * @param  SimpleXMLElement $xml
-   *
-   * @return array
-   */
-  protected function statusXMLToArray($xml)
-  {
-    // validate xml
-    if (!isset($xml->id, $xml->text, $xml->created_at, $xml->source, $xml->truncated, $xml->in_reply_to_status_id, $xml->in_reply_to_user_id, $xml->favorited, $xml->user))
-    {
-      throw new TwitterApiClientException('Invalid xml for message.');
-    }
-
-    // convert into array
-    $aStatus['id'] = (string) $xml->id;
-    $aStatus['created_at'] = (int) strtotime($xml->created_at);
-    $aStatus['text'] = utf8_decode((string) $xml->text);
-    $aStatus['source'] = (isset($xml->source)) ? (string) $xml->source : '';
-    $aStatus['user'] = $this->userXMLToArray($xml->user);
-    $aStatus['truncated'] = (isset($xml->truncated) && $xml->truncated == 'true');
-    $aStatus['favorited'] = (isset($xml->favorited) && $xml->favorited == 'true');
-    $aStatus['in_reply_to_status_id'] = (string) $xml->in_reply_to_status_id;
-    $aStatus['in_reply_to_user_id'] = (string) $xml->in_reply_to_user_id;
-
-    // return
-    return $aStatus;
-  }
-
-  /**
-   * Converts a piece of XML into an user-array
-   *
-   * @param  SimpleXMLElement $xml
-   *
-   * @return array
-   */
-  protected function userXMLToArray($xml, $extended = false)
-  {
-    // validate xml
-    if (!isset($xml->id, $xml->name, $xml->screen_name, $xml->description, $xml->location, $xml->profile_image_url, $xml->url, $xml->protected, $xml->followers_count)) throw new TwitterApiClientException('Invalid xml for message.');
-
-    // convert into array
-    $aUser['id'] = (string) $xml->id;
-    $aUser['name'] = utf8_decode((string) $xml->name);
-    $aUser['screen_name'] = utf8_decode((string) $xml->screen_name);
-    $aUser['description'] = utf8_decode((string) $xml->description);
-    $aUser['location'] = utf8_decode((string) $xml->location);
-    $aUser['url'] = (string) $xml->url;
-    $aUser['protected'] = (isset($xml->protected) && $xml->protected == 'true');
-    $aUser['followers_count'] = (int) $xml->followers_count;
-    $aUser['profile_image_url'] = (string) $xml->profile_image_url;
-
-    // extended info?
-    if ($extended)
-    {
-      if (isset($xml->profile_background_color)) $aUser['profile_background_color'] = utf8_decode((string) $xml->profile_background_color);
-      if (isset($xml->profile_text_color)) $aUser['profile_text_color'] = utf8_decode((string) $xml->profile_text_color);
-      if (isset($xml->profile_link_color)) $aUser['profile_link_color'] = utf8_decode((string) $xml->profile_link_color);
-      if (isset($xml->profile_sidebar_fill_color)) $aUser['profile_sidebar_fill_color'] = utf8_decode((string) $xml->profile_sidebar_fill_color);
-      if (isset($xml->profile_sidebar_border_color)) $aUser['profile_sidebar_border_color'] = utf8_decode((string) $xml->profile_sidebar_border_color);
-      if (isset($xml->profile_background_image_url)) $aUser['profile_background_image_url'] = utf8_decode((string) $xml->profile_background_image_url);
-      if (isset($xml->profile_background_tile)) $aUser['profile_background_tile'] = (isset($xml->profile_background_tile) && $xml->profile_background_tile == 'true');
-      if (isset($xml->created_at)) $aUser['created_at'] = (int) strtotime((string) $xml->created_at);
-      if (isset($xml->following)) $aUser['following'] = (isset($xml->following) && $xml->following == 'true');
-      if (isset($xml->notifications)) $aUser['notifications'] = (isset($xml->notifications) && $xml->notifications == 'true');
-      if (isset($xml->statuses_count)) $aUser['statuses_count'] = (int) $xml->statuses_count;
-      if (isset($xml->friends_count)) $aUser['friends_count'] =  (int) $xml->friends_count;
-      if (isset($xml->favourites_count)) $aUser['favourites_count'] = (int) $xml->favourites_count;
-      if (isset($xml->time_zone)) $aUser['time_zone'] = utf8_decode((string) $xml->time_zone);
-      if (isset($xml->utc_offset)) $aUser['utc_offset'] = (int) $xml->utc_offset;
-    }
-
-    // return
-    return (array) $aUser;
+    return TwitterEntity::createFromXml($xml);
   }
 
   /**
@@ -247,33 +96,11 @@ class TwitterApiClient
    * Note that the public timeline is cached for 60 seconds so requesting it more often than that 
    * is a waste of resources.
    *
-   * @return array
+   * @return TweetCollection
    */
   public function getPublicTimeline()
   {
-    // do the call
-    $response = $this->doCall('statuses/public_timeline');
-
-    // convert into xml-object
-    $xml = @simplexml_load_string($response);
-
-    // validate
-    if ($xml == false)
-    {
-      throw new TwitterApiClientException('invalid body');
-    }
-
-    // init var
-    $aStatuses = array();
-
-    // loop statuses
-    foreach ($xml->status as $status)
-    {
-      $aStatuses[] = $this->statusXMLToArray($status);
-    }
-
-    // return
-    return (array) $aStatuses;
+    return $this->doCall('statuses/public_timeline');
   }
 
   /**
@@ -285,67 +112,52 @@ class TwitterApiClient
    * @param  int  $count    Specifies the number of statuses to retrieve. May not be greater than 200.
    * @param  int  $page
    *
-   * @return array
+   * @return TweetCollection
    */
   public function getFriendsTimeline($since = null, $sinceId = null, $count = null, $page = null)
   {
     // validate parameters
-    if ($since !== null && (int) $since <= 0) throw new TwitterApiClientException('Invalid timestamp for since.');
-    if ($sinceId !== null && (int) $sinceId <= 0) throw new TwitterApiClientException('Invalid value for sinceId.');
-    if ($count !== null && (int) $count > 200) throw new TwitterApiClientException('Count can\'t be larger then 200.');
+    if (!is_null($since) && (int) $since <= 0) throw new TwitterApiClientException('Invalid timestamp for since.');
+    if (!is_null($sinceId) && (int) $sinceId <= 0) throw new TwitterApiClientException('Invalid value for sinceId.');
+    if (!is_null($count) && (int) $count > 200) throw new TwitterApiClientException('Count can\'t be larger then 200.');
 
     // build url
-    $aParameters = array();
-    if ($since !== null) $aParameters['since'] = date('r', (int) $since);
-    if ($sinceId !== null) $aParameters['since_id'] = (int) $sinceId;
-    if ($count !== null) $aParameters['count'] = (int) $count;
-    if ($page !== null) $aParameters['page'] = (int) $page;
+    $parameters = array();
+    if (!is_null($since)) $parameters['since'] = date('r', (int) $since);
+    if (!is_null($sinceId)) $parameters['since_id'] = (int) $sinceId;
+    if (!is_null($count)) $parameters['count'] = (int) $count;
+    if (!is_null($page)) $parameters['page'] = (int) $page;
 
-    // do the call
-    $response = $this->doCall('statuses/friends_timeline', $aParameters, true, false);
-
-    // convert into xml-object
-    $xml = @simplexml_load_string($response);
-
-    // validate
-    if ($xml == false) throw new TwitterApiClientException('invalid body');
-
-    // init var
-    $aStatuses = array();
-
-    // loop statuses
-    foreach ($xml->status as $status) $aStatuses[] = $this->statusXMLToArray($status);
-
-    // return
-    return (array) $aStatuses;
+    return $this->doCall('statuses/friends_timeline', $parameters, true, false);
   }
 
   /**
    * Returns the 20 most recent statuses posted from the authenticating user. 
+   *
    * It's also possible to request another user's timeline via the id parameter below.
    * This is the equivalent of the Web /archive page for your own user, or the profile page for a third party.
    *
-   * @param  string $id  Specifies the id or screen name of the user for whom to return the friends_timeline.
-   * @param  int $since  Narrows the returned results to just those statuses created after the specified UNIX-timestamp, up to 24 hours old.
-   * @param  int $sinceId  Returns only statuses with an id greater than (that is, more recent than) the specified $sinceId.
-   * @param  int $count  Specifies the number of statuses to retrieve. May not be greater than 200.
-   * @param  int $page
+   * @param  string  $id       Specifies the id or screen name of the user for whom to return the friends_timeline.
+   * @param  int     $since    Narrows the returned results to just those statuses created after the specified UNIX-timestamp, up to 24 hours old
+   * @param  int     $sinceId  Returns only statuses with an id greater than (that is, more recent than) the specified $sinceId.
+   * @param  int     $count    Specifies the number of statuses to retrieve. May not be greater than 200.
+   * @param  int     $page     Page number
    *
-   * @return array
+   * @return TweetCollection
    */
   public function getUserTimeline($id = null, $since = null, $sinceId = null, $count = null, $page = null)
   {
     // validate parameters
-    if ($since !== null && (int) $since <= 0) throw new TwitterApiClientException('Invalid timestamp for since.');
-    if ($sinceId !== null && (int) $sinceId <= 0) throw new TwitterApiClientException('Invalid value for sinceId.');
-    if ($count !== null && (int) $count > 200) throw new TwitterApiClientException('Count can\'t be larger then 200.');
+    if (!is_null($since) && (int) $since <= 0) throw new TwitterApiClientException('Invalid timestamp for since.');
+    if (!is_null($sinceId) && (int) $sinceId <= 0) throw new TwitterApiClientException('Invalid value for sinceId.');
+    if (!is_null($count) && (int) $count > 200) throw new TwitterApiClientException('Count can\'t be larger then 200.');
 
     // build parameters
-    $aParameters = array();
-    if ($since !== null) $aParameters['since'] = date('r', (int) $since);
-    if ($sinceId !== null) $aParameters['since_id'] = (int) $sinceId;
-    if ($count !== null) $aParameters['count'] = (int) $count;
-    if ($page !== null) $aParameters['page'] = (int) $page;
+    $parameters = array();
+    if (!is_null($since)) $parameters['since'] = date('r', (int) $since);
+    if (!is_null($sinceId)) $parameters['since_id'] = (int) $sinceId;
+    if (!is_null($count)) $parameters['count'] = (int) $count;
+    if (!is_null($page)) $parameters['page'] = (int) $page;
 
     // build url
     $url = 'statuses/user_timeline';
@@ -355,7 +167,7 @@ class TwitterApiClient
       $url = 'statuses/user_timeline/'.urlencode($id);
     }
 
-    return $this->convertAsTweets($this->doCall($url, $aParameters, true, false));
+    return $this->doCall($url, $parameters, true, false);
   }
 
   /**
@@ -367,11 +179,11 @@ class TwitterApiClient
    */
   public function getStatus($id)
   {
-    return $this->convertAsTweets($this->doCall('statuses/show/'.urlencode($id)));
+    return $this->doCall('statuses/show/'.urlencode($id));
   }
   
   /**
-   * Checks if a given status has already been published
+   * Checks if a given status has already been published recently
    *
    * @param  string  $status  Status text
    * @param  int     $max     Number of existing statuses to check
@@ -380,11 +192,9 @@ class TwitterApiClient
    */
   public function isDuplicateStatus($status, $max = 1)
   {
-    foreach ($this->getUserTimeline() as $tweetSource)
+    foreach ($this->getUserTimeline() as $tweet)
     {
-      $tweet = Tweet::createFromSource($tweetSource);
-      
-      if (trim(strtolower($tweet->title)) == trim(strtolower($status)))
+      if (trim(strtolower($tweet->text)) == trim(strtolower($status)))
       {
         return true;
       }
@@ -400,140 +210,91 @@ class TwitterApiClient
    * @param  string  $status       The text of your status update. Should not be more than 140 characters.
    * @param  int     $inReplyToId  The id of an existing status that the status to be posted is in reply to.
    *
-   * @return array
+   * @return Tweet
    */
   public function updateStatus($status, $inReplyToId = null)
   {
-    // redefine
-    $status = (string) $status;
+    if (mb_strlen($status) > 140)
+    {
+      throw new TwitterApiClientException('Maximum 140 characters allowed for status.');
+    }
 
-    // validate parameters
-    if (strlen($status) > 140) throw new TwitterApiClientException('Maximum 140 characters allowed for status.');
+    $parameters = array('status' => $status);
+    
+    if (!is_null($inReplyToId))
+    {
+      $parameters['in_reply_to_status_id'] = (int) $inReplyToId;
+    }
 
-    // build parameters
-    $aParameters = array();
-    $aParameters['status'] = $status;
-    if ($inReplyToId !== null) $aParameters['in_reply_to_status_id'] = (int) $inReplyToId;
-
-    // do the call
-    $response = $this->doCall('statuses/update', $aParameters, true);
-
-    // convert into xml-object
-    $xml = @simplexml_load_string($response);
-
-    // validate
-    if ($xml == false) throw new TwitterApiClientException('invalid body');
-
-    // return
-    return (array) $this->statusXMLToArray($xml);
+    return $this->doCall('statuses/update', $parameters, true);
   }
 
   /**
    * Returns the 20 most recent @replies (status updates prefixed with @username) for the authenticating user.
    *
-   * @return array
-   * @param  int $since  Narrows the returned results to just those replies created after the specified UNIX-timestamp, up to 24 hours old.
-   * @param  int $sinceId  Returns only statuses with an id greater than (that is, more recent than) the specified $sinceId.
-   * @param  int $page
+   * @param  int  $since    Narrows the returned results to just those replies created after the specified UNIX-timestamp, up to 24 hours old.
+   * @param  int  $sinceId  Returns only statuses with an id greater than (that is, more recent than) the specified $sinceId.
+   * @param  int  $page
+   *
+   * @return TweetCollection
    */
   public function getReplies($since = null, $sinceId = null, $page = null)
   {
-    // validate parameters
-    if ($since !== null && (int) $since <= 0) throw new TwitterApiClientException('Invalid timestamp for since.');
-    if ($sinceId !== null && (int) $sinceId <= 0) throw new TwitterApiClientException('Invalid value for sinceId.');
+    if (!is_null($since) && (int) $since <= 0) throw new TwitterApiClientException('Invalid timestamp for since.');
+    if (!is_null($sinceId) && (int) $sinceId <= 0) throw new TwitterApiClientException('Invalid value for sinceId.');
 
-    // build parameters
-    $aParameters = array();
-    if ($since !== null) $aParameters['since'] = date('r', (int) $since);
-    if ($sinceId !== null) $aParameters['since_id'] = (int) $sinceId;
-    if ($page !== null) $aParameters['page'] = (int) $page;
+    $parameters = array();
+    if (!is_null($since)) $parameters['since'] = date('r', (int) $since);
+    if (!is_null($sinceId)) $parameters['since_id'] = (int) $sinceId;
+    if (!is_null($page)) $parameters['page'] = (int) $page;
 
-    // do the call
-    $response = $this->doCall('statuses/replies', $aParameters, true, false);
-
-    // convert into xml-object
-    $xml = @simplexml_load_string($response);
-
-    // validate
-    if ($xml == false) throw new TwitterApiClientException('invalid body');
-
-    // init var
-    $aStatuses = array();
-
-    // loop statuses
-    foreach ($xml->status as $status) $aStatuses[] = $this->statusXMLToArray($status);
-
-    // return
-    return (array) $aStatuses;
+    return $this->doCall('statuses/replies', $parameters, true, false);
   }
 
   /**
    * Destroys the status specified by the required $id parameter.
    * The authenticating user must be the author of the specified status.
    *
-   * @return array
    * @param  int $id
+   *
+   * @return Tweet
    */
   public function deleteStatus($id)
   {
-    // redefine
-    $id = (string) $id;
+    $url = 'statuses/destroy/' . urlencode($id);
 
-    // build url
-    $url = 'statuses/destroy/'. urlencode($id);
+    $parameters = array();
+    $parameters['id'] = $id;
 
-    // build parameters
-    $aParameters = array();
-    $aParameters['id'] = $id;
-
-    // do the call
-    $response = $this->doCall($url, $aParameters, true);
-
-    // convert into xml-object
-    $xml = @simplexml_load_string($response);
-
-    // validate
-    if ($xml == false) throw new TwitterApiClientException('invalid body');
-
-    // return
-    return (array) $this->statusXMLToArray($xml);
+    return $this->doCall($url, $parameters, true);
   }
 
   /**
    * Returns up to 100 of the authenticating user's friends who have most recently updated.
    * It's also possible to request another user's recent friends list via the $id parameter.
    *
-   * @return array
    * @param  string $id  The id or screen name of the user for whom to request a list of friends.
    * @param  int $page
+   *
+   * @return TwitterUserCollection
    */
   public function getFriends($id = null, $page = null)
   {
-    // build parameters
-    $aParameters = array();
-    if ($page !== null) $aParameters['page'] = (int) $page;
+    $parameters = array();
+    
+    if (!is_null($page))
+    {
+      $parameters['page'] = (int) $page;
+    }
 
-    // build url
     $url = 'statuses/friends';
-    if ($id !== null) $url = 'statuses/friends/'. urlencode($id);
+    
+    if (!is_null($id))
+    {
+      $url = 'statuses/friends/'. urlencode($id);
+    }
 
-    // do the call
-    $response = $this->doCall($url, $aParameters, true, false);
-
-    // convert into xml-object
-    $xml = @simplexml_load_string($response);
-
-    // validate
-    if ($xml == false) throw new TwitterApiClientException('invalid body');
-
-    // init var
-    $aUsers = array();
-
-    // loop statuses
-    foreach ($xml->user as $user) $aUsers[] = $this->userXMLToArray($user);
-
-    // return
-    return (array) $aUsers;
+    return $this->doCall($url, $parameters, true, false);
   }
 
   /**
@@ -545,31 +306,21 @@ class TwitterApiClient
    */
   public function getFollowers($id = null, $page = null)
   {
-    // build parameters
-    $aParameters = array();
-    if ($page !== null) $aParameters['page'] = (int) $page;
+    $parameters = array();
+    
+    if (!is_null($page))
+    {
+      $parameters['page'] = (int) $page;
+    }
 
-    // build url
     $url = 'statuses/followers';
-    if ($id !== null) $url = 'statuses/followers/'. urlencode($id);
+    
+    if (!is_null($id))
+    {
+      $url = 'statuses/followers/'. urlencode($id);
+    }
 
-    // do the call
-    $response = $this->doCall($url, $aParameters, true, false);
-
-    // convert into xml-object
-    $xml = @simplexml_load_string($response);
-
-    // validate
-    if ($xml == false) throw new TwitterApiClientException('invalid body');
-
-    // init var
-    $aUsers = array();
-
-    // loop statuses
-    foreach ($xml->user as $user) $aUsers[] = $this->userXMLToArray($user);
-
-    // return
-    return (array) $aUsers;
+    return $this->doCall($url, $parameters, true, false);
   }
 
   /**
@@ -577,212 +328,156 @@ class TwitterApiClient
    * This information includes design settings, so third party developers can theme their widgets according to a given user's preferences.
    * You must be properly authenticated to request the page of a protected user.
    *
-   * @return array
    * @param  string $id  The id or screen name of a user.
    * @param  string $email  May be used in place of $id.
+   *
+   * @return TwitterUserCollection
    */
   public function getFriend($id = null, $email = null)
   {
-    // validate parameters
-    if ($id === null && $email === null) throw new TwitterApiClientException('id or email should be specified.');
+    if ($id === null && $email === null)
+    {
+      throw new TwitterApiClientException('id or email should be specified.');
+    }
 
-    // build parameters
-    $aParameters = array();
-    if ($email !== null) $aParameters['email'] = (string) $email;
+    $parameters = array();
+    
+    if (!is_null($email))
+    {
+      $parameters['email'] = (string) $email;
+    }
 
-    // build url
     $url = 'users/show/'. urlencode($id);
-    if ($email !== null) $url = 'users/show';
+    
+    if (!is_null($email)) 
+    {
+      $url = 'users/show';
+    }
 
-    // do the call
-    $response = $this->doCall($url, $aParameters, true, false);
-
-    // convert into xml-object
-    $xml = @simplexml_load_string($response);
-
-    // validate
-    if ($xml == false) throw new TwitterApiClientException('invalid body');
-
-    // return
-    return (array) $this->userXMLToArray($xml, true);
+    $response = $this->doCall($url, $parameters, true, false);
   }
+
+  /**
+   * Returns a direct message. This method of the twitter API is not documented but exists though.
+   *
+   * @param  int  $id  Direct message id
+   *
+   * @return TwitterDirectMessage
+   */
+  public function getDirectMessage($id)
+  {
+    if (!is_null($id))
+    {
+      $parameters = array('id' => $id);
+    }
+
+    return $this->doCall('direct_messages/show/'.urlencode($id), $parameters, true, false);
+  }
+
 
   /**
    * Returns a list of the 20 most recent direct messages sent to the authenticating user.
    *
-   * @return array
    * @param  int $since  Narrows the resulting list of direct messages to just those sent after the specified UNIX-timestamp, up to 24 hours old.
    * @param  int $sinceId  Returns only direct messages with an id greater than (that is, more recent than) the specified $sinceId.
    * @param  int $page
+   *
+   * @return TwitterDirectMessageCollection
    */
   public function getDirectMessages($since = null, $sinceId = null, $page = null)
   {
-    // validate parameters
-    if ($since !== null && (int) $since <= 0) throw new TwitterApiClientException('Invalid timestamp for since.');
-    if ($sinceId !== null && (int) $sinceId <= 0) throw new TwitterApiClientException('Invalid value for sinceId.');
+    if (!is_null($since) && (int) $since <= 0) throw new TwitterApiClientException('Invalid timestamp for since.');
+    if (!is_null($sinceId) && (int) $sinceId <= 0) throw new TwitterApiClientException('Invalid value for sinceId.');
 
-    // build parameters
-    $aParameters = array();
-    if ($since !== null) $aParameters['since'] = date('r', (int) $since);
-    if ($sinceId !== null) $aParameters['since_id'] = (int) $sinceId;
-    if ($page !== null) $aParameters['page'] = (int) $page;
+    $parameters = array();
+    if (!is_null($since)) $parameters['since'] = date('r', (int) $since);
+    if (!is_null($sinceId)) $parameters['since_id'] = (int) $sinceId;
+    if (!is_null($page)) $parameters['page'] = (int) $page;
 
-    // do the call
-    $response = $this->doCall('direct_messages', $aParameters, true, false);
-
-    // convert into xml-object
-    $xml = @simplexml_load_string($response);
-
-    // validate
-    if ($xml == false) throw new TwitterApiClientException('invalid body');
-
-    // init var
-    $aDirectMessages = array();
-
-    // loop statuses
-    foreach ($xml->direct_message as $message) $aDirectMessages[] = $this->messageXMLToArray($message);
-
-    // return
-    return (array) $aDirectMessages;
+    return $this->doCall('direct_messages', $parameters, true, false);
   }
 
   /**
    * Returns a list of the 20 most recent direct messages sent by the authenticating user.
    *
-   * @return array
    * @param  int $since  Narrows the resulting list of direct messages to just those sent after the specified UNIX-timestamp, up to 24 hours old.
    * @param  int $sinceId  Returns only sent direct messages with an id greater than (that is, more recent than) the specified $sinceId.
    * @param  int $page
+   *
+   * @return TwitterDirectMessageCollection
    */
   public function getSentDirectMessages($since = null, $sinceId = null, $page = null)
   {
-    // validate parameters
-    if ($since !== null && (int) $since <= 0) throw new TwitterApiClientException('Invalid timestamp for since.');
-    if ($sinceId !== null && (int) $sinceId <= 0) throw new TwitterApiClientException('Invalid value for sinceId.');
+    if (!is_null($since) && (int) $since <= 0) throw new TwitterApiClientException('Invalid timestamp for since.');
+    if (!is_null($sinceId) && (int) $sinceId <= 0) throw new TwitterApiClientException('Invalid value for sinceId.');
 
-    // build parameters
-    $aParameters = array();
-    if ($since !== null) $aParameters['since'] = date('r', (int) $since);
-    if ($sinceId !== null) $aParameters['since_id'] = (int) $sinceId;
-    if ($page !== null) $aParameters['page'] = (int) $page;
+    $parameters = array();
+    if (!is_null($since)) $parameters['since'] = date('r', (int) $since);
+    if (!is_null($sinceId)) $parameters['since_id'] = (int) $sinceId;
+    if (!is_null($page)) $parameters['page'] = (int) $page;
 
-    // do the call
-    $response = $this->doCall('direct_messages/sent', $aParameters, true, false);
-
-    // convert into xml-object
-    $xml = @simplexml_load_string($response);
-
-    // validate
-    if ($xml == false) throw new TwitterApiClientException('invalid body');
-
-    // init var
-    $aDirectMessages = array();
-
-    // loop statuses
-    foreach ($xml->direct_message as $message) $aDirectMessages[] = $this->messageXMLToArray($message);
-
-    // return
-    return (array) $aDirectMessages;
+    return $this->doCall('direct_messages/sent', $parameters, true, false);
   }
 
   /**
    * Sends a new direct message to the specified user from the authenticating user.
    *
-   * @return array
-   * @param  string $id  The id or screen name of the recipient user.
-   * @param  string $text  The text of your direct message. Keep it under 140 characters.
+   * @param  string  $id    The id or screen name of the recipient user.
+   * @param  string  $text  The text of your direct message. Keep it under 140 characters.
+   *
+   * @return TwitterDirectMessage
    */
   public function sendDirectMessage($id, $text)
   {
-    // redefine
-    $id = (string) $id;
-    $text = (string) $text;
+    if (mb_strlen($text) > 140)
+    {
+      throw new TwitterApiClientException('Maximum 140 characters allowed for status.');
+    }
 
-    // validate parameters
-    if (strlen($text) > 140) throw new TwitterApiClientException('Maximum 140 characters allowed for status.');
+    $parameters = array();
+    $parameters['user'] = $id;
+    $parameters['text'] = $text;
 
-    // build parameters
-    $aParameters = array();
-    $aParameters['user'] = $id;
-    $aParameters['text'] = $text;
-
-    // do the call
-    $response = $this->doCall('direct_messages/new', $aParameters, true);
-
-    // convert into xml-object
-    $xml = @simplexml_load_string($response);
-
-    // validate
-    if ($xml == false) throw new TwitterApiClientException('invalid body');
-
-    // return
-    return (array) $this->messageXMLToArray($xml);
+    return $this->doCall('direct_messages/new', $parameters, true);
   }
 
   /**
    * Destroys the direct message.
    * The authenticating user must be the recipient of the specified direct message.
    *
-   * @return array
    * @param  string $id
+   *
+   * @return TwitterDirectMessage
    */
   public function deleteDirectMessage($id)
   {
-    // redefine
-    $id = (string) $id;
+    $parameters = array();
+    $parameters['id'] = $id;
 
-    // build url
-    $url = 'direct_messages/destroy/'. urlencode($id);
-
-    // build parameters
-    $aParameters = array();
-    $aParameters['id'] = $id;
-
-    // do the call
-    $response = $this->doCall($url, $aParameters, true);
-
-    // convert into xml-object
-    $xml = @simplexml_load_string($response);
-
-    // validate
-    if ($xml == false) throw new TwitterApiClientException('invalid body');
-
-    // return
-    return (array) $this->messageXMLToArray($xml);
+    return $this->doCall('direct_messages/destroy/'.urlencode($id), $parameters, true);
   }
 
   /**
    * Befriends the user specified in the id parameter as the authenticating user.
    *
-   * @return array
-   * @param  string $id  The id or screen name of the user to befriend.
-   * @param  bool $follow  Enable notifications for the target user in addition to becoming friends.
+   * @param  string $id      The id or screen name of the user to befriend.
+   * @param  bool   $follow  Enable notifications for the target user in addition to becoming friends.
+   *
+   * @return TwitterUser
    */
   public function createFriendship($id, $follow = true)
   {
-    // redefine
-    $id = (string) $id;
-    $follow = (bool) $follow;
-
-    // build url
     $url = 'friendships/create/'. urlencode($id);
 
-    // build parameters
-    $aParameters = array();
-    $aParameters['id'] = $id;
-    if ($follow) $aParameters['follow'] = $follow;
+    $parameters = array();
+    $parameters['id'] = $id;
+    
+    if ($follow)
+    {
+      $parameters['follow'] = $follow;
+    }
 
-    // do the call
-    $response = $this->doCall($url, $aParameters, true);
-
-    // convert into xml-object
-    $xml = @simplexml_load_string($response);
-
-    // validate
-    if ($xml == false) throw new TwitterApiClientException('invalid body');
-
-    // return
-    return (array) $this->userXMLToArray($xml);
+    return $this->doCall($url, $parameters, true);
   }
 
   /**
@@ -793,18 +488,15 @@ class TwitterApiClient
    */
   public function deleteFriendship($id)
   {
-    // redefine
-    $id = (string) $id;
-
     // build url
     $url = 'friendships/destroy/'. urlencode($id);
 
     // build parameters
-    $aParameters = array();
-    $aParameters['id'] = $id;
+    $parameters = array();
+    $parameters['id'] = $id;
 
     // do the call
-    $response = $this->doCall($url, $aParameters, true);
+    $response = $this->doCall($url, $parameters, true);
 
     // convert into xml-object
     $xml = @simplexml_load_string($response);
@@ -825,17 +517,13 @@ class TwitterApiClient
    */
   public function existsFriendship($id, $friendId)
   {
-    // redefine
-    $id = (string) $id;
-    $friendId = (string) $friendId;
-
     // build parameters
-    $aParameters = array();
-    $aParameters['user_a'] = (string) $id;
-    $aParameters['user_b'] = (string) $friendId;
+    $parameters = array();
+    $parameters['user_a'] = (string) $id;
+    $parameters['user_b'] = (string) $friendId;
 
     // do the call
-    $response = $this->doCall('friendships/exists', $aParameters, true, false);
+    $response = $this->doCall('friendships/exists', $parameters, true, false);
 
     // convert into xml-object
     $xml = @simplexml_load_string($response);
@@ -889,9 +577,6 @@ class TwitterApiClient
    */
   public function updateDeliveryDevice($device)
   {
-    // redefine
-    $device = (string) $device;
-
     // init vars
     $aPossibleDevices = array('sms', 'im', 'none');
 
@@ -905,11 +590,11 @@ class TwitterApiClient
     $url = 'account/update_delivery_device';
 
     // build parameters
-    $aParameters = array();
-    $aParameters['device'] = $device;
+    $parameters = array();
+    $parameters['device'] = $device;
 
     // do the call
-    $response = $this->doCall($url, $aParameters, true);
+    $response = $this->doCall($url, $parameters, true);
 
     // convert into xml-object
     $xml = @simplexml_load_string($response);
@@ -939,21 +624,21 @@ class TwitterApiClient
   {
     // validate parameters
     if ($name === null && $email === null && $url === null && $location === null && $description === null) throw new TwitterApiClientException('Specify at least one parameter.');
-    if ($name !== null && strlen($name) > 40) throw new TwitterApiClientException('Maximum 40 characters allowed for name.');
-    if ($email !== null && strlen($email) > 40) throw new TwitterApiClientException('Maximum 40 characters allowed for email.');
-    if ($url !== null && strlen($url) > 100) throw new TwitterApiClientException('Maximum 100 characters allowed for url.');
-    if ($location !== null && strlen($location) > 30) throw new TwitterApiClientException('Maximum 30 characters allowed for location.');
-    if ($description !== null && strlen($description) > 160) throw new TwitterApiClientException('Maximum 160 characters allowed for description.');
+    if (!is_null($name) && mb_strlen($name) > 40) throw new TwitterApiClientException('Maximum 40 characters allowed for name.');
+    if (!is_null($email) && mb_strlen($email) > 40) throw new TwitterApiClientException('Maximum 40 characters allowed for email.');
+    if (!is_null($url) && mb_strlen($url) > 100) throw new TwitterApiClientException('Maximum 100 characters allowed for url.');
+    if (!is_null($location) && mb_strlen($location) > 30) throw new TwitterApiClientException('Maximum 30 characters allowed for location.');
+    if (!is_null($description) && mb_strlen($description) > 160) throw new TwitterApiClientException('Maximum 160 characters allowed for description.');
 
     // build parameters
-    if ($name !== null) $aParameters['name'] = (string) $name;
-    if ($email !== null) $aParameters['email'] = (string) $email;
-    if ($url !== null) $aParameters['url'] = (string) $url;
-    if ($location !== null) $aParameters['location'] = (string) $location;
-    if ($description !== null) $aParameters['description'] = (string) $description;
+    if (!is_null($name)) $parameters['name'] = (string) $name;
+    if (!is_null($email)) $parameters['email'] = (string) $email;
+    if (!is_null($url)) $parameters['url'] = (string) $url;
+    if (!is_null($location)) $parameters['location'] = (string) $location;
+    if (!is_null($description)) $parameters['description'] = (string) $description;
 
     // make the call
-    $response = $this->doCall('account/update_profile', $aParameters, true);
+    $response = $this->doCall('account/update_profile', $parameters, true);
 
     // convert into xml-object
     $xml = @simplexml_load_string($response);
@@ -980,21 +665,21 @@ class TwitterApiClient
   {
     // validate parameters
     if ($backgroundColor === null && $textColor === null && $linkColor === null && $sidebarBackgroundColor === null && $sidebarBorderColor === null) throw new TwitterApiClientException('Specify at least one parameter.');
-    if ($backgroundColor !== null && (strlen($backgroundColor) < 3 || strlen($backgroundColor) > 6)) throw new TwitterApiClientException('Invalid color for background color.');
-    if ($textColor !== null && (strlen($textColor) < 3 || strlen($textColor) > 6)) throw new TwitterApiClientException('Invalid color for text color.');
-    if ($linkColor !== null && (strlen($linkColor) < 3 || strlen($linkColor) > 6)) throw new TwitterApiClientException('Invalid color for link color.');
-    if ($sidebarBackgroundColor !== null && (strlen($sidebarBackgroundColor) < 3 || strlen($sidebarBackgroundColor) > 6)) throw new TwitterApiClientException('Invalid color for sidebar background color.');
-    if ($sidebarBorderColor !== null && (strlen($sidebarBorderColor) < 3 || strlen($sidebarBorderColor) > 6)) throw new TwitterApiClientException('Invalid color for sidebar border color.');
+    if (!is_null($backgroundColor) && (mb_strlen($backgroundColor) < 3 || mb_strlen($backgroundColor) > 6)) throw new TwitterApiClientException('Invalid color for background color.');
+    if (!is_null($textColor) && (mb_strlen($textColor) < 3 || mb_strlen($textColor) > 6)) throw new TwitterApiClientException('Invalid color for text color.');
+    if (!is_null($linkColor) && (mb_strlen($linkColor) < 3 || mb_strlen($linkColor) > 6)) throw new TwitterApiClientException('Invalid color for link color.');
+    if (!is_null($sidebarBackgroundColor) && (mb_strlen($sidebarBackgroundColor) < 3 || mb_strlen($sidebarBackgroundColor) > 6)) throw new TwitterApiClientException('Invalid color for sidebar background color.');
+    if (!is_null($sidebarBorderColor) && (mb_strlen($sidebarBorderColor) < 3 || mb_strlen($sidebarBorderColor) > 6)) throw new TwitterApiClientException('Invalid color for sidebar border color.');
 
     // build parameters
-    if ($backgroundColor !== null) $aParameters['profile_background_color'] = (string) $backgroundColor;
-    if ($textColor !== null) $aParameters['profile_text_color'] = (string) $textColor;
-    if ($linkColor !== null) $aParameters['profile_link_color'] = (string) $linkColor;
-    if ($sidebarBackgroundColor !== null) $aParameters['profile_sidebar_fill_color'] = (string) $sidebarBackgroundColor;
-    if ($sidebarBorderColor !== null) $aParameters['profile_sidebar_border_color'] = (string) $sidebarBorderColor;
+    if (!is_null($backgroundColor)) $parameters['profile_background_color'] = (string) $backgroundColor;
+    if (!is_null($textColor)) $parameters['profile_text_color'] = (string) $textColor;
+    if (!is_null($linkColor)) $parameters['profile_link_color'] = (string) $linkColor;
+    if (!is_null($sidebarBackgroundColor)) $parameters['profile_sidebar_fill_color'] = (string) $sidebarBackgroundColor;
+    if (!is_null($sidebarBorderColor)) $parameters['profile_sidebar_border_color'] = (string) $sidebarBorderColor;
 
     // make the call
-    $response = $this->doCall('account/update_profile_colors', $aParameters, true);
+    $response = $this->doCall('account/update_profile_colors', $parameters, true);
 
     // convert into xml-object
     $xml = @simplexml_load_string($response);
@@ -1021,11 +706,11 @@ class TwitterApiClient
     throw new TwitterApiClientException(null, 501);
 
     // build parameters
-    $aParameters = array();
-    $aParameters['image'] = (string) $image;
+    $parameters = array();
+    $parameters['image'] = (string) $image;
 
     // make the call
-    $response = $this->doCall('account/update_profile_image', $aParameters, true);
+    $response = $this->doCall('account/update_profile_image', $parameters, true);
 
     // convert into xml-object
     $xml = @simplexml_load_string($response);
@@ -1049,11 +734,11 @@ class TwitterApiClient
     throw new TwitterApiClientException(null, 501);
 
     // build parameters
-    $aParameters = array();
-    $aParameters['image'] = (string) $image;
+    $parameters = array();
+    $parameters['image'] = (string) $image;
 
     // make the call
-    $response = $this->doCall('account/update_profile_background_image', $aParameters, true);
+    $response = $this->doCall('account/update_profile_background_image', $parameters, true);
 
     // convert into xml-object
     $xml = @simplexml_load_string($response);
@@ -1100,14 +785,14 @@ class TwitterApiClient
   public function getFavorites($id = null, $page = null)
   {
     // build parameters
-    $aParameters = array();
-    if ($page !== null) $aParameters['page'] = (int) $page;
+    $parameters = array();
+    if (!is_null($page)) $parameters['page'] = (int) $page;
 
     $url = 'favorites';
-    if ($id !== null) $url = 'favorites/'. urlencode($id);
+    if (!is_null($id)) $url = 'favorites/'. urlencode($id);
 
     // do the call
-    $response = $this->doCall($url, $aParameters, true, false);
+    $response = $this->doCall($url, $parameters, true, false);
 
     // convert into xml-object
     $xml = @simplexml_load_string($response);
@@ -1133,18 +818,15 @@ class TwitterApiClient
    */
   public function createFavorite($id)
   {
-    // redefine
-    $id = (string) $id;
-
     // build url
     $url = 'favorites/create/'. urlencode($id);
 
     // build parameters
-    $aParameters = array();
-    $aParameters['id'] = $id;
+    $parameters = array();
+    $parameters['id'] = $id;
 
     // do the call
-    $response = $this->doCall($url, $aParameters, true);
+    $response = $this->doCall($url, $parameters, true);
 
     // convert into xml-object
     $xml = @simplexml_load_string($response);
@@ -1164,18 +846,15 @@ class TwitterApiClient
    */
   public function deleteFavorite($id)
   {
-    // redefine
-    $id = (string) $id;
-
     // build url
     $url = 'favorites/destroy/'. urlencode($id);
 
     // build parameters
-    $aParameters = array();
-    $aParameters['id'] = $id;
+    $parameters = array();
+    $parameters['id'] = $id;
 
     // do the call
-    $response = $this->doCall($url, $aParameters, true);
+    $response = $this->doCall($url, $parameters, true);
 
     // convert into xml-object
     $xml = @simplexml_load_string($response);
@@ -1195,18 +874,15 @@ class TwitterApiClient
    */
   public function follow($id)
   {
-    // redefine
-    $id = (string) $id;
-
     // build url
     $url = 'notifications/follow/'. urlencode($id);
 
     // build parameters
-    $aParameters = array();
-    $aParameters['id'] = $id;
+    $parameters = array();
+    $parameters['id'] = $id;
 
     // do the call
-    $response = $this->doCall($url, $aParameters, true);
+    $response = $this->doCall($url, $parameters, true);
 
     // convert into xml-object
     $xml = @simplexml_load_string($response);
@@ -1226,18 +902,15 @@ class TwitterApiClient
    */
   public function unfollow($id)
   {
-    // redefine
-    $id = (string) $id;
-
     // build url
     $url = 'notifications/leave/'. urlencode($id);
 
     // build parameters
-    $aParameters = array();
-    $aParameters['id'] = $id;
+    $parameters = array();
+    $parameters['id'] = $id;
 
     // do the call
-    $response = $this->doCall($url, $aParameters, true);
+    $response = $this->doCall($url, $parameters, true);
 
     // convert into xml-object
     $xml = @simplexml_load_string($response);
@@ -1256,18 +929,15 @@ class TwitterApiClient
    */
   public function createBlock($id)
   {
-    // redefine
-    $id = (string) $id;
-
     // build url
     $url = 'blocks/create/'. urlencode($id);
 
     // build parameters
-    $aParameters = array();
-    $aParameters['id'] = $id;
+    $parameters = array();
+    $parameters['id'] = $id;
 
     // do the call
-    $response = $this->doCall($url, $aParameters, true);
+    $response = $this->doCall($url, $parameters, true);
 
     // convert into xml-object
     $xml = @simplexml_load_string($response);
@@ -1286,18 +956,15 @@ class TwitterApiClient
    */
   public function deleteBlock($id)
   {
-    // redefine
-    $id = (string) $id;
-
     // build url
     $url = 'blocks/destroy/'. urlencode($id);
 
     // build parameters
-    $aParameters = array();
-    $aParameters['id'] = $id;
+    $parameters = array();
+    $parameters['id'] = $id;
 
     // do the call
-    $response = $this->doCall($url, $aParameters, true);
+    $response = $this->doCall($url, $parameters, true);
 
     // convert into xml-object
     $xml = @simplexml_load_string($response);
@@ -1381,26 +1048,6 @@ class TwitterApiClient
   }
 
   /**
-   * Get the password
-   *
-   * @return string
-   */
-  protected function getPassword()
-  {
-    return (string) $this->password;
-  }
-  
-/**
-   * Set password
-   *
-   * @param  string $password
-   */
-  public function setPassword($password)
-  {
-    $this->password = (string) $password;
-  }
-
-  /**
    * Get the timeout
    *
    * @return int
@@ -1438,7 +1085,7 @@ class TwitterApiClient
    */
   public function setUserAgent($userAgent)
   {
-    $this->userAgent = (string) $userAgent;
+    $this->userAgent = $userAgent;
   }
 
   /**
@@ -1448,7 +1095,7 @@ class TwitterApiClient
    */
   public function getUsername()
   {
-    return (string) $this->username;
+    return $this->server->getUsername();
   }
   
   /**
@@ -1458,77 +1105,30 @@ class TwitterApiClient
    */
   public function setUsername($username)
   {
-    $this->username = (string) $username;
+    $this->server->setUsername($username);
+  }
+  
+  /**
+   * Get the password
+   *
+   * @return string
+   */
+  public function getPassword()
+  {
+    return $this->server->getPassword();
+  }
+  
+  /**
+   * Set the password
+   *
+   * @param  string $password
+   */
+  public function setPassword($password)
+  {
+    $this->server->setPassword($password);
   }
 }
 
-/**
- * Twitter client error
- *
- */
 class TwitterApiClientException extends Exception
 {
-  /**
-   * Http header-codes
-   * @var  array
-   */
-  static protected $statusCodes = array(
-      0 => 'OK',
-    100 => 'Continue',
-    101 => 'Switching Protocols',
-    200 => 'OK',
-    201 => 'Created',
-    202 => 'Accepted',
-    203 => 'Non-Authoritative Information',
-    204 => 'No Content',
-    205 => 'Reset Content',
-    206 => 'Partial Content',
-    300 => 'Multiple Choices',
-    301 => 'Moved Permanently',
-    302 => 'Found',
-    303 => 'See Other',
-    304 => 'Not Modified',
-    305 => 'Use Proxy',
-    306 => '(Unused)',
-    307 => 'Temporary Redirect',
-    400 => 'Bad Request',
-    401 => 'Unauthorized',
-    402 => 'Payment Required',
-    403 => 'Forbidden',
-    404 => 'Not Found',
-    405 => 'Method Not Allowed',
-    406 => 'Not Acceptable',
-    407 => 'Proxy Authentication Required',
-    408 => 'Request Timeout',
-    409 => 'Conflict',
-    411 => 'Length Required',
-    412 => 'Precondition Failed',
-    413 => 'Request Entity Too Large',
-    414 => 'Request-URI Too Long',
-    415 => 'Unsupported Media Type',
-    416 => 'Requested Range Not Satisfiable',
-    417 => 'Expectation Failed',
-    500 => 'Internal Server Error',
-    501 => 'Not Implemented',
-    502 => 'Bad Gateway',
-    503 => 'Service Unavailable',
-    504 => 'Gateway Timeout',
-    505 => 'HTTP Version Not Supported'
-  );
-
-  /**
-   * Default constructor
-   *
-   * @param  string $message
-   * @param  int $code
-   */
-  public function __construct($message = null, $code = null)
-  {
-    if (is_null($message) && !is_null($code) && array_key_exists((int) $code, self::$statusCodes)) 
-    {
-      $message = sprintf('HTTP %d: %s', $code, self::$statusCodes[(int) $code]);
-    }
-
-    parent::__construct($message, $code);
-  }
 }

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <status>
-  <created_at>today</created_at>
+  <created_at>Fri Jun 05 14:21:23 +0000 2009</created_at>
   <id>2043091669</id>
-  <text>@fvsch source ? j'essaye de me convaincre que c'est impossible qu'une société en arrive là</text>
+  <text>foo</text>
   <source>&lt;a href="http://www.nambu.com"&gt;Nambu&lt;/a&gt;</source>
   <truncated>false</truncated>
   <in_reply_to_status_id>2043033723</in_reply_to_status_id>

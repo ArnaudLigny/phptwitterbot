@@ -1,0 +1,743 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<statuses type="array">
+<status>
+  <created_at>Sat Jun 06 08:00:29 +0000 2009</created_at>
+  <id>2052518161</id>
+  <text>don't understand all this #home bashing</text>
+  <source>&lt;a href="http://www.nambu.com"&gt;Nambu&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id/>
+  <in_reply_to_user_id/>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name/>
+  <user>
+    <id>6619162</id>
+    <name>Nicolas Perriault</name>
+    <screen_name>n1k0</screen_name>
+    <location>Arcueil, France</location>
+    <description>They didn't know that it was impossible, thus they did it. -- Mark Twain</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/94266171/Photo_9_sepia_normal.jpg</profile_image_url>
+    <url>http://prendreuncafe.com</url>
+    <protected>false</protected>
+    <followers_count>392</followers_count>
+    <profile_background_color>1A1B1F</profile_background_color>
+    <profile_text_color>666666</profile_text_color>
+    <profile_link_color>2FC2EF</profile_link_color>
+    <profile_sidebar_fill_color>252429</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>181A1E</profile_sidebar_border_color>
+    <friends_count>164</friends_count>
+    <created_at>Wed Jun 06 13:58:15 +0000 2007</created_at>
+    <favourites_count>36</favourites_count>
+    <utc_offset>3600</utc_offset>
+    <time_zone>Paris</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme9/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>3730</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </user>
+</status>
+<status>
+  <created_at>Sat Jun 06 07:10:02 +0000 2009</created_at>
+  <id>2052266657</id>
+  <text>RT @fabpot great todo list to check when starting a new symfony project, or at least just before deployment http://symfony-check.org</text>
+  <source>&lt;a href="http://www.atebits.com/"&gt;Tweetie&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id/>
+  <in_reply_to_user_id/>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name/>
+  <user>
+    <id>6619162</id>
+    <name>Nicolas Perriault</name>
+    <screen_name>n1k0</screen_name>
+    <location>Arcueil, France</location>
+    <description>They didn't know that it was impossible, thus they did it. -- Mark Twain</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/94266171/Photo_9_sepia_normal.jpg</profile_image_url>
+    <url>http://prendreuncafe.com</url>
+    <protected>false</protected>
+    <followers_count>392</followers_count>
+    <profile_background_color>1A1B1F</profile_background_color>
+    <profile_text_color>666666</profile_text_color>
+    <profile_link_color>2FC2EF</profile_link_color>
+    <profile_sidebar_fill_color>252429</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>181A1E</profile_sidebar_border_color>
+    <friends_count>164</friends_count>
+    <created_at>Wed Jun 06 13:58:15 +0000 2007</created_at>
+    <favourites_count>35</favourites_count>
+    <utc_offset>3600</utc_offset>
+    <time_zone>Paris</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme9/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>3729</statuses_count>
+    <notifications/>
+    <following/>
+  </user>
+</status>
+<status>
+  <created_at>Fri Jun 05 17:48:12 +0000 2009</created_at>
+  <id>2045490583</id>
+  <text>every line of code I can drop is a victory</text>
+  <source>&lt;a href="http://www.nambu.com"&gt;Nambu&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id/>
+  <in_reply_to_user_id/>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name/>
+  <user>
+    <id>6619162</id>
+    <name>Nicolas Perriault</name>
+    <screen_name>n1k0</screen_name>
+    <location>Arcueil, France</location>
+    <description>They didn't know that it was impossible, thus they did it. -- Mark Twain</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/94266171/Photo_9_sepia_normal.jpg</profile_image_url>
+    <url>http://prendreuncafe.com</url>
+    <protected>false</protected>
+    <followers_count>392</followers_count>
+    <profile_background_color>1A1B1F</profile_background_color>
+    <profile_text_color>666666</profile_text_color>
+    <profile_link_color>2FC2EF</profile_link_color>
+    <profile_sidebar_fill_color>252429</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>181A1E</profile_sidebar_border_color>
+    <friends_count>164</friends_count>
+    <created_at>Wed Jun 06 13:58:15 +0000 2007</created_at>
+    <favourites_count>33</favourites_count>
+    <utc_offset>3600</utc_offset>
+    <time_zone>Paris</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme9/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>3728</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </user>
+</status>
+<status>
+  <created_at>Fri Jun 05 17:07:41 +0000 2009</created_at>
+  <id>2045024383</id>
+  <text>@mkabir just adding needed stuff to my phptwitterbot project, stay tuned (no time right now)</text>
+  <source>&lt;a href="http://www.nambu.com"&gt;Nambu&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id>2045004892</in_reply_to_status_id>
+  <in_reply_to_user_id>16604450</in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name>mkabir</in_reply_to_screen_name>
+  <user>
+    <id>6619162</id>
+    <name>Nicolas Perriault</name>
+    <screen_name>n1k0</screen_name>
+    <location>Arcueil, France</location>
+    <description>They didn't know that it was impossible, thus they did it. -- Mark Twain</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/94266171/Photo_9_sepia_normal.jpg</profile_image_url>
+    <url>http://prendreuncafe.com</url>
+    <protected>false</protected>
+    <followers_count>392</followers_count>
+    <profile_background_color>1A1B1F</profile_background_color>
+    <profile_text_color>666666</profile_text_color>
+    <profile_link_color>2FC2EF</profile_link_color>
+    <profile_sidebar_fill_color>252429</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>181A1E</profile_sidebar_border_color>
+    <friends_count>164</friends_count>
+    <created_at>Wed Jun 06 13:58:15 +0000 2007</created_at>
+    <favourites_count>33</favourites_count>
+    <utc_offset>3600</utc_offset>
+    <time_zone>Paris</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme9/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>3727</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </user>
+</status>
+<status>
+  <created_at>Fri Jun 05 16:19:32 +0000 2009</created_at>
+  <id>2044415541</id>
+  <text>@nsteinmetz yep, I know ;)</text>
+  <source>&lt;a href="http://www.nambu.com"&gt;Nambu&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id>2044408728</in_reply_to_status_id>
+  <in_reply_to_user_id>18814705</in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name>nsteinmetz</in_reply_to_screen_name>
+  <user>
+    <id>6619162</id>
+    <name>Nicolas Perriault</name>
+    <screen_name>n1k0</screen_name>
+    <location>Arcueil, France</location>
+    <description>They didn't know that it was impossible, thus they did it. -- Mark Twain</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/94266171/Photo_9_sepia_normal.jpg</profile_image_url>
+    <url>http://prendreuncafe.com</url>
+    <protected>false</protected>
+    <followers_count>392</followers_count>
+    <profile_background_color>1A1B1F</profile_background_color>
+    <profile_text_color>666666</profile_text_color>
+    <profile_link_color>2FC2EF</profile_link_color>
+    <profile_sidebar_fill_color>252429</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>181A1E</profile_sidebar_border_color>
+    <friends_count>164</friends_count>
+    <created_at>Wed Jun 06 13:58:15 +0000 2007</created_at>
+    <favourites_count>33</favourites_count>
+    <utc_offset>3600</utc_offset>
+    <time_zone>Paris</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme9/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>3726</statuses_count>
+    <notifications/>
+    <following/>
+  </user>
+</status>
+<status>
+  <created_at>Fri Jun 05 14:21:23 +0000 2009</created_at>
+  <id>2043091669</id>
+  <text>@fvsch source ? j'essaye de me convaincre que c'est impossible qu'une société en arrive là</text>
+  <source>&lt;a href="http://www.nambu.com"&gt;Nambu&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id>2043033723</in_reply_to_status_id>
+  <in_reply_to_user_id>14587759</in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name>fvsch</in_reply_to_screen_name>
+  <user>
+    <id>6619162</id>
+    <name>Nicolas Perriault</name>
+    <screen_name>n1k0</screen_name>
+    <location>Arcueil, France</location>
+    <description>They didn't know that it was impossible, thus they did it. -- Mark Twain</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/94266171/Photo_9_sepia_normal.jpg</profile_image_url>
+    <url>http://prendreuncafe.com</url>
+    <protected>false</protected>
+    <followers_count>392</followers_count>
+    <profile_background_color>1A1B1F</profile_background_color>
+    <profile_text_color>666666</profile_text_color>
+    <profile_link_color>2FC2EF</profile_link_color>
+    <profile_sidebar_fill_color>252429</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>181A1E</profile_sidebar_border_color>
+    <friends_count>164</friends_count>
+    <created_at>Wed Jun 06 13:58:15 +0000 2007</created_at>
+    <favourites_count>33</favourites_count>
+    <utc_offset>3600</utc_offset>
+    <time_zone>Paris</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme9/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>3725</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </user>
+</status>
+<status>
+  <created_at>Fri Jun 05 13:53:39 +0000 2009</created_at>
+  <id>2042807678</id>
+  <text>@bastnic j'en veux</text>
+  <source>&lt;a href="http://www.nambu.com"&gt;Nambu&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id>2042757703</in_reply_to_status_id>
+  <in_reply_to_user_id>16088762</in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name>bastnic</in_reply_to_screen_name>
+  <user>
+    <id>6619162</id>
+    <name>Nicolas Perriault</name>
+    <screen_name>n1k0</screen_name>
+    <location>Arcueil, France</location>
+    <description>They didn't know that it was impossible, thus they did it. -- Mark Twain</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/94266171/Photo_9_sepia_normal.jpg</profile_image_url>
+    <url>http://prendreuncafe.com</url>
+    <protected>false</protected>
+    <followers_count>392</followers_count>
+    <profile_background_color>1A1B1F</profile_background_color>
+    <profile_text_color>666666</profile_text_color>
+    <profile_link_color>2FC2EF</profile_link_color>
+    <profile_sidebar_fill_color>252429</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>181A1E</profile_sidebar_border_color>
+    <friends_count>164</friends_count>
+    <created_at>Wed Jun 06 13:58:15 +0000 2007</created_at>
+    <favourites_count>33</favourites_count>
+    <utc_offset>3600</utc_offset>
+    <time_zone>Paris</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme9/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>3724</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </user>
+</status>
+<status>
+  <created_at>Fri Jun 05 13:16:10 +0000 2009</created_at>
+  <id>2042454415</id>
+  <text>@jerome_etienne I don't want to depend on a given implementation, don't want to provide my credentials, and I want to keep using Nambu :)</text>
+  <source>&lt;a href="http://www.nambu.com"&gt;Nambu&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id>2042414249</in_reply_to_status_id>
+  <in_reply_to_user_id>10162102</in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name>jerome_etienne</in_reply_to_screen_name>
+  <user>
+    <id>6619162</id>
+    <name>Nicolas Perriault</name>
+    <screen_name>n1k0</screen_name>
+    <location>Arcueil, France</location>
+    <description>They didn't know that it was impossible, thus they did it. -- Mark Twain</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/94266171/Photo_9_sepia_normal.jpg</profile_image_url>
+    <url>http://prendreuncafe.com</url>
+    <protected>false</protected>
+    <followers_count>392</followers_count>
+    <profile_background_color>1A1B1F</profile_background_color>
+    <profile_text_color>666666</profile_text_color>
+    <profile_link_color>2FC2EF</profile_link_color>
+    <profile_sidebar_fill_color>252429</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>181A1E</profile_sidebar_border_color>
+    <friends_count>164</friends_count>
+    <created_at>Wed Jun 06 13:58:15 +0000 2007</created_at>
+    <favourites_count>33</favourites_count>
+    <utc_offset>3600</utc_offset>
+    <time_zone>Paris</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme9/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>3723</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </user>
+</status>
+<status>
+  <created_at>Fri Jun 05 13:08:28 +0000 2009</created_at>
+  <id>2042387261</id>
+  <text>@fdevillamil huhu, so I did</text>
+  <source>&lt;a href="http://www.nambu.com"&gt;Nambu&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id>2042370372</in_reply_to_status_id>
+  <in_reply_to_user_id>6637282</in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name>fdevillamil</in_reply_to_screen_name>
+  <user>
+    <id>6619162</id>
+    <name>Nicolas Perriault</name>
+    <screen_name>n1k0</screen_name>
+    <location>Arcueil, France</location>
+    <description>They didn't know that it was impossible, thus they did it. -- Mark Twain</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/94266171/Photo_9_sepia_normal.jpg</profile_image_url>
+    <url>http://prendreuncafe.com</url>
+    <protected>false</protected>
+    <followers_count>392</followers_count>
+    <profile_background_color>1A1B1F</profile_background_color>
+    <profile_text_color>666666</profile_text_color>
+    <profile_link_color>2FC2EF</profile_link_color>
+    <profile_sidebar_fill_color>252429</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>181A1E</profile_sidebar_border_color>
+    <friends_count>164</friends_count>
+    <created_at>Wed Jun 06 13:58:15 +0000 2007</created_at>
+    <favourites_count>33</favourites_count>
+    <utc_offset>3600</utc_offset>
+    <time_zone>Paris</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme9/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>3722</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </user>
+</status>
+<status>
+  <created_at>Fri Jun 05 13:04:39 +0000 2009</created_at>
+  <id>2042354561</id>
+  <text>RT @marmotz: Leçon numéro 1 du chef sans âme: comment licencier 2500 personnes en 10 minutes ? http://tinyurl.com/q9ye28 - C'est beau.</text>
+  <source>&lt;a href="http://www.nambu.com"&gt;Nambu&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id/>
+  <in_reply_to_user_id/>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name/>
+  <user>
+    <id>6619162</id>
+    <name>Nicolas Perriault</name>
+    <screen_name>n1k0</screen_name>
+    <location>Arcueil, France</location>
+    <description>They didn't know that it was impossible, thus they did it. -- Mark Twain</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/94266171/Photo_9_sepia_normal.jpg</profile_image_url>
+    <url>http://prendreuncafe.com</url>
+    <protected>false</protected>
+    <followers_count>392</followers_count>
+    <profile_background_color>1A1B1F</profile_background_color>
+    <profile_text_color>666666</profile_text_color>
+    <profile_link_color>2FC2EF</profile_link_color>
+    <profile_sidebar_fill_color>252429</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>181A1E</profile_sidebar_border_color>
+    <friends_count>164</friends_count>
+    <created_at>Wed Jun 06 13:58:15 +0000 2007</created_at>
+    <favourites_count>33</favourites_count>
+    <utc_offset>3600</utc_offset>
+    <time_zone>Paris</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme9/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>3721</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </user>
+</status>
+<status>
+  <created_at>Fri Jun 05 12:31:52 +0000 2009</created_at>
+  <id>2042093291</id>
+  <text>@nsteinmetz as I said to @martinsam recently, I don't want to depend on a given implementation, and I want to keep using Nambu</text>
+  <source>&lt;a href="http://www.nambu.com"&gt;Nambu&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id>2042087154</in_reply_to_status_id>
+  <in_reply_to_user_id>18814705</in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name>nsteinmetz</in_reply_to_screen_name>
+  <user>
+    <id>6619162</id>
+    <name>Nicolas Perriault</name>
+    <screen_name>n1k0</screen_name>
+    <location>Arcueil, France</location>
+    <description>They didn't know that it was impossible, thus they did it. -- Mark Twain</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/94266171/Photo_9_sepia_normal.jpg</profile_image_url>
+    <url>http://prendreuncafe.com</url>
+    <protected>false</protected>
+    <followers_count>392</followers_count>
+    <profile_background_color>1A1B1F</profile_background_color>
+    <profile_text_color>666666</profile_text_color>
+    <profile_link_color>2FC2EF</profile_link_color>
+    <profile_sidebar_fill_color>252429</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>181A1E</profile_sidebar_border_color>
+    <friends_count>164</friends_count>
+    <created_at>Wed Jun 06 13:58:15 +0000 2007</created_at>
+    <favourites_count>33</favourites_count>
+    <utc_offset>3600</utc_offset>
+    <time_zone>Paris</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme9/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>3720</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </user>
+</status>
+<status>
+  <created_at>Fri Jun 05 12:26:24 +0000 2009</created_at>
+  <id>2042053202</id>
+  <text>@hartym yes, you jealous</text>
+  <source>&lt;a href="http://www.nambu.com"&gt;Nambu&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id>2042021421</in_reply_to_status_id>
+  <in_reply_to_user_id>23943857</in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name>hartym</in_reply_to_screen_name>
+  <user>
+    <id>6619162</id>
+    <name>Nicolas Perriault</name>
+    <screen_name>n1k0</screen_name>
+    <location>Arcueil, France</location>
+    <description>They didn't know that it was impossible, thus they did it. -- Mark Twain</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/94266171/Photo_9_sepia_normal.jpg</profile_image_url>
+    <url>http://prendreuncafe.com</url>
+    <protected>false</protected>
+    <followers_count>391</followers_count>
+    <profile_background_color>1A1B1F</profile_background_color>
+    <profile_text_color>666666</profile_text_color>
+    <profile_link_color>2FC2EF</profile_link_color>
+    <profile_sidebar_fill_color>252429</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>181A1E</profile_sidebar_border_color>
+    <friends_count>164</friends_count>
+    <created_at>Wed Jun 06 13:58:15 +0000 2007</created_at>
+    <favourites_count>33</favourites_count>
+    <utc_offset>3600</utc_offset>
+    <time_zone>Paris</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme9/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>3719</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </user>
+</status>
+<status>
+  <created_at>Fri Jun 05 12:25:59 +0000 2009</created_at>
+  <id>2042050044</id>
+  <text>@nhoizey found some online services, but you have to provide your twitter or identi.ca credentials (they don't use oauth) :/</text>
+  <source>&lt;a href="http://www.nambu.com"&gt;Nambu&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id>2042035763</in_reply_to_status_id>
+  <in_reply_to_user_id>6308712</in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name>nhoizey</in_reply_to_screen_name>
+  <user>
+    <id>6619162</id>
+    <name>Nicolas Perriault</name>
+    <screen_name>n1k0</screen_name>
+    <location>Arcueil, France</location>
+    <description>They didn't know that it was impossible, thus they did it. -- Mark Twain</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/94266171/Photo_9_sepia_normal.jpg</profile_image_url>
+    <url>http://prendreuncafe.com</url>
+    <protected>false</protected>
+    <followers_count>391</followers_count>
+    <profile_background_color>1A1B1F</profile_background_color>
+    <profile_text_color>666666</profile_text_color>
+    <profile_link_color>2FC2EF</profile_link_color>
+    <profile_sidebar_fill_color>252429</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>181A1E</profile_sidebar_border_color>
+    <friends_count>164</friends_count>
+    <created_at>Wed Jun 06 13:58:15 +0000 2007</created_at>
+    <favourites_count>33</favourites_count>
+    <utc_offset>3600</utc_offset>
+    <time_zone>Paris</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme9/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>3718</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </user>
+</status>
+<status>
+  <created_at>Fri Jun 05 12:20:50 +0000 2009</created_at>
+  <id>2042012876</id>
+  <text>is quickly coding a php twitter bot instance to publish my twitter statuses to identi.ca automatically</text>
+  <source>&lt;a href="http://www.nambu.com"&gt;Nambu&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id/>
+  <in_reply_to_user_id/>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name/>
+  <user>
+    <id>6619162</id>
+    <name>Nicolas Perriault</name>
+    <screen_name>n1k0</screen_name>
+    <location>Arcueil, France</location>
+    <description>They didn't know that it was impossible, thus they did it. -- Mark Twain</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/94266171/Photo_9_sepia_normal.jpg</profile_image_url>
+    <url>http://prendreuncafe.com</url>
+    <protected>false</protected>
+    <followers_count>391</followers_count>
+    <profile_background_color>1A1B1F</profile_background_color>
+    <profile_text_color>666666</profile_text_color>
+    <profile_link_color>2FC2EF</profile_link_color>
+    <profile_sidebar_fill_color>252429</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>181A1E</profile_sidebar_border_color>
+    <friends_count>164</friends_count>
+    <created_at>Wed Jun 06 13:58:15 +0000 2007</created_at>
+    <favourites_count>33</favourites_count>
+    <utc_offset>3600</utc_offset>
+    <time_zone>Paris</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme9/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>3717</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </user>
+</status>
+<status>
+  <created_at>Fri Jun 05 12:06:33 +0000 2009</created_at>
+  <id>2041914310</id>
+  <text>@martinsam je sais, je manque de temps pour m'en occuper</text>
+  <source>&lt;a href="http://www.nambu.com"&gt;Nambu&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id>2041372150</in_reply_to_status_id>
+  <in_reply_to_user_id>14437786</in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name>martinsam</in_reply_to_screen_name>
+  <user>
+    <id>6619162</id>
+    <name>Nicolas Perriault</name>
+    <screen_name>n1k0</screen_name>
+    <location>Arcueil, France</location>
+    <description>They didn't know that it was impossible, thus they did it. -- Mark Twain</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/94266171/Photo_9_sepia_normal.jpg</profile_image_url>
+    <url>http://prendreuncafe.com</url>
+    <protected>false</protected>
+    <followers_count>391</followers_count>
+    <profile_background_color>1A1B1F</profile_background_color>
+    <profile_text_color>666666</profile_text_color>
+    <profile_link_color>2FC2EF</profile_link_color>
+    <profile_sidebar_fill_color>252429</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>181A1E</profile_sidebar_border_color>
+    <friends_count>164</friends_count>
+    <created_at>Wed Jun 06 13:58:15 +0000 2007</created_at>
+    <favourites_count>33</favourites_count>
+    <utc_offset>3600</utc_offset>
+    <time_zone>Paris</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme9/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>3716</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </user>
+</status>
+<status>
+  <created_at>Fri Jun 05 09:05:48 +0000 2009</created_at>
+  <id>2040910772</id>
+  <text>RT @xethorn, @zeubeubeu: choupinou : http://is.gd/OWQv</text>
+  <source>&lt;a href="http://www.nambu.com"&gt;Nambu&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id/>
+  <in_reply_to_user_id/>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name/>
+  <user>
+    <id>6619162</id>
+    <name>Nicolas Perriault</name>
+    <screen_name>n1k0</screen_name>
+    <location>Arcueil, France</location>
+    <description>They didn't know that it was impossible, thus they did it. -- Mark Twain</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/94266171/Photo_9_sepia_normal.jpg</profile_image_url>
+    <url>http://prendreuncafe.com</url>
+    <protected>false</protected>
+    <followers_count>391</followers_count>
+    <profile_background_color>1A1B1F</profile_background_color>
+    <profile_text_color>666666</profile_text_color>
+    <profile_link_color>2FC2EF</profile_link_color>
+    <profile_sidebar_fill_color>252429</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>181A1E</profile_sidebar_border_color>
+    <friends_count>164</friends_count>
+    <created_at>Wed Jun 06 13:58:15 +0000 2007</created_at>
+    <favourites_count>33</favourites_count>
+    <utc_offset>3600</utc_offset>
+    <time_zone>Paris</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme9/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>3715</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </user>
+</status>
+<status>
+  <created_at>Fri Jun 05 08:40:47 +0000 2009</created_at>
+  <id>2040781705</id>
+  <text>@brunobord jolie expression, très parlante :)</text>
+  <source>&lt;a href="http://www.nambu.com"&gt;Nambu&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id>2040607458</in_reply_to_status_id>
+  <in_reply_to_user_id>14979950</in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name>brunobord</in_reply_to_screen_name>
+  <user>
+    <id>6619162</id>
+    <name>Nicolas Perriault</name>
+    <screen_name>n1k0</screen_name>
+    <location>Arcueil, France</location>
+    <description>They didn't know that it was impossible, thus they did it. -- Mark Twain</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/94266171/Photo_9_sepia_normal.jpg</profile_image_url>
+    <url>http://prendreuncafe.com</url>
+    <protected>false</protected>
+    <followers_count>391</followers_count>
+    <profile_background_color>1A1B1F</profile_background_color>
+    <profile_text_color>666666</profile_text_color>
+    <profile_link_color>2FC2EF</profile_link_color>
+    <profile_sidebar_fill_color>252429</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>181A1E</profile_sidebar_border_color>
+    <friends_count>164</friends_count>
+    <created_at>Wed Jun 06 13:58:15 +0000 2007</created_at>
+    <favourites_count>33</favourites_count>
+    <utc_offset>3600</utc_offset>
+    <time_zone>Paris</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme9/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>3714</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </user>
+</status>
+<status>
+  <created_at>Fri Jun 05 07:29:34 +0000 2009</created_at>
+  <id>2040404242</id>
+  <text>RT @nsilberman, @vincentglad: Poursuivie pour avoir écrit "hou menteuse" sur dailymotion au sujet de nadine morano http://tinyurl.com/qktay6</text>
+  <source>&lt;a href="http://www.nambu.com"&gt;Nambu&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id/>
+  <in_reply_to_user_id/>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name/>
+  <user>
+    <id>6619162</id>
+    <name>Nicolas Perriault</name>
+    <screen_name>n1k0</screen_name>
+    <location>Arcueil, France</location>
+    <description>They didn't know that it was impossible, thus they did it. -- Mark Twain</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/94266171/Photo_9_sepia_normal.jpg</profile_image_url>
+    <url>http://prendreuncafe.com</url>
+    <protected>false</protected>
+    <followers_count>390</followers_count>
+    <profile_background_color>1A1B1F</profile_background_color>
+    <profile_text_color>666666</profile_text_color>
+    <profile_link_color>2FC2EF</profile_link_color>
+    <profile_sidebar_fill_color>252429</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>181A1E</profile_sidebar_border_color>
+    <friends_count>164</friends_count>
+    <created_at>Wed Jun 06 13:58:15 +0000 2007</created_at>
+    <favourites_count>33</favourites_count>
+    <utc_offset>3600</utc_offset>
+    <time_zone>Paris</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme9/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>3713</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </user>
+</status>
+<status>
+  <created_at>Fri Jun 05 06:34:39 +0000 2009</created_at>
+  <id>2040078449</id>
+  <text>@sebsol la 3g passe pas ?</text>
+  <source>&lt;a href="http://www.atebits.com/"&gt;Tweetie&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id>2034830199</in_reply_to_status_id>
+  <in_reply_to_user_id>7249152</in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name>sebsol</in_reply_to_screen_name>
+  <user>
+    <id>6619162</id>
+    <name>Nicolas Perriault</name>
+    <screen_name>n1k0</screen_name>
+    <location>Arcueil, France</location>
+    <description>They didn't know that it was impossible, thus they did it. -- Mark Twain</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/94266171/Photo_9_sepia_normal.jpg</profile_image_url>
+    <url>http://prendreuncafe.com</url>
+    <protected>false</protected>
+    <followers_count>390</followers_count>
+    <profile_background_color>1A1B1F</profile_background_color>
+    <profile_text_color>666666</profile_text_color>
+    <profile_link_color>2FC2EF</profile_link_color>
+    <profile_sidebar_fill_color>252429</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>181A1E</profile_sidebar_border_color>
+    <friends_count>164</friends_count>
+    <created_at>Wed Jun 06 13:58:15 +0000 2007</created_at>
+    <favourites_count>33</favourites_count>
+    <utc_offset>3600</utc_offset>
+    <time_zone>Paris</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme9/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>3712</statuses_count>
+    <notifications/>
+    <following/>
+  </user>
+</status>
+<status>
+  <created_at>Fri Jun 05 06:33:11 +0000 2009</created_at>
+  <id>2040069729</id>
+  <text>@mereteresa : Joyeux anniversaire ! (via @jmfontaine)</text>
+  <source>&lt;a href="http://www.atebits.com/"&gt;Tweetie&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id/>
+  <in_reply_to_user_id>14431523</in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name>mereteresa</in_reply_to_screen_name>
+  <user>
+    <id>6619162</id>
+    <name>Nicolas Perriault</name>
+    <screen_name>n1k0</screen_name>
+    <location>Arcueil, France</location>
+    <description>They didn't know that it was impossible, thus they did it. -- Mark Twain</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/94266171/Photo_9_sepia_normal.jpg</profile_image_url>
+    <url>http://prendreuncafe.com</url>
+    <protected>false</protected>
+    <followers_count>390</followers_count>
+    <profile_background_color>1A1B1F</profile_background_color>
+    <profile_text_color>666666</profile_text_color>
+    <profile_link_color>2FC2EF</profile_link_color>
+    <profile_sidebar_fill_color>252429</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>181A1E</profile_sidebar_border_color>
+    <friends_count>164</friends_count>
+    <created_at>Wed Jun 06 13:58:15 +0000 2007</created_at>
+    <favourites_count>33</favourites_count>
+    <utc_offset>3600</utc_offset>
+    <time_zone>Paris</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme9/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>3711</statuses_count>
+    <notifications/>
+    <following/>
+  </user>
+</status>
+</statuses>

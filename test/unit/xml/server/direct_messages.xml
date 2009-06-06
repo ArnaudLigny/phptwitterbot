@@ -1,0 +1,1223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<direct-messages type="array">
+<direct_message>
+  <id>155216447</id>
+  <sender_id>20970455</sender_id>
+  <text>foo</text>
+  <recipient_id>6619162</recipient_id>
+  <created_at>Thu Jun 04 09:06:23 +0000 2009</created_at>
+  <sender_screen_name>duboisnicolas</sender_screen_name>
+  <recipient_screen_name>n1k0</recipient_screen_name>
+  <sender>
+    <id>20970455</id>
+    <name>Nicolas Dubois</name>
+    <screen_name>duboisnicolas</screen_name>
+    <location>Montauban, France</location>
+    <description>Web developer</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/181423133/Photo_nico_normal.jpg</profile_image_url>
+    <url>http://duboisnicolas.free.fr</url>
+    <protected>false</protected>
+    <followers_count>21</followers_count>
+    <profile_background_color>EDECE9</profile_background_color>
+    <profile_text_color>634047</profile_text_color>
+    <profile_link_color>088253</profile_link_color>
+    <profile_sidebar_fill_color>E3E2DE</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>D3D2CF</profile_sidebar_border_color>
+    <friends_count>18</friends_count>
+    <created_at>Mon Feb 16 08:21:32 +0000 2009</created_at>
+    <favourites_count>1</favourites_count>
+    <utc_offset>3600</utc_offset>
+    <time_zone>Paris</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme3/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>69</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </sender>
+  <recipient>
+    <id>6619162</id>
+    <name>Nicolas Perriault</name>
+    <screen_name>n1k0</screen_name>
+    <location>Arcueil, France</location>
+    <description>They didn't know that it was impossible, thus they did it. -- Mark Twain</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/94266171/Photo_9_sepia_normal.jpg</profile_image_url>
+    <url>http://prendreuncafe.com</url>
+    <protected>false</protected>
+    <followers_count>388</followers_count>
+    <profile_background_color>1A1B1F</profile_background_color>
+    <profile_text_color>666666</profile_text_color>
+    <profile_link_color>2FC2EF</profile_link_color>
+    <profile_sidebar_fill_color>252429</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>181A1E</profile_sidebar_border_color>
+    <friends_count>164</friends_count>
+    <created_at>Wed Jun 06 13:58:15 +0000 2007</created_at>
+    <favourites_count>32</favourites_count>
+    <utc_offset>3600</utc_offset>
+    <time_zone>Paris</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme9/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>3699</statuses_count>
+    <notifications>false</notifications>
+    <following>0</following>
+  </recipient>
+</direct_message>
+<direct_message>
+  <id>155105554</id>
+  <sender_id>20970455</sender_id>
+  <text>foo</text>
+  <recipient_id>6619162</recipient_id>
+  <created_at>Thu Jun 04 07:22:10 +0000 2009</created_at>
+  <sender_screen_name>duboisnicolas</sender_screen_name>
+  <recipient_screen_name>n1k0</recipient_screen_name>
+  <sender>
+    <id>20970455</id>
+    <name>Nicolas Dubois</name>
+    <screen_name>duboisnicolas</screen_name>
+    <location>Montauban, France</location>
+    <description>Web developer</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/181423133/Photo_nico_normal.jpg</profile_image_url>
+    <url>http://duboisnicolas.free.fr</url>
+    <protected>false</protected>
+    <followers_count>21</followers_count>
+    <profile_background_color>EDECE9</profile_background_color>
+    <profile_text_color>634047</profile_text_color>
+    <profile_link_color>088253</profile_link_color>
+    <profile_sidebar_fill_color>E3E2DE</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>D3D2CF</profile_sidebar_border_color>
+    <friends_count>18</friends_count>
+    <created_at>Mon Feb 16 08:21:32 +0000 2009</created_at>
+    <favourites_count>1</favourites_count>
+    <utc_offset>3600</utc_offset>
+    <time_zone>Paris</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme3/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>67</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </sender>
+  <recipient>
+    <id>6619162</id>
+    <name>Nicolas Perriault</name>
+    <screen_name>n1k0</screen_name>
+    <location>Arcueil, France</location>
+    <description>They didn't know that it was impossible, thus they did it. -- Mark Twain</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/94266171/Photo_9_sepia_normal.jpg</profile_image_url>
+    <url>http://prendreuncafe.com</url>
+    <protected>false</protected>
+    <followers_count>388</followers_count>
+    <profile_background_color>1A1B1F</profile_background_color>
+    <profile_text_color>666666</profile_text_color>
+    <profile_link_color>2FC2EF</profile_link_color>
+    <profile_sidebar_fill_color>252429</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>181A1E</profile_sidebar_border_color>
+    <friends_count>164</friends_count>
+    <created_at>Wed Jun 06 13:58:15 +0000 2007</created_at>
+    <favourites_count>32</favourites_count>
+    <utc_offset>3600</utc_offset>
+    <time_zone>Paris</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme9/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>3699</statuses_count>
+    <notifications>false</notifications>
+    <following>0</following>
+  </recipient>
+</direct_message>
+<direct_message>
+  <id>155098310</id>
+  <sender_id>20970455</sender_id>
+  <text>foo</text>
+  <recipient_id>6619162</recipient_id>
+  <created_at>Thu Jun 04 07:15:09 +0000 2009</created_at>
+  <sender_screen_name>duboisnicolas</sender_screen_name>
+  <recipient_screen_name>n1k0</recipient_screen_name>
+  <sender>
+    <id>20970455</id>
+    <name>Nicolas Dubois</name>
+    <screen_name>duboisnicolas</screen_name>
+    <location>Montauban, France</location>
+    <description>Web developer</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/181423133/Photo_nico_normal.jpg</profile_image_url>
+    <url>http://duboisnicolas.free.fr</url>
+    <protected>false</protected>
+    <followers_count>21</followers_count>
+    <profile_background_color>EDECE9</profile_background_color>
+    <profile_text_color>634047</profile_text_color>
+    <profile_link_color>088253</profile_link_color>
+    <profile_sidebar_fill_color>E3E2DE</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>D3D2CF</profile_sidebar_border_color>
+    <friends_count>18</friends_count>
+    <created_at>Mon Feb 16 08:21:32 +0000 2009</created_at>
+    <favourites_count>1</favourites_count>
+    <utc_offset>3600</utc_offset>
+    <time_zone>Paris</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme3/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>76</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </sender>
+  <recipient>
+    <id>6619162</id>
+    <name>Nicolas Perriault</name>
+    <screen_name>n1k0</screen_name>
+    <location>Arcueil, France</location>
+    <description>They didn't know that it was impossible, thus they did it. -- Mark Twain</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/94266171/Photo_9_sepia_normal.jpg</profile_image_url>
+    <url>http://prendreuncafe.com</url>
+    <protected>false</protected>
+    <followers_count>393</followers_count>
+    <profile_background_color>1A1B1F</profile_background_color>
+    <profile_text_color>666666</profile_text_color>
+    <profile_link_color>2FC2EF</profile_link_color>
+    <profile_sidebar_fill_color>252429</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>181A1E</profile_sidebar_border_color>
+    <friends_count>164</friends_count>
+    <created_at>Wed Jun 06 13:58:15 +0000 2007</created_at>
+    <favourites_count>34</favourites_count>
+    <utc_offset>3600</utc_offset>
+    <time_zone>Paris</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme9/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>3728</statuses_count>
+    <notifications>false</notifications>
+    <following>0</following>
+  </recipient>
+</direct_message>
+<direct_message>
+  <id>154331818</id>
+  <sender_id>20970455</sender_id>
+  <text>foo</text>
+  <recipient_id>6619162</recipient_id>
+  <created_at>Wed Jun 03 21:13:17 +0000 2009</created_at>
+  <sender_screen_name>duboisnicolas</sender_screen_name>
+  <recipient_screen_name>n1k0</recipient_screen_name>
+  <sender>
+    <id>20970455</id>
+    <name>Nicolas Dubois</name>
+    <screen_name>duboisnicolas</screen_name>
+    <location>Montauban, France</location>
+    <description>Web developer</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/181423133/Photo_nico_normal.jpg</profile_image_url>
+    <url>http://duboisnicolas.free.fr</url>
+    <protected>false</protected>
+    <followers_count>21</followers_count>
+    <profile_background_color>EDECE9</profile_background_color>
+    <profile_text_color>634047</profile_text_color>
+    <profile_link_color>088253</profile_link_color>
+    <profile_sidebar_fill_color>E3E2DE</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>D3D2CF</profile_sidebar_border_color>
+    <friends_count>18</friends_count>
+    <created_at>Mon Feb 16 08:21:32 +0000 2009</created_at>
+    <favourites_count>1</favourites_count>
+    <utc_offset>3600</utc_offset>
+    <time_zone>Paris</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme3/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>67</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </sender>
+  <recipient>
+    <id>6619162</id>
+    <name>Nicolas Perriault</name>
+    <screen_name>n1k0</screen_name>
+    <location>Arcueil, France</location>
+    <description>They didn't know that it was impossible, thus they did it. -- Mark Twain</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/94266171/Photo_9_sepia_normal.jpg</profile_image_url>
+    <url>http://prendreuncafe.com</url>
+    <protected>false</protected>
+    <followers_count>388</followers_count>
+    <profile_background_color>1A1B1F</profile_background_color>
+    <profile_text_color>666666</profile_text_color>
+    <profile_link_color>2FC2EF</profile_link_color>
+    <profile_sidebar_fill_color>252429</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>181A1E</profile_sidebar_border_color>
+    <friends_count>164</friends_count>
+    <created_at>Wed Jun 06 13:58:15 +0000 2007</created_at>
+    <favourites_count>32</favourites_count>
+    <utc_offset>3600</utc_offset>
+    <time_zone>Paris</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme9/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>3697</statuses_count>
+    <notifications>false</notifications>
+    <following>0</following>
+  </recipient>
+</direct_message>
+<direct_message>
+  <id>148612918</id>
+  <sender_id>14463703</sender_id>
+  <text>foo</text>
+  <recipient_id>6619162</recipient_id>
+  <created_at>Sun May 31 20:20:40 +0000 2009</created_at>
+  <sender_screen_name>davidbgk</sender_screen_name>
+  <recipient_screen_name>n1k0</recipient_screen_name>
+  <sender>
+    <id>14463703</id>
+    <name>David Larlet</name>
+    <screen_name>davidbgk</screen_name>
+    <location>Arles, France</location>
+    <description>Just a biologeek, interested in Django and Semantic Web</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/64707344/photo_david_larlet_normal.png</profile_image_url>
+    <url>http://larlet.com</url>
+    <protected>false</protected>
+    <followers_count>319</followers_count>
+    <profile_background_color>352726</profile_background_color>
+    <profile_text_color>3E4415</profile_text_color>
+    <profile_link_color>D02B55</profile_link_color>
+    <profile_sidebar_fill_color>99CC33</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>829D5E</profile_sidebar_border_color>
+    <friends_count>60</friends_count>
+    <created_at>Mon Apr 21 16:23:15 +0000 2008</created_at>
+    <favourites_count>105</favourites_count>
+    <utc_offset>3600</utc_offset>
+    <time_zone>Paris</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme5/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>493</statuses_count>
+    <notifications>false</notifications>
+    <following>0</following>
+  </sender>
+  <recipient>
+    <id>6619162</id>
+    <name>Nicolas Perriault</name>
+    <screen_name>n1k0</screen_name>
+    <location>Arcueil, France</location>
+    <description>They didn't know that it was impossible, thus they did it. -- Mark Twain</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/94266171/Photo_9_sepia_normal.jpg</profile_image_url>
+    <url>http://prendreuncafe.com</url>
+    <protected>false</protected>
+    <followers_count>393</followers_count>
+    <profile_background_color>1A1B1F</profile_background_color>
+    <profile_text_color>666666</profile_text_color>
+    <profile_link_color>2FC2EF</profile_link_color>
+    <profile_sidebar_fill_color>252429</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>181A1E</profile_sidebar_border_color>
+    <friends_count>164</friends_count>
+    <created_at>Wed Jun 06 13:58:15 +0000 2007</created_at>
+    <favourites_count>36</favourites_count>
+    <utc_offset>3600</utc_offset>
+    <time_zone>Paris</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme9/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>3732</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </recipient>
+</direct_message>
+<direct_message>
+  <id>148010294</id>
+  <sender_id>14463703</sender_id>
+  <text>foo</text>
+  <recipient_id>6619162</recipient_id>
+  <created_at>Sun May 31 09:29:02 +0000 2009</created_at>
+  <sender_screen_name>davidbgk</sender_screen_name>
+  <recipient_screen_name>n1k0</recipient_screen_name>
+  <sender>
+    <id>14463703</id>
+    <name>David Larlet</name>
+    <screen_name>davidbgk</screen_name>
+    <location>Arles, France</location>
+    <description>Just a biologeek, interested in Django and Semantic Web</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/64707344/photo_david_larlet_normal.png</profile_image_url>
+    <url>http://larlet.com</url>
+    <protected>false</protected>
+    <followers_count>319</followers_count>
+    <profile_background_color>352726</profile_background_color>
+    <profile_text_color>3E4415</profile_text_color>
+    <profile_link_color>D02B55</profile_link_color>
+    <profile_sidebar_fill_color>99CC33</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>829D5E</profile_sidebar_border_color>
+    <friends_count>60</friends_count>
+    <created_at>Mon Apr 21 16:23:15 +0000 2008</created_at>
+    <favourites_count>105</favourites_count>
+    <utc_offset>3600</utc_offset>
+    <time_zone>Paris</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme5/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>493</statuses_count>
+    <notifications>false</notifications>
+    <following>0</following>
+  </sender>
+  <recipient>
+    <id>6619162</id>
+    <name>Nicolas Perriault</name>
+    <screen_name>n1k0</screen_name>
+    <location>Arcueil, France</location>
+    <description>They didn't know that it was impossible, thus they did it. -- Mark Twain</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/94266171/Photo_9_sepia_normal.jpg</profile_image_url>
+    <url>http://prendreuncafe.com</url>
+    <protected>false</protected>
+    <followers_count>393</followers_count>
+    <profile_background_color>1A1B1F</profile_background_color>
+    <profile_text_color>666666</profile_text_color>
+    <profile_link_color>2FC2EF</profile_link_color>
+    <profile_sidebar_fill_color>252429</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>181A1E</profile_sidebar_border_color>
+    <friends_count>164</friends_count>
+    <created_at>Wed Jun 06 13:58:15 +0000 2007</created_at>
+    <favourites_count>36</favourites_count>
+    <utc_offset>3600</utc_offset>
+    <time_zone>Paris</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme9/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>3732</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </recipient>
+</direct_message>
+<direct_message>
+  <id>145625733</id>
+  <sender_id>6467822</sender_id>
+  <text>foo</text>
+  <recipient_id>6619162</recipient_id>
+  <created_at>Fri May 29 16:52:14 +0000 2009</created_at>
+  <sender_screen_name>oncletom</sender_screen_name>
+  <recipient_screen_name>n1k0</recipient_screen_name>
+  <sender>
+    <id>6467822</id>
+    <name>Oncle Tom</name>
+    <screen_name>oncletom</screen_name>
+    <location>Bordeaux, France</location>
+    <description>Web consultant wide opened to standards</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/68655021/avatar-oncletom-400x400_normal.jpg</profile_image_url>
+    <url>http://case.oncle-tom.net</url>
+    <protected>false</protected>
+    <followers_count>355</followers_count>
+    <profile_background_color>472f0e</profile_background_color>
+    <profile_text_color>382306</profile_text_color>
+    <profile_link_color>928975</profile_link_color>
+    <profile_sidebar_fill_color>eae7d2</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>332005</profile_sidebar_border_color>
+    <friends_count>118</friends_count>
+    <created_at>Thu May 31 10:25:32 +0000 2007</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>3600</utc_offset>
+    <time_zone>Paris</time_zone>
+    <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/5830208/twitter-bg.png</profile_background_image_url>
+    <profile_background_tile>true</profile_background_tile>
+    <statuses_count>2570</statuses_count>
+    <notifications>false</notifications>
+    <following>0</following>
+  </sender>
+  <recipient>
+    <id>6619162</id>
+    <name>Nicolas Perriault</name>
+    <screen_name>n1k0</screen_name>
+    <location>Arcueil, France</location>
+    <description>They didn't know that it was impossible, thus they did it. -- Mark Twain</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/94266171/Photo_9_sepia_normal.jpg</profile_image_url>
+    <url>http://prendreuncafe.com</url>
+    <protected>false</protected>
+    <followers_count>393</followers_count>
+    <profile_background_color>1A1B1F</profile_background_color>
+    <profile_text_color>666666</profile_text_color>
+    <profile_link_color>2FC2EF</profile_link_color>
+    <profile_sidebar_fill_color>252429</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>181A1E</profile_sidebar_border_color>
+    <friends_count>164</friends_count>
+    <created_at>Wed Jun 06 13:58:15 +0000 2007</created_at>
+    <favourites_count>36</favourites_count>
+    <utc_offset>3600</utc_offset>
+    <time_zone>Paris</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme9/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>3732</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </recipient>
+</direct_message>
+<direct_message>
+  <id>145596544</id>
+  <sender_id>14867993</sender_id>
+  <text>foo</text>
+  <recipient_id>6619162</recipient_id>
+  <created_at>Fri May 29 16:25:20 +0000 2009</created_at>
+  <sender_screen_name>pixenjoy</sender_screen_name>
+  <recipient_screen_name>n1k0</recipient_screen_name>
+  <sender>
+    <id>14867993</id>
+    <name>pixenjoy</name>
+    <screen_name>pixenjoy</screen_name>
+    <location>Draveil (91) France</location>
+    <description>Webdesigner freelance - WordPress - logiciels libres</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/54527648/gilles_normal.jpg</profile_image_url>
+    <url>http://www.pixenjoy.com</url>
+    <protected>true</protected>
+    <followers_count>38</followers_count>
+    <profile_background_color>709397</profile_background_color>
+    <profile_text_color>333333</profile_text_color>
+    <profile_link_color>FF3300</profile_link_color>
+    <profile_sidebar_fill_color>A0C5C7</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>86A4A6</profile_sidebar_border_color>
+    <friends_count>36</friends_count>
+    <created_at>Thu May 22 13:11:18 +0000 2008</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>3600</utc_offset>
+    <time_zone>Paris</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme6/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>351</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </sender>
+  <recipient>
+    <id>6619162</id>
+    <name>Nicolas Perriault</name>
+    <screen_name>n1k0</screen_name>
+    <location>Arcueil, France</location>
+    <description>They didn't know that it was impossible, thus they did it. -- Mark Twain</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/94266171/Photo_9_sepia_normal.jpg</profile_image_url>
+    <url>http://prendreuncafe.com</url>
+    <protected>false</protected>
+    <followers_count>391</followers_count>
+    <profile_background_color>1A1B1F</profile_background_color>
+    <profile_text_color>666666</profile_text_color>
+    <profile_link_color>2FC2EF</profile_link_color>
+    <profile_sidebar_fill_color>252429</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>181A1E</profile_sidebar_border_color>
+    <friends_count>164</friends_count>
+    <created_at>Wed Jun 06 13:58:15 +0000 2007</created_at>
+    <favourites_count>30</favourites_count>
+    <utc_offset>3600</utc_offset>
+    <time_zone>Paris</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme9/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>3684</statuses_count>
+    <notifications>false</notifications>
+    <following>0</following>
+  </recipient>
+</direct_message>
+<direct_message>
+  <id>145586743</id>
+  <sender_id>14867993</sender_id>
+  <text>foo</text>
+  <recipient_id>6619162</recipient_id>
+  <created_at>Fri May 29 16:15:51 +0000 2009</created_at>
+  <sender_screen_name>pixenjoy</sender_screen_name>
+  <recipient_screen_name>n1k0</recipient_screen_name>
+  <sender>
+    <id>14867993</id>
+    <name>pixenjoy</name>
+    <screen_name>pixenjoy</screen_name>
+    <location>Draveil (91) France</location>
+    <description>Webdesigner freelance - WordPress - logiciels libres</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/54527648/gilles_normal.jpg</profile_image_url>
+    <url>http://www.pixenjoy.com</url>
+    <protected>true</protected>
+    <followers_count>38</followers_count>
+    <profile_background_color>709397</profile_background_color>
+    <profile_text_color>333333</profile_text_color>
+    <profile_link_color>FF3300</profile_link_color>
+    <profile_sidebar_fill_color>A0C5C7</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>86A4A6</profile_sidebar_border_color>
+    <friends_count>36</friends_count>
+    <created_at>Thu May 22 13:11:18 +0000 2008</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>3600</utc_offset>
+    <time_zone>Paris</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme6/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>355</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </sender>
+  <recipient>
+    <id>6619162</id>
+    <name>Nicolas Perriault</name>
+    <screen_name>n1k0</screen_name>
+    <location>Arcueil, France</location>
+    <description>They didn't know that it was impossible, thus they did it. -- Mark Twain</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/94266171/Photo_9_sepia_normal.jpg</profile_image_url>
+    <url>http://prendreuncafe.com</url>
+    <protected>false</protected>
+    <followers_count>391</followers_count>
+    <profile_background_color>1A1B1F</profile_background_color>
+    <profile_text_color>666666</profile_text_color>
+    <profile_link_color>2FC2EF</profile_link_color>
+    <profile_sidebar_fill_color>252429</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>181A1E</profile_sidebar_border_color>
+    <friends_count>164</friends_count>
+    <created_at>Wed Jun 06 13:58:15 +0000 2007</created_at>
+    <favourites_count>33</favourites_count>
+    <utc_offset>3600</utc_offset>
+    <time_zone>Paris</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme9/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>3715</statuses_count>
+    <notifications>false</notifications>
+    <following>0</following>
+  </recipient>
+</direct_message>
+<direct_message>
+  <id>145572859</id>
+  <sender_id>14867993</sender_id>
+  <text>foo</text>
+  <recipient_id>6619162</recipient_id>
+  <created_at>Fri May 29 16:01:57 +0000 2009</created_at>
+  <sender_screen_name>pixenjoy</sender_screen_name>
+  <recipient_screen_name>n1k0</recipient_screen_name>
+  <sender>
+    <id>14867993</id>
+    <name>pixenjoy</name>
+    <screen_name>pixenjoy</screen_name>
+    <location>Draveil (91) France</location>
+    <description>Webdesigner freelance - WordPress - logiciels libres</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/54527648/gilles_normal.jpg</profile_image_url>
+    <url>http://www.pixenjoy.com</url>
+    <protected>true</protected>
+    <followers_count>38</followers_count>
+    <profile_background_color>709397</profile_background_color>
+    <profile_text_color>333333</profile_text_color>
+    <profile_link_color>FF3300</profile_link_color>
+    <profile_sidebar_fill_color>A0C5C7</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>86A4A6</profile_sidebar_border_color>
+    <friends_count>36</friends_count>
+    <created_at>Thu May 22 13:11:18 +0000 2008</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>3600</utc_offset>
+    <time_zone>Paris</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme6/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>356</statuses_count>
+    <notifications>false</notifications>
+    <following>0</following>
+  </sender>
+  <recipient>
+    <id>6619162</id>
+    <name>Nicolas Perriault</name>
+    <screen_name>n1k0</screen_name>
+    <location>Arcueil, France</location>
+    <description>They didn't know that it was impossible, thus they did it. -- Mark Twain</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/94266171/Photo_9_sepia_normal.jpg</profile_image_url>
+    <url>http://prendreuncafe.com</url>
+    <protected>false</protected>
+    <followers_count>393</followers_count>
+    <profile_background_color>1A1B1F</profile_background_color>
+    <profile_text_color>666666</profile_text_color>
+    <profile_link_color>2FC2EF</profile_link_color>
+    <profile_sidebar_fill_color>252429</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>181A1E</profile_sidebar_border_color>
+    <friends_count>164</friends_count>
+    <created_at>Wed Jun 06 13:58:15 +0000 2007</created_at>
+    <favourites_count>36</favourites_count>
+    <utc_offset>3600</utc_offset>
+    <time_zone>Paris</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme9/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>3732</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </recipient>
+</direct_message>
+<direct_message>
+  <id>145571811</id>
+  <sender_id>14867993</sender_id>
+  <text>foo</text>
+  <recipient_id>6619162</recipient_id>
+  <created_at>Fri May 29 16:00:46 +0000 2009</created_at>
+  <sender_screen_name>pixenjoy</sender_screen_name>
+  <recipient_screen_name>n1k0</recipient_screen_name>
+  <sender>
+    <id>14867993</id>
+    <name>pixenjoy</name>
+    <screen_name>pixenjoy</screen_name>
+    <location>Draveil (91) France</location>
+    <description>Webdesigner freelance - WordPress - logiciels libres</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/54527648/gilles_normal.jpg</profile_image_url>
+    <url>http://www.pixenjoy.com</url>
+    <protected>true</protected>
+    <followers_count>38</followers_count>
+    <profile_background_color>709397</profile_background_color>
+    <profile_text_color>333333</profile_text_color>
+    <profile_link_color>FF3300</profile_link_color>
+    <profile_sidebar_fill_color>A0C5C7</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>86A4A6</profile_sidebar_border_color>
+    <friends_count>36</friends_count>
+    <created_at>Thu May 22 13:11:18 +0000 2008</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>3600</utc_offset>
+    <time_zone>Paris</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme6/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>356</statuses_count>
+    <notifications>false</notifications>
+    <following>0</following>
+  </sender>
+  <recipient>
+    <id>6619162</id>
+    <name>Nicolas Perriault</name>
+    <screen_name>n1k0</screen_name>
+    <location>Arcueil, France</location>
+    <description>They didn't know that it was impossible, thus they did it. -- Mark Twain</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/94266171/Photo_9_sepia_normal.jpg</profile_image_url>
+    <url>http://prendreuncafe.com</url>
+    <protected>false</protected>
+    <followers_count>393</followers_count>
+    <profile_background_color>1A1B1F</profile_background_color>
+    <profile_text_color>666666</profile_text_color>
+    <profile_link_color>2FC2EF</profile_link_color>
+    <profile_sidebar_fill_color>252429</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>181A1E</profile_sidebar_border_color>
+    <friends_count>164</friends_count>
+    <created_at>Wed Jun 06 13:58:15 +0000 2007</created_at>
+    <favourites_count>36</favourites_count>
+    <utc_offset>3600</utc_offset>
+    <time_zone>Paris</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme9/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>3732</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </recipient>
+</direct_message>
+<direct_message>
+  <id>145569260</id>
+  <sender_id>14867993</sender_id>
+  <text>foo</text>
+  <recipient_id>6619162</recipient_id>
+  <created_at>Fri May 29 15:58:20 +0000 2009</created_at>
+  <sender_screen_name>pixenjoy</sender_screen_name>
+  <recipient_screen_name>n1k0</recipient_screen_name>
+  <sender>
+    <id>14867993</id>
+    <name>pixenjoy</name>
+    <screen_name>pixenjoy</screen_name>
+    <location>Draveil (91) France</location>
+    <description>Webdesigner freelance - WordPress - logiciels libres</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/54527648/gilles_normal.jpg</profile_image_url>
+    <url>http://www.pixenjoy.com</url>
+    <protected>true</protected>
+    <followers_count>38</followers_count>
+    <profile_background_color>709397</profile_background_color>
+    <profile_text_color>333333</profile_text_color>
+    <profile_link_color>FF3300</profile_link_color>
+    <profile_sidebar_fill_color>A0C5C7</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>86A4A6</profile_sidebar_border_color>
+    <friends_count>36</friends_count>
+    <created_at>Thu May 22 13:11:18 +0000 2008</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>3600</utc_offset>
+    <time_zone>Paris</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme6/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>355</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </sender>
+  <recipient>
+    <id>6619162</id>
+    <name>Nicolas Perriault</name>
+    <screen_name>n1k0</screen_name>
+    <location>Arcueil, France</location>
+    <description>They didn't know that it was impossible, thus they did it. -- Mark Twain</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/94266171/Photo_9_sepia_normal.jpg</profile_image_url>
+    <url>http://prendreuncafe.com</url>
+    <protected>false</protected>
+    <followers_count>391</followers_count>
+    <profile_background_color>1A1B1F</profile_background_color>
+    <profile_text_color>666666</profile_text_color>
+    <profile_link_color>2FC2EF</profile_link_color>
+    <profile_sidebar_fill_color>252429</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>181A1E</profile_sidebar_border_color>
+    <friends_count>164</friends_count>
+    <created_at>Wed Jun 06 13:58:15 +0000 2007</created_at>
+    <favourites_count>33</favourites_count>
+    <utc_offset>3600</utc_offset>
+    <time_zone>Paris</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme9/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>3715</statuses_count>
+    <notifications>false</notifications>
+    <following>0</following>
+  </recipient>
+</direct_message>
+<direct_message>
+  <id>145567590</id>
+  <sender_id>14867993</sender_id>
+  <text>foo</text>
+  <recipient_id>6619162</recipient_id>
+  <created_at>Fri May 29 15:56:45 +0000 2009</created_at>
+  <sender_screen_name>pixenjoy</sender_screen_name>
+  <recipient_screen_name>n1k0</recipient_screen_name>
+  <sender>
+    <id>14867993</id>
+    <name>pixenjoy</name>
+    <screen_name>pixenjoy</screen_name>
+    <location>Draveil (91) France</location>
+    <description>Webdesigner freelance - WordPress - logiciels libres</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/54527648/gilles_normal.jpg</profile_image_url>
+    <url>http://www.pixenjoy.com</url>
+    <protected>true</protected>
+    <followers_count>38</followers_count>
+    <profile_background_color>709397</profile_background_color>
+    <profile_text_color>333333</profile_text_color>
+    <profile_link_color>FF3300</profile_link_color>
+    <profile_sidebar_fill_color>A0C5C7</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>86A4A6</profile_sidebar_border_color>
+    <friends_count>36</friends_count>
+    <created_at>Thu May 22 13:11:18 +0000 2008</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>3600</utc_offset>
+    <time_zone>Paris</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme6/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>356</statuses_count>
+    <notifications>false</notifications>
+    <following>0</following>
+  </sender>
+  <recipient>
+    <id>6619162</id>
+    <name>Nicolas Perriault</name>
+    <screen_name>n1k0</screen_name>
+    <location>Arcueil, France</location>
+    <description>They didn't know that it was impossible, thus they did it. -- Mark Twain</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/94266171/Photo_9_sepia_normal.jpg</profile_image_url>
+    <url>http://prendreuncafe.com</url>
+    <protected>false</protected>
+    <followers_count>393</followers_count>
+    <profile_background_color>1A1B1F</profile_background_color>
+    <profile_text_color>666666</profile_text_color>
+    <profile_link_color>2FC2EF</profile_link_color>
+    <profile_sidebar_fill_color>252429</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>181A1E</profile_sidebar_border_color>
+    <friends_count>164</friends_count>
+    <created_at>Wed Jun 06 13:58:15 +0000 2007</created_at>
+    <favourites_count>36</favourites_count>
+    <utc_offset>3600</utc_offset>
+    <time_zone>Paris</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme9/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>3732</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </recipient>
+</direct_message>
+<direct_message>
+  <id>145559961</id>
+  <sender_id>14867993</sender_id>
+  <text>foo</text>
+  <recipient_id>6619162</recipient_id>
+  <created_at>Fri May 29 15:49:01 +0000 2009</created_at>
+  <sender_screen_name>pixenjoy</sender_screen_name>
+  <recipient_screen_name>n1k0</recipient_screen_name>
+  <sender>
+    <id>14867993</id>
+    <name>pixenjoy</name>
+    <screen_name>pixenjoy</screen_name>
+    <location>Draveil (91) France</location>
+    <description>Webdesigner freelance - WordPress - logiciels libres</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/54527648/gilles_normal.jpg</profile_image_url>
+    <url>http://www.pixenjoy.com</url>
+    <protected>true</protected>
+    <followers_count>38</followers_count>
+    <profile_background_color>709397</profile_background_color>
+    <profile_text_color>333333</profile_text_color>
+    <profile_link_color>FF3300</profile_link_color>
+    <profile_sidebar_fill_color>A0C5C7</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>86A4A6</profile_sidebar_border_color>
+    <friends_count>36</friends_count>
+    <created_at>Thu May 22 13:11:18 +0000 2008</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>3600</utc_offset>
+    <time_zone>Paris</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme6/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>356</statuses_count>
+    <notifications>false</notifications>
+    <following>0</following>
+  </sender>
+  <recipient>
+    <id>6619162</id>
+    <name>Nicolas Perriault</name>
+    <screen_name>n1k0</screen_name>
+    <location>Arcueil, France</location>
+    <description>They didn't know that it was impossible, thus they did it. -- Mark Twain</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/94266171/Photo_9_sepia_normal.jpg</profile_image_url>
+    <url>http://prendreuncafe.com</url>
+    <protected>false</protected>
+    <followers_count>393</followers_count>
+    <profile_background_color>1A1B1F</profile_background_color>
+    <profile_text_color>666666</profile_text_color>
+    <profile_link_color>2FC2EF</profile_link_color>
+    <profile_sidebar_fill_color>252429</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>181A1E</profile_sidebar_border_color>
+    <friends_count>164</friends_count>
+    <created_at>Wed Jun 06 13:58:15 +0000 2007</created_at>
+    <favourites_count>36</favourites_count>
+    <utc_offset>3600</utc_offset>
+    <time_zone>Paris</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme9/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>3732</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </recipient>
+</direct_message>
+<direct_message>
+  <id>145539132</id>
+  <sender_id>16088762</sender_id>
+  <text>foo</text>
+  <recipient_id>6619162</recipient_id>
+  <created_at>Fri May 29 15:28:21 +0000 2009</created_at>
+  <sender_screen_name>bastnic</sender_screen_name>
+  <recipient_screen_name>n1k0</recipient_screen_name>
+  <sender>
+    <id>16088762</id>
+    <name>Bastien Jaillot</name>
+    <screen_name>bastnic</screen_name>
+    <location>Bordeaux ou presque</location>
+    <description>webdev and student</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/59263140/Photo_82_-_copie_normal.jpg</profile_image_url>
+    <url>http://bastnic.info</url>
+    <protected>false</protected>
+    <followers_count>59</followers_count>
+    <profile_background_color>FFFFFF</profile_background_color>
+    <profile_text_color>000000</profile_text_color>
+    <profile_link_color>B21609</profile_link_color>
+    <profile_sidebar_fill_color>FFFFFF</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>FFFFFF</profile_sidebar_border_color>
+    <friends_count>65</friends_count>
+    <created_at>Mon Sep 01 22:17:36 +0000 2008</created_at>
+    <favourites_count>16</favourites_count>
+    <utc_offset>3600</utc_offset>
+    <time_zone>Paris</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>745</statuses_count>
+    <notifications>false</notifications>
+    <following>0</following>
+  </sender>
+  <recipient>
+    <id>6619162</id>
+    <name>Nicolas Perriault</name>
+    <screen_name>n1k0</screen_name>
+    <location>Arcueil, France</location>
+    <description>They didn't know that it was impossible, thus they did it. -- Mark Twain</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/94266171/Photo_9_sepia_normal.jpg</profile_image_url>
+    <url>http://prendreuncafe.com</url>
+    <protected>false</protected>
+    <followers_count>393</followers_count>
+    <profile_background_color>1A1B1F</profile_background_color>
+    <profile_text_color>666666</profile_text_color>
+    <profile_link_color>2FC2EF</profile_link_color>
+    <profile_sidebar_fill_color>252429</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>181A1E</profile_sidebar_border_color>
+    <friends_count>164</friends_count>
+    <created_at>Wed Jun 06 13:58:15 +0000 2007</created_at>
+    <favourites_count>36</favourites_count>
+    <utc_offset>3600</utc_offset>
+    <time_zone>Paris</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme9/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>3732</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </recipient>
+</direct_message>
+<direct_message>
+  <id>145524151</id>
+  <sender_id>7249152</sender_id>
+  <text>foo</text>
+  <recipient_id>6619162</recipient_id>
+  <created_at>Fri May 29 15:13:29 +0000 2009</created_at>
+  <sender_screen_name>sebsol</sender_screen_name>
+  <recipient_screen_name>n1k0</recipient_screen_name>
+  <sender>
+    <id>7249152</id>
+    <name>Seb Sol</name>
+    <screen_name>sebsol</screen_name>
+    <location/>
+    <description>Up to no good</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/230413429/DSC_4922_normal.JPG</profile_image_url>
+    <url/>
+    <protected>false</protected>
+    <followers_count>50</followers_count>
+    <profile_background_color>C6E2EE</profile_background_color>
+    <profile_text_color>663B12</profile_text_color>
+    <profile_link_color>1F98C7</profile_link_color>
+    <profile_sidebar_fill_color>DAECF4</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>C6E2EE</profile_sidebar_border_color>
+    <friends_count>99</friends_count>
+    <created_at>Wed Jul 04 12:47:45 +0000 2007</created_at>
+    <favourites_count>12</favourites_count>
+    <utc_offset>3600</utc_offset>
+    <time_zone>Paris</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme2/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>247</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </sender>
+  <recipient>
+    <id>6619162</id>
+    <name>Nicolas Perriault</name>
+    <screen_name>n1k0</screen_name>
+    <location>Arcueil, France</location>
+    <description>They didn't know that it was impossible, thus they did it. -- Mark Twain</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/94266171/Photo_9_sepia_normal.jpg</profile_image_url>
+    <url>http://prendreuncafe.com</url>
+    <protected>false</protected>
+    <followers_count>391</followers_count>
+    <profile_background_color>1A1B1F</profile_background_color>
+    <profile_text_color>666666</profile_text_color>
+    <profile_link_color>2FC2EF</profile_link_color>
+    <profile_sidebar_fill_color>252429</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>181A1E</profile_sidebar_border_color>
+    <friends_count>164</friends_count>
+    <created_at>Wed Jun 06 13:58:15 +0000 2007</created_at>
+    <favourites_count>30</favourites_count>
+    <utc_offset>3600</utc_offset>
+    <time_zone>Paris</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme9/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>3684</statuses_count>
+    <notifications>false</notifications>
+    <following>0</following>
+  </recipient>
+</direct_message>
+<direct_message>
+  <id>145517428</id>
+  <sender_id>7249152</sender_id>
+  <text>foo</text>
+  <recipient_id>6619162</recipient_id>
+  <created_at>Fri May 29 15:07:05 +0000 2009</created_at>
+  <sender_screen_name>sebsol</sender_screen_name>
+  <recipient_screen_name>n1k0</recipient_screen_name>
+  <sender>
+    <id>7249152</id>
+    <name>Seb Sol</name>
+    <screen_name>sebsol</screen_name>
+    <location/>
+    <description>Up to no good</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/230413429/DSC_4922_normal.JPG</profile_image_url>
+    <url/>
+    <protected>false</protected>
+    <followers_count>50</followers_count>
+    <profile_background_color>C6E2EE</profile_background_color>
+    <profile_text_color>663B12</profile_text_color>
+    <profile_link_color>1F98C7</profile_link_color>
+    <profile_sidebar_fill_color>DAECF4</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>C6E2EE</profile_sidebar_border_color>
+    <friends_count>99</friends_count>
+    <created_at>Wed Jul 04 12:47:45 +0000 2007</created_at>
+    <favourites_count>12</favourites_count>
+    <utc_offset>3600</utc_offset>
+    <time_zone>Paris</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme2/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>247</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </sender>
+  <recipient>
+    <id>6619162</id>
+    <name>Nicolas Perriault</name>
+    <screen_name>n1k0</screen_name>
+    <location>Arcueil, France</location>
+    <description>They didn't know that it was impossible, thus they did it. -- Mark Twain</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/94266171/Photo_9_sepia_normal.jpg</profile_image_url>
+    <url>http://prendreuncafe.com</url>
+    <protected>false</protected>
+    <followers_count>391</followers_count>
+    <profile_background_color>1A1B1F</profile_background_color>
+    <profile_text_color>666666</profile_text_color>
+    <profile_link_color>2FC2EF</profile_link_color>
+    <profile_sidebar_fill_color>252429</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>181A1E</profile_sidebar_border_color>
+    <friends_count>164</friends_count>
+    <created_at>Wed Jun 06 13:58:15 +0000 2007</created_at>
+    <favourites_count>30</favourites_count>
+    <utc_offset>3600</utc_offset>
+    <time_zone>Paris</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme9/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>3684</statuses_count>
+    <notifications>false</notifications>
+    <following>0</following>
+  </recipient>
+</direct_message>
+<direct_message>
+  <id>145516586</id>
+  <sender_id>7249152</sender_id>
+  <text>foo</text>
+  <recipient_id>6619162</recipient_id>
+  <created_at>Fri May 29 15:06:22 +0000 2009</created_at>
+  <sender_screen_name>sebsol</sender_screen_name>
+  <recipient_screen_name>n1k0</recipient_screen_name>
+  <sender>
+    <id>7249152</id>
+    <name>Seb Sol</name>
+    <screen_name>sebsol</screen_name>
+    <location/>
+    <description>Up to no good</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/230413429/DSC_4922_normal.JPG</profile_image_url>
+    <url/>
+    <protected>false</protected>
+    <followers_count>50</followers_count>
+    <profile_background_color>C6E2EE</profile_background_color>
+    <profile_text_color>663B12</profile_text_color>
+    <profile_link_color>1F98C7</profile_link_color>
+    <profile_sidebar_fill_color>DAECF4</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>C6E2EE</profile_sidebar_border_color>
+    <friends_count>99</friends_count>
+    <created_at>Wed Jul 04 12:47:45 +0000 2007</created_at>
+    <favourites_count>12</favourites_count>
+    <utc_offset>3600</utc_offset>
+    <time_zone>Paris</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme2/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>247</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </sender>
+  <recipient>
+    <id>6619162</id>
+    <name>Nicolas Perriault</name>
+    <screen_name>n1k0</screen_name>
+    <location>Arcueil, France</location>
+    <description>They didn't know that it was impossible, thus they did it. -- Mark Twain</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/94266171/Photo_9_sepia_normal.jpg</profile_image_url>
+    <url>http://prendreuncafe.com</url>
+    <protected>false</protected>
+    <followers_count>391</followers_count>
+    <profile_background_color>1A1B1F</profile_background_color>
+    <profile_text_color>666666</profile_text_color>
+    <profile_link_color>2FC2EF</profile_link_color>
+    <profile_sidebar_fill_color>252429</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>181A1E</profile_sidebar_border_color>
+    <friends_count>164</friends_count>
+    <created_at>Wed Jun 06 13:58:15 +0000 2007</created_at>
+    <favourites_count>30</favourites_count>
+    <utc_offset>3600</utc_offset>
+    <time_zone>Paris</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme9/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>3684</statuses_count>
+    <notifications>false</notifications>
+    <following>0</following>
+  </recipient>
+</direct_message>
+<direct_message>
+  <id>145494839</id>
+  <sender_id>7249152</sender_id>
+  <text>foo</text>
+  <recipient_id>6619162</recipient_id>
+  <created_at>Fri May 29 14:45:55 +0000 2009</created_at>
+  <sender_screen_name>sebsol</sender_screen_name>
+  <recipient_screen_name>n1k0</recipient_screen_name>
+  <sender>
+    <id>7249152</id>
+    <name>Seb Sol</name>
+    <screen_name>sebsol</screen_name>
+    <location/>
+    <description>Up to no good</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/230413429/DSC_4922_normal.JPG</profile_image_url>
+    <url/>
+    <protected>false</protected>
+    <followers_count>50</followers_count>
+    <profile_background_color>C6E2EE</profile_background_color>
+    <profile_text_color>663B12</profile_text_color>
+    <profile_link_color>1F98C7</profile_link_color>
+    <profile_sidebar_fill_color>DAECF4</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>C6E2EE</profile_sidebar_border_color>
+    <friends_count>99</friends_count>
+    <created_at>Wed Jul 04 12:47:45 +0000 2007</created_at>
+    <favourites_count>12</favourites_count>
+    <utc_offset>3600</utc_offset>
+    <time_zone>Paris</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme2/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>247</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </sender>
+  <recipient>
+    <id>6619162</id>
+    <name>Nicolas Perriault</name>
+    <screen_name>n1k0</screen_name>
+    <location>Arcueil, France</location>
+    <description>They didn't know that it was impossible, thus they did it. -- Mark Twain</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/94266171/Photo_9_sepia_normal.jpg</profile_image_url>
+    <url>http://prendreuncafe.com</url>
+    <protected>false</protected>
+    <followers_count>391</followers_count>
+    <profile_background_color>1A1B1F</profile_background_color>
+    <profile_text_color>666666</profile_text_color>
+    <profile_link_color>2FC2EF</profile_link_color>
+    <profile_sidebar_fill_color>252429</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>181A1E</profile_sidebar_border_color>
+    <friends_count>164</friends_count>
+    <created_at>Wed Jun 06 13:58:15 +0000 2007</created_at>
+    <favourites_count>30</favourites_count>
+    <utc_offset>3600</utc_offset>
+    <time_zone>Paris</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme9/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>3684</statuses_count>
+    <notifications>false</notifications>
+    <following>0</following>
+  </recipient>
+</direct_message>
+<direct_message>
+  <id>145479872</id>
+  <sender_id>16088762</sender_id>
+  <text>foo</text>
+  <recipient_id>6619162</recipient_id>
+  <created_at>Fri May 29 14:32:48 +0000 2009</created_at>
+  <sender_screen_name>bastnic</sender_screen_name>
+  <recipient_screen_name>n1k0</recipient_screen_name>
+  <sender>
+    <id>16088762</id>
+    <name>Bastien Jaillot</name>
+    <screen_name>bastnic</screen_name>
+    <location>Bordeaux ou presque</location>
+    <description>webdev and student</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/59263140/Photo_82_-_copie_normal.jpg</profile_image_url>
+    <url>http://bastnic.info</url>
+    <protected>false</protected>
+    <followers_count>59</followers_count>
+    <profile_background_color>FFFFFF</profile_background_color>
+    <profile_text_color>000000</profile_text_color>
+    <profile_link_color>B21609</profile_link_color>
+    <profile_sidebar_fill_color>FFFFFF</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>FFFFFF</profile_sidebar_border_color>
+    <friends_count>65</friends_count>
+    <created_at>Mon Sep 01 22:17:36 +0000 2008</created_at>
+    <favourites_count>16</favourites_count>
+    <utc_offset>3600</utc_offset>
+    <time_zone>Paris</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>745</statuses_count>
+    <notifications>false</notifications>
+    <following>0</following>
+  </sender>
+  <recipient>
+    <id>6619162</id>
+    <name>Nicolas Perriault</name>
+    <screen_name>n1k0</screen_name>
+    <location>Arcueil, France</location>
+    <description>They didn't know that it was impossible, thus they did it. -- Mark Twain</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/94266171/Photo_9_sepia_normal.jpg</profile_image_url>
+    <url>http://prendreuncafe.com</url>
+    <protected>false</protected>
+    <followers_count>393</followers_count>
+    <profile_background_color>1A1B1F</profile_background_color>
+    <profile_text_color>666666</profile_text_color>
+    <profile_link_color>2FC2EF</profile_link_color>
+    <profile_sidebar_fill_color>252429</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>181A1E</profile_sidebar_border_color>
+    <friends_count>164</friends_count>
+    <created_at>Wed Jun 06 13:58:15 +0000 2007</created_at>
+    <favourites_count>36</favourites_count>
+    <utc_offset>3600</utc_offset>
+    <time_zone>Paris</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme9/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>3732</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </recipient>
+</direct_message>
+</direct-messages>
