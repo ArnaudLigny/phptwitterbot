@@ -1,0 +1,743 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<statuses type="array">
+<status>
+  <created_at>Sat Jun 06 11:30:22 +0000 2009</created_at>
+  <id>2053424153</id>
+  <text>RT @andreiabohner How to be happy in business - venn diagram - http://bit.ly/HRK4D</text>
+  <source>&lt;a href="http://orangatame.com/products/twitterberry/"&gt;TwitterBerry&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id/>
+  <in_reply_to_user_id/>
+  <favorited>true</favorited>
+  <in_reply_to_screen_name/>
+  <user>
+    <id>15875029</id>
+    <name>tschellenbach</name>
+    <screen_name>tschellenbach</screen_name>
+    <location>Amsterdam, Keizersgracht</location>
+    <description>Software Engineer and Entrepreneur at YouTellMe BV</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/70994043/DSCF0280_normal.JPG</profile_image_url>
+    <url>http://www.mellowmorning.com</url>
+    <protected>false</protected>
+    <followers_count>29</followers_count>
+    <profile_background_color>352726</profile_background_color>
+    <profile_text_color>3E4415</profile_text_color>
+    <profile_link_color>D02B55</profile_link_color>
+    <profile_sidebar_fill_color>99CC33</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>829D5E</profile_sidebar_border_color>
+    <friends_count>42</friends_count>
+    <created_at>Sat Aug 16 17:48:34 +0000 2008</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>3600</utc_offset>
+    <time_zone>Amsterdam</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme5/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>117</statuses_count>
+    <notifications>false</notifications>
+    <following>0</following>
+  </user>
+</status>
+<status>
+  <created_at>Fri Jun 05 19:32:38 +0000 2009</created_at>
+  <id>2046686557</id>
+  <text>11 yr old college graduate, '...it's a waste of time playing video games because it's not helping humanity in any way' - http://3.ly/Pn</text>
+  <source>web</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id/>
+  <in_reply_to_user_id/>
+  <favorited>true</favorited>
+  <in_reply_to_screen_name/>
+  <user>
+    <id>16604450</id>
+    <name>Moushumi Kabir</name>
+    <screen_name>mkabir</screen_name>
+    <location>Atlanta, GA</location>
+    <description>Founder of Simply Web, advocate of tech + science + innovation, Entrepreneur, investor, blogger</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/72688576/mk__normal.jpg</profile_image_url>
+    <url>http://www.simply-web.com</url>
+    <protected>false</protected>
+    <followers_count>198</followers_count>
+    <profile_background_color>1A1B1F</profile_background_color>
+    <profile_text_color>666666</profile_text_color>
+    <profile_link_color>2FC2EF</profile_link_color>
+    <profile_sidebar_fill_color>252429</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>181A1E</profile_sidebar_border_color>
+    <friends_count>143</friends_count>
+    <created_at>Sun Oct 05 18:56:56 +0000 2008</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>-18000</utc_offset>
+    <time_zone>Eastern Time (US &amp; Canada)</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme9/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>1298</statuses_count>
+    <notifications>false</notifications>
+    <following>0</following>
+  </user>
+</status>
+<status>
+  <created_at>Fri Jun 05 18:13:38 +0000 2009</created_at>
+  <id>2045781635</id>
+  <text>I'm not much of a motorhead fan, but it's hard to deny the goodness of Ace of Spades ♫ http://blip.fm/~7oxnr</text>
+  <source>&lt;a href="http://blip.fm"&gt;Blip.fm&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id/>
+  <in_reply_to_user_id/>
+  <favorited>true</favorited>
+  <in_reply_to_screen_name/>
+  <user>
+    <id>14284120</id>
+    <name>will killian</name>
+    <screen_name>forkmantis</screen_name>
+    <location>Tyler, Texas</location>
+    <description>Linux loving, Symfony developing, poker playing, beer brewing, rc plane/heli flying geek, father and Christian. Married to @tsuasai, father of @tinymargaret </description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/112044798/25942981_normal.png</profile_image_url>
+    <url>http://friendfeed.com/forkmantis</url>
+    <protected>false</protected>
+    <followers_count>281</followers_count>
+    <profile_background_color>000000</profile_background_color>
+    <profile_text_color>000000</profile_text_color>
+    <profile_link_color>2E4630</profile_link_color>
+    <profile_sidebar_fill_color>C1DAFF</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>18af26</profile_sidebar_border_color>
+    <friends_count>259</friends_count>
+    <created_at>Wed Apr 02 15:45:45 +0000 2008</created_at>
+    <favourites_count>28</favourites_count>
+    <utc_offset>-21600</utc_offset>
+    <time_zone>Central Time (US &amp; Canada)</time_zone>
+    <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/2597475/mantis_twitter_real.jpg</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>1575</statuses_count>
+    <notifications>false</notifications>
+    <following>0</following>
+  </user>
+</status>
+<status>
+  <created_at>Thu Jun 04 17:48:17 +0000 2009</created_at>
+  <id>2032123485</id>
+  <text>Google Guice 2.0: Enhanced Capabilities, Less Boilerplate http://bit.ly/KXGbo</text>
+  <source>&lt;a href="http://www.feedly.com"&gt;feedly&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id/>
+  <in_reply_to_user_id/>
+  <favorited>true</favorited>
+  <in_reply_to_screen_name/>
+  <user>
+    <id>6647172</id>
+    <name>Christian Fauré</name>
+    <screen_name>ChristianFaure</screen_name>
+    <location>Paris</location>
+    <description>Between IT &amp; Philosophy</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/92290784/cfaure_normal.jpg</profile_image_url>
+    <url>http://www.christian-faure.net</url>
+    <protected>false</protected>
+    <followers_count>441</followers_count>
+    <profile_background_color>0099B9</profile_background_color>
+    <profile_text_color>3C3940</profile_text_color>
+    <profile_link_color>0099B9</profile_link_color>
+    <profile_sidebar_fill_color>95E8EC</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>5ED4DC</profile_sidebar_border_color>
+    <friends_count>108</friends_count>
+    <created_at>Thu Jun 07 18:37:36 +0000 2007</created_at>
+    <favourites_count>9</favourites_count>
+    <utc_offset>3600</utc_offset>
+    <time_zone>Paris</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme4/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>2121</statuses_count>
+    <notifications>false</notifications>
+    <following>0</following>
+  </user>
+</status>
+<status>
+  <created_at>Tue Jun 02 19:22:46 +0000 2009</created_at>
+  <id>2007256723</id>
+  <text>écoute du Michel Portal "Dipping in minneapolis" - Judy Garland - vraiment excellent !  à écouter ici :  http://tr.im/ncxm</text>
+  <source>web</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id/>
+  <in_reply_to_user_id/>
+  <favorited>true</favorited>
+  <in_reply_to_screen_name/>
+  <user>
+    <id>19485520</id>
+    <name>XavSD</name>
+    <screen_name>XavSD</screen_name>
+    <location>Paris</location>
+    <description/>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/120306775/profil_xsd_blue_normal.jpg</profile_image_url>
+    <url/>
+    <protected>true</protected>
+    <followers_count>21</followers_count>
+    <profile_background_color>352726</profile_background_color>
+    <profile_text_color>3E4415</profile_text_color>
+    <profile_link_color>D02B55</profile_link_color>
+    <profile_sidebar_fill_color>99CC33</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>829D5E</profile_sidebar_border_color>
+    <friends_count>50</friends_count>
+    <created_at>Sun Jan 25 11:44:01 +0000 2009</created_at>
+    <favourites_count>2</favourites_count>
+    <utc_offset>3600</utc_offset>
+    <time_zone>Paris</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme5/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>210</statuses_count>
+    <notifications>false</notifications>
+    <following>0</following>
+  </user>
+</status>
+<status>
+  <created_at>Tue Jun 02 11:55:33 +0000 2009</created_at>
+  <id>2002695029</id>
+  <text>Go PHP 5.2 : http://bit.ly/DI5Wz</text>
+  <source>web</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id/>
+  <in_reply_to_user_id/>
+  <favorited>true</favorited>
+  <in_reply_to_screen_name/>
+  <user>
+    <id>14784120</id>
+    <name>bricef</name>
+    <screen_name>bricef</screen_name>
+    <location>Villeurbanne</location>
+    <description/>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/54213425/211808540547b024783bc3c_normal.png</profile_image_url>
+    <url/>
+    <protected>true</protected>
+    <followers_count>58</followers_count>
+    <profile_background_color>93d1F6</profile_background_color>
+    <profile_text_color>634047</profile_text_color>
+    <profile_link_color>088253</profile_link_color>
+    <profile_sidebar_fill_color>E3E2DE</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>D3D2CF</profile_sidebar_border_color>
+    <friends_count>75</friends_count>
+    <created_at>Thu May 15 09:42:51 +0000 2008</created_at>
+    <favourites_count>3</favourites_count>
+    <utc_offset>3600</utc_offset>
+    <time_zone>Paris</time_zone>
+    <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/4072275/twitter_fond.jpg</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>894</statuses_count>
+    <notifications>false</notifications>
+    <following>0</following>
+  </user>
+</status>
+<status>
+  <created_at>Tue Jun 02 01:24:24 +0000 2009</created_at>
+  <id>1998351293</id>
+  <text>http://cleanupdata.com Genial!!</text>
+  <source>web</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id/>
+  <in_reply_to_user_id/>
+  <favorited>true</favorited>
+  <in_reply_to_screen_name/>
+  <user>
+    <id>12496512</id>
+    <name>Andréia Bohner</name>
+    <screen_name>andreiabohner</screen_name>
+    <location>15°47'S	47°55'W</location>
+    <description>Mother, web developer, blogger and belly dancer. Love: family, dance, PHP, symfony, gadgets, arabic and ambient music, photography, nature</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/45316292/eye_normal.jpg</profile_image_url>
+    <url>http://andreiabohner.wordpress.com</url>
+    <protected>false</protected>
+    <followers_count>106</followers_count>
+    <profile_background_color>003D67</profile_background_color>
+    <profile_text_color>000000</profile_text_color>
+    <profile_link_color>5C85C8</profile_link_color>
+    <profile_sidebar_fill_color>E9E9D9</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>5C85C8</profile_sidebar_border_color>
+    <friends_count>197</friends_count>
+    <created_at>Mon Jan 21 15:20:34 +0000 2008</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>-10800</utc_offset>
+    <time_zone>Greenland</time_zone>
+    <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/2070422/moon.jpg</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>187</statuses_count>
+    <notifications>false</notifications>
+    <following>0</following>
+  </user>
+</status>
+<status>
+  <created_at>Mon Jun 01 16:54:07 +0000 2009</created_at>
+  <id>1993143494</id>
+  <text>RT @zolierdos: Confluence on the iPhone.  Cool.  http://www.miniconfluence.com/   #atlassiansummit (via @scottmcmullan)</text>
+  <source>web</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id/>
+  <in_reply_to_user_id/>
+  <favorited>true</favorited>
+  <in_reply_to_screen_name/>
+  <user>
+    <id>7011892</id>
+    <name>Jeremy</name>
+    <screen_name>jerem</screen_name>
+    <location>Paris</location>
+    <description>Programmer passionate about technologies.</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/107214350/avatar2_normal.jpg</profile_image_url>
+    <url>http://jeremyselier.com</url>
+    <protected>false</protected>
+    <followers_count>218</followers_count>
+    <profile_background_color>0a293e</profile_background_color>
+    <profile_text_color>333333</profile_text_color>
+    <profile_link_color>084359</profile_link_color>
+    <profile_sidebar_fill_color>eaf2fa</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>d1d5d6</profile_sidebar_border_color>
+    <friends_count>177</friends_count>
+    <created_at>Fri Jun 22 11:40:43 +0000 2007</created_at>
+    <favourites_count>109</favourites_count>
+    <utc_offset>3600</utc_offset>
+    <time_zone>Paris</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>1106</statuses_count>
+    <notifications>false</notifications>
+    <following>0</following>
+  </user>
+</status>
+<status>
+  <created_at>Sun May 31 11:00:12 +0000 2009</created_at>
+  <id>1979663180</id>
+  <text>RESTFul Design Patterns http://bit.ly/YvvHT</text>
+  <source>web</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id/>
+  <in_reply_to_user_id/>
+  <favorited>true</favorited>
+  <in_reply_to_screen_name/>
+  <user>
+    <id>6647172</id>
+    <name>Christian Fauré</name>
+    <screen_name>ChristianFaure</screen_name>
+    <location>Paris</location>
+    <description>Between IT &amp; Philosophy</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/92290784/cfaure_normal.jpg</profile_image_url>
+    <url>http://www.christian-faure.net</url>
+    <protected>false</protected>
+    <followers_count>431</followers_count>
+    <profile_background_color>0099B9</profile_background_color>
+    <profile_text_color>3C3940</profile_text_color>
+    <profile_link_color>0099B9</profile_link_color>
+    <profile_sidebar_fill_color>95E8EC</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>5ED4DC</profile_sidebar_border_color>
+    <friends_count>108</friends_count>
+    <created_at>Thu Jun 07 18:37:36 +0000 2007</created_at>
+    <favourites_count>9</favourites_count>
+    <utc_offset>3600</utc_offset>
+    <time_zone>Paris</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme4/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>2074</statuses_count>
+    <notifications>false</notifications>
+    <following>0</following>
+  </user>
+</status>
+<status>
+  <created_at>Thu May 28 17:30:56 +0000 2009</created_at>
+  <id>1949558846</id>
+  <text>Chrome extensions look really easy. Just web stuff, learn a few browser APIs, will have an easy packaging creation, etc. http://is.gd/IimO</text>
+  <source>&lt;a href="http://www.atebits.com/"&gt;Tweetie&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id/>
+  <in_reply_to_user_id/>
+  <favorited>true</favorited>
+  <in_reply_to_screen_name/>
+  <user>
+    <id>16551180</id>
+    <name>Anthony Ricaud</name>
+    <screen_name>rik24d</screen_name>
+    <location>Nation, Île-de-France</location>
+    <description/>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/61100847/1397208416_7f54f19f12_normal.jpg</profile_image_url>
+    <url>http://hanblog.info</url>
+    <protected>false</protected>
+    <followers_count>90</followers_count>
+    <profile_background_color>1A1B1F</profile_background_color>
+    <profile_text_color>666666</profile_text_color>
+    <profile_link_color>2FC2EF</profile_link_color>
+    <profile_sidebar_fill_color>252429</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>181A1E</profile_sidebar_border_color>
+    <friends_count>55</friends_count>
+    <created_at>Wed Oct 01 22:09:52 +0000 2008</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>3600</utc_offset>
+    <time_zone>Paris</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme9/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>568</statuses_count>
+    <notifications>false</notifications>
+    <following>0</following>
+  </user>
+</status>
+<status>
+  <created_at>Tue May 26 14:41:04 +0000 2009</created_at>
+  <id>1924065459</id>
+  <text>DGS / http://digital-photography-school.com/</text>
+  <source>&lt;a href="http://twittergadget.appspot.com"&gt;Twitter Gadget for Gmail&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id/>
+  <in_reply_to_user_id/>
+  <favorited>true</favorited>
+  <in_reply_to_screen_name/>
+  <user>
+    <id>6016342</id>
+    <name>fabien</name>
+    <screen_name>w0arz</screen_name>
+    <location>Paris</location>
+    <description/>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/95148435/3322003461_95174159d4_normal.jpg</profile_image_url>
+    <url>http://ping-up.blogspot.com</url>
+    <protected>false</protected>
+    <followers_count>102</followers_count>
+    <profile_background_color>EDECE9</profile_background_color>
+    <profile_text_color>634047</profile_text_color>
+    <profile_link_color>088253</profile_link_color>
+    <profile_sidebar_fill_color>E3E2DE</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>D3D2CF</profile_sidebar_border_color>
+    <friends_count>166</friends_count>
+    <created_at>Sun May 13 21:16:47 +0000 2007</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>-7200</utc_offset>
+    <time_zone>Mid-Atlantic</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme3/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>147</statuses_count>
+    <notifications>false</notifications>
+    <following>0</following>
+  </user>
+</status>
+<status>
+  <created_at>Tue May 26 01:40:41 +0000 2009</created_at>
+  <id>1918742751</id>
+  <text>create UML diagrams online http://yuml.me/</text>
+  <source>web</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id/>
+  <in_reply_to_user_id/>
+  <favorited>true</favorited>
+  <in_reply_to_screen_name/>
+  <user>
+    <id>12496512</id>
+    <name>Andréia Bohner</name>
+    <screen_name>andreiabohner</screen_name>
+    <location>15°47'S	47°55'W</location>
+    <description>Mother, web developer, blogger and belly dancer. Love: family, dance, PHP, symfony, gadgets, arabic and ambient music, photography, nature</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/45316292/eye_normal.jpg</profile_image_url>
+    <url>http://andreiabohner.wordpress.com</url>
+    <protected>false</protected>
+    <followers_count>93</followers_count>
+    <profile_background_color>003D67</profile_background_color>
+    <profile_text_color>000000</profile_text_color>
+    <profile_link_color>5C85C8</profile_link_color>
+    <profile_sidebar_fill_color>E9E9D9</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>5C85C8</profile_sidebar_border_color>
+    <friends_count>186</friends_count>
+    <created_at>Mon Jan 21 15:20:34 +0000 2008</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>-10800</utc_offset>
+    <time_zone>Greenland</time_zone>
+    <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/2070422/moon.jpg</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>157</statuses_count>
+    <notifications>false</notifications>
+    <following>0</following>
+  </user>
+</status>
+<status>
+  <created_at>Mon May 25 21:55:43 +0000 2009</created_at>
+  <id>1916787802</id>
+  <text>Pratique, http://www.free-ocr.com/ Outils d'OCR en ligne gratuit</text>
+  <source>&lt;a href="http://www.atebits.com/"&gt;Tweetie&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id/>
+  <in_reply_to_user_id/>
+  <favorited>true</favorited>
+  <in_reply_to_screen_name/>
+  <user>
+    <id>8903942</id>
+    <name>Loris</name>
+    <screen_name>loris</screen_name>
+    <location>iPhone: 48.871774,2.377246</location>
+    <description>Engineer at Qobuz.com - Hipster from Paris</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/137223164/_MG_3845_normal.jpg</profile_image_url>
+    <url>http://start.io/loris</url>
+    <protected>false</protected>
+    <followers_count>185</followers_count>
+    <profile_background_color>C3C3BB</profile_background_color>
+    <profile_text_color>000000</profile_text_color>
+    <profile_link_color>85857E</profile_link_color>
+    <profile_sidebar_fill_color>FFFFFF</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>85857E</profile_sidebar_border_color>
+    <friends_count>175</friends_count>
+    <created_at>Sat Sep 15 21:56:52 +0000 2007</created_at>
+    <favourites_count>6</favourites_count>
+    <utc_offset>3600</utc_offset>
+    <time_zone>Paris</time_zone>
+    <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/2257032/Injected_Min.jpg</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>399</statuses_count>
+    <notifications>false</notifications>
+    <following>0</following>
+  </user>
+</status>
+<status>
+  <created_at>Sun May 24 15:58:25 +0000 2009</created_at>
+  <id>1903439308</id>
+  <text>TED(.com) en français ! http://bgk.me/ted-fr (via @samueladam)</text>
+  <source>web</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id/>
+  <in_reply_to_user_id/>
+  <favorited>true</favorited>
+  <in_reply_to_screen_name/>
+  <user>
+    <id>14463703</id>
+    <name>David Larlet</name>
+    <screen_name>davidbgk</screen_name>
+    <location>Arles, France</location>
+    <description>Just a biologeek, interested in Django and Semantic Web</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/64707344/photo_david_larlet_normal.png</profile_image_url>
+    <url>http://larlet.com</url>
+    <protected>false</protected>
+    <followers_count>306</followers_count>
+    <profile_background_color>352726</profile_background_color>
+    <profile_text_color>3E4415</profile_text_color>
+    <profile_link_color>D02B55</profile_link_color>
+    <profile_sidebar_fill_color>99CC33</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>829D5E</profile_sidebar_border_color>
+    <friends_count>60</friends_count>
+    <created_at>Mon Apr 21 16:23:15 +0000 2008</created_at>
+    <favourites_count>95</favourites_count>
+    <utc_offset>3600</utc_offset>
+    <time_zone>Paris</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme5/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>446</statuses_count>
+    <notifications>false</notifications>
+    <following>0</following>
+  </user>
+</status>
+<status>
+  <created_at>Sat May 23 16:22:54 +0000 2009</created_at>
+  <id>1894375866</id>
+  <text>all you want to know about win7 http://bit.ly/c9QNo</text>
+  <source>&lt;a href="http://www.digsby.com/"&gt;digsby&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id/>
+  <in_reply_to_user_id/>
+  <favorited>true</favorited>
+  <in_reply_to_screen_name/>
+  <user>
+    <id>13208432</id>
+    <name>PierreJoye</name>
+    <screen_name>PierreJoye</screen_name>
+    <location>Germany</location>
+    <description/>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/62449273/pierre_joye_normal.jpg</profile_image_url>
+    <url>http://blog.thepimp.net</url>
+    <protected>false</protected>
+    <followers_count>141</followers_count>
+    <profile_background_color>9ae4e8</profile_background_color>
+    <profile_text_color>000000</profile_text_color>
+    <profile_link_color>0000ff</profile_link_color>
+    <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+    <friends_count>144</friends_count>
+    <created_at>Thu Feb 07 15:50:33 +0000 2008</created_at>
+    <favourites_count>7</favourites_count>
+    <utc_offset>3600</utc_offset>
+    <time_zone>Berlin</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>1110</statuses_count>
+    <notifications>false</notifications>
+    <following>0</following>
+  </user>
+</status>
+<status>
+  <created_at>Sun May 17 15:27:24 +0000 2009</created_at>
+  <id>1826415035</id>
+  <text>svn propset -r N --revprop svn:log is priceless #svn</text>
+  <source>&lt;a href="http://twitterrific.com"&gt;Twitterrific&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id/>
+  <in_reply_to_user_id/>
+  <favorited>true</favorited>
+  <in_reply_to_screen_name/>
+  <user>
+    <id>15187757</id>
+    <name>jeromerenard</name>
+    <screen_name>jeromerenard</screen_name>
+    <location/>
+    <description/>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/55721304/Photo_3_normal.jpg</profile_image_url>
+    <url/>
+    <protected>true</protected>
+    <followers_count>19</followers_count>
+    <profile_background_color>9ae4e8</profile_background_color>
+    <profile_text_color>000000</profile_text_color>
+    <profile_link_color>0000ff</profile_link_color>
+    <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+    <friends_count>17</friends_count>
+    <created_at>Sat Jun 21 05:43:48 +0000 2008</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>-10800</utc_offset>
+    <time_zone>Greenland</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>293</statuses_count>
+    <notifications>false</notifications>
+    <following>0</following>
+  </user>
+</status>
+<status>
+  <created_at>Fri May 15 19:59:50 +0000 2009</created_at>
+  <id>1809616709</id>
+  <text>http://railsconf.blip.tv/file/2081411/ interesting lessons for #symfony (at least for me)</text>
+  <source>&lt;a href="http://twitterfox.net/"&gt;TwitterFox&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id/>
+  <in_reply_to_user_id/>
+  <favorited>true</favorited>
+  <in_reply_to_screen_name/>
+  <user>
+    <id>23943857</id>
+    <name>Romain Dorgueil</name>
+    <screen_name>hartym</screen_name>
+    <location>Paris</location>
+    <description>Symfony developper, musician.</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/105909003/piticarre_normal.jpg</profile_image_url>
+    <url>http://dakrazy.net/</url>
+    <protected>false</protected>
+    <followers_count>40</followers_count>
+    <profile_background_color>1A1B1F</profile_background_color>
+    <profile_text_color>666666</profile_text_color>
+    <profile_link_color>2FC2EF</profile_link_color>
+    <profile_sidebar_fill_color>252429</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>181A1E</profile_sidebar_border_color>
+    <friends_count>35</friends_count>
+    <created_at>Thu Mar 12 13:12:36 +0000 2009</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>3600</utc_offset>
+    <time_zone>Paris</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme9/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>73</statuses_count>
+    <notifications>false</notifications>
+    <following>0</following>
+  </user>
+</status>
+<status>
+  <created_at>Fri May 15 18:40:22 +0000 2009</created_at>
+  <id>1808863486</id>
+  <text>RT @googlereader: You can share any page with Reader, even those without RSS/Atom feeds. Video tutorial here: http://tinyurl.com/p4r6f3</text>
+  <source>web</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id/>
+  <in_reply_to_user_id/>
+  <favorited>true</favorited>
+  <in_reply_to_screen_name/>
+  <user>
+    <id>20536157</id>
+    <name>A Googler</name>
+    <screen_name>google</screen_name>
+    <location>Mountain View, CA</location>
+    <description>News and updates from Google</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/77186109/favicon_normal.png</profile_image_url>
+    <url>http://www.google.com/intl/en/about.html</url>
+    <protected>false</protected>
+    <followers_count>784153</followers_count>
+    <profile_background_color>ffffff</profile_background_color>
+    <profile_text_color>000000</profile_text_color>
+    <profile_link_color>0000cc</profile_link_color>
+    <profile_sidebar_fill_color>ebeff9</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>bbccff</profile_sidebar_border_color>
+    <friends_count>145</friends_count>
+    <created_at>Tue Feb 10 19:14:39 +0000 2009</created_at>
+    <favourites_count>33</favourites_count>
+    <utc_offset>-28800</utc_offset>
+    <time_zone>Pacific Time (US &amp; Canada)</time_zone>
+    <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/6219441/bg-google-white-75.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>395</statuses_count>
+    <notifications>false</notifications>
+    <following>0</following>
+  </user>
+</status>
+<status>
+  <created_at>Thu May 14 23:13:44 +0000 2009</created_at>
+  <id>1800208751</id>
+  <text>Import and manage your contacts with standalone Google Contacts http://bit.ly/3leCD</text>
+  <source>web</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id/>
+  <in_reply_to_user_id/>
+  <favorited>true</favorited>
+  <in_reply_to_screen_name/>
+  <user>
+    <id>20536157</id>
+    <name>A Googler</name>
+    <screen_name>google</screen_name>
+    <location>Mountain View, CA</location>
+    <description>News and updates from Google</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/77186109/favicon_normal.png</profile_image_url>
+    <url>http://www.google.com/intl/en/about.html</url>
+    <protected>false</protected>
+    <followers_count>784153</followers_count>
+    <profile_background_color>ffffff</profile_background_color>
+    <profile_text_color>000000</profile_text_color>
+    <profile_link_color>0000cc</profile_link_color>
+    <profile_sidebar_fill_color>ebeff9</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>bbccff</profile_sidebar_border_color>
+    <friends_count>145</friends_count>
+    <created_at>Tue Feb 10 19:14:39 +0000 2009</created_at>
+    <favourites_count>33</favourites_count>
+    <utc_offset>-28800</utc_offset>
+    <time_zone>Pacific Time (US &amp; Canada)</time_zone>
+    <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/6219441/bg-google-white-75.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>395</statuses_count>
+    <notifications>false</notifications>
+    <following>0</following>
+  </user>
+</status>
+<status>
+  <created_at>Mon May 11 23:51:48 +0000 2009</created_at>
+  <id>1768204174</id>
+  <text>RT @javiereguiluz Filesocial, a new web app made with Symfony: it allows you to share files through twitter http://filesocial.com/27lqk</text>
+  <source>web</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id/>
+  <in_reply_to_user_id/>
+  <favorited>true</favorited>
+  <in_reply_to_screen_name/>
+  <user>
+    <id>12496512</id>
+    <name>Andréia Bohner</name>
+    <screen_name>andreiabohner</screen_name>
+    <location>15°47'S	47°55'W</location>
+    <description>Mother, web developer, blogger and belly dancer. Love: family, dance, PHP, symfony, gadgets, arabic and ambient music, photography, nature</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/45316292/eye_normal.jpg</profile_image_url>
+    <url>http://andreiabohner.wordpress.com</url>
+    <protected>false</protected>
+    <followers_count>106</followers_count>
+    <profile_background_color>003D67</profile_background_color>
+    <profile_text_color>000000</profile_text_color>
+    <profile_link_color>5C85C8</profile_link_color>
+    <profile_sidebar_fill_color>E9E9D9</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>5C85C8</profile_sidebar_border_color>
+    <friends_count>197</friends_count>
+    <created_at>Mon Jan 21 15:20:34 +0000 2008</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>-10800</utc_offset>
+    <time_zone>Greenland</time_zone>
+    <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/2070422/moon.jpg</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>187</statuses_count>
+    <notifications>false</notifications>
+    <following>0</following>
+  </user>
+</status>
+</statuses>

@@ -4,27 +4,27 @@ require_once dirname(__FILE__).'/Tweet.class.php';
 /**
  * Collection of Tweet instances
  *
+ * @author	 Nicolas Perriault <nperriault at gmail dot com>
+ * @license	 MIT License
  */
-class TweetCollection extends ArrayObject
+class TweetCollection extends TwitterEntity
 {
-  /**
-   * Creates a TweetCollection from an XML element 
-   *
-   * @param  SimpleXMLElement $entry  An XML element
-   *
-   * @return TweetCollection
-   *
-   * @throws InvalidArgumentException if an invalid entry is provided
-   */
-  public static function createFromXML(SimpleXMLElement $entry)
+  public function createFromJSON($json)
   {
-    $tweets = array();
+    $tweets = json_decode($json, true);
     
-    foreach ($entry->status as $status)
+    if (!is_array($tweets) || !isset($tweets['results']))
     {
-      $tweets[] = Tweet::createFromXML($status);
+      throw new InvalidArgumentException('Unable to decode JSON response');
     }
     
-    return new self($tweets);
+    $tweetCollection = array();
+    
+    foreach ($tweets['results'] as $tweetArray)
+    {
+      $tweetCollection[] = Tweet::createFromArray($tweetArray);
+    }
+    
+    return new self($tweetCollection);
   }
 }

@@ -24,15 +24,12 @@ class TwitterBot
     $client       = null,
     $debug        = false;
   
-  static protected
-    $searchUrl    = 'http://search.twitter.com/search.atom';
-  
   /**
    * Instanciates a new Bot
    *
-   * @param  string  $username  Twitter username
-   * @param  string  $password  Twitter password
-   * @param  Boolean $debug     Debugging mode enabled?
+   * @param  string   $username  Twitter username
+   * @param  string   $password  Twitter password
+   * @param  Boolean  $debug     Debugging mode enabled?
    *
    * @throws RuntimeException if there are environment configuration problems
    */
@@ -57,9 +54,9 @@ class TwitterBot
    *
    *    $bot = TwitterBot::create('mylogin', 'mypassword')->followFollowers();
    *
-   * @param  string  $username  Twitter username
-   * @param  string  $password  Twitter password
-   * @param  Boolean $debug     Debugging mode enabled?
+   * @param  string   $username  Twitter username
+   * @param  string   $password  Twitter password
+   * @param  Boolean  $debug     Debugging mode enabled?
    *
    * @throws RuntimeException if there's environment configuration problems
    */
@@ -88,7 +85,7 @@ class TwitterBot
    *
    * @return int  The number of new followers added
    *
-   * @throws RuntimeException if any error occurs
+   * @throws RuntimeException         if any error occurs
    * @throws InvalidArgumentException if internal configuration problem occurs
    */
   public function followFollowers()
@@ -135,7 +132,7 @@ class TwitterBot
   /**
    * Retrieves bot account informations
    *
-   * @param  string  $name   Property name to retrieve
+   * @param  string  $name  Property name to retrieve
    *
    * @return mixed
    *
@@ -183,7 +180,7 @@ class TwitterBot
    *
    *    function uppercase_me(Tweet $tweet)
    *    {
-   *       echo strtoupper($tweet->title).PHP_EOL;
+   *       echo strtoupper($tweet->text).PHP_EOL;
    *    }
    *    TwitterBot::create('user', 'pass')->processBotTimeline('uppercase_me');
    *
@@ -222,7 +219,7 @@ class TwitterBot
     {
       try
       {
-        $this->debug(sprintf('Retrieved %s bot status: "%s"', $options['source'], $tweet->title));
+        $this->debug(sprintf('Retrieved %s bot status: "%s"', $options['source'], $tweet->text));
         
         call_user_func($callback, $tweet);
         
@@ -344,11 +341,11 @@ class TwitterBot
    * them using a given template.
    *
    * Options are:
-   *  - 'source':   The source to search matching tweets in. Possible values are:
-   *    * 'public':   Search into the public timeline (default)
-   *    * 'friends':  Search into the user friends timeline
-   *  - 'template': The template to use to format bot's twits, sprintf standard
-   *  - 'follow':   Shall the bot follow the twit original author?
+   *  - source:   The source to search matching tweets in. Possible values are:
+   *    * public:   Search into the public timeline (default)
+   *    * friends:  Search into the user friends timeline
+   *  - template: The template to use to format bot's twits, sprintf standard
+   *  - follow:   Shall the bot follow the twit original author?
    *
    * @param  string   $terms    The search terms to filter the timeline with
    * @param  array    $options  An array of options (see available values above)
@@ -366,11 +363,11 @@ class TwitterBot
     
     $message = null;
 
-    foreach ($this->searchFor($terms, $options['source']) as $entry)
+    foreach ($this->client->search($terms, $options['source']) as $entry)
     {
-      if (strtolower($this->getUsername()) != strtolower($entry->author))
+      if (strtolower($this->getUsername()) != strtolower($entry->user->screen_name))
       {
-        $message = trim(sprintf($options['template'], $entry->author, $entry->title));
+        $message = trim(sprintf($options['template'], $entry->user->screen_name, $entry->text));
         
         $this->debug(sprintf('Matching message found: "%s"', $message));
         
@@ -394,91 +391,21 @@ class TwitterBot
       throw new RuntimeException(sprintf('Communication with the twitter API failed: "%s"', $e->getMessage()));
     }
     
-    if ($options['follow'] && !$this->client->existsFriendship($this->getUsername(), $entry->author))
+    if ($options['follow'] && !$this->client->existsFriendship($this->getUsername(), $entry->user->screen_name))
     {
-      $this->debug(sprintf('Following user "%s"', $entry->author));
+      $this->debug(sprintf('Following user "%s"', $entry->user->screen_name));
       
       try
       {
-        $this->client->createFriendship($entry->author, true);
+        $this->client->createFriendship($entry->user->screen_name, true);
       }
       catch (Exception $e) 
       {
-        $this->debug(sprintf('Cannot follow user "%s" because: "%s"', $entry->author, $e->getMessage()));
+        $this->debug(sprintf('Cannot follow user "%s" because: "%s"', $entry->user->screen_name, $e->getMessage()));
       }
     }
     
     $this->debug('Done.');
-  }
-  
-  /**
-   * Search twitter for given terms and returns results as XML nodes collection
-   *
-   * @param  string  $terms   Search terms
-   * @param  string  $source  The source to search in ('public', or 'friends')
-   *
-   * @return array
-   *
-   * @throws RuntimeException if no entry is found
-   */
-  public function searchFor($terms, $source = 'public')
-  {
-    $entries = array();
-    
-    switch (strtolower(trim($source)))
-    {
-      case 'public':
-        $url = $this->getSearchUrl($terms);
-      
-        $this->debug(sprintf('Searching for terms "%s" using url "%s"', $terms, $url));
-        
-        if (!$xml = @simplexml_load_file($url))
-        {
-          throw new RuntimeException(sprintf('Unable to load or parse search results feed from url "%s"', $url));
-        }
-    
-        if (!$count = count($xmlEntries = $xml->entry))
-        {
-          throw new RuntimeException(sprintf('No entry found matching the provided terms, "%s"', $terms));
-        }
-    
-        $this->debug(sprintf('Search for "%s" returned %d results', $terms, $count));
-      
-        foreach ($xmlEntries as $xmlEntry)
-        {
-          $entries[] = Tweet::createfromRssEntry($xmlEntry);
-        }
-        break;
-      
-      case 'friends':   
-        // Search into the user followers timeline
-        foreach ($this->client->getFriendsTimeline(null, null, 200) as $entry)
-        {
-          if (preg_match(sprintf('/%s/i', $terms), $entry['text']))
-          {
-            $entries[] = Tweet::createfromRssEntry($entry);
-          }
-        }
-        break;
-      
-      default:
-        throw new InvalidArgumentException(sprintf('Unknown tweets source "%s"', $source));
-        break;
-    }
-    
-    return $entries;
-  }
-  
-  /**
-   * Generates the search url for given terms
-   *
-   * @param  string  $terms
-   *
-   * @return string
-   */
-  protected function getSearchUrl($terms)
-  {
-    return sprintf('%s?q=%s', self::$searchUrl, urlencode($terms));
   }
   
   /**

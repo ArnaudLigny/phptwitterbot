@@ -2,8 +2,10 @@
 /**
  * Twitter entity base class
  *
+ * @author	 Nicolas Perriault <nperriault at gmail dot com>
+ * @license	 MIT License
  */
-class TwitterEntity
+class TwitterEntity extends ArrayObject
 {
   protected static 
     $classMap = array(
@@ -12,7 +14,11 @@ class TwitterEntity
       'user'            => 'TwitterUser',
       'users'           => 'TwitterUserCollection',
       'direct-message'  => 'TwitterDirectMessage',
+      'direct_message'  => 'TwitterDirectMessage',
       'direct-messages' => 'TwitterDirectMessageCollection',
+      'direct_messages' => 'TwitterDirectMessageCollection',
+      'sender'          => 'TwitterUser',
+      'recipient'       => 'TwitterUser',
     );
   
   /**
@@ -22,7 +28,7 @@ class TwitterEntity
    *
    * @return TwitterEntity
    *
-   * @throws InvalidArgumentException if no entity can be generated from source
+   * @throws InvalidArgumentException if no entity can be generated from the provided source
    */
   public static function createFromXML(DOMDocument $dom)
   {
@@ -34,33 +40,59 @@ class TwitterEntity
       throw new InvalidArgumentException(sprintf('Type "%s" is not supported', $type));
     }
     
-    $entity = new self::$classMap[$type]();
+    $entityClassName = self::$classMap[$type];
     
-    foreach (simplexml_import_dom($dom) as $nodeName => $nodeValue)
+    $entries = simplexml_import_dom($dom);
+    
+    // Collections
+    if (strpos($entityClassName, 'Collection'))
+    {
+      $elements = array();
+      
+      foreach ($entries as $entry)
+      {
+        $elements[] = self::createFromXml(DOMDocument::loadXML($entry->asXML()));
+      }
+      
+      return $entity = new $entityClassName($elements);
+    }
+    
+    $entity = new $entityClassName();
+    
+    // Simple entity
+    foreach ($entries as $nodeName => $nodeValue)
     {
       if (!property_exists($entity, $nodeName))
       {
-        throw new InvalidArgumentException(sprintf('Propery "%s" does not exist here', $nodeName));
+        throw new InvalidArgumentException(sprintf('Propery "%s" does not exist for entity "%s"', $nodeName, $entityClassName));
       }
       
-      switch ($nodeName)
+      if (in_array($nodeName, array_keys(self::$classMap)))
       {
-        case 'sender':
-        case 'recipient':
-        case 'user':
-          $entity->$nodeName = self::createFromXml(DOMDocument::loadXML($nodeValue->asXML()));
-          break;
-        
-        default:
-          $entity->$nodeName = self::convertValue($nodeValue);
-          break;
+        $entity->$nodeName = self::createFromXml(DOMDocument::loadXML($nodeValue->asXML()));
+      }
+      else
+      {
+        $entity->$nodeName = self::cleanValue($nodeValue);
       }
     }
     
     return $entity;
   }
   
-  protected function convertValue($value)
+  public function createFromRssEntry()
+  {
+    
+  }
+  
+  /**
+   * Cleans a value
+   *
+   * @param   mixed  $value
+   *
+   * @return  mixed
+   */
+  protected function cleanValue($value)
   {
     if ('false' === strtolower($value))
     {

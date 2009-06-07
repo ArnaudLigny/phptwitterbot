@@ -96,6 +96,7 @@ try
 catch (Exception $e)
 {
   $t->pass('run() rethrows bot Exception during processing');
+  $t->diag(sprintf('    %s: %s', get_class($e), $e->getMessage()));
 }
 
 $t->diag('Testing bots throwing exceptions when stoponfail is set to false');
@@ -108,7 +109,7 @@ try
 catch (Exception $e)
 {
   $t->fail('run() does not rethrow bot Exception during processing');
-  $t->comment('  Exception message: '.$e->getMessage());
+  $t->diag(sprintf('    %s: %s', get_class($e), $e->getMessage()));
 }
 
 $t->diag('Testing periodicity checks');

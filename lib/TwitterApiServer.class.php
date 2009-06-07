@@ -28,14 +28,22 @@ class TwitterApiServer
    *
    * @param  string   $apiPath       Request API path
    * @param  array    $parameters    Parameters
-   * @param  string   $httpMethod    HTTP method
-   * @param  Boolean  $authenticate  Authenticate user
+   * @param  string   $httpMethod    HTTP method to use
+   * @param  Boolean  $authenticate  Authenticate user?
    *
    * @return string  HTTP response
    */
   public function request($apiPath, $parameters = array(), $httpMethod = 'GET', $authenticate = true)
   {
-    $url = sprintf('%s/%s', $this->baseUrl, $apiPath);
+    // FIXME: hack to detect search requests, unsupported with XML currently and having a different subdomain
+    if ('search.xml' === $apiPath)
+    {
+      $url = 'http://search.twitter.com/search.json';
+    }
+    else
+    {
+      $url = sprintf('%s/%s', $this->baseUrl, $apiPath);
+    }
     
     $queryString = utf8_encode(http_build_query($parameters));
 

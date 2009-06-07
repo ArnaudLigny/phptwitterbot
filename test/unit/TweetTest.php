@@ -17,6 +17,7 @@ try
 catch (Exception $e)
 {
   $t->fail('createFromXml() creates a Tweet instance from an XML element without throwing an exception');
+  $t->diag(sprintf('    %s: %s', get_class($e), $e->getMessage()));
 }
 $t->isa_ok($tweet, 'Tweet', 'createFromXML() creates a Tweet instance');
 $t->is($tweet->created_at, 'Fri Jun 05 14:21:23 +0000 2009', 'createFromXML() can retrieve created_at property');

@@ -17,6 +17,7 @@ try
 catch (Exception $e)
 {
   $t->fail('createFromXml() creates a TwitterUserCollection instance from an XML element without throwing an exception');
+  $t->diag(sprintf('    %s: %s', get_class($e), $e->getMessage()));
 }
 $t->isa_ok($users, 'TwitterUserCollection', 'createFromXML() creates a TwitterUserCollection instance');
 $t->is($users[0]->id, 6896142, 'createFromXML() populated XML nodes values to object properties');
