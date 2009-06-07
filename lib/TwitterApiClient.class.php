@@ -123,8 +123,10 @@ class TwitterApiClient
     }
     
     if ('public' === $options['source'])
-    {    
-      return $this->doCall('search', array('terms' => $terms), false, false, 'search_results');
+    {
+      $parameters = array('q' => $terms, 'page' => $options['page'], 'rpp' => $options['max']);
+      
+      return $this->doCall('search', $parameters, false, false, 'search_results');
     }
     else
     {

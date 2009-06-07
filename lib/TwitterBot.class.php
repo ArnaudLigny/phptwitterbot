@@ -142,7 +142,7 @@ class TwitterBot
   {
     if (is_null($this->accountInfos))
     {
-      $this->accountInfos = $this->client->getFriend($this->getUsername());
+      $this->accountInfos = $this->client->getUser($this->getUsername());
     }
     
     if (!array_key_exists($name, $this->accountInfos))
@@ -227,13 +227,13 @@ class TwitterBot
       }
       catch (TwitterBotSkipException $e)
       {
-        $this->debug('Bot processing skipped programmatically.');
+        $this->debug(sprintf('Bot processing skipped programmatically: %s', $e->getMessage()));
         
         continue;
       }
       catch (TwitterBotStopException $e)
       {
-        $this->debug('Bot processing interrupted programmatically.');
+        $this->debug(sprintf('Bot processing interrupted programmatically: %s', $e->getMessage()));
         
         break;
       }
@@ -354,6 +354,8 @@ class TwitterBot
    */
   public function searchAndRetweet($terms, array $options = array())
   {
+    $this->debug('Start searchAndRetweet for terms: '.$terms);
+    
     $options = array_merge(array('template' => 'RT @%s: %s', 'follow' => false, 'source' => 'public'), $options);
     
     if (!is_string($terms) or !mb_strlen($terms) || mb_strlen($terms) > 140)
@@ -363,11 +365,15 @@ class TwitterBot
     
     $message = null;
 
-    foreach ($this->client->search($terms, $options['source']) as $entry)
+    $entries = $this->client->search($terms, array('source' => $options['source']));
+    
+    $this->debug(sprintf('Found %d results', count($entries)));
+
+    foreach ($entries as $entry)
     {
-      if (strtolower($this->getUsername()) != strtolower($entry->user->screen_name))
+      if (strtolower($this->getUsername()) != strtolower($entry->from_user))
       {
-        $message = trim(sprintf($options['template'], $entry->user->screen_name, $entry->text));
+        $message = trim(sprintf($options['template'], $entry->from_user, $entry->text));
         
         $this->debug(sprintf('Matching message found: "%s"', $message));
         
@@ -391,17 +397,17 @@ class TwitterBot
       throw new RuntimeException(sprintf('Communication with the twitter API failed: "%s"', $e->getMessage()));
     }
     
-    if ($options['follow'] && !$this->client->existsFriendship($this->getUsername(), $entry->user->screen_name))
+    if ($options['follow'] && !$this->client->existsFriendship($this->getUsername(), $entry->from_user))
     {
-      $this->debug(sprintf('Following user "%s"', $entry->user->screen_name));
+      $this->debug(sprintf('Following user "%s"', $entry->from_user));
       
       try
       {
-        $this->client->createFriendship($entry->user->screen_name, true);
+        $this->client->createFriendship($entry->from_user, true);
       }
       catch (Exception $e) 
       {
-        $this->debug(sprintf('Cannot follow user "%s" because: "%s"', $entry->user->screen_name, $e->getMessage()));
+        $this->debug(sprintf('Cannot follow user "%s" because: "%s"', $entry->from_user, $e->getMessage()));
       }
     }
     
