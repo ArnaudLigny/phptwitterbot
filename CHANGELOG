@@ -1,3 +1,7 @@
+v2.0.0alpha3 - 08/05/2009
+
+ * Added a command line interface executable to manipulate phptwitterbot
+
 v2.0.0alpha2 - 06/05/2009
 
  * Replaced Twitter class by TwitterApiClient, able to use Identi.ca twitter-compliant API
