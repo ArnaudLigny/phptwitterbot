@@ -67,7 +67,7 @@ try
 }
 catch (Exception $e)
 {
-  exit(sprintf('Farm execution stopped with error: ', $e->getMessage().PHP_EOL));
+  exit(sprintf('Farm execution stopped with error: "%s"%s', $e->getMessage(), PHP_EOL));
 }
 
 function help($scriptName)
