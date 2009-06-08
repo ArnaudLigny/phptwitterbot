@@ -44,12 +44,13 @@ class TwitterBotsFarm
   /**
    * Constructor
    *
-   * @param  string  $configFile    Absolute path to the yaml configuration file
-   * @param  string  $cronLogsFile  Absolute path to the cronLogs file (optional)
+   * @param  string   $configFile    Absolute path to the yaml configuration file
+   * @param  string   $cronLogsFile  Absolute path to the cronLogs file (optional)
+   * @param  Boolean  $debug         Enables debug mode
    *
    * @throws InvalidArgumentException if path to file doesn't exist or is invalid
    */
-  public function __construct($configFile, $cronLogsFile = null)
+  public function __construct($configFile, $cronLogsFile = null, $debug = false)
   {
     if (!file_exists($configFile) || !is_file($configFile))
     {
@@ -65,7 +66,7 @@ class TwitterBotsFarm
     
     $this->config = $config;
     
-    $this->debug = $this->getGlobalConfigValue('debug', $this->debug);
+    $this->debug = $this->getGlobalConfigValue('debug', $debug);
     
     $this->debug(sprintf('Creating farm from config file "%s"', $configFile));
     
@@ -82,9 +83,9 @@ class TwitterBotsFarm
    *
    *    TwitterBotsFarm::create($path_to_yaml_config_file)->run();
    *
-   * @param  string  $configFile    Absolute path to the yaml configuration file
-   * @param  string  $cronLogsFile  Absolute path to the cronLogs file (optional)
-   * @param  Boolean $debug         Enables debug mode
+   * @param  string   $configFile    Absolute path to the yaml configuration file
+   * @param  string   $cronLogsFile  Absolute path to the cronLogs file (optional)
+   * @param  Boolean  $debug         Enables debug mode
    *
    * @throws InvalidArgumentException if path to file doesn't exist or is invalid
    */
@@ -241,14 +242,14 @@ class TwitterBotsFarm
     
     if (is_null($this->cronLogsFile))
     {
-      $this->cronLogsFile = realpath(sys_get_temp_dir().DIRECTORY_SEPARATOR.'.phptwitterbot.cronlogs.log');
+      $this->cronLogsFile = realpath(sys_get_temp_dir() . DIRECTORY_SEPARATOR . '.phptwitterbot.cronlogs.log');
       
       $this->debug(sprintf('Default cronLogs file set to "%s"', $this->cronLogsFile));
     }
     
     if (!file_exists($this->cronLogsFile) && !@touch($this->cronLogsFile))
     {
-      $this->debug(sprintf('Unable to create file "%s"', $this->cronLogsFile));
+      $this->debug(sprintf('Unable to create cronlogs file "%s"', $this->cronLogsFile));
       
       throw new RuntimeException(sprintf('cronLogs file "%s" cannot be created', $this->cronLogsFile));
     }
@@ -267,7 +268,7 @@ class TwitterBotsFarm
    * Runs a bot
    *
    * @param  string      $name    The bot name
-   * @param  array|null  $config  A bot configuration
+   * @param  array|null  $config  A bot configuration array (optional)
    *
    * @throws RuntimeException if something goes wrong during the process
    */
@@ -282,9 +283,12 @@ class TwitterBotsFarm
       throw new RuntimeException(sprintf('Custom bot class "%s" must extend the TwitterBot class', self::$botClass));
     }
     
+    // We're running only one bot, we must be sure the environment is loaded
     if (is_null($config))
     {
-      $config = $this->getBotConfig();
+      $this->loadCronLogs();
+      
+      $config = $this->getBotConfig($name);
     }
     
     $bot = new self::$botClass($name, $this->getBotConfigValue($name, 'password'), $this->getBotConfigValue($name, 'debug'));
@@ -364,6 +368,9 @@ class TwitterBotsFarm
   {
     $this->debug(sprintf('Writing cronLogs into file "%s"', $this->cronLogsFile));
     
-    return file_put_contents($this->cronLogsFile, sfYaml::dump($this->cronLogs)) > 0;
+    if (!@file_put_contents($this->cronLogsFile, sfYaml::dump($this->cronLogs)))
+    {
+      throw new RuntimeException(sprintf('Unable to write data in cronLogs file "%s"', $this->cronLogs));
+    }
   }
 }
