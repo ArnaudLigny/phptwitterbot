@@ -3,16 +3,13 @@
 require_once dirname(__FILE__).'/../lib/TwitterBotsFarm.class.php';
 
 // Check if we have at least a configuration file provided as the first argument
-if (!isset($argv[1]) || !$configFile = (file_exists($filePath = $argv[1]) ? $filePath : false))
-{
-  exit(help($argv[0]));
-}
 
+$configFile = null;
 $botName = null;
 $debug = false;
 $cronLogsFile = null;
 
-foreach (array_slice($argv, 2) as $argValue)
+foreach (array_slice($argv, 1) as $argValue)
 {
   $arg = $name = substr($argValue, strpos($argValue, '--') + 2);
   
@@ -37,6 +34,18 @@ foreach (array_slice($argv, 2) as $argValue)
     
     case 'help':
       exit(help($argv[0]));
+      break;
+
+    case 'test':
+      echo "Lauching test suite...".PHP_EOL.PHP_EOL;
+      include dirname(__FILE__).'/../test/bin/prove.php';
+      break;
+    
+    default:
+      if (!$configFile = (file_exists($argValue) ? $argValue : false))
+      {
+        exit(help($argv[0]));
+      }
       break;
   }
 }
@@ -86,6 +95,9 @@ bot executions):
 To enable verbose debugging output, use the --debug option:
 
     \$ {$scriptName} configFile.yml --debug
+
+To run the whole phptwitterbot unit tests suite, use the --test option:
+    \$ {$scriptName} --test
 
 
 EOF;
