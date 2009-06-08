@@ -5,7 +5,7 @@ require_once dirname(__FILE__).'/../lib/TwitterBotsFarm.class.php';
 // Check if we have at least a configuration file provided as the first argument
 if (!isset($argv[1]) || !$configFile = (file_exists($filePath = $argv[1]) ? $filePath : false))
 {
-  exit(help());
+  exit(help($argv[0]));
 }
 
 $botName = null;
@@ -61,23 +61,31 @@ catch (Exception $e)
 
 function help($scriptName)
 {
+  $year = date('Y');
+  
   return <<<EOF
-© 2009 PHPTwitterBot, MIT licensed - http://code.google.com/p/phptwitterbot/
+©{$year} Nicolas Perriault - http://code.google.com/p/phptwitterbot
 
 This executable runs a PHPTwitterBot farm from the command line, using a YAML 
 configuration file.
 
 Usage:
 
-    \$ ./{$scriptName} config/bots_configuration.yml
-    \$ ./{$scriptName} /home/user/my_other_bots_configuration.yml
+    \$ {$scriptName} config/bots_configuration.yml
+    \$ {$scriptName} /home/user/my_other_bots_configuration.yml
 
-You can set the path of the cronlogs file you want to use (this file will store 
-the logs of bot executions).
+To run a particular bot, use the --bot option:
 
-You can also enable debugging using the --debug option:
+    \$ {$scriptName} myBots.yml --bot=myBotName
 
-    \$ ./{$scriptName} configFile.yml --debug
+To set the path of a custom cronlogs file (this file will store the logs of 
+bot executions):
+
+    \$ {$scriptName} configFile.yml --cronlogs=/tmp/my_cronlogs.log
+
+To enable verbose debugging output, use the --debug option:
+
+    \$ {$scriptName} configFile.yml --debug
 
 
 EOF;
