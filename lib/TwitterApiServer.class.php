@@ -103,7 +103,7 @@ class TwitterApiServer
    */
   public function getOption($name, $default = null)
   {
-    return isset($options[$name]) ? $options[$name] : $default;
+    return isset($this->options[$name]) ? $this->options[$name] : $default;
   }
   
   /**
@@ -114,7 +114,7 @@ class TwitterApiServer
    */
   public function setOption($name, $value)
   {
-    $this->option[$name] = $value;
+    $this->options[$name] = $value;
   }
   
   /**
