@@ -42,12 +42,14 @@ foreach (array_slice($argv, 1) as $argValue)
       break;
     
     default:
-      if (!$configFile = (file_exists($argValue) ? $argValue : false))
-      {
-        exit(help($argv[0]));
-      }
+      $configFile = (file_exists($argValue) ? $argValue : false);
       break;
   }
+}
+
+if (!$configFile)
+{
+  exit(help($argv[0]));
 }
 
 try
