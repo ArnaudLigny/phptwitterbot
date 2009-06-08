@@ -2,7 +2,7 @@
 require_once dirname(__FILE__).'/../../vendor/lime/lime.php';
 require_once dirname(__FILE__).'/../../lib/TwitterBotsFarm.class.php';
 
-$t = new lime_test(12, new lime_output_color());
+$t = new lime_test(14, new lime_output_color());
 
 class TwitterBotsFarmMock extends TwitterBotsFarm
 {
@@ -12,10 +12,6 @@ class TwitterBotsFarmMock extends TwitterBotsFarm
     
     parent::__construct($configFile, realpath(sys_get_temp_dir().DIRECTORY_SEPARATOR.'.cronlogs.test.log'), false);
   }
-  public function getBotConfigValueTest($botName, $configName, $default = null)
-  {
-    return parent::getBotConfigValue($botName, $configName, $default);
-  }
   public function getCronLogsFile()
   {
     return $this->cronLogsFile;
@@ -23,14 +19,6 @@ class TwitterBotsFarmMock extends TwitterBotsFarm
   public function getDebug()
   {
     return $this->debug;
-  }
-  public function getGlobalConfigValueTest($configName, $default = null)
-  {
-    return parent::getGlobalConfigValue($configName, $default);
-  }
-  public function isBotOperationExpiredTest($botName, $methodName, $periodicity)
-  {
-    return parent::isBotOperationExpired($botName, $methodName, $periodicity);
   }
   public function purgeCronLogsFile()
   {
@@ -76,12 +64,16 @@ $t->ok(array_key_exists('bots', $farm->getConfig()), 'getConfig() ok');
 
 $t->diag('Testing configuration values retrieval');
 $farm = new TwitterBotsFarmMock(dirname(__FILE__).'/yaml/sample_farm.yml');
-$t->is($farm->getGlobalConfigValueTest('password', 'fail'), 'foo', 'getGlobalConfigValue() retrieves expected global configured value');
-$t->is($farm->getBotConfigValueTest('myfirstbot', 'password', 'fail'), 'bar', 'getBotConfigValue() retrieves expected configured value');
-$t->is($farm->getBotConfigValueTest('mysecondbot', 'password', 'fail'), 'foo', 'getBotConfigValue() retrieves global configured value when not declared for a bot');
+$t->isa_ok($farm->getBotConfig('myfirstbot'), 'array', 'getBotConfig() retrieves a bot configuration array');
+$t->isa_ok($farm->getBotConfig('mysecondbot'), 'array', 'getBotConfig() retrieves a bot configuration array');
+$t->is($farm->getGlobalConfigValue('password', 'fail'), 'foo', 'getGlobalConfigValue() retrieves expected global configured value');
+$t->is($farm->getBotConfigValue('myfirstbot', 'password', 'fail'), 'bar', 'getBotConfigValue() retrieves expected configured value');
+$t->is($farm->getBotConfigValue('mysecondbot', 'password', 'fail'), 'foo', 'getBotConfigValue() retrieves global configured value when not declared for a bot');
 
 $t->diag('Testing debug mode activation');
+ob_start(); // avoid sending output
 $farm = new TwitterBotsFarmMock(dirname(__FILE__).'/yaml/debug_on.yml');
+ob_clean();
 $t->is($farm->getDebug(), true, 'getConfig() debugging can be activated via configuration file');
 $farm = new TwitterBotsFarmMock(dirname(__FILE__).'/yaml/debug_off.yml');
 $t->is($farm->getDebug(), false, 'getConfig() debugging can be disabled via configuration file');
@@ -96,7 +88,6 @@ try
 catch (Exception $e)
 {
   $t->pass('run() rethrows bot Exception during processing');
-  $t->diag(sprintf('    %s: %s', get_class($e), $e->getMessage()));
 }
 
 $t->diag('Testing bots throwing exceptions when stoponfail is set to false');
@@ -115,8 +106,8 @@ catch (Exception $e)
 $t->diag('Testing periodicity checks');
 $farm = new TwitterBotsFarmMock(dirname(__FILE__).'/yaml/sample_farm.yml');
 $farm->setCronLogs(array('myfirstbot' => array('testA' => time() - 500), 'mysecondbot' => array('testB' => time() - 500)));
-$t->is($farm->isBotOperationExpiredTest('myfirstbot', 'testA', 400), true, 'isBotOperationExpired() detects expired operations correctly');
-$t->is($farm->isBotOperationExpiredTest('mysecondbot', 'testB', 600), false, 'isBotOperationExpired() detects expired operations correctly');
+$t->is($farm->isBotOperationExpired('myfirstbot', 'testA', 400), true, 'isBotOperationExpired() detects expired operations correctly');
+$t->is($farm->isBotOperationExpired('mysecondbot', 'testB', 600), false, 'isBotOperationExpired() detects expired operations correctly');
 
 // Purges created cronlogs file
 $farm->purgeCronLogsFile();

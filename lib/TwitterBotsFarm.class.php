@@ -149,6 +149,25 @@ class TwitterBotsFarm
   }
   
   /**
+   * Retrieves a bot configuration
+   *
+   * @param  string  $name  The bot name
+   *
+   * @return array
+   *
+   * @throws InvalidArgumentException if bot is not configured
+   */
+  public function getBotConfig($name)
+  {
+    if (!isset($this->config['bots'][$name]) || !is_array($this->config['bots'][$name]))
+    {
+      throw new InvalidArgumentException(sprintf('Bot "%s" is not configured', $name));
+    }
+    
+    return $this->config['bots'][$name];
+  }
+  
+  /**
    * Retrieves a bot configuration value
    *
    * @param  string  $name        The bot name
@@ -157,11 +176,13 @@ class TwitterBotsFarm
    *
    * @return mixed
    */
-  protected function getBotConfigValue($botName, $configName, $default = null)
+  public function getBotConfigValue($botName, $configName, $default = null)
   {
-    if (isset($this->config['bots'][$botName][$configName]))
+    $config = $this->getBotConfig($botName);
+    
+    if (isset($config[$configName]))
     {
-      return $this->config['bots'][$botName][$configName];
+      return $config[$configName];
     }
 
     return $this->getGlobalConfigValue($configName, $default);
@@ -175,7 +196,7 @@ class TwitterBotsFarm
    *
    * @return mixed
    */
-  protected function getGlobalConfigValue($configName, $default = null)
+  public function getGlobalConfigValue($configName, $default = null)
   {
     if (isset($this->config['global'][$configName]))
     {
@@ -194,7 +215,7 @@ class TwitterBotsFarm
    *
    * @return Boolean   
    */
-  protected function isBotOperationExpired($botName, $methodName, $periodicity)
+  public function isBotOperationExpired($botName, $methodName, $periodicity)
   {
     if (!isset($periodicity) || $periodicity < self::MIN_PERIODICITY)
     {
@@ -245,12 +266,12 @@ class TwitterBotsFarm
   /**
    * Runs a bot
    *
-   * @param  string  $name    The bot name
-   * @param  array   $config  The bot configuration
+   * @param  string      $name    The bot name
+   * @param  array|null  $config  A bot configuration
    *
    * @throws RuntimeException if something goes wrong during the process
    */
-  public function runBot($name, $config)
+  public function runBot($name, array $config = null)
   {
     if (!class_exists(self::$botClass, true))
     {
@@ -258,7 +279,12 @@ class TwitterBotsFarm
     }
     else if ('TwitterBot' != self::$botClass && !in_array('TwitterBot', class_parents(self::$botClass)))
     {
-      throw new RuntimeException(sprintf('Custom bot class "%s" must extends the TwitterBot one', self::$botClass));
+      throw new RuntimeException(sprintf('Custom bot class "%s" must extend the TwitterBot class', self::$botClass));
+    }
+    
+    if (is_null($config))
+    {
+      $config = $this->getBotConfig();
     }
     
     $bot = new self::$botClass($name, $this->getBotConfigValue($name, 'password'), $this->getBotConfigValue($name, 'debug'));
