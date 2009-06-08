@@ -80,11 +80,6 @@ class TwitterEntity extends ArrayObject
     return $entity;
   }
   
-  public function createFromRssEntry()
-  {
-    
-  }
-  
   /**
    * Cleans a value
    *
@@ -92,15 +87,15 @@ class TwitterEntity extends ArrayObject
    *
    * @return  mixed
    */
-  protected function cleanValue($value)
+  static protected function cleanValue($value)
   {
     if ('false' === strtolower($value))
     {
-      $value = false;
+      return false;
     }
     elseif ('true' === strtolower($value))
     {
-      $value = true;
+      return true;
     }
     else
     {
