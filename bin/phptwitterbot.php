@@ -5,8 +5,9 @@ require_once dirname(__FILE__).'/../lib/TwitterBotsFarm.class.php';
 
 $configFile = null;
 $botName = null;
-$debug = false;
 $cronLogsFile = null;
+$debug = false;
+$forceUpdate = false;
 
 foreach (array_slice($argv, 1) as $argValue)
 {
@@ -31,6 +32,10 @@ foreach (array_slice($argv, 1) as $argValue)
       $debug = true;
       break;
     
+    case 'force':
+      $forceUpdate = true;
+      break;
+    
     case 'help':
       exit(help($argv[0]));
       break;
@@ -53,7 +58,7 @@ if (!$configFile)
 
 try
 {
-  $farm = TwitterBotsFarm::create($configFile, $cronLogsFile, $debug);
+  $farm = TwitterBotsFarm::create($configFile, $cronLogsFile, $debug, $forceUpdate);
   
   if (!is_null($botName))
   {

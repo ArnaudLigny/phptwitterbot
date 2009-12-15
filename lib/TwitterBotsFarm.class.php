@@ -37,9 +37,10 @@ class TwitterBotsFarm
   
   protected 
     $config       = array(),
-    $debug        = false,
     $cronLogs     = array(),
-    $cronLogsFile = null;
+    $cronLogsFile = null,
+    $debug        = false,
+    $forceUpdate  = false;
   
   /**
    * Constructor
@@ -47,10 +48,11 @@ class TwitterBotsFarm
    * @param  string   $configFile    Absolute path to the yaml configuration file
    * @param  string   $cronLogsFile  Absolute path to the cronLogs file (optional)
    * @param  Boolean  $debug         Enables debug mode
+   * @param  Boolean  $forceUpdate   Forces updates
    *
    * @throws InvalidArgumentException if path to file doesn't exist or is invalid
    */
-  public function __construct($configFile, $cronLogsFile = null, $debug = false)
+  public function __construct($configFile, $cronLogsFile = null, $debug = false, $forceUpdate = false)
   {
     if (!file_exists($configFile) || !is_file($configFile))
     {
@@ -67,6 +69,11 @@ class TwitterBotsFarm
     $this->config = $config;
     
     $this->debug = $this->getGlobalConfigValue('debug', $debug);
+    
+    if (true === $this->forceUpdate = $forceUpdate)
+    {
+      $this->debug('Forcing updates');
+    }
     
     $this->debug(sprintf('Creating farm from config file "%s"', $configFile));
     
@@ -86,12 +93,13 @@ class TwitterBotsFarm
    * @param  string   $configFile    Absolute path to the yaml configuration file
    * @param  string   $cronLogsFile  Absolute path to the cronLogs file (optional)
    * @param  Boolean  $debug         Enables debug mode
+   * @param  Boolean  $forceUpdate   Forces updates
    *
    * @throws InvalidArgumentException if path to file doesn't exist or is invalid
    */
-  static public function create($configFile, $cronLogsFile = null, $debug = false)
+  static public function create($configFile, $cronLogsFile = null, $debug = false, $forceUpdate = false)
   {
-    return new TwitterBotsFarm($configFile, $cronLogsFile, $debug);
+    return new TwitterBotsFarm($configFile, $cronLogsFile, $debug, $forceUpdate);
   }
   
   /**
@@ -306,7 +314,7 @@ class TwitterBotsFarm
       }
       
       // Periodicity Check
-      if (isset($methodConfig['periodicity']) && !$this->isBotOperationExpired($name, $method, (int) $methodConfig['periodicity']))
+      if (!$this->forceUpdate && (isset($methodConfig['periodicity']) && !$this->isBotOperationExpired($name, $method, (int) $methodConfig['periodicity'])))
       {
         $this->debug(sprintf('Operation "%s" of bot "%s" is not expired, skipping', $method, $name));
         

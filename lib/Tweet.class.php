@@ -14,6 +14,7 @@ class Tweet extends TwitterEntity
   public
     $created_at,
     $id,
+    $geo,
     $text,
     $source,
     $truncated,

@@ -17,7 +17,7 @@ class TweetCollection extends TwitterEntity
     {
       throw new InvalidArgumentException('Unable to decode JSON response');
     }
-    
+
     $tweetCollection = array();
     
     foreach ($tweets['results'] as $tweetArray)

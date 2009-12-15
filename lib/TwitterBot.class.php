@@ -364,7 +364,7 @@ class TwitterBot
     }
     
     $message = null;
-
+    
     $entries = $this->client->search($terms, array('source' => $options['source']));
     
     $this->debug(sprintf('Found %d results', count($entries)));

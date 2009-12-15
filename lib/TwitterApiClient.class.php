@@ -62,7 +62,7 @@ class TwitterApiClient
   protected function doCall($url, $parameters = array(), $authenticate = false, $usePost = true, $type = 'entity')
   {
     $response = $this->server->request(sprintf('%s.xml', $url), $parameters, $usePost ? 'POST' : 'GET');
-    
+ 
     switch ($type)
     {
       case 'entity':
