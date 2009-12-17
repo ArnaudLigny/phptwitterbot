@@ -30,7 +30,9 @@ require_once dirname(__FILE__).'/TwitterBot.class.php';
  */
 class TwitterBotsFarm
 {
-  const MIN_PERIODICITY = 60;
+  const
+    CRONLOG_DEFAULT_FILENAME = '.phptwitterbot.cronlogs.log',
+    MIN_PERIODICITY          = 60;
   
   public static
     $botClass = 'TwitterBot';
@@ -248,9 +250,23 @@ class TwitterBotsFarm
   {
     $this->debug('Loading cronLogs...');
     
-    if (is_null($this->cronLogsFile))
+    $this->checkCronLogsFile();
+    
+    $data = sfYaml::load($this->cronLogsFile);
+    
+    $this->cronLogs = is_array($data) ? $data : array();
+  }
+  
+  /**
+   * Checks the cron logs file, create a default one if none or invalid provided
+   *
+   * @throws  RuntimeException  on failure
+   */
+  public function checkCronLogsFile()
+  {
+    if (!$this->cronLogsFile)
     {
-      $this->cronLogsFile = realpath(sys_get_temp_dir() . DIRECTORY_SEPARATOR . '.phptwitterbot.cronlogs.log');
+      $this->cronLogsFile = tempnam(sys_get_temp_dir(), self::CRONLOG_DEFAULT_FILENAME);
       
       $this->debug(sprintf('Default cronLogs file set to "%s"', $this->cronLogsFile));
     }
@@ -266,10 +282,6 @@ class TwitterBotsFarm
     {
       throw new RuntimeException(sprintf('cronLogs file "%s" is not writeable', $this->cronLogsFile));
     }
-    
-    $data = sfYaml::load($this->cronLogsFile);
-    
-    $this->cronLogs = is_array($data) ? $data : array();
   }
   
   /**
@@ -359,6 +371,8 @@ class TwitterBotsFarm
   {
     $this->debug(sprintf('Updating cronlog for bot "%s" for "%s" method', $botName, $methodName));
     
+    $this->checkCronLogsFile();
+    
     if (!array_key_exists($botName, $this->cronLogs))
     {
       $this->cronLogs[$botName] = array();
@@ -375,6 +389,8 @@ class TwitterBotsFarm
   protected function writeCronLogsFile()
   {
     $this->debug(sprintf('Writing cronLogs into file "%s"', $this->cronLogsFile));
+    
+    $this->checkCronLogsFile();
     
     if (!@file_put_contents($this->cronLogsFile, sfYaml::dump($this->cronLogs)))
     {

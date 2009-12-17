@@ -10,7 +10,7 @@ class TwitterBotsFarmMock extends TwitterBotsFarm
   {
     $this->purgeCronLogsFile();
     
-    parent::__construct($configFile, realpath(sys_get_temp_dir().DIRECTORY_SEPARATOR.'.cronlogs.test.log'), false);
+    parent::__construct($configFile, tempnam(sys_get_temp_dir(), 'test_cronlogs'), false);
   }
   public function getCronLogsFile()
   {
