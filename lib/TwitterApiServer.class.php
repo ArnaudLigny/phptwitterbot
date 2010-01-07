@@ -15,6 +15,11 @@ class TwitterApiServer
   
   public function __construct($baseUrl = null, array $options = array())
   {
+    if (!function_exists('curl_init'))
+    {
+      throw new RuntimeException('Curl PHP support must be enabled in order to use the TwitterApiServer class. Check the curl php manual there: http://us.php.net/curl');
+    }
+    
     if (!is_null($baseUrl))
     {
       $this->baseUrl = $baseUrl;
