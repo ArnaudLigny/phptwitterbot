@@ -30,7 +30,7 @@ class Tweet extends TwitterEntity
     $in_reply_to_screen_name,
     $user;
   
-  public function createFromArray(array $array = array())
+  static public function createFromArray(array $array = array())
   {
     $entity = new self();
     

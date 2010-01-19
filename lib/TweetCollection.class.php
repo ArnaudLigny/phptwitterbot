@@ -9,7 +9,7 @@ require_once dirname(__FILE__).'/Tweet.class.php';
  */
 class TweetCollection extends TwitterEntity
 {
-  public function createFromJSON($json)
+  static public function createFromJSON($json)
   {
     $tweets = json_decode($json, true);
     
