@@ -64,7 +64,7 @@ class TwitterEntity extends ArrayObject
     {
       if (!property_exists($entity, $nodeName))
       {
-        throw new InvalidArgumentException(sprintf('Propery "%s" does not exist for entity "%s"', $nodeName, $entityClassName));
+        continue;
       }
       
       if (in_array($nodeName, array_keys(self::$classMap)))
