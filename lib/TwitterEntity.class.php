@@ -51,7 +51,8 @@ class TwitterEntity extends ArrayObject
       
       foreach ($entries as $entry)
       {
-        $elements[] = self::createFromXml(DOMDocument::loadXML($entry->asXML()));
+        $dom = new DOMDocument();
+        $elements[] = self::createFromXml($dom->loadXML($entry->asXML()));
       }
       
       return $entity = new $entityClassName($elements);
@@ -69,7 +70,8 @@ class TwitterEntity extends ArrayObject
       
       if (in_array($nodeName, array_keys(self::$classMap)))
       {
-        $entity->$nodeName = self::createFromXml(DOMDocument::loadXML($nodeValue->asXML()));
+        $dom = new DOMDocument();
+        $entity->$nodeName = self::createFromXml($dom->loadXML($nodeValue->asXML()));
       }
       else
       {

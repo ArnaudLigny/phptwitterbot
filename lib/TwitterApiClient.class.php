@@ -66,7 +66,8 @@ class TwitterApiClient
     switch ($type)
     {
       case 'entity':
-        return TwitterEntity::createFromXml(DOMDocument::loadXML($response));  
+        $dom = new DOMDocument();
+        return TwitterEntity::createFromXml($dom->loadXML($response));
       break;
       
       case 'boolean':
