@@ -38,7 +38,8 @@ class Tweet extends TwitterEntity
     {
       if (!property_exists($entity, $propertyName))
       {
-        throw new InvalidArgumentException(sprintf('Propery "%s" does not exist for Tweet entity', $propertyName));
+        // ignore unknown entities like "metadata"
+        continue;
       }
       
       $entity->$propertyName = parent::cleanValue($propertyValue);
