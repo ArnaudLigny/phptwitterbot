@@ -59,7 +59,7 @@ class TwitterApiServer
     $options[CURLOPT_RETURNTRANSFER] = true;
     $options[CURLOPT_TIMEOUT] = $this->getOption('timeOut');
 
-    if ($authenticate)
+    if ($authenticate && $this->getUsername() && $this->getPassword())
     {
       $options[CURLOPT_HTTPAUTH] = CURLAUTH_BASIC;
       $options[CURLOPT_USERPWD] = sprintf('%s:%s', $this->getUsername(), $this->getPassword());
