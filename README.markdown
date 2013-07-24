@@ -15,12 +15,12 @@ Features
  * A `TwitterBotsFarm` class, configurable with a simple [YAML](http://yaml.org/) file
  * Configureable bot methods allowing to callback your own functions/callables
  * Command line interface you can use to run configured farms and bots
- * Unit-tested using the [http://trac.symfony-project.org/browser/tools/lime lime] testing framework
+ * Unit-tested using the [lime](http://trac.symfony-project.org/browser/tools/lime) testing framework
 
 Installation
 ------------
 
-You can download the [latest archive](http://github.com/n1k0/phptwitterbot/archives/master), or better checkout the [git](http://git-scm.com/) repository:
+You can download the [latest archive](http://github.com/n1k0/phptwitterbot/archive/master.zip), or better checkout the [git](http://git-scm.com/) repository:
 
     $ mkdir ~/mybots && cd ~/mybots && mkdir vendor
     $ git clone git://github.com/n1k0/phptwitterbot.git vendor/phptwitterbot
