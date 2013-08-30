@@ -1,0 +1,169 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>PHPTwitterBot by Narno</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>PHPTwitterBot</h1>
+        <p>A simple Twitter Bot written in PHP5, allowing to search and retweet things.</p>
+
+        <p class="view"><a href="https://github.com/Narno/phptwitterbot">View the Project on GitHub <small>Narno/phptwitterbot</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/Narno/phptwitterbot/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/Narno/phptwitterbot/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/Narno/phptwitterbot">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a name="phptwitterbot-v2-documentation" class="anchor" href="#phptwitterbot-v2-documentation"><span class="octicon octicon-link"></span></a>PHPTwitterBot v2 Documentation</h1>
+
+<h2>
+<a name="introduction" class="anchor" href="#introduction"><span class="octicon octicon-link"></span></a>Introduction</h2>
+
+<p>A simple <a href="http://twitter.com/">Twitter</a> Bot written in <a href="http://php.net/">PHP5</a>, allowing to search and retweet things.</p>
+
+<h2>
+<a name="features" class="anchor" href="#features"><span class="octicon octicon-link"></span></a>Features</h2>
+
+<ul>
+<li>Clean OO architecture</li>
+<li>Twitter API client, which can request several implementations of the Twitter API (eg. the identi.ca one)</li>
+<li>Mockable Twitter API server class, to be able to unit-test the whole API without depending on the network connectivity</li>
+<li>A <code>TwitterBotsFarm</code> class, configurable with a simple <a href="http://yaml.org/">YAML</a> file</li>
+<li>Configureable bot methods allowing to callback your own functions/callables</li>
+<li>Command line interface you can use to run configured farms and bots</li>
+<li>Unit-tested using the <a href="http://trac.symfony-project.org/browser/tools/lime">lime</a> testing framework</li>
+</ul><h2>
+<a name="installation" class="anchor" href="#installation"><span class="octicon octicon-link"></span></a>Installation</h2>
+
+<p>You can download the <a href="http://github.com/n1k0/phptwitterbot/archive/master.zip">latest archive</a>, or better checkout the <a href="http://git-scm.com/">git</a> repository:</p>
+
+<pre><code>$ mkdir ~/mybots &amp;&amp; cd ~/mybots &amp;&amp; mkdir vendor
+$ git clone git://github.com/n1k0/phptwitterbot.git vendor/phptwitterbot
+$ ln -s vendor/phptwitterbot/bin/phptwitterbot phptwitterbot
+$ php phptwitterbot --help
+</code></pre>
+
+<p>Then you have to create a bots farm configuration file:</p>
+
+<pre><code>$ mkdir config &amp;&amp; touch config/bots.yml
+</code></pre>
+
+<p>See the next section to learn how to configure this file.</p>
+
+<h2>
+<a name="farm-and-bots-configuration" class="anchor" href="#farm-and-bots-configuration"><span class="octicon octicon-link"></span></a>Farm and Bots configuration</h2>
+
+<p>A farm is a group of configured bots execution directives, which can be described using the YAML syntax. </p>
+
+<p>Here's a sample farm configuration file:</p>
+
+<pre><code>global:
+  password:           mYGenericPasswOrd     # this password will be used by default for all bots
+  stoponfail:         false                 # won't stop the whole process on error/exception
+  allow_magic_method: false                 # will allow php magic methods calls on bot classes
+bots:
+  myfirstbotaccount:
+    password:         mYAccountPasswOrd     # this particular bot will use its own password
+    operations:
+      searchAndRetweet:
+        arguments:
+          terms:      "twitter php class"   # will search "twitter php class" on twitter timeline and retweet first matched tweets
+        periodicity:  1200                  # will be run every 20 minutes
+  mysecondbotaccount:
+    operations:
+      searchAndRetweet:
+        arguments:
+          terms:      "#fail"               # will search for the "#fail" hashtag
+          options:
+            template: "FAIL! @%s: %s"       # will render as "FAIL! @foobar: windows sucks #fail" where @foobar is the author of the original tweet
+            follow:   true                  # will follow the tweet author automatically
+        periodicity:  600                   # will be run every 10 minutes
+      followFollowers:
+        periodicity:  86400                 # will be run every day
+</code></pre>
+
+<p>Each sub-element of the <code>bots</code> section describes a single bot and its available operations, where the key is the bot username. Of course you still have to create a dedicated Twitter account for each bot.</p>
+
+<p>In the provided example, the <code>mysecondbotaccount</code> bot will run the <code>searchAndRetweet</code> and <code>followFollowers</code> operations whereas the <code>myfirstbotaccount</code> bot will only run the <code>searchAndRetweet</code> one, each time with the provided parameters, options and the specified periodicity (in seconds).</p>
+
+<p>For instance, the <code>searchAndRetweet</code> operation will search for terms into the public twitter timeline and retweet the first matched tweet containing them using a given formatter pattern. Note that the <code>follow</code> option will make the bot to follow the author of a matched tweet automatically.</p>
+
+<p>The <code>followFollowers</code> operation will check periodically the list of followers for the bot account, and follow every of them back in return.</p>
+
+<p>Check the <code>TwitterBot.class.php</code> API to see what are the available other operations.</p>
+
+<p>To run the bots farm once configured, just use the command line interface:</p>
+
+<pre><code>$ php phptwitterbot config/bots.yml
+</code></pre>
+
+<h2>
+<a name="the-command-line-interface" class="anchor" href="#the-command-line-interface"><span class="octicon octicon-link"></span></a>The command line interface</h2>
+
+<p>PHPTwitterBot ships with a shiny <code>phptwitterbot</code> executable for the command line interface you can find in the <code>bin</code> folder of the project codebase. This program allows to run all configured bots farm operations in one call.</p>
+
+<h3>
+<a name="usage-and-options" class="anchor" href="#usage-and-options"><span class="octicon octicon-link"></span></a>Usage and Options</h3>
+
+<p>Note that this program can be executed several ways:</p>
+
+<pre><code>$ php bin/phptwitterbot
+$ bin/phptwitterbot
+$ cd bin
+$ php phptwitterbot
+$ ./phptwitterbot
+$ sudo ln -s phptwitterbot /usr/bin/phptwitterbot
+$ phptwitterbot
+</code></pre>
+
+<p>The only required argument is the relative or absolute path to where the YAML bots configuration file resides:</p>
+
+<pre><code>$ ./phptwitterbot config/bots_configuration.yml
+$ ./phptwitterbot /home/user/my_other_bots_configuration.yml
+</code></pre>
+
+<p>To run a particular bot, use the --bot option:</p>
+
+<pre><code>$ ./phptwitterbot myBots.yml --bot=myBotName
+</code></pre>
+
+<p>To set the path of a custom cronlogs file (this file will store the logs of 
+bot executions):</p>
+
+<pre><code>$ ./phptwitterbot configFile.yml --cronlogs=/tmp/my_cronlogs.log
+</code></pre>
+
+<p>To enable verbose debugging output, use the --debug option:</p>
+
+<pre><code>$ ./phptwitterbot configFile.yml --debug
+</code></pre>
+
+<p>To run the whole phptwitterbot unit tests suite, use the --test option:</p>
+
+<pre><code>$ ./phptwitterbot --test
+</code></pre>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/Narno">Narno</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
