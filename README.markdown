@@ -116,3 +116,7 @@ To enable verbose debugging output, use the --debug option:
 To run the whole phptwitterbot unit tests suite, use the --test option:
 
     $ ./phptwitterbot --test
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/Narno/phptwitterbot/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
