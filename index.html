@@ -28,32 +28,34 @@
         </ul>
       </header>
       <section>
-        <h1>
-<a name="phptwitterbot-v2-documentation" class="anchor" href="#phptwitterbot-v2-documentation"><span class="octicon octicon-link"></span></a>PHPTwitterBot v2 Documentation</h1>
+        <p><strong>Deprecrated, cause of non support of oAuth nor of the new API Twitter.</strong></p>
 
 <h2>
-<a name="introduction" class="anchor" href="#introduction"><span class="octicon octicon-link"></span></a>Introduction</h2>
+<a id="introduction" class="anchor" href="#introduction" aria-hidden="true"><span class="octicon octicon-link"></span></a>Introduction</h2>
 
 <p>A simple <a href="http://twitter.com/">Twitter</a> Bot written in <a href="http://php.net/">PHP5</a>, allowing to search and retweet things.</p>
 
 <h2>
-<a name="features" class="anchor" href="#features"><span class="octicon octicon-link"></span></a>Features</h2>
+<a id="features" class="anchor" href="#features" aria-hidden="true"><span class="octicon octicon-link"></span></a>Features</h2>
 
 <ul>
 <li>Clean OO architecture</li>
 <li>Twitter API client, which can request several implementations of the Twitter API (eg. the identi.ca one)</li>
 <li>Mockable Twitter API server class, to be able to unit-test the whole API without depending on the network connectivity</li>
-<li>A <code>TwitterBotsFarm</code> class, configurable with a simple <a href="http://yaml.org/">YAML</a> file</li>
+<li>A <code>TwitterBotsFarm</code> class, configurable with a simple <a href="http://yaml.org">YAML</a> file</li>
 <li>Configureable bot methods allowing to callback your own functions/callables</li>
 <li>Command line interface you can use to run configured farms and bots</li>
 <li>Unit-tested using the <a href="http://trac.symfony-project.org/browser/tools/lime">lime</a> testing framework</li>
-</ul><h2>
-<a name="installation" class="anchor" href="#installation"><span class="octicon octicon-link"></span></a>Installation</h2>
+</ul>
 
-<p>You can download the <a href="http://github.com/n1k0/phptwitterbot/archive/master.zip">latest archive</a>, or better checkout the <a href="http://git-scm.com/">git</a> repository:</p>
+<h2>
+<a id="installation" class="anchor" href="#installation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation</h2>
 
-<pre><code>$ mkdir ~/mybots &amp;&amp; cd ~/mybots &amp;&amp; mkdir vendor
-$ git clone git://github.com/n1k0/phptwitterbot.git vendor/phptwitterbot
+<p>You can download the <a href="http://github.com/Narno/phptwitterbot/archive/master.zip">latest archive</a>, or better checkout the <a href="http://git-scm.com/">git</a> repository:</p>
+
+<pre><code>$ mkdir ~/mybots &amp;&amp; cd ~/mybots
+$ mkdir vendor
+$ git clone git://github.com/Narno/phptwitterbot.git vendor/phptwitterbot
 $ ln -s vendor/phptwitterbot/bin/phptwitterbot phptwitterbot
 $ php phptwitterbot --help
 </code></pre>
@@ -66,7 +68,7 @@ $ php phptwitterbot --help
 <p>See the next section to learn how to configure this file.</p>
 
 <h2>
-<a name="farm-and-bots-configuration" class="anchor" href="#farm-and-bots-configuration"><span class="octicon octicon-link"></span></a>Farm and Bots configuration</h2>
+<a id="farm-and-bots-configuration" class="anchor" href="#farm-and-bots-configuration" aria-hidden="true"><span class="octicon octicon-link"></span></a>Farm and Bots configuration</h2>
 
 <p>A farm is a group of configured bots execution directives, which can be described using the YAML syntax. </p>
 
@@ -113,12 +115,12 @@ bots:
 </code></pre>
 
 <h2>
-<a name="the-command-line-interface" class="anchor" href="#the-command-line-interface"><span class="octicon octicon-link"></span></a>The command line interface</h2>
+<a id="the-command-line-interface" class="anchor" href="#the-command-line-interface" aria-hidden="true"><span class="octicon octicon-link"></span></a>The command line interface</h2>
 
 <p>PHPTwitterBot ships with a shiny <code>phptwitterbot</code> executable for the command line interface you can find in the <code>bin</code> folder of the project codebase. This program allows to run all configured bots farm operations in one call.</p>
 
 <h3>
-<a name="usage-and-options" class="anchor" href="#usage-and-options"><span class="octicon octicon-link"></span></a>Usage and Options</h3>
+<a id="usage-and-options" class="anchor" href="#usage-and-options" aria-hidden="true"><span class="octicon octicon-link"></span></a>Usage and Options</h3>
 
 <p>Note that this program can be executed several ways:</p>
 
