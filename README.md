@@ -1,5 +1,7 @@
-PHPTwitterBot v2 Documentation
-==============================
+PHPTwitterBot
+=============
+
+__Deprecrated, cause of non support of oAuth nor of the new API Twitter.__
 
 Introduction
 ------------
@@ -12,7 +14,7 @@ Features
  * Clean OO architecture
  * Twitter API client, which can request several implementations of the Twitter API (eg. the identi.ca one)
  * Mockable Twitter API server class, to be able to unit-test the whole API without depending on the network connectivity
- * A `TwitterBotsFarm` class, configurable with a simple [YAML](http://yaml.org/) file
+ * A `TwitterBotsFarm` class, configurable with a simple [YAML](http://yaml.org) file
  * Configureable bot methods allowing to callback your own functions/callables
  * Command line interface you can use to run configured farms and bots
  * Unit-tested using the [lime](http://trac.symfony-project.org/browser/tools/lime) testing framework
@@ -20,10 +22,11 @@ Features
 Installation
 ------------
 
-You can download the [latest archive](http://github.com/n1k0/phptwitterbot/archive/master.zip), or better checkout the [git](http://git-scm.com/) repository:
+You can download the [latest archive](http://github.com/Narno/phptwitterbot/archive/master.zip), or better checkout the [git](http://git-scm.com/) repository:
 
-    $ mkdir ~/mybots && cd ~/mybots && mkdir vendor
-    $ git clone git://github.com/n1k0/phptwitterbot.git vendor/phptwitterbot
+    $ mkdir ~/mybots && cd ~/mybots
+    $ mkdir vendor
+    $ git clone git://github.com/Narno/phptwitterbot.git vendor/phptwitterbot
     $ ln -s vendor/phptwitterbot/bin/phptwitterbot phptwitterbot
     $ php phptwitterbot --help
 
