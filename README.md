@@ -15,7 +15,7 @@ Features
  * Twitter API client, which can request several implementations of the Twitter API (eg. the identi.ca one)
  * Mockable Twitter API server class, to be able to unit-test the whole API without depending on the network connectivity
  * A `TwitterBotsFarm` class, configurable with a simple [YAML](http://yaml.org) file
- * Configureable bot methods allowing to callback your own functions/callables
+ * Configurable bot methods allowing to callback your own functions/callables
  * Command line interface you can use to run configured farms and bots
  * Unit-tested using the [lime](http://trac.symfony-project.org/browser/tools/lime) testing framework
 
